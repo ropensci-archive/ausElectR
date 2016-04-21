@@ -181,24 +181,44 @@ election_results_df_loc %>%
 
 ################################################################
 # Rolling up results to electorate
+
+# watch out for zeros...
+election_results_df_loc_no_zeros <- 
+  election_results_df_loc %>% 
+  group_by(PollingPlaceID) %>%
+  summarise(TotalVotes = sum(OrdinaryVotes))   %>% 
+  filter(TotalVotes != 0) %>% 
+  left_join(polling_place_location, by = 'PollingPlaceID') 
+
+# why so many polling places with no votes?
+  
+  # exclude polling  places with no votes
 library(scales)
-p <- election_results_df_loc %>%
+p <- election_results_df_loc_no_fac %>%
   group_by(DivisionNm.x) %>%
   summarise(
     TotalVotes = sum(OrdinaryVotes),
     ProportionLabor = round(sum(OrdinaryVotes[PartyNm == "Australian Labor Party"]) / TotalVotes, 3)) %>%
+ filter(TotalVotes != 0) %>% 
   arrange(desc(ProportionLabor)) %>% 
   left_join(polling_place_location, by = c("DivisionNm.x" = "DivisionNm")) %>% 
   # str
   group_by(State) %>% 
   do(plots=ggplot(data = .) + 
-         aes(x = ProportionLabor, y = reorder(DivisionNm.x, ProportionLabor), size = TotalVotes) +
+         aes(x = ProportionLabor, y = reorder(DivisionNm.x, ProportionLabor), size = TotalVotes, label = State) +
          geom_point() +
+        labs(title = .$State) + 
+        xlab("Electorate") +
         scale_x_continuous("Proportion voting Labor Party", label = percent) +
-        scale_size("Number of\nvotes cast", label = comma)  )
+        scale_size("Number of\nvotes cast", label = comma)  ) 
+       
 
 library(gridExtra)
-grid.arrange(p[[1]], p[[2]])
+n <- length(p$plots)
+nCol <- floor(sqrt(n))
+do.call("grid.arrange", c(p$plots, ncol=nCol))
+
+
  
 
 
