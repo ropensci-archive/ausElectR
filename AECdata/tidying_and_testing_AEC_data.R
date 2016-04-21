@@ -1,4 +1,4 @@
-
+library(dplyr)
 
 # get all the HouseStateFirstPrefsByPollingPlace data
 # assume we are in the project dir
@@ -12,10 +12,10 @@ names(election_results_df)
 str(election_results_df)
 
 # get lat long for polling places
-polling_place_location <- read.csv(paste0(election_wd, "/election/GeneralPollingPlacesDownload-17496.csv"), 
+polling_place_location <- read.csv(paste0(getwd(), "/AECdata/GeneralPollingPlacesDownload-17496.csv"), 
                                    skip = 1,
                                    stringsAsFactors =  FALSE)
-library(dplyr)
+
 names(polling_place_location)
 head(polling_place_location)
 
