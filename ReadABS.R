@@ -28,11 +28,14 @@ rm(bfiles,newcols,bnew,i)
 
 # Create a new data frame with a subset of the variables
 abs2011 <- data.frame(ID = substr(abs2011all$region_id,4,6))
+abs2011$Name <- abs2011all$Name
 abs2011$State <- abs2011all$State
+abs2011$Population <- abs2011all$Tot_P_P
 abs2011$Area <- abs2011all$`Area sqkm`
 abs2011$MedianIncome <- abs2011all$Median_Tot_prsnl_inc_weekly
 abs2011$Unemployed <- abs2011all$Percent_Unem_loyment_P
 abs2011$Bachelor <- abs2011all$Non_sch_quals_Bchelr_Degree_P / abs2011all$Tot_P_P * 100
+abs2011$Postgraduate <-  abs2011all$Non_sch_quals_PostGrad_Dgre_P / abs2011all$Tot_P_P * 100
 abs2011$NoReligion <- abs2011all$No_Religion_P / abs2011all$Tot_P_P * 100
 abs2011$Age0_4 <- abs2011all$Age_0_4_yr_P / abs2011all$Tot_P_P * 100
 abs2011$Age5_14 <- abs2011all$Age_5_14_yr_P / abs2011all$Tot_P_P * 100
@@ -45,4 +48,12 @@ abs2011$Age55_64 <- abs2011all$Age_55_64_yr_P / abs2011all$Tot_P_P * 100
 abs2011$Age65_74 <- abs2011all$Age_65_74_yr_P / abs2011all$Tot_P_P * 100
 abs2011$Age75_84 <- abs2011all$Age_75_84_yr_P / abs2011all$Tot_P_P * 100
 abs2011$Age85plus <- abs2011all$Age_85ov_P / abs2011all$Tot_P_P * 100
+abs2011$BornOverseas <- abs2011all$Born_elsewhere_P / abs2011all$Tot_P_P * 100
+abs2011$Indigenous <- abs2011all$Indigenous_P_Tot_P / abs2011all$Tot_P_P * 100
+abs2011$EnglishOnly <- abs2011all$P_EO_Tot / abs2011all$Tot_P_P * 100
+abs2011$OtherLanguageHome <- abs2011all$Lang_spoken_home_Oth_Lang_P / abs2011all$Tot_P_P * 100
+abs2011$Married <- abs2011all$P_H_or_W_in_RM_Tot / abs2011all$Tot_P_P * 100
+abs2011$DeFacto <- abs2011all$P_Ptn_in_DFM_Tot / abs2011all$Tot_P_P * 100
+abs2011$FamilyRatio <- abs2011all$Total_F / abs2011all$Tot_P_P * 100
+
 
