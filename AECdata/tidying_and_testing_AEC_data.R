@@ -32,6 +32,9 @@ ggplotly(p)
 election_results_df_loc <- full_join(election_results_df, polling_place_location, by = "PollingPlaceID")
 head(election_results_df_loc)
 
+# only electorates
+
+
 # do we have any polling places with no location data?
 election_results_df_loc %>% 
   select(DivisionID.x, PollingPlace, StateAb, GivenNm, Surname, PartyNm, Elected, Latitude, Longitude) %>% 
@@ -75,13 +78,16 @@ election_results_df_loc_no_fac$PartyNm <- with(election_results_df_loc, ifelse(P
 str(election_results_df_loc_no_fac)
 unique(election_results_df_loc_no_fac$PartyNm)
 
+## how many electoral districts?
+length(unique(election_results_df_loc$DivisionID.x))
+
 # save as CSV
 write.csv(election_results_df_loc_no_fac, "AECdata/HouseFirstPrefsByPollingPlaceAllStates.csv")
 
 ################################################################
 ## Overall results for first preferences -----------------------
 
-election_results_df_loc %>% 
+election_results_df_loc_no_fac %>% 
   select(PartyNm, OrdinaryVotes) %>% 
   group_by(PartyNm) %>% 
   summarise(total_votes = sum(OrdinaryVotes)) %>% 
@@ -98,6 +104,7 @@ aes_first_pref %>%
   head()
 
 # my result does not agree with AEC result for OrdinaryVotes... why?
+# sum of polling place counts is less than AEC official for ALP and some others...
 
 ################################################################
 # winner for each electorate ----------------------------------
@@ -132,5 +139,68 @@ proportions <- election_results_df_loc %>%
             ProportionPalmer = sum(OrdinaryVotes[PartyNm == "Palmer United Party"]) / sum(OrdinaryVotes)) 
 
 library(GGally)
-ggpairs(proportions)
+ggpairs(proportions, columns = 2:ncol(proportions))
+
+################################################################
+# Geographical location of voting places ----------------------
+
+nat_map <- read.csv("AECdata/National-map.csv")
+nat_data <- read.csv("AECdata/National-data.csv")
+
+names(nat_map)
+names(nat_data)
+
+str(nat_map)
+unique(nat_map$ELECT_DIV) # division name
+
+# common variables
+# maps   election   census
+# "ELECT_DIV" == "DivisionNm" == "ID"
+# region is the name of the electorate
+
+names(election_results_df_loc)
+names(polling_place_location)
+
+
+# plot electorates to show proportion of labor votes
+election_results_df_loc %>%
+  # compute proportion of votes for labor by
+  group_by(PollingPlaceID) %>% 
+  summarise(ProportionLabour = sum(OrdinaryVotes[PartyNm == "Australian Labor Party"]) / sum(OrdinaryVotes)) %>% 
+  mutate(MostlyLabour = ifelse(ProportionLabour > 0.5, 
+                                 "Mostly voted ALP", "Mostly didn't vote ALP")) %>% 
+  left_join(polling_place_location, by = 'PollingPlaceID') %>% 
+  left_join(nat_data, by = c("DivisionNm" = "ELECT_DIV")) %>% 
+  # plot
+  ggplot(aes(map_id=id, fill = ProportionLabour)) +
+  geom_map(map=nat_map) +
+  expand_limits(x=nat_map$long, y=nat_map$lat) +
+  theme_map() +
+  coord_map() +
+  theme(legend.position = "bottom")
+
+################################################################
+# Rolling up results to electorate
+library(scales)
+p <- election_results_df_loc %>%
+  group_by(DivisionNm.x) %>%
+  summarise(
+    TotalVotes = sum(OrdinaryVotes),
+    ProportionLabor = round(sum(OrdinaryVotes[PartyNm == "Australian Labor Party"]) / TotalVotes, 3)) %>%
+  arrange(desc(ProportionLabor)) %>% 
+  left_join(polling_place_location, by = c("DivisionNm.x" = "DivisionNm")) %>% 
+  # str
+  group_by(State) %>% 
+  do(plots=ggplot(data = .) + 
+         aes(x = ProportionLabor, y = reorder(DivisionNm.x, ProportionLabor), size = TotalVotes) +
+         geom_point() +
+        scale_x_continuous("Proportion voting Labor Party", label = percent) +
+        scale_size("Number of\nvotes cast", label = comma)  )
+
+library(gridExtra)
+grid.arrange(p[[1]], p[[2]])
+ 
+
+
+
 
