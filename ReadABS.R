@@ -57,4 +57,4 @@ abs2011$Married <- abs2011all$P_H_or_W_in_RM_Tot / abs2011all$Tot_P_P * 100
 abs2011$DeFacto <- abs2011all$P_Ptn_in_DFM_Tot / abs2011all$Tot_P_P * 100
 abs2011$FamilyRatio <- abs2011all$Total_F / abs2011all$Tot_P_P * 100
 
-
+save(abs2011, file="echidnaR/data/abs2011.rda")
