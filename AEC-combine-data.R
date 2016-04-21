@@ -28,4 +28,7 @@ all$state.group <- with(all, paste(State, group, sep="."))
 qplot(data=subset(all, State!="VIC"), geom="polygon", x=long, y=lat, group=factor(state.group))
 qplot(data=all, geom="polygon", x=long, y=lat, group=factor(group))
 
+
+nat_map <- merge(nat_map, nat_data[,c("id", "NUMCCDS")])
+
 write.csv(all, "AEC-map.csv", row.names=FALSE)

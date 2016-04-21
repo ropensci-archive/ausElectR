@@ -26,9 +26,14 @@ for(i in 1:length(bfiles))
 }  
 rm(bfiles,newcols,bnew,i)
 
+# Filter "electorates" corresponding to shipping and "no usual address"
+abs2011all <- abs2011all[-grep("Shipping", abs2011all$Name),]
+abs2011all <- abs2011all[-grep("No Usual Address", abs2011all$Name),]
+
 # Create a new data frame with a subset of the variables
 abs2011 <- data.frame(ID = substr(abs2011all$region_id,4,6))
 abs2011$Name <- abs2011all$Name
+abs2011$Name[abs2011$Name=="Mcewen"] <- "McEwen"
 abs2011$State <- abs2011all$State
 abs2011$Population <- abs2011all$Tot_P_P
 abs2011$Area <- abs2011all$`Area sqkm`
@@ -56,4 +61,4 @@ abs2011$Married <- abs2011all$P_H_or_W_in_RM_Tot / abs2011all$Tot_P_P * 100
 abs2011$DeFacto <- abs2011all$P_Ptn_in_DFM_Tot / abs2011all$Tot_P_P * 100
 abs2011$FamilyRatio <- abs2011all$Total_F / abs2011all$Tot_P_P * 100
 
-
+save(abs2011, file="echidnaR/data/abs2011.rda")
