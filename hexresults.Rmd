@@ -1,0 +1,104 @@
+---
+title: "OzElectHexMaps"
+author: "Thomas Lumley"
+date: "22 April 2016"
+output: html_document
+---
+
+The `hexdata` directory haslocations for electorates on a hexagonal grid, separately for each state, in files `nswhex.txt` and so on. The `roughedges.txt` has approximate versions of the land boundaries between states. The areas that aren't too sparsely settled have contiguous hexes; the wide open spaces have isolated hexes. 
+
+```{r}
+nsw <-read.table("hexdata/nswhex.txt",header=TRUE)
+qld <-read.table("hexdata/qldhex.txt",header=TRUE)
+sa <-read.table("hexdata/sahex.txt",header=TRUE)
+wa <-read.table("hexdata/wahex.txt",header=TRUE)
+tas <-read.table("hexdata/tashex.txt",header=TRUE)
+vic <-read.table("hexdata/vichex.txt",header=TRUE)
+nt <-read.table("hexdata/nthex.txt",header=TRUE)
+boundaries<-read.table("hexdata/roughedges.txt",header=TRUE)
+```
+
+We want the electorate data, too.
+```{r}
+ozresults<-read.table("AECdata/HouseMembersElectedDownload-17496.csv", header=TRUE, skip=1, sep=",", quote="\"")
+str(ozresults)
+```
+
+Now, party colours
+```{r}
+cols<-data.frame(
+  PartyAb=c("ALP","LP" ,"LNP", "NP" , "IND","PUP", "KAP", "GRN", "CLP"), 
+  fill=c("red","blue","blue","forestgreen","gray","yellow","darkred","green","orange"),
+  border=c(NA,NA,"yellow","yellow",NA,NA,NA,"green","blue")
+)
+ozresults<-merge(ozresults, cols, by="PartyAb")
+```
+
+A function to actually hex the hexes. This is where the scaling would have to change to get a map under it, if the distortion were small enough to make that work.
+```{r}
+hex_x <- c(0, sqrt(3)/2, sqrt(3)/2, 0, -sqrt(3)/2, -sqrt(3)/2, 0)
+hex_y<-c(1, 0.5, -0.5, -1, -0.5, 0.5, 1)
+
+hexit<-function(x,y,id,fill,border,..., text=FALSE){
+  xcent<-x*sqrt(3) - (y%%2) *sqrt(3)/2
+	ycent<-y*1.5
+	
+	for(i in 1:length(x)){
+		polygon(hex_x+xcent[i],hex_y+ycent[i],col=fill[i],border=border[i],...)
+		if (text) text(xcent[i],ycent[i],id[i],cex=0.4)
+	}	
+}
+```
+
+Now iterate through the states.  The offsets are about right, but NT and perhaps WA could do with some fiddling. Or it might be better just to abolish the empty space and stick Perth roughly where Ceduna is in real life. 
+
+```{r}
+
+plot(0,0, ylim=c(-40, 50), xlim=c(-80, 8),xlab="",ylab="")
+
+idx<-match(nsw$electorate, ozresults$DivisionNm)
+with(nsw, hexit(x,y, electorate, 
+                fill=as.character(ozresults$fill[idx]), 
+                border=as.character(ozresults$border[idx]),lwd=2)
+     )
+
+idx<-match(qld$electorate, ozresults$DivisionNm)
+with(qld, hexit(x-3,y+16,electorate,
+                fill=as.character(ozresults$fill[idx]),
+                border=as.character(ozresults$border[idx]),lwd=2)
+     )
+
+idx<-match(vic$electorate, ozresults$DivisionNm)
+with(vic, hexit(x-9, y-10, electorate,
+                fill=as.character(ozresults$fill[idx]),
+                border=as.character(ozresults$border[idx]),lwd=2)
+     )
+
+idx<-match(sa$electorate, ozresults$DivisionNm)
+with(sa, hexit(x-18, y-6, electorate, 
+               fill=as.character(ozresults$fill[idx]),
+               border=as.character(ozresults$border[idx]),lwd=2)
+     )
+
+idx<-match(tas$electorate, ozresults$DivisionNm)
+with(tas, hexit(x-6, y-25, electorate,
+                fill=as.character(ozresults$fill[idx]),
+                border=as.character(ozresults$border[idx]),lwd=2)
+     )
+
+idx<-match(nt$electorate, ozresults$DivisionNm)
+with(nt, hexit(x-26, y+33, electorate,
+               fill=as.character(ozresults$fill[idx]),
+               border=as.character(ozresults$border[idx]),lwd=2)
+     )
+
+idx<-match(wa$electorate, ozresults$DivisionNm)
+with(wa, hexit(x-40, y, electorate,
+               fill=as.character(ozresults$fill[idx]),
+               border=as.character(ozresults$border[idx]),lwd=2)
+     )
+
+do.call(segments, c(boundaries,lty=2))
+```
+
+And it turns out to help a lot with seeing the shape of the continent just putting in the boundaries.
