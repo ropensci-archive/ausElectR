@@ -85,8 +85,10 @@ length(unique(election_results_df_loc$DivisionID.x))
 write.csv(election_results_df_loc_no_fac, "AECdata/HouseFirstPrefsByPollingPlaceAllStates.csv")
 
 # write as rds
-save(election_results_df_loc_no_fac, file="echidnaR/data/aec2013.rda")
+aec2013 <- election_results_df_loc_no_fac
+save(aec2013, file="echidnaR/data/aec2013.rda")
 load("echidnaR/data/aec2013.rda")
+# load("echidnaR/data/abs2011.rda")
 
 
 ################################################################
