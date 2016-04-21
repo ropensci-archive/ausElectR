@@ -62,15 +62,18 @@ ggplot(election_results_df_loc, aes(Longitude, Latitude, label = PremisesNm)) +
 str(election_results_df_loc)
 # get rid of factors
 election_results_df_loc_no_fac <- election_results_df_loc %>% 
-  map_if(is.factor, as.character) 
+  map_if(is.factor, as.character) %>% 
+  rbind_list
 str(election_results_df_loc_no_fac)
 
 
 # seems like there's two names for the ALP
-election_results_df_loc$PartyNm <- with(election_results_df_loc, ifelse(PartyNm == "Labor", 
+unique(election_results_df_loc_no_fac$PartyNm)
+election_results_df_loc_no_fac$PartyNm <- with(election_results_df_loc, ifelse(PartyNm == "Labor", 
                                      "Australian Labor Party",
                                      PartyNm))
-str(election_results_df_loc)
+str(election_results_df_loc_no_fac)
+unique(election_results_df_loc_no_fac$PartyNm)
 
 election_results_df_loc %>% 
   select(PartyNm, OrdinaryVotes) %>% 
