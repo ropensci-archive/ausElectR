@@ -57,7 +57,7 @@ ggplot(election_results_df_loc, aes(Longitude, Latitude, label = PremisesNm)) +
   geom_point() +
   coord_equal() 
 
-## Overall results for first preferences ----------------------------
+
 
 str(election_results_df_loc)
 # get rid of factors
@@ -74,6 +74,12 @@ election_results_df_loc_no_fac$PartyNm <- with(election_results_df_loc, ifelse(P
                                      PartyNm))
 str(election_results_df_loc_no_fac)
 unique(election_results_df_loc_no_fac$PartyNm)
+
+# save as CSV
+write.csv(election_results_df_loc_no_fac, "AECdata/HouseFirstPrefsByPollingPlaceAllStates.csv")
+
+################################################################
+## Overall results for first preferences -----------------------
 
 election_results_df_loc %>% 
   select(PartyNm, OrdinaryVotes) %>% 
@@ -93,12 +99,15 @@ aes_first_pref %>%
 
 # my result does not agree with AEC result for OrdinaryVotes... why?
 
-# winner for each electorate
+################################################################
+# winner for each electorate ----------------------------------
+
 election_results_df_loc %>% 
   group_by(DivisionID.x) %>% 
-  select(StateAb, GivenNm, Surname, PartyNm, Elected) %>% 
+  select(DivisionID.x, StateAb, GivenNm, Surname, PartyNm, Elected) %>% 
   filter(Elected == "Y") %>% 
   slice(1) %>% 
+  ungroup %>% 
   arrange(desc(Surname)) %>% 
   head
 
@@ -106,7 +115,22 @@ election_results_df_loc %>%
 aes_winners <- read.csv(paste0(getwd(), "/AECdata/HouseMembersElectedDownload-17496.csv"), skip = 1)
 names(aes_winners)
 aes_winners %>% 
-  select(StateAb, GivenNm, Surname, PartyNm) %>%  
+  select(DivisionID, StateAb, GivenNm, Surname, PartyNm) %>%  
   arrange(desc(Surname)) %>% 
-  head()
+  head
+
+## yes, good match
+
+################################################################
+# Comparing party and candidate votes of several parties -------
+proportions <- election_results_df_loc %>%
+  group_by(DivisionID.x) %>%
+  summarise(ProportionLabour = sum(OrdinaryVotes[PartyNm == "Australian Labor Party"]) / sum(OrdinaryVotes),
+            ProportionLiberal = sum(OrdinaryVotes[PartyNm == "Liberal"]) / sum(OrdinaryVotes),
+            ProportionLiberalNational = sum(OrdinaryVotes[PartyNm == "Liberal National Party"]) / sum(OrdinaryVotes),
+            ProportionGreens = sum(OrdinaryVotes[PartyNm == "The Greens"]) / sum(OrdinaryVotes),
+            ProportionPalmer = sum(OrdinaryVotes[PartyNm == "Palmer United Party"]) / sum(OrdinaryVotes)) 
+
+library(GGally)
+ggpairs(proportions)
 
