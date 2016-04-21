@@ -11,11 +11,17 @@ xx <- readShapeSpatial(shapeFile)
 xxx <- thinnedSpatialPoly(as(xx, "SpatialPolygons"),
                           tolerance=0.05, minarea=0.001, topologyPreserve=TRUE)
 
+devtools::install_github("ateucher/rmapshaper")
+library(rmapshaper)
+?ms_simplify
+
+xxx <- ms_simplify(xx) # use instead of thinnedSpatialPoly
+
 plot(xx)
 plot(xxx)
 # adjust names here
-write.csv(xx@data, "NSW-data.csv", row.names=FALSE)
-write.csv(fortify(xx), "NSW-map.csv", row.names=FALSE)
+write.csv(xx@data, "VIC-data.csv", row.names=FALSE)
+write.csv(fortify(xxx), "VIC-map.csv", row.names=FALSE)
 
 ########
 # just checking
