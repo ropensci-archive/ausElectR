@@ -41,6 +41,11 @@ abs2011$MedianIncome <- abs2011all$Median_Tot_prsnl_inc_weekly
 abs2011$Unemployed <- abs2011all$Percent_Unem_loyment_P
 abs2011$Bachelor <- abs2011all$Non_sch_quals_Bchelr_Degree_P / abs2011all$Tot_P_P * 100
 abs2011$Postgraduate <-  abs2011all$Non_sch_quals_PostGrad_Dgre_P / abs2011all$Tot_P_P * 100
+abs2011$Christianity <- abs2011all$Christianity_Tot_P / abs2011all$Tot_P_P * 100
+abs2011$Catholic <- abs2011all$Christianity_Catholic_P / abs2011all$Tot_P_P * 100
+abs2011$Buddhism <- abs2011all$Buddhism_P / abs2011all$Tot_P_P * 100
+abs2011$Islam <- abs2011all$Islam_P / abs2011all$Tot_P_P * 100
+abs2011$Judaism <- abs2011all$Judaism_P / abs2011all$Tot_P_P * 100
 abs2011$NoReligion <- abs2011all$No_Religion_P / abs2011all$Tot_P_P * 100
 abs2011$Age0_4 <- abs2011all$Age_0_4_yr_P / abs2011all$Tot_P_P * 100
 abs2011$Age5_14 <- abs2011all$Age_5_14_yr_P / abs2011all$Tot_P_P * 100
