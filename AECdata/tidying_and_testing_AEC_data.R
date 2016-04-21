@@ -86,6 +86,7 @@ write.csv(election_results_df_loc_no_fac, "AECdata/HouseFirstPrefsByPollingPlace
 
 # write as rds
 save(election_results_df_loc_no_fac, file="echidnaR/data/aec2013.rda")
+load("echidnaR/data/aec2013.rda")
 
 
 ################################################################
