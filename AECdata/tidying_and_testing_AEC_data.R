@@ -255,6 +255,10 @@ n <- length(p$plots)
 nCol <- floor(sqrt(n))
 do.call("grid.arrange", c(p$plots, ncol=nCol))
 
+# have a look at 
+# https://github.com/stevenmce/aec_analysis/blob/master/steve_RMarkdown_test1.Rmd
+# http://jackman.stanford.edu/oz/Aggregate2010/aec/maps/report.pdf
+
 
  
 
