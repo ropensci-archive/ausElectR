@@ -5,3 +5,5 @@
 .RData
 .Ruserdata
 echidnaR_*.tar.gz
+echidnaR.Rcheck/*
+echidnaR/vignettes/*.html

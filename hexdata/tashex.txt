@@ -1,0 +1,6 @@
+x  y  electorate
+0 0 Denison
+0 1 Lyons
+-1 0 Franklin
+-1 1 Braddon
+0 2 Bass

@@ -26,7 +26,7 @@ p <- ggplot(polling_place_location, aes(Longitude, Latitude, label = PremisesNm)
   geom_point() +
   coord_equal() 
 p
-ggplotly(p)
+# ggplotly(p)
 
 # join polling place locations to election results
 election_results_df_loc <- full_join(election_results_df, polling_place_location, by = "PollingPlaceID")
@@ -56,7 +56,7 @@ election_results_df_loc <- election_results_df_loc %>%
 head(election_results_df_loc)
                             
 # plot 
-ggplot(election_results_df_loc, aes(Longitude, Latitude, label = PremisesNm)) +
+ggplot(election_results_df_loc, aes(Longitude, Latitude)) +
   geom_point() +
   coord_equal() 
 
@@ -70,22 +70,53 @@ election_results_df_loc_no_fac <- election_results_df_loc %>%
 str(election_results_df_loc_no_fac)
 
 
-# seems like there's two names for the ALP
+# seems like there's two names for the ALP , called LP in NSW?
 unique(election_results_df_loc_no_fac$PartyNm)
 election_results_df_loc_no_fac$PartyNm <- with(election_results_df_loc, ifelse(PartyNm == "Labor", 
                                      "Australian Labor Party",
                                      PartyNm))
+# similar for the greens
+election_results_df_loc_no_fac$PartyNm <- with(election_results_df_loc, ifelse(PartyNm == "Australian Greens", 
+                                                                               "The Greens",
+                                                                               PartyNm))
 str(election_results_df_loc_no_fac)
 unique(election_results_df_loc_no_fac$PartyNm)
 
+# missing points for NT
+election_results_df_loc_no_fac %>% 
+  filter(StateAb == "NT") %>% View
+  
+
 ## how many electoral districts?
-length(unique(election_results_df_loc$DivisionID.x))
+length(unique(election_results_df_loc_no_fac$DivisionID.x))
+
+# remove a few redundant cols
+election_results_df_loc_no_fac_no_dup <- 
+  election_results_df_loc_no_fac %>% 
+  select(-DivisionID.y, -DivisionID.y, -PollingPlaceNm)
+
+# plot 
+ggplot(election_results_df_loc_no_fac_no_dup, aes(Longitude, Latitude)) +
+  geom_point() +
+  coord_equal() 
+# why removed? because some with no location, and many dups for many candidates per location
+
+p1 <- election_results_df_loc_no_fac_no_dup %>% 
+  select(PollingPlace, Latitude, Longitude) %>% 
+  group_by(PollingPlace) %>% 
+  slice(1) %>% 
+  ggplot(aes(Longitude, Latitude, label = PollingPlace)) +
+  geom_point() +
+  coord_equal()
+p1
+# remvoe 147 with no lat longs
+# ggplotly(p1)
 
 # save as CSV
-write.csv(election_results_df_loc_no_fac, "AECdata/HouseFirstPrefsByPollingPlaceAllStates.csv")
+write.csv(election_results_df_loc_no_fac_no_dup, "AECdata/HouseFirstPrefsByPollingPlaceAllStates.csv")
 
 # write as rds
-aec2013 <- election_results_df_loc_no_fac
+aec2013 <- election_results_df_loc_no_fac_no_dup
 save(aec2013, file="echidnaR/data/aec2013.rda")
 load("echidnaR/data/aec2013.rda")
 # load("echidnaR/data/abs2011.rda")
@@ -93,10 +124,10 @@ load("echidnaR/data/aec2013.rda")
 
 ################################################################
 ## Overall results for first preferences -----------------------
-
+# by party
 election_results_df_loc_no_fac %>% 
-  select(PartyNm, OrdinaryVotes) %>% 
-  group_by(PartyNm) %>% 
+  select(PartyAb, PartyNm, OrdinaryVotes) %>% 
+  group_by(PartyNm, PartyAb) %>% 
   summarise(total_votes = sum(OrdinaryVotes)) %>% 
   ungroup() %>%
   arrange(desc(total_votes))
@@ -223,6 +254,10 @@ library(gridExtra)
 n <- length(p$plots)
 nCol <- floor(sqrt(n))
 do.call("grid.arrange", c(p$plots, ncol=nCol))
+
+# have a look at 
+# https://github.com/stevenmce/aec_analysis/blob/master/steve_RMarkdown_test1.Rmd
+# http://jackman.stanford.edu/oz/Aggregate2010/aec/maps/report.pdf
 
 
  

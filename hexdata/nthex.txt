@@ -1,0 +1,3 @@
+x  y  electorate
+0 0 Solomon
+3 -8 Lingiari
