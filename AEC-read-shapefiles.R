@@ -3,12 +3,6 @@ library(ggplot2)
 
 shapeFile <- "national-esri-16122011/COM20111216_ELB_region.shp"
 
-shapeFile <- "shapefiles/Shape (ESRI)/WA_Electoral_Boundaries_19-01-2016.shp"
-shapeFile <- "shapefiles/act-esri-28012016/ACT_Electoral_Boundaries_28-01-2016.shp"
-shapeFile <- "shapefiles/qld-shape-files-13012010/QLD_ELB_031209_region.shp"
-shapeFile <- "shapefiles/sa-esri-16122011/E_SA16122011_region.shp"
-shapeFile <- "shapefiles/vic-esri-24122010/vic 24122010.shp"
-shapeFile <- "shapefiles/nsw-esri-06042016/NSW_electoral_boundaries_25-02-2016.shp"
 xx <- readShapeSpatial(shapeFile)
 #xxx <- thinnedSpatialPoly(as(xx, "SpatialPolygons"),
 #                          tolerance=0.05, minarea=0.001, topologyPreserve=TRUE)
@@ -22,8 +16,26 @@ xxx <- ms_simplify(xx) # use instead of thinnedSpatialPoly
 plot(xx)
 plot(xxx)
 # adjust names here
-write.csv(xx@data, "National-data.csv", row.names=FALSE)
-write.csv(fortify(xxx), "National-map.csv", row.names=FALSE)
+nat_data <- xx@data
+nat_data$id <- row.names(nat_data)
+write.csv(nat_data, "National-data.csv", row.names=FALSE)
+
+# include electorate names and states into the map
+nat_map <- fortify(xxx)
+nat_map <- merge(nat_map, nat_data[,c("id", "STATE", "ELECT_DIV")])
+write.csv(nat_map, "National-map.csv", row.names=FALSE)
+
+####################
+# now substitute the data for NSW, WA, and ACT
+
+shapeFile <- "shapefiles/Shape (ESRI)/WA_Electoral_Boundaries_19-01-2016.shp"
+shapeFile <- "shapefiles/act-esri-28012016/ACT_Electoral_Boundaries_28-01-2016.shp"
+
+
+shapeFile <- "shapefiles/qld-shape-files-13012010/QLD_ELB_031209_region.shp"
+shapeFile <- "shapefiles/sa-esri-16122011/E_SA16122011_region.shp"
+shapeFile <- "shapefiles/vic-esri-24122010/vic 24122010.shp"
+shapeFile <- "shapefiles/nsw-esri-06042016/NSW_electoral_boundaries_25-02-2016.shp"
 
 
 victoria <- fortify(xxx)
@@ -43,11 +55,14 @@ write.csv(victoria[,1:7], file="AECdata/VIC-map.csv", row.names=FALSE)
 
 polys <- read.csv("VIC-map.csv")
 
-ggplot(victoria) +
-  aes(new_long, new_lat, group=group) +
-  geom_polygon(fill="grey80") +
+ggplot(nat_map) +
+  aes(long, lat, group=group) +
+  geom_polygon(aes(fill=STATE)) +
   geom_path(color="black") +
   coord_equal()
+
+
+
 
 
 
