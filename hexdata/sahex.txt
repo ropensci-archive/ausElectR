@@ -1,0 +1,13 @@
+x  y  electorate
+0 0 "Hindmarsh"
+0 -1 "Boothby"
+0 -2 "Kingston"
+0 1 "Port Adelaide"
+1 0 "Adelaide"
+2 0 "Sturt"
+1 1 "Makin"
+0 2 "Wakefield"
+0 -3 "Mayo"
+2 1 "Makin"
+1 -2 "Barker"
+-3 8 "Grey"
