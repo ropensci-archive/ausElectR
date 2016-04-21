@@ -85,16 +85,21 @@ unique(election_results_df_loc_no_fac$PartyNm)
 # missing points for NT
 election_results_df_loc_no_fac %>% 
   filter(StateAb == "NT") %>% View
-  filter()
+  
 
 ## how many electoral districts?
-length(unique(election_results_df_loc$DivisionID.x))
+length(unique(election_results_df_loc_no_fac$DivisionID.x))
+
+# remove a few redundant cols
+election_results_df_loc_no_fac_no_dup <- 
+  election_results_df_loc_no_fac %>% 
+  select(-DivisionID.y, -DivisionID.y, -PollingPlaceNm)
 
 # save as CSV
-write.csv(election_results_df_loc_no_fac, "AECdata/HouseFirstPrefsByPollingPlaceAllStates.csv")
+write.csv(election_results_df_loc_no_fac_no_dup, "AECdata/HouseFirstPrefsByPollingPlaceAllStates.csv")
 
 # write as rds
-aec2013 <- election_results_df_loc_no_fac
+aec2013 <- election_results_df_loc_no_fac_no_dup
 save(aec2013, file="echidnaR/data/aec2013.rda")
 load("echidnaR/data/aec2013.rda")
 # load("echidnaR/data/abs2011.rda")
