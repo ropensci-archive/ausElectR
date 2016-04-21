@@ -84,7 +84,7 @@ election_results_df_loc %>%
 
 # compare to AEC data http://results.aec.gov.au/17496/Website/HouseDownloadsMenu-17496-csv.htm
 # First Preferences By Party
-aes_first_pref <- read.csv(paste0(election_wd, "/election/HouseFirstPrefsByPartyDownload-17496.csv"), skip = 1)
+aes_first_pref <- read.csv(paste0(getwd(), "/AECdata/HouseFirstPrefsByPartyDownload-17496.csv"), skip = 1)
 names(aes_first_pref)
 aes_first_pref %>% 
   select(PartyNm, OrdinaryVotes) %>% 
@@ -99,4 +99,14 @@ election_results_df_loc %>%
   select(StateAb, GivenNm, Surname, PartyNm, Elected) %>% 
   filter(Elected == "Y") %>% 
   slice(1) %>% 
+  arrange(desc(Surname)) %>% 
   head
+
+# check with AEC data for winner for each electorate
+aes_winners <- read.csv(paste0(getwd(), "/AECdata/HouseMembersElectedDownload-17496.csv"), skip = 1)
+names(aes_winners)
+aes_winners %>% 
+  select(StateAb, GivenNm, Surname, PartyNm) %>%  
+  arrange(desc(Surname)) %>% 
+  head()
+
