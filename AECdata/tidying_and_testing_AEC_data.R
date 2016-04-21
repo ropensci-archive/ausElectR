@@ -84,6 +84,10 @@ length(unique(election_results_df_loc$DivisionID.x))
 # save as CSV
 write.csv(election_results_df_loc_no_fac, "AECdata/HouseFirstPrefsByPollingPlaceAllStates.csv")
 
+# write as rds
+save(election_results_df_loc_no_fac, file="echidnaR/data/aec2013.rda")
+
+
 ################################################################
 ## Overall results for first preferences -----------------------
 
@@ -183,11 +187,10 @@ election_results_df_loc %>%
 # Rolling up results to electorate
 
 # watch out for zeros...
-election_results_df_loc_no_zeros <- 
-  election_results_df_loc %>% 
+election_results_df_loc_no_fac %>% 
   group_by(PollingPlaceID) %>%
   summarise(TotalVotes = sum(OrdinaryVotes))   %>% 
-  filter(TotalVotes != 0) %>% 
+  filter(TotalVotes == 0) %>% 
   left_join(polling_place_location, by = 'PollingPlaceID') 
 
 # why so many polling places with no votes?
