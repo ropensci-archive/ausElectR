@@ -1,0 +1,790 @@
+2013 Federal Election House of Representatives First Preferences By Candidate By Polling Place for ACT [Event:17496 Phase:FinalResults Generated:2014-10-28T11:21:48 Cycle:570ee0da-3d7a-4f7e-8aa1-3c32a4f287ed Created:2014-05-16T14:24:09 Environment:PROD Site:PARKES Server:ACT01 Version:9.1.17.21449]
+StateAb,DivisionID,DivisionNm,PollingPlaceID,PollingPlace,CandidateID,Surname,GivenNm,BallotPosition,Elected,HistoricElected,PartyAb,PartyNm,OrdinaryVotes,Swing
+ACT,101,Canberra,8829,Barton,24857,SEFTON,Tom,1,N,N,LP,Liberal,742,4.06
+ACT,101,Canberra,8829,Barton,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,338,-7.89
+ACT,101,Canberra,8829,Barton,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,40,1.97
+ACT,101,Canberra,8829,Barton,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,88,4.34
+ACT,101,Canberra,8829,Barton,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,795,-3.64
+ACT,101,Canberra,8829,Barton,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,23,1.14
+ACT,101,Canberra,8829,Barton,999,Informal,Informal,999,N,N,,Informal,69,-0.19
+ACT,101,Canberra,64583,Belconnen CANBERRA PPVC,24857,SEFTON,Tom,1,N,N,LP,Liberal,290,-2.45
+ACT,101,Canberra,64583,Belconnen CANBERRA PPVC,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,143,-7.49
+ACT,101,Canberra,64583,Belconnen CANBERRA PPVC,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,40,4.57
+ACT,101,Canberra,64583,Belconnen CANBERRA PPVC,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,56,6.4
+ACT,101,Canberra,64583,Belconnen CANBERRA PPVC,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,335,-2.29
+ACT,101,Canberra,64583,Belconnen CANBERRA PPVC,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,11,1.26
+ACT,101,Canberra,64583,Belconnen CANBERRA PPVC,999,Informal,Informal,999,N,N,,Informal,45,1.28
+ACT,101,Canberra,65504,BLV Canberra PPVC,24857,SEFTON,Tom,1,N,N,LP,Liberal,7,35
+ACT,101,Canberra,65504,BLV Canberra PPVC,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,4,20
+ACT,101,Canberra,65504,BLV Canberra PPVC,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,0,0
+ACT,101,Canberra,65504,BLV Canberra PPVC,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,0,0
+ACT,101,Canberra,65504,BLV Canberra PPVC,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,8,40
+ACT,101,Canberra,65504,BLV Canberra PPVC,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,1,5
+ACT,101,Canberra,65504,BLV Canberra PPVC,999,Informal,Informal,999,N,N,,Informal,1,4.76
+ACT,101,Canberra,11877,Bonython,24857,SEFTON,Tom,1,N,N,LP,Liberal,597,-2.51
+ACT,101,Canberra,11877,Bonython,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,210,-3.47
+ACT,101,Canberra,11877,Bonython,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,57,3.24
+ACT,101,Canberra,11877,Bonython,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,75,4.27
+ACT,101,Canberra,11877,Bonython,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,805,-2.33
+ACT,101,Canberra,11877,Bonython,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,14,0.8
+ACT,101,Canberra,11877,Bonython,999,Informal,Informal,999,N,N,,Informal,98,-0.22
+ACT,101,Canberra,11452,Calwell,24857,SEFTON,Tom,1,N,N,LP,Liberal,793,1.14
+ACT,101,Canberra,11452,Calwell,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,238,-5.85
+ACT,101,Canberra,11452,Calwell,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,78,3.65
+ACT,101,Canberra,11452,Calwell,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,80,3.74
+ACT,101,Canberra,11452,Calwell,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,928,-3.71
+ACT,101,Canberra,11452,Calwell,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,22,1.03
+ACT,101,Canberra,11452,Calwell,999,Informal,Informal,999,N,N,,Informal,113,-1.31
+ACT,101,Canberra,8761,Chapman,24857,SEFTON,Tom,1,N,N,LP,Liberal,896,0.38
+ACT,101,Canberra,8761,Chapman,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,334,-4.81
+ACT,101,Canberra,8761,Chapman,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,65,2.75
+ACT,101,Canberra,8761,Chapman,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,78,3.3
+ACT,101,Canberra,8761,Chapman,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,959,-2.9
+ACT,101,Canberra,8761,Chapman,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,30,1.27
+ACT,101,Canberra,8761,Chapman,999,Informal,Informal,999,N,N,,Informal,86,-0.44
+ACT,101,Canberra,8763,Chisholm,24857,SEFTON,Tom,1,N,N,LP,Liberal,601,-0.64
+ACT,101,Canberra,8763,Chisholm,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,147,-5.69
+ACT,101,Canberra,8763,Chisholm,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,80,5.12
+ACT,101,Canberra,8763,Chisholm,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,66,4.23
+ACT,101,Canberra,8763,Chisholm,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,654,-3.92
+ACT,101,Canberra,8763,Chisholm,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,14,0.9
+ACT,101,Canberra,8763,Chisholm,999,Informal,Informal,999,N,N,,Informal,82,-0.97
+ACT,101,Canberra,58708,City CANBERRA PPVC,24857,SEFTON,Tom,1,N,N,LP,Liberal,1380,4.67
+ACT,101,Canberra,58708,City CANBERRA PPVC,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,512,-9.68
+ACT,101,Canberra,58708,City CANBERRA PPVC,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,105,2.83
+ACT,101,Canberra,58708,City CANBERRA PPVC,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,210,5.66
+ACT,101,Canberra,58708,City CANBERRA PPVC,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,1473,-4.36
+ACT,101,Canberra,58708,City CANBERRA PPVC,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,33,0.89
+ACT,101,Canberra,58708,City CANBERRA PPVC,999,Informal,Informal,999,N,N,,Informal,98,-1.54
+ACT,101,Canberra,31298,Conder,24857,SEFTON,Tom,1,N,N,LP,Liberal,972,-3.2
+ACT,101,Canberra,31298,Conder,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,271,-5.26
+ACT,101,Canberra,31298,Conder,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,153,5.49
+ACT,101,Canberra,31298,Conder,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,132,4.74
+ACT,101,Canberra,31298,Conder,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,1233,-2.7
+ACT,101,Canberra,31298,Conder,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,26,0.93
+ACT,101,Canberra,31298,Conder,999,Informal,Informal,999,N,N,,Informal,165,-0.68
+ACT,101,Canberra,8764,Curtin,24857,SEFTON,Tom,1,N,N,LP,Liberal,749,-1.07
+ACT,101,Canberra,8764,Curtin,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,415,-4.32
+ACT,101,Canberra,8764,Curtin,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,47,2.02
+ACT,101,Canberra,8764,Curtin,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,83,3.57
+ACT,101,Canberra,8764,Curtin,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,999,-1.46
+ACT,101,Canberra,8764,Curtin,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,29,1.25
+ACT,101,Canberra,8764,Curtin,999,Informal,Informal,999,N,N,,Informal,76,-0.56
+ACT,101,Canberra,8766,Deakin,24857,SEFTON,Tom,1,N,N,LP,Liberal,794,4.08
+ACT,101,Canberra,8766,Deakin,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,162,-5.06
+ACT,101,Canberra,8766,Deakin,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,13,0.89
+ACT,101,Canberra,8766,Deakin,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,48,3.3
+ACT,101,Canberra,8766,Deakin,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,432,-3.56
+ACT,101,Canberra,8766,Deakin,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,5,0.34
+ACT,101,Canberra,8766,Deakin,999,Informal,Informal,999,N,N,,Informal,41,0.05
+ACT,101,Canberra,30092,Divisional Office (PREPOLL),24857,SEFTON,Tom,1,N,N,LP,Liberal,593,-0.28
+ACT,101,Canberra,30092,Divisional Office (PREPOLL),24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,263,-7.15
+ACT,101,Canberra,30092,Divisional Office (PREPOLL),24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,37,2.3
+ACT,101,Canberra,30092,Divisional Office (PREPOLL),24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,89,5.52
+ACT,101,Canberra,30092,Divisional Office (PREPOLL),24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,611,-1.56
+ACT,101,Canberra,30092,Divisional Office (PREPOLL),24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,19,1.18
+ACT,101,Canberra,30092,Divisional Office (PREPOLL),999,Informal,Informal,999,N,N,,Informal,51,-1.49
+ACT,101,Canberra,8767,Duffy,24857,SEFTON,Tom,1,N,N,LP,Liberal,606,1.58
+ACT,101,Canberra,8767,Duffy,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,263,-6.73
+ACT,101,Canberra,8767,Duffy,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,46,2.56
+ACT,101,Canberra,8767,Duffy,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,58,3.22
+ACT,101,Canberra,8767,Duffy,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,802,-2.01
+ACT,101,Canberra,8767,Duffy,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,25,1.39
+ACT,101,Canberra,8767,Duffy,999,Informal,Informal,999,N,N,,Informal,67,-0.24
+ACT,101,Canberra,8768,Fadden,24857,SEFTON,Tom,1,N,N,LP,Liberal,870,1.33
+ACT,101,Canberra,8768,Fadden,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,220,-4.44
+ACT,101,Canberra,8768,Fadden,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,74,3.67
+ACT,101,Canberra,8768,Fadden,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,77,3.82
+ACT,101,Canberra,8768,Fadden,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,761,-5.02
+ACT,101,Canberra,8768,Fadden,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,13,0.65
+ACT,101,Canberra,8768,Fadden,999,Informal,Informal,999,N,N,,Informal,67,-0.49
+ACT,101,Canberra,8769,Farrer,24857,SEFTON,Tom,1,N,N,LP,Liberal,952,-0.46
+ACT,101,Canberra,8769,Farrer,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,267,-2.9
+ACT,101,Canberra,8769,Farrer,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,52,2.37
+ACT,101,Canberra,8769,Farrer,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,73,3.33
+ACT,101,Canberra,8769,Farrer,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,830,-3.3
+ACT,101,Canberra,8769,Farrer,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,21,0.96
+ACT,101,Canberra,8769,Farrer,999,Informal,Informal,999,N,N,,Informal,58,-1.49
+ACT,101,Canberra,8794,Garran,24857,SEFTON,Tom,1,N,N,LP,Liberal,464,4.21
+ACT,101,Canberra,8794,Garran,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,177,-6.82
+ACT,101,Canberra,8794,Garran,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,21,1.75
+ACT,101,Canberra,8794,Garran,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,35,2.92
+ACT,101,Canberra,8794,Garran,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,487,-3.24
+ACT,101,Canberra,8794,Garran,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,14,1.17
+ACT,101,Canberra,8794,Garran,999,Informal,Informal,999,N,N,,Informal,44,0.77
+ACT,101,Canberra,8771,Gilmore,24857,SEFTON,Tom,1,N,N,LP,Liberal,731,-1.27
+ACT,101,Canberra,8771,Gilmore,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,187,-4.18
+ACT,101,Canberra,8771,Gilmore,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,95,4.99
+ACT,101,Canberra,8771,Gilmore,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,68,3.57
+ACT,101,Canberra,8771,Gilmore,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,801,-4.31
+ACT,101,Canberra,8771,Gilmore,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,23,1.21
+ACT,101,Canberra,8771,Gilmore,999,Informal,Informal,999,N,N,,Informal,103,-1.01
+ACT,101,Canberra,12072,Gordon,24857,SEFTON,Tom,1,N,N,LP,Liberal,1364,-0.09
+ACT,101,Canberra,12072,Gordon,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,359,-5.28
+ACT,101,Canberra,12072,Gordon,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,165,4.56
+ACT,101,Canberra,12072,Gordon,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,135,3.73
+ACT,101,Canberra,12072,Gordon,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,1575,-3.49
+ACT,101,Canberra,12072,Gordon,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,20,0.55
+ACT,101,Canberra,12072,Gordon,999,Informal,Informal,999,N,N,,Informal,215,-1.58
+ACT,101,Canberra,8772,Gowrie,24857,SEFTON,Tom,1,N,N,LP,Liberal,653,-0.22
+ACT,101,Canberra,8772,Gowrie,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,197,-5.71
+ACT,101,Canberra,8772,Gowrie,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,83,4.85
+ACT,101,Canberra,8772,Gowrie,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,72,4.21
+ACT,101,Canberra,8772,Gowrie,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,680,-4.66
+ACT,101,Canberra,8772,Gowrie,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,26,1.52
+ACT,101,Canberra,8772,Gowrie,999,Informal,Informal,999,N,N,,Informal,78,-2.28
+ACT,101,Canberra,8817,Griffith,24857,SEFTON,Tom,1,N,N,LP,Liberal,554,2.51
+ACT,101,Canberra,8817,Griffith,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,181,-6.8
+ACT,101,Canberra,8817,Griffith,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,29,2.15
+ACT,101,Canberra,8817,Griffith,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,66,4.9
+ACT,101,Canberra,8817,Griffith,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,505,-3.59
+ACT,101,Canberra,8817,Griffith,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,11,0.82
+ACT,101,Canberra,8817,Griffith,999,Informal,Informal,999,N,N,,Informal,52,-0.15
+ACT,101,Canberra,8773,Holder,24857,SEFTON,Tom,1,N,N,LP,Liberal,633,0.81
+ACT,101,Canberra,8773,Holder,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,223,-7.01
+ACT,101,Canberra,8773,Holder,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,54,3.13
+ACT,101,Canberra,8773,Holder,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,73,4.23
+ACT,101,Canberra,8773,Holder,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,727,-1.98
+ACT,101,Canberra,8773,Holder,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,14,0.81
+ACT,101,Canberra,8773,Holder,999,Informal,Informal,999,N,N,,Informal,47,-0.89
+ACT,101,Canberra,8774,Hughes,24857,SEFTON,Tom,1,N,N,LP,Liberal,640,-2.64
+ACT,101,Canberra,8774,Hughes,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,280,-4.29
+ACT,101,Canberra,8774,Hughes,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,29,1.62
+ACT,101,Canberra,8774,Hughes,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,71,3.96
+ACT,101,Canberra,8774,Hughes,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,757,0.46
+ACT,101,Canberra,8774,Hughes,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,16,0.89
+ACT,101,Canberra,8774,Hughes,999,Informal,Informal,999,N,N,,Informal,68,-0.37
+ACT,101,Canberra,8884,Isabella Plains,24857,SEFTON,Tom,1,N,N,LP,Liberal,725,-0.39
+ACT,101,Canberra,8884,Isabella Plains,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,216,-6.34
+ACT,101,Canberra,8884,Isabella Plains,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,79,3.72
+ACT,101,Canberra,8884,Isabella Plains,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,99,4.66
+ACT,101,Canberra,8884,Isabella Plains,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,979,-2.96
+ACT,101,Canberra,8884,Isabella Plains,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,28,1.32
+ACT,101,Canberra,8884,Isabella Plains,999,Informal,Informal,999,N,N,,Informal,113,-1.17
+ACT,101,Canberra,8776,Kambah North,24857,SEFTON,Tom,1,N,N,LP,Liberal,328,-1.78
+ACT,101,Canberra,8776,Kambah North,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,133,-3.54
+ACT,101,Canberra,8776,Kambah North,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,37,3.97
+ACT,101,Canberra,8776,Kambah North,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,25,2.69
+ACT,101,Canberra,8776,Kambah North,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,383,-4.01
+ACT,101,Canberra,8776,Kambah North,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,25,2.69
+ACT,101,Canberra,8776,Kambah North,999,Informal,Informal,999,N,N,,Informal,33,-1.07
+ACT,101,Canberra,8777,Kambah South,24857,SEFTON,Tom,1,N,N,LP,Liberal,725,-1.33
+ACT,101,Canberra,8777,Kambah South,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,358,-4.54
+ACT,101,Canberra,8777,Kambah South,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,83,3.47
+ACT,101,Canberra,8777,Kambah South,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,124,5.19
+ACT,101,Canberra,8777,Kambah South,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,1071,-4
+ACT,101,Canberra,8777,Kambah South,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,29,1.21
+ACT,101,Canberra,8777,Kambah South,999,Informal,Informal,999,N,N,,Informal,94,-1.17
+ACT,101,Canberra,8778,Kambah West,24857,SEFTON,Tom,1,N,N,LP,Liberal,967,2.44
+ACT,101,Canberra,8778,Kambah West,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,313,-6.7
+ACT,101,Canberra,8778,Kambah West,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,85,3.27
+ACT,101,Canberra,8778,Kambah West,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,84,3.24
+ACT,101,Canberra,8778,Kambah West,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,1109,-3.71
+ACT,101,Canberra,8778,Kambah West,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,38,1.46
+ACT,101,Canberra,8778,Kambah West,999,Informal,Informal,999,N,N,,Informal,154,0.7
+ACT,101,Canberra,8779,Lyons,24857,SEFTON,Tom,1,N,N,LP,Liberal,426,2.67
+ACT,101,Canberra,8779,Lyons,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,219,-6.06
+ACT,101,Canberra,8779,Lyons,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,43,3.35
+ACT,101,Canberra,8779,Lyons,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,49,3.82
+ACT,101,Canberra,8779,Lyons,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,532,-4.86
+ACT,101,Canberra,8779,Lyons,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,14,1.09
+ACT,101,Canberra,8779,Lyons,999,Informal,Informal,999,N,N,,Informal,50,-1.55
+ACT,101,Canberra,8780,Mawson,24857,SEFTON,Tom,1,N,N,LP,Liberal,867,-0.32
+ACT,101,Canberra,8780,Mawson,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,267,-5.3
+ACT,101,Canberra,8780,Mawson,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,42,1.93
+ACT,101,Canberra,8780,Mawson,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,82,3.76
+ACT,101,Canberra,8780,Mawson,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,897,-1.26
+ACT,101,Canberra,8780,Mawson,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,26,1.19
+ACT,101,Canberra,8780,Mawson,999,Informal,Informal,999,N,N,,Informal,92,-0.2
+ACT,101,Canberra,8781,Monash,24857,SEFTON,Tom,1,N,N,LP,Liberal,876,-1.06
+ACT,101,Canberra,8781,Monash,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,246,-4.85
+ACT,101,Canberra,8781,Monash,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,81,3.5
+ACT,101,Canberra,8781,Monash,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,95,4.1
+ACT,101,Canberra,8781,Monash,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,988,-3.02
+ACT,101,Canberra,8781,Monash,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,31,1.34
+ACT,101,Canberra,8781,Monash,999,Informal,Informal,999,N,N,,Informal,126,-0.69
+ACT,101,Canberra,8782,Narrabundah,24857,SEFTON,Tom,1,N,N,LP,Liberal,487,-0.46
+ACT,101,Canberra,8782,Narrabundah,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,240,-7.01
+ACT,101,Canberra,8782,Narrabundah,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,55,3.42
+ACT,101,Canberra,8782,Narrabundah,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,58,3.61
+ACT,101,Canberra,8782,Narrabundah,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,744,-1.04
+ACT,101,Canberra,8782,Narrabundah,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,24,1.49
+ACT,101,Canberra,8782,Narrabundah,999,Informal,Informal,999,N,N,,Informal,104,0.4
+ACT,101,Canberra,65739,Norfolk Island,24857,SEFTON,Tom,1,N,N,LP,Liberal,34,2.61
+ACT,101,Canberra,65739,Norfolk Island,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,8,-14.84
+ACT,101,Canberra,65739,Norfolk Island,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,8,8.99
+ACT,101,Canberra,65739,Norfolk Island,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,0,0
+ACT,101,Canberra,65739,Norfolk Island,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,39,3.24
+ACT,101,Canberra,65739,Norfolk Island,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,0,0
+ACT,101,Canberra,65739,Norfolk Island,999,Informal,Informal,999,N,N,,Informal,1,-2.5
+ACT,101,Canberra,32706,Norfolk Island PPVC,24857,SEFTON,Tom,1,N,N,LP,Liberal,0,0
+ACT,101,Canberra,32706,Norfolk Island PPVC,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,0,0
+ACT,101,Canberra,32706,Norfolk Island PPVC,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,0,0
+ACT,101,Canberra,32706,Norfolk Island PPVC,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,0,0
+ACT,101,Canberra,32706,Norfolk Island PPVC,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,0,0
+ACT,101,Canberra,32706,Norfolk Island PPVC,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,0,0
+ACT,101,Canberra,32706,Norfolk Island PPVC,999,Informal,Informal,999,N,N,,Informal,0,0
+ACT,101,Canberra,8783,Oaks Estate,24857,SEFTON,Tom,1,N,N,LP,Liberal,53,5.64
+ACT,101,Canberra,8783,Oaks Estate,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,29,-14.72
+ACT,101,Canberra,8783,Oaks Estate,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,15,8.62
+ACT,101,Canberra,8783,Oaks Estate,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,9,5.17
+ACT,101,Canberra,8783,Oaks Estate,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,67,-5.29
+ACT,101,Canberra,8783,Oaks Estate,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,1,0.57
+ACT,101,Canberra,8783,Oaks Estate,999,Informal,Informal,999,N,N,,Informal,10,-7.31
+ACT,101,Canberra,65158,Other Mobile Team 1,24857,SEFTON,Tom,1,N,N,LP,Liberal,4,-12.03
+ACT,101,Canberra,65158,Other Mobile Team 1,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,0,-22.39
+ACT,101,Canberra,65158,Other Mobile Team 1,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,3,18.75
+ACT,101,Canberra,65158,Other Mobile Team 1,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,1,6.25
+ACT,101,Canberra,65158,Other Mobile Team 1,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,7,3.17
+ACT,101,Canberra,65158,Other Mobile Team 1,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,1,6.25
+ACT,101,Canberra,65158,Other Mobile Team 1,999,Informal,Informal,999,N,N,,Informal,0,-3.45
+ACT,101,Canberra,65741,Parkes (Canberra),24857,SEFTON,Tom,1,N,N,LP,Liberal,390,-5.6
+ACT,101,Canberra,65741,Parkes (Canberra),24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,270,-4.48
+ACT,101,Canberra,65741,Parkes (Canberra),24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,14,1.06
+ACT,101,Canberra,65741,Parkes (Canberra),24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,68,5.16
+ACT,101,Canberra,65741,Parkes (Canberra),24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,550,1.95
+ACT,101,Canberra,65741,Parkes (Canberra),24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,25,1.9
+ACT,101,Canberra,65741,Parkes (Canberra),999,Informal,Informal,999,N,N,,Informal,31,-3.44
+ACT,101,Canberra,65742,Parkes PPVC,24857,SEFTON,Tom,1,N,N,LP,Liberal,0,-35.59
+ACT,101,Canberra,65742,Parkes PPVC,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,0,-23.83
+ACT,101,Canberra,65742,Parkes PPVC,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,0,0
+ACT,101,Canberra,65742,Parkes PPVC,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,0,0
+ACT,101,Canberra,65742,Parkes PPVC,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,0,-40.58
+ACT,101,Canberra,65742,Parkes PPVC,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,0,0
+ACT,101,Canberra,65742,Parkes PPVC,999,Informal,Informal,999,N,N,,Informal,0,-3.61
+ACT,101,Canberra,8784,Pearce,24857,SEFTON,Tom,1,N,N,LP,Liberal,867,-1.12
+ACT,101,Canberra,8784,Pearce,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,362,-3.98
+ACT,101,Canberra,8784,Pearce,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,75,2.98
+ACT,101,Canberra,8784,Pearce,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,104,4.13
+ACT,101,Canberra,8784,Pearce,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,1088,-2.84
+ACT,101,Canberra,8784,Pearce,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,21,0.83
+ACT,101,Canberra,8784,Pearce,999,Informal,Informal,999,N,N,,Informal,102,-0.51
+ACT,101,Canberra,8785,Red Hill,24857,SEFTON,Tom,1,N,N,LP,Liberal,894,0
+ACT,101,Canberra,8785,Red Hill,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,344,-3.93
+ACT,101,Canberra,8785,Red Hill,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,41,1.83
+ACT,101,Canberra,8785,Red Hill,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,95,4.25
+ACT,101,Canberra,8785,Red Hill,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,845,-2.96
+ACT,101,Canberra,8785,Red Hill,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,18,0.8
+ACT,101,Canberra,8785,Red Hill,999,Informal,Informal,999,N,N,,Informal,63,-1.58
+ACT,101,Canberra,8786,Richardson,24857,SEFTON,Tom,1,N,N,LP,Liberal,476,-2.76
+ACT,101,Canberra,8786,Richardson,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,139,-5.42
+ACT,101,Canberra,8786,Richardson,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,64,4.61
+ACT,101,Canberra,8786,Richardson,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,61,4.39
+ACT,101,Canberra,8786,Richardson,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,638,-1.61
+ACT,101,Canberra,8786,Richardson,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,11,0.79
+ACT,101,Canberra,8786,Richardson,999,Informal,Informal,999,N,N,,Informal,91,-0.12
+ACT,101,Canberra,32712,Special Hospital Team 1,24857,SEFTON,Tom,1,N,N,LP,Liberal,91,-6.6
+ACT,101,Canberra,32712,Special Hospital Team 1,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,12,-4.04
+ACT,101,Canberra,32712,Special Hospital Team 1,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,6,2.84
+ACT,101,Canberra,32712,Special Hospital Team 1,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,4,1.9
+ACT,101,Canberra,32712,Special Hospital Team 1,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,93,3.54
+ACT,101,Canberra,32712,Special Hospital Team 1,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,5,2.37
+ACT,101,Canberra,32712,Special Hospital Team 1,999,Informal,Informal,999,N,N,,Informal,22,4.07
+ACT,101,Canberra,58810,Special Hospital Team 2,24857,SEFTON,Tom,1,N,N,LP,Liberal,120,1.99
+ACT,101,Canberra,58810,Special Hospital Team 2,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,19,-1.54
+ACT,101,Canberra,58810,Special Hospital Team 2,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,6,2.59
+ACT,101,Canberra,58810,Special Hospital Team 2,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,4,1.72
+ACT,101,Canberra,58810,Special Hospital Team 2,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,81,-5.63
+ACT,101,Canberra,58810,Special Hospital Team 2,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,2,0.86
+ACT,101,Canberra,58810,Special Hospital Team 2,999,Informal,Informal,999,N,N,,Informal,27,5.05
+ACT,101,Canberra,58811,Special Hospital Team 3,24857,SEFTON,Tom,1,N,N,LP,Liberal,97,6.02
+ACT,101,Canberra,58811,Special Hospital Team 3,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,11,-3.41
+ACT,101,Canberra,58811,Special Hospital Team 3,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,4,2.3
+ACT,101,Canberra,58811,Special Hospital Team 3,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,3,1.72
+ACT,101,Canberra,58811,Special Hospital Team 3,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,59,-6.63
+ACT,101,Canberra,58811,Special Hospital Team 3,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,0,0
+ACT,101,Canberra,58811,Special Hospital Team 3,999,Informal,Informal,999,N,N,,Informal,7,-1.5
+ACT,101,Canberra,46425,Stirling,24857,SEFTON,Tom,1,N,N,LP,Liberal,327,0.7
+ACT,101,Canberra,46425,Stirling,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,73,-8.7
+ACT,101,Canberra,46425,Stirling,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,27,3.32
+ACT,101,Canberra,46425,Stirling,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,26,3.19
+ACT,101,Canberra,46425,Stirling,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,354,0.63
+ACT,101,Canberra,46425,Stirling,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,7,0.86
+ACT,101,Canberra,46425,Stirling,999,Informal,Informal,999,N,N,,Informal,31,0
+ACT,101,Canberra,8788,Tharwa,24857,SEFTON,Tom,1,N,N,LP,Liberal,44,-0.14
+ACT,101,Canberra,8788,Tharwa,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,22,3.11
+ACT,101,Canberra,8788,Tharwa,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,6,5.83
+ACT,101,Canberra,8788,Tharwa,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,4,3.88
+ACT,101,Canberra,8788,Tharwa,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,27,-12.68
+ACT,101,Canberra,8788,Tharwa,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,0,0
+ACT,101,Canberra,8788,Tharwa,999,Informal,Informal,999,N,N,,Informal,7,4.03
+ACT,101,Canberra,11878,Theodore,24857,SEFTON,Tom,1,N,N,LP,Liberal,555,1.65
+ACT,101,Canberra,11878,Theodore,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,160,-6.92
+ACT,101,Canberra,11878,Theodore,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,69,4.71
+ACT,101,Canberra,11878,Theodore,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,55,3.76
+ACT,101,Canberra,11878,Theodore,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,608,-4.36
+ACT,101,Canberra,11878,Theodore,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,17,1.16
+ACT,101,Canberra,11878,Theodore,999,Informal,Informal,999,N,N,,Informal,87,1.22
+ACT,101,Canberra,32704,Tuggeranong CANBERRA PPVC,24857,SEFTON,Tom,1,N,N,LP,Liberal,5580,0.71
+ACT,101,Canberra,32704,Tuggeranong CANBERRA PPVC,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,1268,-6.72
+ACT,101,Canberra,32704,Tuggeranong CANBERRA PPVC,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,584,4.21
+ACT,101,Canberra,32704,Tuggeranong CANBERRA PPVC,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,537,3.87
+ACT,101,Canberra,32704,Tuggeranong CANBERRA PPVC,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,5770,-3.04
+ACT,101,Canberra,32704,Tuggeranong CANBERRA PPVC,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,136,0.98
+ACT,101,Canberra,32704,Tuggeranong CANBERRA PPVC,999,Informal,Informal,999,N,N,,Informal,594,-2.61
+ACT,101,Canberra,8790,Wanniassa,24857,SEFTON,Tom,1,N,N,LP,Liberal,630,-2.18
+ACT,101,Canberra,8790,Wanniassa,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,210,-6.91
+ACT,101,Canberra,8790,Wanniassa,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,80,4.09
+ACT,101,Canberra,8790,Wanniassa,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,91,4.65
+ACT,101,Canberra,8790,Wanniassa,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,916,-1.13
+ACT,101,Canberra,8790,Wanniassa,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,29,1.48
+ACT,101,Canberra,8790,Wanniassa,999,Informal,Informal,999,N,N,,Informal,140,-0.51
+ACT,101,Canberra,8791,Wanniassa Hills,24857,SEFTON,Tom,1,N,N,LP,Liberal,696,0.3
+ACT,101,Canberra,8791,Wanniassa Hills,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,275,-4.59
+ACT,101,Canberra,8791,Wanniassa Hills,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,78,3.84
+ACT,101,Canberra,8791,Wanniassa Hills,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,75,3.69
+ACT,101,Canberra,8791,Wanniassa Hills,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,888,-4.26
+ACT,101,Canberra,8791,Wanniassa Hills,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,21,1.03
+ACT,101,Canberra,8791,Wanniassa Hills,999,Informal,Informal,999,N,N,,Informal,77,-0.19
+ACT,101,Canberra,8792,Waramanga,24857,SEFTON,Tom,1,N,N,LP,Liberal,778,0.79
+ACT,101,Canberra,8792,Waramanga,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,343,-4.89
+ACT,101,Canberra,8792,Waramanga,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,62,2.72
+ACT,101,Canberra,8792,Waramanga,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,93,4.08
+ACT,101,Canberra,8792,Waramanga,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,986,-3.51
+ACT,101,Canberra,8792,Waramanga,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,19,0.83
+ACT,101,Canberra,8792,Waramanga,999,Informal,Informal,999,N,N,,Informal,79,-1.18
+ACT,101,Canberra,8793,Weston,24857,SEFTON,Tom,1,N,N,LP,Liberal,433,-1.93
+ACT,101,Canberra,8793,Weston,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,204,-3.4
+ACT,101,Canberra,8793,Weston,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,31,2.29
+ACT,101,Canberra,8793,Weston,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,56,4.15
+ACT,101,Canberra,8793,Weston,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,617,-1.85
+ACT,101,Canberra,8793,Weston,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,10,0.74
+ACT,101,Canberra,8793,Weston,999,Informal,Informal,999,N,N,,Informal,65,1.2
+ACT,101,Canberra,32705,Woden CANBERRA PPVC,24857,SEFTON,Tom,1,N,N,LP,Liberal,5055,1.48
+ACT,101,Canberra,32705,Woden CANBERRA PPVC,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,1510,-6.45
+ACT,101,Canberra,32705,Woden CANBERRA PPVC,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,303,2.46
+ACT,101,Canberra,32705,Woden CANBERRA PPVC,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,475,3.85
+ACT,101,Canberra,32705,Woden CANBERRA PPVC,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,4884,-2.25
+ACT,101,Canberra,32705,Woden CANBERRA PPVC,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,114,0.92
+ACT,101,Canberra,32705,Woden CANBERRA PPVC,999,Informal,Informal,999,N,N,,Informal,417,-1.2
+ACT,101,Canberra,8840,Yarralumla,24857,SEFTON,Tom,1,N,N,LP,Liberal,605,1.77
+ACT,101,Canberra,8840,Yarralumla,24895,MELROSE,Julie,2,N,N,GRN,Australian Greens,216,-5.29
+ACT,101,Canberra,8840,Yarralumla,24239,HANLEY,Tony,3,N,N,PUP,Palmer United Party,26,1.75
+ACT,101,Canberra,8840,Yarralumla,24118,MAHER,Damien,4,N,N,BTA,Bullet Train For Australia,56,3.77
+ACT,101,Canberra,8840,Yarralumla,24122,BRODTMANN,Gai,5,Y,Y,ALP,Australian Labor Party,570,-2.81
+ACT,101,Canberra,8840,Yarralumla,24238,BURT,Nicolle,6,N,N,SPA,Secular Party of Australia,12,0.81
+ACT,101,Canberra,8840,Yarralumla,999,Informal,Informal,999,N,N,,Informal,45,-0.8
+ACT,102,Fraser,8801,Ainslie North,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,39,1.85
+ACT,102,Fraser,8801,Ainslie North,24865,LEE,Elizabeth,2,N,N,LP,Liberal,391,-2.26
+ACT,102,Fraser,8801,Ainslie North,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,1078,4.74
+ACT,102,Fraser,8801,Ainslie North,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,30,1.42
+ACT,102,Fraser,8801,Ainslie North,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,12,0.57
+ACT,102,Fraser,8801,Ainslie North,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,69,3.27
+ACT,102,Fraser,8801,Ainslie North,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,490,-8.01
+ACT,102,Fraser,8801,Ainslie North,999,Informal,Informal,999,N,N,,Informal,77,-0.68
+ACT,102,Fraser,8804,Ainslie South,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,10,1.81
+ACT,102,Fraser,8804,Ainslie South,24865,LEE,Elizabeth,2,N,N,LP,Liberal,119,1.12
+ACT,102,Fraser,8804,Ainslie South,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,262,-0.79
+ACT,102,Fraser,8804,Ainslie South,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,5,0.91
+ACT,102,Fraser,8804,Ainslie South,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,5,0.91
+ACT,102,Fraser,8804,Ainslie South,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,34,6.16
+ACT,102,Fraser,8804,Ainslie South,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,117,-7.7
+ACT,102,Fraser,8804,Ainslie South,999,Informal,Informal,999,N,N,,Informal,12,-1.03
+ACT,102,Fraser,38197,Amaroo,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,37,1.66
+ACT,102,Fraser,38197,Amaroo,24865,LEE,Elizabeth,2,N,N,LP,Liberal,868,-2.35
+ACT,102,Fraser,38197,Amaroo,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,975,-1.42
+ACT,102,Fraser,38197,Amaroo,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,64,2.87
+ACT,102,Fraser,38197,Amaroo,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,17,0.76
+ACT,102,Fraser,38197,Amaroo,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,77,3.45
+ACT,102,Fraser,38197,Amaroo,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,195,-3.62
+ACT,102,Fraser,38197,Amaroo,999,Informal,Informal,999,N,N,,Informal,72,-0.71
+ACT,102,Fraser,8803,Aranda,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,44,1.98
+ACT,102,Fraser,8803,Aranda,24865,LEE,Elizabeth,2,N,N,LP,Liberal,494,-2.4
+ACT,102,Fraser,8803,Aranda,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,1072,0.42
+ACT,102,Fraser,8803,Aranda,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,35,1.57
+ACT,102,Fraser,8803,Aranda,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,18,0.81
+ACT,102,Fraser,8803,Aranda,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,74,3.32
+ACT,102,Fraser,8803,Aranda,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,490,-3.8
+ACT,102,Fraser,8803,Aranda,999,Informal,Informal,999,N,N,,Informal,66,-0.18
+ACT,102,Fraser,8805,Belconnen,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,52,2.24
+ACT,102,Fraser,8805,Belconnen,24865,LEE,Elizabeth,2,N,N,LP,Liberal,583,-4.89
+ACT,102,Fraser,8805,Belconnen,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,1057,0.69
+ACT,102,Fraser,8805,Belconnen,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,59,2.55
+ACT,102,Fraser,8805,Belconnen,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,40,1.73
+ACT,102,Fraser,8805,Belconnen,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,99,4.27
+ACT,102,Fraser,8805,Belconnen,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,428,-3.99
+ACT,102,Fraser,8805,Belconnen,999,Informal,Informal,999,N,N,,Informal,113,0.44
+ACT,102,Fraser,32464,Belconnen FRASER PPVC,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,322,2.12
+ACT,102,Fraser,32464,Belconnen FRASER PPVC,24865,LEE,Elizabeth,2,N,N,LP,Liberal,5088,-1.91
+ACT,102,Fraser,32464,Belconnen FRASER PPVC,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,6853,-0.25
+ACT,102,Fraser,32464,Belconnen FRASER PPVC,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,421,2.77
+ACT,102,Fraser,32464,Belconnen FRASER PPVC,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,220,1.45
+ACT,102,Fraser,32464,Belconnen FRASER PPVC,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,570,3.75
+ACT,102,Fraser,32464,Belconnen FRASER PPVC,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,1707,-6
+ACT,102,Fraser,32464,Belconnen FRASER PPVC,999,Informal,Informal,999,N,N,,Informal,593,-1.07
+ACT,102,Fraser,65505,BLV Fraser PPVC,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,2,5.26
+ACT,102,Fraser,65505,BLV Fraser PPVC,24865,LEE,Elizabeth,2,N,N,LP,Liberal,12,31.58
+ACT,102,Fraser,65505,BLV Fraser PPVC,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,17,44.74
+ACT,102,Fraser,65505,BLV Fraser PPVC,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,2,5.26
+ACT,102,Fraser,65505,BLV Fraser PPVC,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,1,2.63
+ACT,102,Fraser,65505,BLV Fraser PPVC,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,1,2.63
+ACT,102,Fraser,65505,BLV Fraser PPVC,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,3,7.89
+ACT,102,Fraser,65505,BLV Fraser PPVC,999,Informal,Informal,999,N,N,,Informal,1,2.56
+ACT,102,Fraser,65695,Bonner,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,9,0.77
+ACT,102,Fraser,65695,Bonner,24865,LEE,Elizabeth,2,N,N,LP,Liberal,399,1.63
+ACT,102,Fraser,65695,Bonner,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,552,5.99
+ACT,102,Fraser,65695,Bonner,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,30,2.55
+ACT,102,Fraser,65695,Bonner,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,11,0.94
+ACT,102,Fraser,65695,Bonner,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,46,3.91
+ACT,102,Fraser,65695,Bonner,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,128,-13.42
+ACT,102,Fraser,65695,Bonner,999,Informal,Informal,999,N,N,,Informal,54,-1.18
+ACT,102,Fraser,8802,Braddon,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,33,2
+ACT,102,Fraser,8802,Braddon,24865,LEE,Elizabeth,2,N,N,LP,Liberal,369,-1.04
+ACT,102,Fraser,8802,Braddon,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,784,1.92
+ACT,102,Fraser,8802,Braddon,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,27,1.64
+ACT,102,Fraser,8802,Braddon,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,8,0.49
+ACT,102,Fraser,8802,Braddon,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,85,5.15
+ACT,102,Fraser,8802,Braddon,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,343,-7.56
+ACT,102,Fraser,8802,Braddon,999,Informal,Informal,999,N,N,,Informal,67,-1.48
+ACT,102,Fraser,12073,Bruce,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,12,1.6
+ACT,102,Fraser,12073,Bruce,24865,LEE,Elizabeth,2,N,N,LP,Liberal,254,-1.12
+ACT,102,Fraser,12073,Bruce,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,340,-2.78
+ACT,102,Fraser,12073,Bruce,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,11,1.46
+ACT,102,Fraser,12073,Bruce,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,14,1.86
+ACT,102,Fraser,12073,Bruce,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,31,4.12
+ACT,102,Fraser,12073,Bruce,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,90,-3.47
+ACT,102,Fraser,12073,Bruce,999,Informal,Informal,999,N,N,,Informal,30,-0.03
+ACT,102,Fraser,8806,Campbell,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,24,1.31
+ACT,102,Fraser,8806,Campbell,24865,LEE,Elizabeth,2,N,N,LP,Liberal,793,-4.58
+ACT,102,Fraser,8806,Campbell,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,612,0.73
+ACT,102,Fraser,8806,Campbell,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,31,1.69
+ACT,102,Fraser,8806,Campbell,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,15,0.82
+ACT,102,Fraser,8806,Campbell,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,112,6.1
+ACT,102,Fraser,8806,Campbell,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,248,-4.37
+ACT,102,Fraser,8806,Campbell,999,Informal,Informal,999,N,N,,Informal,8,-2.2
+ACT,102,Fraser,8807,Charnwood,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,59,2.12
+ACT,102,Fraser,8807,Charnwood,24865,LEE,Elizabeth,2,N,N,LP,Liberal,819,-3.84
+ACT,102,Fraser,8807,Charnwood,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,1422,0.69
+ACT,102,Fraser,8807,Charnwood,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,82,2.94
+ACT,102,Fraser,8807,Charnwood,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,36,1.29
+ACT,102,Fraser,8807,Charnwood,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,84,3.02
+ACT,102,Fraser,8807,Charnwood,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,283,-4.04
+ACT,102,Fraser,8807,Charnwood,999,Informal,Informal,999,N,N,,Informal,189,-0.37
+ACT,102,Fraser,8808,City,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,25,1.69
+ACT,102,Fraser,8808,City,24865,LEE,Elizabeth,2,N,N,LP,Liberal,308,-3.77
+ACT,102,Fraser,8808,City,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,638,2.91
+ACT,102,Fraser,8808,City,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,16,1.08
+ACT,102,Fraser,8808,City,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,15,1.01
+ACT,102,Fraser,8808,City,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,79,5.34
+ACT,102,Fraser,8808,City,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,398,-5.13
+ACT,102,Fraser,8808,City,999,Informal,Informal,999,N,N,,Informal,54,-1.72
+ACT,102,Fraser,32465,City FRASER PPVC,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,137,1.58
+ACT,102,Fraser,32465,City FRASER PPVC,24865,LEE,Elizabeth,2,N,N,LP,Liberal,2533,0.15
+ACT,102,Fraser,32465,City FRASER PPVC,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,3912,0.56
+ACT,102,Fraser,32465,City FRASER PPVC,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,168,1.94
+ACT,102,Fraser,32465,City FRASER PPVC,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,65,0.75
+ACT,102,Fraser,32465,City FRASER PPVC,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,417,4.81
+ACT,102,Fraser,32465,City FRASER PPVC,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,1435,-7.91
+ACT,102,Fraser,32465,City FRASER PPVC,999,Informal,Informal,999,N,N,,Informal,263,0.05
+ACT,102,Fraser,8809,Dickson,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,16,1.47
+ACT,102,Fraser,8809,Dickson,24865,LEE,Elizabeth,2,N,N,LP,Liberal,277,-2.27
+ACT,102,Fraser,8809,Dickson,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,521,0.89
+ACT,102,Fraser,8809,Dickson,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,22,2.01
+ACT,102,Fraser,8809,Dickson,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,9,0.82
+ACT,102,Fraser,8809,Dickson,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,41,3.75
+ACT,102,Fraser,8809,Dickson,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,206,-4.65
+ACT,102,Fraser,8809,Dickson,999,Informal,Informal,999,N,N,,Informal,40,-0.49
+ACT,102,Fraser,30093,Divisional Office (PREPOLL),24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,43,1.35
+ACT,102,Fraser,30093,Divisional Office (PREPOLL),24865,LEE,Elizabeth,2,N,N,LP,Liberal,849,-1.13
+ACT,102,Fraser,30093,Divisional Office (PREPOLL),24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,1433,2.87
+ACT,102,Fraser,30093,Divisional Office (PREPOLL),24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,50,1.57
+ACT,102,Fraser,30093,Divisional Office (PREPOLL),24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,25,0.79
+ACT,102,Fraser,30093,Divisional Office (PREPOLL),24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,123,3.87
+ACT,102,Fraser,30093,Divisional Office (PREPOLL),24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,657,-7.66
+ACT,102,Fraser,30093,Divisional Office (PREPOLL),999,Informal,Informal,999,N,N,,Informal,81,-0.05
+ACT,102,Fraser,8810,Downer,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,15,1.32
+ACT,102,Fraser,8810,Downer,24865,LEE,Elizabeth,2,N,N,LP,Liberal,242,-4.38
+ACT,102,Fraser,8810,Downer,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,559,1.87
+ACT,102,Fraser,8810,Downer,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,20,1.76
+ACT,102,Fraser,8810,Downer,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,11,0.97
+ACT,102,Fraser,8810,Downer,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,45,3.96
+ACT,102,Fraser,8810,Downer,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,244,-3.48
+ACT,102,Fraser,8810,Downer,999,Informal,Informal,999,N,N,,Informal,62,-0.73
+ACT,102,Fraser,8812,Evatt,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,53,2.29
+ACT,102,Fraser,8812,Evatt,24865,LEE,Elizabeth,2,N,N,LP,Liberal,658,-3.78
+ACT,102,Fraser,8812,Evatt,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,1141,-1.7
+ACT,102,Fraser,8812,Evatt,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,73,3.16
+ACT,102,Fraser,8812,Evatt,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,40,1.73
+ACT,102,Fraser,8812,Evatt,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,87,3.76
+ACT,102,Fraser,8812,Evatt,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,260,-3.49
+ACT,102,Fraser,8812,Evatt,999,Informal,Informal,999,N,N,,Informal,127,0.31
+ACT,102,Fraser,8813,Evatt South,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,28,2.32
+ACT,102,Fraser,8813,Evatt South,24865,LEE,Elizabeth,2,N,N,LP,Liberal,378,-0.08
+ACT,102,Fraser,8813,Evatt South,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,539,-3.75
+ACT,102,Fraser,8813,Evatt South,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,41,3.4
+ACT,102,Fraser,8813,Evatt South,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,16,1.33
+ACT,102,Fraser,8813,Evatt South,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,46,3.82
+ACT,102,Fraser,8813,Evatt South,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,157,-4.38
+ACT,102,Fraser,8813,Evatt South,999,Informal,Informal,999,N,N,,Informal,54,-2.46
+ACT,102,Fraser,8814,Florey,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,36,2.12
+ACT,102,Fraser,8814,Florey,24865,LEE,Elizabeth,2,N,N,LP,Liberal,537,-0.98
+ACT,102,Fraser,8814,Florey,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,797,-2.16
+ACT,102,Fraser,8814,Florey,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,50,2.95
+ACT,102,Fraser,8814,Florey,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,24,1.42
+ACT,102,Fraser,8814,Florey,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,71,4.19
+ACT,102,Fraser,8814,Florey,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,181,-5.8
+ACT,102,Fraser,8814,Florey,999,Informal,Informal,999,N,N,,Informal,105,-0.81
+ACT,102,Fraser,65493,Forde,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,18,1.5
+ACT,102,Fraser,65493,Forde,24865,LEE,Elizabeth,2,N,N,LP,Liberal,542,4.44
+ACT,102,Fraser,65493,Forde,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,449,-6.1
+ACT,102,Fraser,65493,Forde,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,28,2.33
+ACT,102,Fraser,65493,Forde,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,10,0.83
+ACT,102,Fraser,65493,Forde,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,47,3.91
+ACT,102,Fraser,65493,Forde,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,109,-5.36
+ACT,102,Fraser,65493,Forde,999,Informal,Informal,999,N,N,,Informal,37,-1
+ACT,102,Fraser,34238,Fraser Central,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,53,1.92
+ACT,102,Fraser,34238,Fraser Central,24865,LEE,Elizabeth,2,N,N,LP,Liberal,840,-4.37
+ACT,102,Fraser,34238,Fraser Central,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,1314,-0.63
+ACT,102,Fraser,34238,Fraser Central,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,95,3.44
+ACT,102,Fraser,34238,Fraser Central,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,48,1.74
+ACT,102,Fraser,34238,Fraser Central,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,112,4.06
+ACT,102,Fraser,34238,Fraser Central,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,299,-4.64
+ACT,102,Fraser,34238,Fraser Central,999,Informal,Informal,999,N,N,,Informal,97,-1.65
+ACT,102,Fraser,8816,Giralang,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,35,2.32
+ACT,102,Fraser,8816,Giralang,24865,LEE,Elizabeth,2,N,N,LP,Liberal,431,-4.92
+ACT,102,Fraser,8816,Giralang,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,690,-1.64
+ACT,102,Fraser,8816,Giralang,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,38,2.52
+ACT,102,Fraser,8816,Giralang,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,26,1.72
+ACT,102,Fraser,8816,Giralang,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,88,5.83
+ACT,102,Fraser,8816,Giralang,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,202,-3.72
+ACT,102,Fraser,8816,Giralang,999,Informal,Informal,999,N,N,,Informal,107,-0.44
+ACT,102,Fraser,34240,Gungahlin,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,32,1.42
+ACT,102,Fraser,34240,Gungahlin,24865,LEE,Elizabeth,2,N,N,LP,Liberal,857,-3.14
+ACT,102,Fraser,34240,Gungahlin,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,942,0.22
+ACT,102,Fraser,34240,Gungahlin,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,63,2.79
+ACT,102,Fraser,34240,Gungahlin,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,36,1.59
+ACT,102,Fraser,34240,Gungahlin,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,95,4.21
+ACT,102,Fraser,34240,Gungahlin,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,233,-5.28
+ACT,102,Fraser,34240,Gungahlin,999,Informal,Informal,999,N,N,,Informal,110,-0.36
+ACT,102,Fraser,38504,Gungahlin PPVC,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,135,1.51
+ACT,102,Fraser,38504,Gungahlin PPVC,24865,LEE,Elizabeth,2,N,N,LP,Liberal,3904,-0.6
+ACT,102,Fraser,38504,Gungahlin PPVC,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,3556,-1.69
+ACT,102,Fraser,38504,Gungahlin PPVC,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,271,3.04
+ACT,102,Fraser,38504,Gungahlin PPVC,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,111,1.24
+ACT,102,Fraser,38504,Gungahlin PPVC,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,302,3.38
+ACT,102,Fraser,38504,Gungahlin PPVC,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,643,-5.26
+ACT,102,Fraser,38504,Gungahlin PPVC,999,Informal,Informal,999,N,N,,Informal,322,-0.24
+ACT,102,Fraser,8819,Hall,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,5,1.95
+ACT,102,Fraser,8819,Hall,24865,LEE,Elizabeth,2,N,N,LP,Liberal,112,-2.46
+ACT,102,Fraser,8819,Hall,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,78,-7.01
+ACT,102,Fraser,8819,Hall,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,4,1.56
+ACT,102,Fraser,8819,Hall,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,5,1.95
+ACT,102,Fraser,8819,Hall,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,9,3.5
+ACT,102,Fraser,8819,Hall,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,44,2.03
+ACT,102,Fraser,8819,Hall,999,Informal,Informal,999,N,N,,Informal,10,-2.28
+ACT,102,Fraser,47681,Harrison,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,34,1.42
+ACT,102,Fraser,47681,Harrison,24865,LEE,Elizabeth,2,N,N,LP,Liberal,975,-2.2
+ACT,102,Fraser,47681,Harrison,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,971,-1.39
+ACT,102,Fraser,47681,Harrison,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,59,2.47
+ACT,102,Fraser,47681,Harrison,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,17,0.71
+ACT,102,Fraser,47681,Harrison,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,88,3.68
+ACT,102,Fraser,47681,Harrison,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,247,-3.41
+ACT,102,Fraser,47681,Harrison,999,Informal,Informal,999,N,N,,Informal,82,-0.41
+ACT,102,Fraser,8821,Holt,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,60,2.26
+ACT,102,Fraser,8821,Holt,24865,LEE,Elizabeth,2,N,N,LP,Liberal,738,-3.17
+ACT,102,Fraser,8821,Holt,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,1304,-0.08
+ACT,102,Fraser,8821,Holt,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,83,3.13
+ACT,102,Fraser,8821,Holt,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,55,2.07
+ACT,102,Fraser,8821,Holt,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,105,3.95
+ACT,102,Fraser,8821,Holt,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,310,-5.87
+ACT,102,Fraser,8821,Holt,999,Informal,Informal,999,N,N,,Informal,125,-0.79
+ACT,102,Fraser,8822,Jervis Bay,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,1,2.04
+ACT,102,Fraser,8822,Jervis Bay,24865,LEE,Elizabeth,2,N,N,LP,Liberal,14,-12.5
+ACT,102,Fraser,8822,Jervis Bay,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,23,13.01
+ACT,102,Fraser,8822,Jervis Bay,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,3,6.12
+ACT,102,Fraser,8822,Jervis Bay,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,0,0
+ACT,102,Fraser,8822,Jervis Bay,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,2,4.08
+ACT,102,Fraser,8822,Jervis Bay,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,6,-12.76
+ACT,102,Fraser,8822,Jervis Bay,999,Informal,Informal,999,N,N,,Informal,1,0.25
+ACT,102,Fraser,8823,Kaleen,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,41,1.94
+ACT,102,Fraser,8823,Kaleen,24865,LEE,Elizabeth,2,N,N,LP,Liberal,703,0.07
+ACT,102,Fraser,8823,Kaleen,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,966,-3.43
+ACT,102,Fraser,8823,Kaleen,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,62,2.93
+ACT,102,Fraser,8823,Kaleen,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,34,1.61
+ACT,102,Fraser,8823,Kaleen,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,77,3.64
+ACT,102,Fraser,8823,Kaleen,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,234,-5.06
+ACT,102,Fraser,8823,Kaleen,999,Informal,Informal,999,N,N,,Informal,120,0.52
+ACT,102,Fraser,8824,Kaleen South,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,34,2.32
+ACT,102,Fraser,8824,Kaleen South,24865,LEE,Elizabeth,2,N,N,LP,Liberal,449,-2.43
+ACT,102,Fraser,8824,Kaleen South,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,649,-2.78
+ACT,102,Fraser,8824,Kaleen South,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,43,2.94
+ACT,102,Fraser,8824,Kaleen South,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,27,1.84
+ACT,102,Fraser,8824,Kaleen South,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,48,3.28
+ACT,102,Fraser,8824,Kaleen South,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,215,-3.13
+ACT,102,Fraser,8824,Kaleen South,999,Informal,Informal,999,N,N,,Informal,76,-0.38
+ACT,102,Fraser,8825,Latham,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,38,2.14
+ACT,102,Fraser,8825,Latham,24865,LEE,Elizabeth,2,N,N,LP,Liberal,523,-2.54
+ACT,102,Fraser,8825,Latham,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,823,-2.79
+ACT,102,Fraser,8825,Latham,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,65,3.66
+ACT,102,Fraser,8825,Latham,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,32,1.8
+ACT,102,Fraser,8825,Latham,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,73,4.11
+ACT,102,Fraser,8825,Latham,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,224,-4.17
+ACT,102,Fraser,8825,Latham,999,Informal,Informal,999,N,N,,Informal,94,-0.4
+ACT,102,Fraser,8826,Lyneham,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,60,2.19
+ACT,102,Fraser,8826,Lyneham,24865,LEE,Elizabeth,2,N,N,LP,Liberal,552,-0.04
+ACT,102,Fraser,8826,Lyneham,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,1279,0.31
+ACT,102,Fraser,8826,Lyneham,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,51,1.86
+ACT,102,Fraser,8826,Lyneham,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,31,1.13
+ACT,102,Fraser,8826,Lyneham,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,131,4.78
+ACT,102,Fraser,8826,Lyneham,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,638,-8.54
+ACT,102,Fraser,8826,Lyneham,999,Informal,Informal,999,N,N,,Informal,110,0.28
+ACT,102,Fraser,8827,Macgregor,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,57,2.64
+ACT,102,Fraser,8827,Macgregor,24865,LEE,Elizabeth,2,N,N,LP,Liberal,600,-2.33
+ACT,102,Fraser,8827,Macgregor,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,1056,-1.94
+ACT,102,Fraser,8827,Macgregor,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,76,3.52
+ACT,102,Fraser,8827,Macgregor,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,32,1.48
+ACT,102,Fraser,8827,Macgregor,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,95,4.4
+ACT,102,Fraser,8827,Macgregor,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,244,-6.09
+ACT,102,Fraser,8827,Macgregor,999,Informal,Informal,999,N,N,,Informal,90,-1.75
+ACT,102,Fraser,8828,Macquarie,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,29,1.9
+ACT,102,Fraser,8828,Macquarie,24865,LEE,Elizabeth,2,N,N,LP,Liberal,378,-0.71
+ACT,102,Fraser,8828,Macquarie,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,753,1.87
+ACT,102,Fraser,8828,Macquarie,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,28,1.83
+ACT,102,Fraser,8828,Macquarie,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,14,0.92
+ACT,102,Fraser,8828,Macquarie,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,57,3.73
+ACT,102,Fraser,8828,Macquarie,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,270,-7.39
+ACT,102,Fraser,8828,Macquarie,999,Informal,Informal,999,N,N,,Informal,59,0.36
+ACT,102,Fraser,8830,Melba,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,33,1.67
+ACT,102,Fraser,8830,Melba,24865,LEE,Elizabeth,2,N,N,LP,Liberal,611,-0.52
+ACT,102,Fraser,8830,Melba,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,917,-3.23
+ACT,102,Fraser,8830,Melba,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,62,3.14
+ACT,102,Fraser,8830,Melba,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,36,1.82
+ACT,102,Fraser,8830,Melba,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,55,2.78
+ACT,102,Fraser,8830,Melba,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,262,-3.71
+ACT,102,Fraser,8830,Melba,999,Informal,Informal,999,N,N,,Informal,84,0.53
+ACT,102,Fraser,32463,Ngunnawal,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,46,2.55
+ACT,102,Fraser,32463,Ngunnawal,24865,LEE,Elizabeth,2,N,N,LP,Liberal,585,-0.06
+ACT,102,Fraser,32463,Ngunnawal,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,804,-2.87
+ACT,102,Fraser,32463,Ngunnawal,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,52,2.88
+ACT,102,Fraser,32463,Ngunnawal,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,33,1.83
+ACT,102,Fraser,32463,Ngunnawal,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,70,3.88
+ACT,102,Fraser,32463,Ngunnawal,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,216,-6.41
+ACT,102,Fraser,32463,Ngunnawal,999,Informal,Informal,999,N,N,,Informal,100,-0.52
+ACT,102,Fraser,34239,Ngunnawal South,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,27,2.51
+ACT,102,Fraser,34239,Ngunnawal South,24865,LEE,Elizabeth,2,N,N,LP,Liberal,328,-2.32
+ACT,102,Fraser,34239,Ngunnawal South,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,508,-0.48
+ACT,102,Fraser,34239,Ngunnawal South,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,35,3.25
+ACT,102,Fraser,34239,Ngunnawal South,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,6,0.56
+ACT,102,Fraser,34239,Ngunnawal South,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,40,3.72
+ACT,102,Fraser,34239,Ngunnawal South,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,132,-5.24
+ACT,102,Fraser,34239,Ngunnawal South,999,Informal,Informal,999,N,N,,Informal,59,-0.4
+ACT,102,Fraser,32081,Nicholls,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,35,1.27
+ACT,102,Fraser,32081,Nicholls,24865,LEE,Elizabeth,2,N,N,LP,Liberal,1212,0.78
+ACT,102,Fraser,32081,Nicholls,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,1106,-3.97
+ACT,102,Fraser,32081,Nicholls,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,75,2.72
+ACT,102,Fraser,32081,Nicholls,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,39,1.42
+ACT,102,Fraser,32081,Nicholls,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,91,3.3
+ACT,102,Fraser,32081,Nicholls,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,198,-4.01
+ACT,102,Fraser,32081,Nicholls,999,Informal,Informal,999,N,N,,Informal,93,-1.07
+ACT,102,Fraser,38198,O'Connor,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,15,1.59
+ACT,102,Fraser,38198,O'Connor,24865,LEE,Elizabeth,2,N,N,LP,Liberal,268,0.99
+ACT,102,Fraser,38198,O'Connor,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,377,-3.73
+ACT,102,Fraser,38198,O'Connor,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,15,1.59
+ACT,102,Fraser,38198,O'Connor,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,8,0.85
+ACT,102,Fraser,38198,O'Connor,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,41,4.36
+ACT,102,Fraser,38198,O'Connor,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,217,-3.55
+ACT,102,Fraser,38198,O'Connor,999,Informal,Informal,999,N,N,,Informal,31,-0.75
+ACT,102,Fraser,8832,Page,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,45,2.44
+ACT,102,Fraser,8832,Page,24865,LEE,Elizabeth,2,N,N,LP,Liberal,559,-1.97
+ACT,102,Fraser,8832,Page,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,838,-4.32
+ACT,102,Fraser,8832,Page,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,59,3.19
+ACT,102,Fraser,8832,Page,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,31,1.68
+ACT,102,Fraser,8832,Page,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,83,4.49
+ACT,102,Fraser,8832,Page,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,233,-3.31
+ACT,102,Fraser,8832,Page,999,Informal,Informal,999,N,N,,Informal,57,-2.22
+ACT,102,Fraser,31626,Palmerston,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,38,1.86
+ACT,102,Fraser,31626,Palmerston,24865,LEE,Elizabeth,2,N,N,LP,Liberal,712,2.33
+ACT,102,Fraser,31626,Palmerston,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,922,-6.21
+ACT,102,Fraser,31626,Palmerston,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,52,2.54
+ACT,102,Fraser,31626,Palmerston,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,24,1.17
+ACT,102,Fraser,31626,Palmerston,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,86,4.21
+ACT,102,Fraser,31626,Palmerston,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,210,-4.38
+ACT,102,Fraser,31626,Palmerston,999,Informal,Informal,999,N,N,,Informal,75,-1.71
+ACT,102,Fraser,65743,Parkes (Fraser),24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,24,2.39
+ACT,102,Fraser,65743,Parkes (Fraser),24865,LEE,Elizabeth,2,N,N,LP,Liberal,216,-10.1
+ACT,102,Fraser,65743,Parkes (Fraser),24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,488,7.9
+ACT,102,Fraser,65743,Parkes (Fraser),24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,17,1.69
+ACT,102,Fraser,65743,Parkes (Fraser),24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,4,0.4
+ACT,102,Fraser,65743,Parkes (Fraser),24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,46,4.58
+ACT,102,Fraser,65743,Parkes (Fraser),24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,209,-4.64
+ACT,102,Fraser,65743,Parkes (Fraser),999,Informal,Informal,999,N,N,,Informal,24,-1.23
+ACT,102,Fraser,8833,Reid,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,18,2.96
+ACT,102,Fraser,8833,Reid,24865,LEE,Elizabeth,2,N,N,LP,Liberal,176,-3.03
+ACT,102,Fraser,8833,Reid,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,266,3.03
+ACT,102,Fraser,8833,Reid,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,6,0.99
+ACT,102,Fraser,8833,Reid,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,1,0.16
+ACT,102,Fraser,8833,Reid,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,34,5.58
+ACT,102,Fraser,8833,Reid,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,108,-6.04
+ACT,102,Fraser,8833,Reid,999,Informal,Informal,999,N,N,,Informal,14,0.59
+ACT,102,Fraser,8834,Scullin,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,33,2.85
+ACT,102,Fraser,8834,Scullin,24865,LEE,Elizabeth,2,N,N,LP,Liberal,310,-0.01
+ACT,102,Fraser,8834,Scullin,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,570,-2.31
+ACT,102,Fraser,8834,Scullin,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,32,2.76
+ACT,102,Fraser,8834,Scullin,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,14,1.21
+ACT,102,Fraser,8834,Scullin,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,37,3.19
+ACT,102,Fraser,8834,Scullin,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,163,-5.71
+ACT,102,Fraser,8834,Scullin,999,Informal,Informal,999,N,N,,Informal,77,0.7
+ACT,102,Fraser,32467,Special Hospital Team 1,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,3,2.38
+ACT,102,Fraser,32467,Special Hospital Team 1,24865,LEE,Elizabeth,2,N,N,LP,Liberal,64,7.61
+ACT,102,Fraser,32467,Special Hospital Team 1,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,51,-5.73
+ACT,102,Fraser,32467,Special Hospital Team 1,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,0,0
+ACT,102,Fraser,32467,Special Hospital Team 1,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,1,0.79
+ACT,102,Fraser,32467,Special Hospital Team 1,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,1,0.79
+ACT,102,Fraser,32467,Special Hospital Team 1,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,6,-3.57
+ACT,102,Fraser,32467,Special Hospital Team 1,999,Informal,Informal,999,N,N,,Informal,6,-5.35
+ACT,102,Fraser,32468,Special Hospital Team 2,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,8,2.45
+ACT,102,Fraser,32468,Special Hospital Team 2,24865,LEE,Elizabeth,2,N,N,LP,Liberal,145,1.3
+ACT,102,Fraser,32468,Special Hospital Team 2,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,149,-0.5
+ACT,102,Fraser,32468,Special Hospital Team 2,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,4,1.23
+ACT,102,Fraser,32468,Special Hospital Team 2,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,3,0.92
+ACT,102,Fraser,32468,Special Hospital Team 2,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,2,0.61
+ACT,102,Fraser,32468,Special Hospital Team 2,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,15,-3.73
+ACT,102,Fraser,32468,Special Hospital Team 2,999,Informal,Informal,999,N,N,,Informal,26,-2.51
+ACT,102,Fraser,64585,Tuggeranong FRASER PPVC,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,16,2.58
+ACT,102,Fraser,64585,Tuggeranong FRASER PPVC,24865,LEE,Elizabeth,2,N,N,LP,Liberal,189,-0.39
+ACT,102,Fraser,64585,Tuggeranong FRASER PPVC,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,277,3.98
+ACT,102,Fraser,64585,Tuggeranong FRASER PPVC,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,19,3.07
+ACT,102,Fraser,64585,Tuggeranong FRASER PPVC,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,6,0.97
+ACT,102,Fraser,64585,Tuggeranong FRASER PPVC,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,44,7.11
+ACT,102,Fraser,64585,Tuggeranong FRASER PPVC,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,68,-14.95
+ACT,102,Fraser,64585,Tuggeranong FRASER PPVC,999,Informal,Informal,999,N,N,,Informal,21,-2.81
+ACT,102,Fraser,8836,Turner,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,40,2.19
+ACT,102,Fraser,8836,Turner,24865,LEE,Elizabeth,2,N,N,LP,Liberal,347,-0.87
+ACT,102,Fraser,8836,Turner,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,848,0.52
+ACT,102,Fraser,8836,Turner,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,15,0.82
+ACT,102,Fraser,8836,Turner,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,9,0.49
+ACT,102,Fraser,8836,Turner,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,82,4.49
+ACT,102,Fraser,8836,Turner,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,484,-5.18
+ACT,102,Fraser,8836,Turner,999,Informal,Informal,999,N,N,,Informal,57,-0.39
+ACT,102,Fraser,8837,Watson,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,52,1.9
+ACT,102,Fraser,8837,Watson,24865,LEE,Elizabeth,2,N,N,LP,Liberal,622,-1.14
+ACT,102,Fraser,8837,Watson,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,1297,1.36
+ACT,102,Fraser,8837,Watson,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,35,1.28
+ACT,102,Fraser,8837,Watson,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,29,1.06
+ACT,102,Fraser,8837,Watson,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,122,4.46
+ACT,102,Fraser,8837,Watson,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,577,-7.28
+ACT,102,Fraser,8837,Watson,999,Informal,Informal,999,N,N,,Informal,102,0.04
+ACT,102,Fraser,8838,Weetangera,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,28,1.48
+ACT,102,Fraser,8838,Weetangera,24865,LEE,Elizabeth,2,N,N,LP,Liberal,645,0.85
+ACT,102,Fraser,8838,Weetangera,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,884,-1.1
+ACT,102,Fraser,8838,Weetangera,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,30,1.59
+ACT,102,Fraser,8838,Weetangera,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,12,0.63
+ACT,102,Fraser,8838,Weetangera,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,55,2.91
+ACT,102,Fraser,8838,Weetangera,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,237,-4.34
+ACT,102,Fraser,8838,Weetangera,999,Informal,Informal,999,N,N,,Informal,58,0.16
+ACT,102,Fraser,64584,Woden FRASER PPVC,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,33,1.76
+ACT,102,Fraser,64584,Woden FRASER PPVC,24865,LEE,Elizabeth,2,N,N,LP,Liberal,583,0.24
+ACT,102,Fraser,64584,Woden FRASER PPVC,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,816,2.84
+ACT,102,Fraser,64584,Woden FRASER PPVC,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,61,3.26
+ACT,102,Fraser,64584,Woden FRASER PPVC,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,17,0.91
+ACT,102,Fraser,64584,Woden FRASER PPVC,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,96,5.13
+ACT,102,Fraser,64584,Woden FRASER PPVC,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,265,-11.78
+ACT,102,Fraser,64584,Woden FRASER PPVC,999,Informal,Informal,999,N,N,,Informal,41,-3.95
+ACT,102,Fraser,8839,Wreck Bay,24908,CHURCHILL,Darren Mark,1,N,N,DEM,Australian Democrats,0,0
+ACT,102,Fraser,8839,Wreck Bay,24865,LEE,Elizabeth,2,N,N,LP,Liberal,1,-7.21
+ACT,102,Fraser,8839,Wreck Bay,24147,LEIGH,Andrew,3,Y,Y,ALP,Australian Labor Party,56,19.73
+ACT,102,Fraser,8839,Wreck Bay,24246,ALCAZAR,Freddy Alejandro,4,N,N,PUP,Palmer United Party,0,0
+ACT,102,Fraser,8839,Wreck Bay,24251,ROSS,Jill Elizabeth,5,N,N,RUA,Rise Up Australia Party,0,0
+ACT,102,Fraser,8839,Wreck Bay,24135,HUGGINS,Sam,6,N,N,BTA,Bullet Train For Australia,0,0
+ACT,102,Fraser,8839,Wreck Bay,24890,VERWEY,Adam,7,N,N,GRN,Australian Greens,5,-9.59
+ACT,102,Fraser,8839,Wreck Bay,999,Informal,Informal,999,N,N,,Informal,4,4.61
