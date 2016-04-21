@@ -38,7 +38,7 @@ write.table(nat_map, "AECdata/National-map-10.csv", row.names=FALSE, col.names=T
             quote=TRUE)
 
 ####################
-nm <- read.csv("AECdata/National-map.csv")
+nm <- read.csv("AECdata/National-map-10.csv")
 ggplot(aes(map_id=id), data=nat_data) +
   geom_map(aes(fill=AREA_SQKM), map=nm) +
   expand_limits(x=nm$long, y=nm$lat) + 
