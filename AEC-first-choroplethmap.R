@@ -23,6 +23,7 @@ ggplot(aes(map_id=region), data=subset(abs2011, Name %in% both)) +
    expand_limits(x=nat_map$long, y=nat_map$lat) + 
    theme_map()
 
+save(nat_map, file="AECdata/nat_map.rda")
 ####
 # alternative solutions: merge the two data sets, then use polygon and filling colour:
 
