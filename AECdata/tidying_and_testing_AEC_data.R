@@ -32,6 +32,9 @@ ggplotly(p)
 election_results_df_loc <- full_join(election_results_df, polling_place_location, by = "PollingPlaceID")
 head(election_results_df_loc)
 
+# only electorates
+
+
 # do we have any polling places with no location data?
 election_results_df_loc %>% 
   select(DivisionID.x, PollingPlace, StateAb, GivenNm, Surname, PartyNm, Elected, Latitude, Longitude) %>% 
@@ -153,6 +156,7 @@ unique(nat_map$ELECT_DIV) # division name
 # common variables
 # maps   election   census
 # "ELECT_DIV" == "DivisionNm" == "ID"
+# region is the name of the electorate
 
 names(election_results_df_loc)
 names(polling_place_location)
@@ -174,4 +178,29 @@ election_results_df_loc %>%
   theme_map() +
   coord_map() +
   theme(legend.position = "bottom")
+
+################################################################
+# Rolling up results to electorate
+library(scales)
+p <- election_results_df_loc %>%
+  group_by(DivisionNm.x) %>%
+  summarise(
+    TotalVotes = sum(OrdinaryVotes),
+    ProportionLabor = round(sum(OrdinaryVotes[PartyNm == "Australian Labor Party"]) / TotalVotes, 3)) %>%
+  arrange(desc(ProportionLabor)) %>% 
+  left_join(polling_place_location, by = c("DivisionNm.x" = "DivisionNm")) %>% 
+  # str
+  group_by(State) %>% 
+  do(plots=ggplot(data = .) + 
+         aes(x = ProportionLabor, y = reorder(DivisionNm.x, ProportionLabor), size = TotalVotes) +
+         geom_point() +
+        scale_x_continuous("Proportion voting Labor Party", label = percent) +
+        scale_size("Number of\nvotes cast", label = comma)  )
+
+library(gridExtra)
+grid.arrange(p[[1]], p[[2]])
+ 
+
+
+
 
