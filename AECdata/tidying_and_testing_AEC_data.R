@@ -56,7 +56,7 @@ election_results_df_loc <- election_results_df_loc %>%
 head(election_results_df_loc)
                             
 # plot 
-ggplot(election_results_df_loc, aes(Longitude, Latitude, label = PremisesNm)) +
+ggplot(election_results_df_loc, aes(Longitude, Latitude)) +
   geom_point() +
   coord_equal() 
 
@@ -94,6 +94,23 @@ length(unique(election_results_df_loc_no_fac$DivisionID.x))
 election_results_df_loc_no_fac_no_dup <- 
   election_results_df_loc_no_fac %>% 
   select(-DivisionID.y, -DivisionID.y, -PollingPlaceNm)
+
+# plot 
+ggplot(election_results_df_loc_no_fac_no_dup, aes(Longitude, Latitude)) +
+  geom_point() +
+  coord_equal() 
+# why removed? because some with no location, and many dups for many candidates per location
+
+p1 <- election_results_df_loc_no_fac_no_dup %>% 
+  select(PollingPlace, Latitude, Longitude) %>% 
+  group_by(PollingPlace) %>% 
+  slice(1) %>% 
+  ggplot(aes(Longitude, Latitude, label = PollingPlace)) +
+  geom_point() +
+  coord_equal()
+p1
+# remvoe 147 with no lat longs
+# ggplotly(p1)
 
 # save as CSV
 write.csv(election_results_df_loc_no_fac_no_dup, "AECdata/HouseFirstPrefsByPollingPlaceAllStates.csv")
