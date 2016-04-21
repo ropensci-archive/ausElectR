@@ -26,6 +26,10 @@ for(i in 1:length(bfiles))
 }  
 rm(bfiles,newcols,bnew,i)
 
+# Filter "electorates" corresponding to shipping and "no usual address"
+abs2011all <- abs2011all[-grep("Shipping", abs2011all$Name),]
+abs2011all <- abs2011all[-grep("No Usual Address", abs2011all$Name),]
+
 # Create a new data frame with a subset of the variables
 abs2011 <- data.frame(ID = substr(abs2011all$region_id,4,6))
 abs2011$Name <- abs2011all$Name
