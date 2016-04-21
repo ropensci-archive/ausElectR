@@ -26,7 +26,7 @@ p <- ggplot(polling_place_location, aes(Longitude, Latitude, label = PremisesNm)
   geom_point() +
   coord_equal() 
 p
-ggplotly(p)
+# ggplotly(p)
 
 # join polling place locations to election results
 election_results_df_loc <- full_join(election_results_df, polling_place_location, by = "PollingPlaceID")
@@ -70,13 +70,22 @@ election_results_df_loc_no_fac <- election_results_df_loc %>%
 str(election_results_df_loc_no_fac)
 
 
-# seems like there's two names for the ALP
+# seems like there's two names for the ALP , called LP in NSW?
 unique(election_results_df_loc_no_fac$PartyNm)
 election_results_df_loc_no_fac$PartyNm <- with(election_results_df_loc, ifelse(PartyNm == "Labor", 
                                      "Australian Labor Party",
                                      PartyNm))
+# similar for the greens
+election_results_df_loc_no_fac$PartyNm <- with(election_results_df_loc, ifelse(PartyNm == "Australian Greens", 
+                                                                               "The Greens",
+                                                                               PartyNm))
 str(election_results_df_loc_no_fac)
 unique(election_results_df_loc_no_fac$PartyNm)
+
+# missing points for NT
+election_results_df_loc_no_fac %>% 
+  filter(StateAb == "NT") %>% View
+  filter()
 
 ## how many electoral districts?
 length(unique(election_results_df_loc$DivisionID.x))
@@ -93,10 +102,10 @@ load("echidnaR/data/aec2013.rda")
 
 ################################################################
 ## Overall results for first preferences -----------------------
-
+# by party
 election_results_df_loc_no_fac %>% 
-  select(PartyNm, OrdinaryVotes) %>% 
-  group_by(PartyNm) %>% 
+  select(PartyAb, PartyNm, OrdinaryVotes) %>% 
+  group_by(PartyNm, PartyAb) %>% 
   summarise(total_votes = sum(OrdinaryVotes)) %>% 
   ungroup() %>%
   arrange(desc(total_votes))
