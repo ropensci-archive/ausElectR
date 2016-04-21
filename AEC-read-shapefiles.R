@@ -16,6 +16,9 @@ library(rmapshaper)
 
 xxx <- ms_simplify(xx, keep=0.075) # use instead of thinnedSpatialPoly
 
+xxx <- ms_simplify(xx, keep=0.025) # use instead of thinnedSpatialPoly
+
+
 plot(xx) # just checking
 plot(xxx) # do those two plots look the same?
 
@@ -31,7 +34,7 @@ nat_map <- merge(nat_map, nat_data[,c("id", "STATE", "ELECT_DIV")])
 nat_map$group <- paste("g",nat_map$group,sep=".")
 nat_map$piece <- paste("p",nat_map$piece,sep=".")
 
-write.table(nat_map, "AECdata/National-map.csv", row.names=FALSE, col.names=TRUE, sep=",",
+write.table(nat_map, "AECdata/National-map-25.csv", row.names=FALSE, col.names=TRUE, sep=",",
             quote=TRUE)
 
 ####################
