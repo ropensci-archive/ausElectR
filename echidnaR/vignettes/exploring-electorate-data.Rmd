@@ -1,6 +1,6 @@
 ---
 title: "Using echidnaR"
-author: "Rob Hyndman, Di Cook, Heike Hoffman, Ben Marwick, Carson Sievert, Fang Zhou, Nicholas Tierney."
+author: "Di Cook, Heike Hoffman, Rob Hyndman, Ben Marwick, Carson Sievert, Nicholas Tierney, Fang Zhou."
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
@@ -10,25 +10,25 @@ vignette: >
 ---
 
 
-```{r setup}
+```{r setup, echo=FALSE}
 
-knitr::opts_chunk$set(fig.width = 5,
-                      fig.height = 5,
+knitr::opts_chunk$set(fig.width = 6,
+                      fig.height = 4,
                       fig.align='center',
                       dev = "png")
 
 ```
 
 
-```{r}
+```{r, echo=FALSE}
 
 # load_all(pkg = "echidnaR/")
 
 ```
 
-`echidnaR` is an R package that makes it easy to look at the data from the 2011 Australian Census.
+`echidnaR` is an R package that makes it easy to look at the data from the 2011 Australian Census, and the 2013 Federal Election.
 
-This vignette (so far) documents how to access the data, and what it is.
+This vignette documents how to access the 2011 Census data, and what it contains.
 
 The data is loaded as `abs2011`. Let's look take a brief glimpse of the data.
 
@@ -42,7 +42,7 @@ glimpse(abs2011)
 
 Here we see that we have 150 observations and 28 variables.
 
-Each observation is data pertaining to a particular federal electorate as described by <url to the gov website of electorates>.
+Each observation is data pertaining to a particular federal electorate as described by http://www.aec.gov.au/profiles/.
 
 Each column is now described here:
 
@@ -61,12 +61,12 @@ data_dictionary <- data_frame(
     "Postgraduate",
     "Christianity",
     "Catholic",
-    "Buddhist",
+    "Buddhism",
     "Islam",
     "Judaism",
     "NoReligion",
-    "Age0_4",
-    "Age5_14",
+    "Age00_04",
+    "Age05_14",
     "Age15_19",
     "Age20_24",
     "Age25_34",
@@ -100,7 +100,7 @@ data_dictionary <- data_frame(
     "Percentage of people affiliated with the Catholic denomimation.",
     "Percentage of people affiliated with the Buddhist religion.",
     "Percentage of people affiliated with the Islam religion.",
-    "Percentageof people affiliated with the Jewish religion. ",
+    "Percentage of people affiliated with the Jewish religion. ",
     "Percentage of people with no religion.",
     "Percentage of people aged 0-4.",
     "Percentage of people aged 5-9.",
@@ -157,7 +157,7 @@ abs2011 %>%
   theme_minimal() + 
   theme(legend.position = "none") +
   labs(y = "% in Electorate")
-             
+
 
 ```
 
@@ -167,7 +167,7 @@ abs2011 %>%
 
 ggplot(data = abs2011,
        aes(x = Unemployed)) + 
-  geom_density(fill = "salmon") + 
+  geom_density(fill = "salmon", bw="SJ") + 
   geom_rug(colour = "salmon") +
   theme_minimal()
 
@@ -357,7 +357,3 @@ ggplot(data = ,
 
 One of the really amazing things about this R package is that it contains the shapefiles of the electorates. These are coming soon!
 
-Some small gripes.
-
-- Variable names: Should they not be capitalised?
-- State names: These are capitalised for ACT and NSW, but not for Qld and Vic

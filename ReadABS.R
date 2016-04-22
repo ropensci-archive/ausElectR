@@ -27,7 +27,7 @@ colnames(areas) <- c("region_id", "Electorate", "Area")
 # Get states and electorate names
 tmp <- str_split(areas[["Electorate"]],", ")
 areas$Name <- unlist(lapply(tmp, function(x)x[1]))
-areas$State <- unlist(lapply(tmp, function(x)x[2]))
+areas$State <- toupper(unlist(lapply(tmp, function(x)x[2])))
 areas$Electorate <- NULL
 abs2011all <- areas
 rm(tmp,areas)
@@ -68,8 +68,8 @@ abs2011$Buddhism <- abs2011all$Buddhism_P / abs2011all$Tot_P_P * 100
 abs2011$Islam <- abs2011all$Islam_P / abs2011all$Tot_P_P * 100
 abs2011$Judaism <- abs2011all$Judaism_P / abs2011all$Tot_P_P * 100
 abs2011$NoReligion <- abs2011all$No_Religion_P / abs2011all$Tot_P_P * 100
-abs2011$Age0_4 <- abs2011all$Age_0_4_yr_P / abs2011all$Tot_P_P * 100
-abs2011$Age5_14 <- abs2011all$Age_5_14_yr_P / abs2011all$Tot_P_P * 100
+abs2011$Age00_04 <- abs2011all$Age_0_4_yr_P / abs2011all$Tot_P_P * 100
+abs2011$Age05_14 <- abs2011all$Age_5_14_yr_P / abs2011all$Tot_P_P * 100
 abs2011$Age15_19 <- abs2011all$Age_15_19_yr_P / abs2011all$Tot_P_P * 100
 abs2011$Age20_24 <- abs2011all$Age_20_24_yr_P / abs2011all$Tot_P_P * 100
 abs2011$Age25_34 <- abs2011all$Age_25_34_yr_P / abs2011all$Tot_P_P * 100
