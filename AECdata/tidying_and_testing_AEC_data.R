@@ -166,7 +166,7 @@ aec2013_electorates %>%
 # yes, ok
 
 
-save(aec2013, file="echidnaR/data/aec2013_electorates.rda")
+save(aec2013_electorates, file="echidnaR/data/aec2013_electorates.rda")
 load("echidnaR/data/aec2013_electorates.rda")
 # load("echidnaR/data/abs2011.rda")
 
