@@ -4,7 +4,7 @@ hexDat <- lapply(hexFiles, read.table, header = T)
 states <- sub(".*/([a-z]+)hex.txt", "\\1", hexFiles)
 hexDat <- Map(function(x, y) cbind(x, state = y), hexDat, states)
 hexDat <- dplyr::bind_rows(hexDat)
-names(hexDat) <- c("x", "y", "Name", "state")
+names(hexDat) <- c("x", "y", "Electorate", "state")
 bumps <- read.csv(text = "
 state, xbump, ybump
 nsw, 0, 0
@@ -22,7 +22,7 @@ hexDat$xcent <- with(hexDat, x*sqrt(3) - (y%%2) * sqrt(3)/2)
 hexDat$ycent <- with(hexDat, y*1.5)
 
 library(plotly)
-p <- ggplot(hexDat, aes(xcent, ycent, text = Name)) + 
+p <- ggplot(hexDat, aes(xcent, ycent, text = Electorate)) + 
   geom_hex(stat = "identity") + 
   lims(x=c(-80, 8), y=c(-40, 50))
 ggplotly(p, tooltip = "text")
