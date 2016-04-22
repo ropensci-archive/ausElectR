@@ -26,9 +26,8 @@ colnames(areas) <- c("region_id", "Electorate", "Area")
 
 # Get states and electorate names
 tmp <- str_split(areas[["Electorate"]],", ")
-areas$Name <- unlist(lapply(tmp, function(x)x[1]))
+areas$Electorate <- unlist(lapply(tmp, function(x)x[1]))
 areas$State <- toupper(unlist(lapply(tmp, function(x)x[2])))
-areas$Electorate <- NULL
 abs2011all <- areas
 rm(tmp,areas)
 
@@ -48,13 +47,13 @@ for(i in 1:length(bfiles))
 rm(bfiles,newcols,bnew,i)
 
 # Filter "electorates" corresponding to shipping and "no usual address"
-abs2011all <- abs2011all[-grep("Shipping", abs2011all$Name),]
-abs2011all <- abs2011all[-grep("No Usual Address", abs2011all$Name),]
+abs2011all <- abs2011all[-grep("Shipping", abs2011all$Electorate),]
+abs2011all <- abs2011all[-grep("No Usual Address", abs2011all$Electorate),]
 
 # Create a new data frame with a subset of the variables
 abs2011 <- data.frame(ID = substr(abs2011all$region_id,4,6))
-abs2011$Name <- abs2011all$Name
-abs2011$Name[abs2011$Name=="Mcewen"] <- "McEwen"
+abs2011$Electorate <- abs2011all$Electorate
+abs2011$Electorate[abs2011$Electorate=="Mcewen"] <- "McEwen"
 abs2011$State <- abs2011all$State
 abs2011$Population <- abs2011all$Tot_P_P
 abs2011$Area <- abs2011all$Area
