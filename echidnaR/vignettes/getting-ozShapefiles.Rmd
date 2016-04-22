@@ -89,7 +89,7 @@ Polygon(polys[1])
 ```
 From this, we want to extract the `labpt` component, because those are the centroids we are interested in. We will wrap this into a little function called `centroid` to help us with that:
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 library(dplyr)
 centroid <- function(i, polys) {
   ctr <- Polygon(polys[i])@labpt
@@ -99,14 +99,14 @@ centroids <- seq_along(polys) %>% purrr::map_df(centroid, polys=polys)
 head(centroids)
 ```
 The centroids come in the same order as the data (luckily) and we just extend the data set for the electorates by this information, and finally export:
-```{r}
+```{r, message=FALSE, warning=FALSE}
 nat_data <- data.frame(nat_data, centroids)
 write.csv(nat_data, "National-data-2013.csv", row.names=FALSE)
 ```
 
 
 Finally, just to check the data, a map of the Australian electorates colored by their size as given in the data (variable `AREA_SQKM`):
-```{r, message=FALSE}
+```{r, message=FALSE, warning=FALSE}
 library(ggplot2)
 library(ggthemes)
 ggplot(aes(map_id=id), data=nat_data) +
