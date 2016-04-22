@@ -158,8 +158,7 @@ aes_first_pref %>%
   arrange(desc(OrdinaryVotes)) %>% 
   head()
 
-# my result does not agree with AEC result for OrdinaryVotes... why?
-# sum of polling place counts is more than AEC official for ALP and some others...
+# agrees!
 
 ################################################################
 # winner for each electorate ----------------------------------
@@ -216,7 +215,7 @@ names(polling_place_location)
 
 
 # plot electorates to show proportion of labor votes
-election_results_df_loc %>%
+election_results_df_loc_no_fac_no_dup %>%
   # compute proportion of votes for labor by
   group_by(PollingPlaceID) %>% 
   summarise(ProportionLabour = sum(OrdinaryVotes[PartyNm == "Australian Labor Party"]) / sum(OrdinaryVotes)) %>% 
@@ -236,7 +235,7 @@ election_results_df_loc %>%
 # Rolling up results to electorate
 
 # watch out for zeros...
-election_results_df_loc_no_fac %>% 
+election_results_df_loc_no_fac_no_dup %>% 
   group_by(PollingPlaceID) %>%
   summarise(TotalVotes = sum(OrdinaryVotes))   %>% 
   filter(TotalVotes == 0) %>% 
@@ -246,7 +245,7 @@ election_results_df_loc_no_fac %>%
 
 # exclude polling  places with no votes
 library(scales)
-p <- election_results_df_loc_no_fac %>%
+p <- election_results_df_loc_no_fac_no_dup %>%
   group_by(DivisionNm.x) %>%
   summarise(
     TotalVotes = sum(OrdinaryVotes),
@@ -277,11 +276,11 @@ do.call("grid.arrange", c(p$plots, ncol=nCol))
 # --------------------------------------------------------------------
 # Interesting things to show for each electorate
 
-# polling place level vote counts to percentages of the
+# electorate level vote counts to percentages of the
 # formal vote, computes the informal vote percentage, 
 #  and the total number of votes cast at a particular
 # electorate 
-
+election_results_df_loc_no_fac_no_dup
 
 
 
