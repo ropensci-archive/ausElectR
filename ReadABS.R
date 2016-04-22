@@ -27,7 +27,7 @@ colnames(areas) <- c("region_id", "Electorate", "Area")
 # Get states and electorate names
 tmp <- str_split(areas[["Electorate"]],", ")
 areas$Name <- unlist(lapply(tmp, function(x)x[1]))
-areas$State <- unlist(lapply(tmp, function(x)x[2]))
+areas$State <- toupper(unlist(lapply(tmp, function(x)x[2])))
 areas$Electorate <- NULL
 abs2011all <- areas
 rm(tmp,areas)
