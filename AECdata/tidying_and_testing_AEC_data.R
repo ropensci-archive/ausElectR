@@ -280,7 +280,30 @@ do.call("grid.arrange", c(p$plots, ncol=nCol))
 # formal vote, computes the informal vote percentage, 
 #  and the total number of votes cast at a particular
 # electorate 
-election_results_df_loc_no_fac_no_dup
+
+# parties of interest
+parties_of_interest <- c("ALP", "GRN", "LP", "NP", "CLP", "LNQ")
+
+electorate_level_formal_vote_counts_by_major_party <- 
+# formal vote
+election_results_df_loc_no_fac_no_dup %>% 
+  mutate(formal = BallotPosition != 999) %>% 
+  group_by(DivisionNm.x, PartyAb) %>% 
+  summarize(total_formal = sum(OrdinaryVotes[formal], na.rm=TRUE),
+            prop_informal  = sum(OrdinaryVotes[!formal]/(sum(OrdinaryVotes, na.rm=TRUE) * 100))) %>%
+  # each electorate sums to not quite 100%, but pretty close
+  mutate(prop_total_of_electorate = total_formal / sum(total_formal)) %>% 
+  filter(PartyAb %in% parties_of_interest) 
+
+# get some electorates to test
+some_electorates <- unique(electorate_level_formal_vote_counts_by_major_party$DivisionNm.x)[1:5]
+electorate_level_formal_vote_counts_by_major_party %>% 
+ filter(DivisionNm.x %in% some_electorates) %>% 
+ggplot(aes(PartyAb, prop_total_of_electorate)) +
+  geom_bar(stat = "identity") +
+  xlab("Party") +
+  ylab("Proportion of total formal \nvotes in the electorate") +
+  facet_wrap( ~ DivisionNm.x)
 
 
 
