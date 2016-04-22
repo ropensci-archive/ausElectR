@@ -136,7 +136,7 @@ vote_types <- read.csv("AECdata/HouseFirstPrefsByCandidateByVoteTypeDownload-174
 # save as CSV
 write.csv(election_results_df_loc_no_fac_no_dup, "AECdata/HouseFirstPrefsByPollingPlaceAllStates.csv")
 
-# write as rds
+# write as rda
 aec2013 <- election_results_df_loc_no_fac_no_dup
 
 # Change variable names to match abs2011 where possible.
@@ -147,6 +147,29 @@ aec2013$StateAb <- NULL
 save(aec2013, file="echidnaR/data/aec2013.rda")
 load("echidnaR/data/aec2013.rda")
 # load("echidnaR/data/abs2011.rda")
+
+##################################
+### aggregate by electorate and save as rda
+electorate_variables <-  c("ID", "Electorate", "CandidateID",        "Surname",           
+"GivenNm",            "BallotPosition",     "Elected" ,          
+ "HistoricElected",    "PartyAb" ,           "PartyNm",       "State")
+
+aec2013_electorates <- aec2013 %>% 
+  group_by_(.dots = electorate_variables) %>% 
+  summarise(Total_OrdinaryVotes_per_electorate = sum(OrdinaryVotes))
+
+# check 
+aec2013_electorates %>% 
+  group_by(PartyAb) %>% 
+  summarise(Total_votes = sum(Total_OrdinaryVotes_per_electorate)) %>% 
+  arrange(desc(Total_votes))
+# yes, ok
+
+
+save(aec2013, file="echidnaR/data/aec2013_electorates.rda")
+load("echidnaR/data/aec2013_electorates.rda")
+# load("echidnaR/data/abs2011.rda")
+
 
 
 ################################################################
@@ -305,28 +328,51 @@ do.call("grid.arrange", c(p$plots, ncol=nCol))
 # parties of interest
 parties_of_interest <- c("ALP", "GRN", "LP", "NP", "CLP", "LNQ")
 
+
+country_level_formal_vote_counts_by_major_party <- 
+  aec2013 %>% 
+  mutate(formal = BallotPosition != 999) %>% 
+  # proportion of votes for only the selected parties, ie. a relative comparison
+  filter(PartyAb %in% parties_of_interest) %>% 
+  group_by(PartyAb) %>% 
+  summarize(total_formal = sum(OrdinaryVotes[formal], na.rm=TRUE),
+            prop_informal  = sum(OrdinaryVotes[!formal]/(sum(OrdinaryVotes, na.rm=TRUE) * 100))) %>%
+  mutate(prop_total_votes_in_the_country = total_formal / sum(total_formal))  
+ 
+p <- ggplot(country_level_formal_vote_counts_by_major_party, 
+            aes(PartyAb, prop_total_votes_in_the_country)) +
+            geom_bar(stat="identity")
+
+# check
+sum(country_level_formal_vote_counts_by_major_party$prop_total_votes_in_the_country)
+
+
 electorate_level_formal_vote_counts_by_major_party <- 
   # formal vote
   aec2013 %>% 
   mutate(formal = BallotPosition != 999) %>% 
+  # proportion of votes for only the selected parties, ie. a relative comparison
+  filter(PartyAb %in% parties_of_interest) %>%
   group_by(DivisionNm.x, PartyAb) %>% 
   summarize(total_formal = sum(OrdinaryVotes[formal], na.rm=TRUE),
             prop_informal  = sum(OrdinaryVotes[!formal]/(sum(OrdinaryVotes, na.rm=TRUE) * 100))) %>%
   # each electorate sums to not quite 100%, but pretty close
   mutate(prop_total_of_electorate = total_formal / sum(total_formal)) %>% 
-  rename(Electorate = DivisionNm.x) %>% 
-  filter(PartyAb %in% parties_of_interest) 
+  rename(Electorate = DivisionNm.x)  
 
 # get some electorates to test
 some_electorates <- unique(electorate_level_formal_vote_counts_by_major_party$DivisionNm.x)[1:5]
+
 electorate_level_formal_vote_counts_by_major_party %>% 
-  filter(Electorate %in% some_electorates) %>% 
+  filter(Electorate %in% some_electorates[1]) %>% 
   ggplot(aes(PartyAb, prop_total_of_electorate)) +
   geom_bar(stat = "identity") +
   xlab("Party") +
   ylab("Proportion of total formal \nvotes in the electorate") +
-  facet_wrap( ~ DivisionNm.x) +
+  #facet_wrap( ~ DivisionNm.x) +
   theme_bw()
+
+
 
 
 

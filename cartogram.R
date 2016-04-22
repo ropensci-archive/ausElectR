@@ -101,6 +101,28 @@ ggplot(data=nat_map) +
   geom_text(data=aec_cart_join, aes(x=x, y=y, label=id), size=0.5) +
   theme_map + coord_equal()
 
+# Attach electoral winners data
+aes_winners <- read.csv(paste0(getwd(), "/AECdata/HouseMembersElectedDownload-17496.csv"), skip = 1)
+aes_winners %>% select(DivisionNm, PartyNm) %>% 
+  merge(aec_cart_join, by.x="DivisionNm", by.y="ELECT_DIV") -> cart.winners.large
+
+# Bring different versions of the Liberal Party together
+cart.winners.large$PartyNm <- as.character(cart.winners.large$PartyNm)
+Liberalversions <- c("Country Liberals (NT)", "Liberal", "Liberal National Party", "The Nationals")
+cart.winners.large <- mutate(cart.winners.large, PartyNm = ifelse(as.character(PartyNm) %in% Liberalversions,
+                                                      "Liberal National Coalition", PartyNm))
+
+#Colour by elected party, order = Labor, Independent, Katters, Lib/Nats, Palmer, Greens
+partycolours = c("#FF0000", "#000000", "#550000", "#0000FF", "#FF9900", "#00FF00")
+
+# Plot it
+ggplot(data=nat_map) +
+  geom_polygon(aes(x=long, y=lat, group=group, order=order),
+               fill="grey90", colour="white") +
+  geom_point(data=cart.winners.large, aes(x=x, y=y, colour=PartyNm), size=1, alpha=0.4) +
+  theme_map + coord_equal() + scale_colour_manual(name="Politcal Party", values=partycolours)
+
+
 
 # Make cartograms
 aec_data.syd.cart <- dorling(aec_data.syd$id, aec_data.syd$long_c,
@@ -135,13 +157,27 @@ aec_data.cart$x[is.na(aec_data.cart$x)] <- aec_data.cart$long_c[is.na(aec_data.c
 aec_data.cart$y[is.na(aec_data.cart$y)] <- aec_data.cart$lat_c[is.na(aec_data.cart$y)]
 aec_data.cart$radius[is.na(aec_data.cart$radius)] <- 0.06690128
 
+# Attach electoral winners data
+#aes_winners <- read.csv(paste0(getwd(), "/AECdata/HouseMembersElectedDownload-17496.csv"), skip = 1)
+aes_winners %>% select(DivisionNm, PartyNm) %>% 
+  merge(aec_data.cart, by.x="DivisionNm", by.y="ELECT_DIV") -> cart.winners
+
+# Bring different versions of the Liberal Party together
+cart.winners$PartyNm <- as.character(cart.winners$PartyNm)
+#Liberalversions <- c("Country Liberals (NT)", "Liberal", "Liberal National Party", "The Nationals")
+cart.winners <- mutate(cart.winners, PartyNm = ifelse(as.character(PartyNm) %in% Liberalversions,
+                                                      "Liberal National Coalition", PartyNm))
+
+#Colour by elected party, order = Labor, Independent, Katters, Lib/Nats, Palmer, Greens
+#partycolours = c("#FF0000", "#000000", "#550000", "#0000FF", "#FF9900", "#00FF00")
+
 # Plot it
 ggplot(data=nat_map) +
   geom_polygon(aes(x=long, y=lat, group=group, order=order),
                fill="grey90", colour="white") +
-  geom_point(data=aec_data.cart, aes(x=x, y=y), size=1, alpha=0.4,
-             colour="#572d2c") +
-  theme_map + coord_equal()
+  geom_point(data=cart.winners, aes(x=x, y=y, colour=PartyNm), size=1, alpha=0.4) +
+  theme_map + coord_equal() + scale_colour_manual(name="Politcal Party", values=partycolours)
+
 
 # write file
 write_csv(aec_data.cart, "AECdata/National-data-dorling.csv")
