@@ -1,7 +1,7 @@
 library(shiny)
 library(leaflet)
 
-load("parties.rda")
+load("Data/parties.rda")
 
 shinyUI(fluidPage(
   
