@@ -39,15 +39,13 @@ election_results_df_loc <- full_join(election_results_df, polling_place_location
 election_results_df_loc %>% 
   select(DivisionID.x, PollingPlace, StateAb, GivenNm, Surname, PartyNm, Elected, Latitude, Longitude) %>% 
   filter(Elected == "Y") %>% 
-  filter(is.na(Latitude)) %>% 
-  View
+  filter(is.na(Latitude)) 
 # yes, 540 hospitals, etc.  
 
 # do we have polling places with no election data?
 election_results_df_loc %>% 
   select(DivisionID.y, PollingPlaceID, Elected, Latitude, Longitude) %>% 
-  filter(is.na(Elected)) %>% 
-  View
+  filter(is.na(Elected)) 
 # yes 104 locations with no election data. 
 
 # Let's exclude locaitons with no election data
@@ -56,7 +54,7 @@ election_results_df_loc <- election_results_df_loc %>%
 # head(election_results_df_loc)
 
 # plot 
-ggplot(election_results_df_loc, aes(Longitude, Latitude)) +
+p <- ggplot(election_results_df_loc, aes(Longitude, Latitude)) +
   geom_point() +
   coord_equal() 
 
@@ -69,9 +67,8 @@ election_results_df_loc_no_fac <- election_results_df_loc %>%
   rbind_list
 # str(election_results_df_loc_no_fac)
 
-
 # seems like there's multiple names for the ALP...
-unique(election_results_df_loc_no_fac$PartyNm)
+# unique(election_results_df_loc_no_fac$PartyNm)
 election_results_df_loc_no_fac$PartyNm <- with(election_results_df_loc_no_fac, ifelse(PartyNm == "Labor" |
                                                                                         PartyNm =="Australian Labor Party (Northern Territory) Branch" |
                                                                                         PartyNm ==  "Country Labor", 
@@ -88,6 +85,14 @@ election_results_df_loc_no_fac$PartyNm <- with(election_results_df_loc_no_fac, i
                                                                                       "The Nationals",
                                                                                       PartyNm))
 
+# make some electorate names match the spatial data
+election_results_df_loc_no_fac$DivisionNm.x <- with(election_results_df_loc_no_fac, ifelse(DivisionNm.x == "McMillan",
+                                                                                           "Mcmillan",
+                                                                                           DivisionNm.x))
+
+election_results_df_loc_no_fac$DivisionNm.x <- with(election_results_df_loc_no_fac, ifelse(DivisionNm.x == "McPherson",
+                                                                                           "Mcpherson",
+                                                                                           DivisionNm.x))
 # str(election_results_df_loc_no_fac)
 # unique(election_results_df_loc_no_fac$PartyNm)
 
@@ -109,7 +114,7 @@ election_results_df_loc_no_fac_no_dup <-
 
 
 # plot 
-ggplot(election_results_df_loc_no_fac_no_dup, aes(Longitude, Latitude)) +
+p <- ggplot(election_results_df_loc_no_fac_no_dup, aes(Longitude, Latitude)) +
   geom_point() +
   coord_equal() 
 # why removed? because some with no location, and many dups for many candidates per location
@@ -121,7 +126,6 @@ p1 <- election_results_df_loc_no_fac_no_dup %>%
   ggplot(aes(Longitude, Latitude, label = PollingPlace)) +
   geom_point() +
   coord_equal()
-p1
 # remvoe 147 with no lat longs
 # ggplotly(p1)
 
@@ -165,7 +169,7 @@ aes_first_pref %>%
 
 election_results_df_loc_no_fac_no_dup %>% 
   group_by(DivisionID.x) %>% 
-  select(DivisionID.x, StateAb, GivenNm, Surname, PartyNm, Elected) %>% 
+  select(DivisionID.x, DivisionNm.x, StateAb, GivenNm, Surname, PartyNm, Elected) %>% 
   filter(Elected == "Y") %>% 
   slice(1) %>% 
   ungroup %>% 
@@ -188,10 +192,9 @@ proportions <- election_results_df_loc_no_fac_no_dup %>%
   group_by(DivisionID.x) %>%
   summarise(Prop_Labour = sum(OrdinaryVotes[PartyNm == "Australian Labor Party"]) / sum(OrdinaryVotes),
             Prop_Liberal = sum(OrdinaryVotes[PartyNm == "Liberal"]) / sum(OrdinaryVotes),
-            Prop_LiberalNational = sum(OrdinaryVotes[PartyNm == "Liberal National Party"]) / sum(OrdinaryVotes),
             Prop_Greens = sum(OrdinaryVotes[PartyNm == "The Greens"]) / sum(OrdinaryVotes))
 library(GGally)
-ggpairs(proportions, columns = 2:ncol(proportions))
+ggpairs(proportions, columns = 2:ncol(proportions)) + theme_bw()
 
 ################################################################
 # Geographical location of voting places ----------------------
@@ -258,10 +261,11 @@ p <- election_results_df_loc_no_fac_no_dup %>%
   do(plots=ggplot(data = .) + 
        aes(x = ProportionLabor, y = reorder(DivisionNm.x, ProportionLabor), size = TotalVotes, label = State) +
        geom_point() +
+       ylab("Electorate") +
        labs(title = .$State) + 
-       xlab("Electorate") +
        scale_x_continuous("Proportion voting Labor Party", label = percent) +
-       scale_size("Number of\nvotes cast", label = comma)  ) 
+       scale_size("Number of\nvotes cast", label = comma)  +
+       theme_bw())
 
 
 library(gridExtra)
@@ -285,8 +289,8 @@ do.call("grid.arrange", c(p$plots, ncol=nCol))
 parties_of_interest <- c("ALP", "GRN", "LP", "NP", "CLP", "LNQ")
 
 electorate_level_formal_vote_counts_by_major_party <- 
-# formal vote
-election_results_df_loc_no_fac_no_dup %>% 
+  # formal vote
+  election_results_df_loc_no_fac_no_dup %>% 
   mutate(formal = BallotPosition != 999) %>% 
   group_by(DivisionNm.x, PartyAb) %>% 
   summarize(total_formal = sum(OrdinaryVotes[formal], na.rm=TRUE),
@@ -298,12 +302,13 @@ election_results_df_loc_no_fac_no_dup %>%
 # get some electorates to test
 some_electorates <- unique(electorate_level_formal_vote_counts_by_major_party$DivisionNm.x)[1:5]
 electorate_level_formal_vote_counts_by_major_party %>% 
- filter(DivisionNm.x %in% some_electorates) %>% 
-ggplot(aes(PartyAb, prop_total_of_electorate)) +
+  filter(DivisionNm.x %in% some_electorates) %>% 
+  ggplot(aes(PartyAb, prop_total_of_electorate)) +
   geom_bar(stat = "identity") +
   xlab("Party") +
   ylab("Proportion of total formal \nvotes in the electorate") +
-  facet_wrap( ~ DivisionNm.x)
+  facet_wrap( ~ DivisionNm.x) +
+  theme_bw()
 
 
 
