@@ -2,8 +2,8 @@ library(shiny)
 library(leaflet)
 library(dplyr)
 
-load("proportions.rda")
-load("parties.rda")
+load("Data/proportions.rda")
+load("Data/parties.rda")
 
 shinyServer(function(input, output, session) {
     # input <- data.frame(party = "ALP")

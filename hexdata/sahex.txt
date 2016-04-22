@@ -8,6 +8,5 @@ x  y  electorate
 1 1 "Makin"
 0 2 "Wakefield"
 0 -3 "Mayo"
-2 1 "Makin"
 1 -2 "Barker"
 -3 8 "Grey"
