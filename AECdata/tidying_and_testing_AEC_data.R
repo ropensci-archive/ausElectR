@@ -289,7 +289,7 @@ aec2013 %>%
 # exclude polling  places with no votes
 library(scales)
 p <- aec2013 %>%
-  group_by(DivisionNm.x) %>%
+  group_by(Electorate) %>%
   summarise(
     TotalVotes = sum(OrdinaryVotes),
     ProportionLabor = round(sum(OrdinaryVotes[PartyNm == "Australian Labor Party"]) / TotalVotes, 3)) %>%
@@ -299,7 +299,7 @@ p <- aec2013 %>%
   # str
   group_by(State) %>% 
   do(plots=ggplot(data = .) + 
-       aes(x = ProportionLabor, y = reorder(DivisionNm.x, ProportionLabor), size = TotalVotes, label = State) +
+       aes(x = ProportionLabor, y = reorder(Electorate, ProportionLabor), size = TotalVotes, label = State) +
        geom_point() +
        ylab("Electorate") +
        labs(title = .$State) + 
