@@ -1,0 +1,97 @@
+---
+title: "VisualElect2016"
+author: "Fang Zhou"
+date: "Friday, April 22, 2016"
+output: html_document
+---
+
+This is an R Markdown document, which includes R codes and outputs for visualizing australia election data.
+
+##Step 1: 
+load the R packages.
+```{r}
+library(ggplot2)
+library(maps)
+library(grid)
+library(dplyr)
+library(ggthemes)
+```
+
+##Step 2: 
+load three data sources, includes national map data, cencus data, and election data.
+```{r}
+load("Data/nat_data.rda")
+load("Data/nat_map.rda")
+load("Data/abs2011.rda")
+load("Data/election.rda")
+```
+
+
+##Step 3: 
+manipulate national map data and visualize the national informaiton,such as area size of each state, population proportions, and so on.
+```{r}
+names(nat_data)[names(nat_data)=="SORTNAME"]="Name"
+datamap<-merge(nat_map,nat_data,by=c("Name","STATE"))
+datamap <- datamap[order(datamap$order),]
+
+
+datamap<-datamap %>%
+      group_by(STATE) %>%
+      summarize(longcen=(max(long)+min(long))/2,latcen=(max(lat)+min(lat))/2) %>%
+      left_join(datamap,by="STATE") %>%
+      mutate(lab = paste0("<center>", STATE, "<br>", 
+                    " Area Size By State, ", AREA_SQKM, "</center>")) 
+head(datamap) 
+
+datamap %>%
+ggplot(aes(x=STATE,y=AREA_SQKM,fill=STATE))+
+  geom_bar(stat="identity") 
+
+source("https://gist.githubusercontent.com/briatte/4718656/raw/2c4e71efe6d46f37e7ea264f5c9e1610511bcb09/ggplot2-map-theme.R")
+
+datamap %>% 
+ggplot(aes(x = long, y = lat,fill=STATE,colour=STATE)) +
+  geom_point() +
+  geom_point(aes(x=longcen,y=latcen,colour=STATE,size=AREA_SQKM))+
+  coord_map() +
+  theme_map() +
+  theme(legend.position = c(0.04, 0.04)) +
+  ggtitle("map for australia\n")
+
+```
+
+##Step 4:
+manipulate the election data with dplyr and visualize the proportion of party vote they got at individual polling place.
+
+```{r}
+election$Name<-factor(election$DivisionNm.x)
+proportions <- election %>%
+  group_by(PollingPlace, PartyAb) %>%
+  summarise(Votes = sum(OrdinaryVotes)) %>%
+  ungroup() %>%
+  group_by(PollingPlace) %>%
+  mutate(prop = Votes / sum(Votes)) %>%
+  filter(PartyAb %in% c("ALP","LP","LNP","GRN","PUP","NP","IND","KAP")) %>%
+  mutate(lab = paste0("<center>", PollingPlace, "<br>", 
+                      PartyAb, ": ", Votes, " votesbyparty, ",
+                      round(prop * 100), "%</center>")) %>%
+  left_join(election,by=c("PollingPlace","PartyAb")) %>%
+  select(PollingPlace, PartyAb, Votes, prop, Longitude,Latitude,lab) 
+
+head(proportions)
+
+proportions %>%
+ggplot(aes(x = Longitude, y = Latitude,colour = prop)) +
+    geom_point() +
+    facet_wrap(~PartyAb)+
+    coord_map() +    
+    theme_map() +
+    theme(legend.position = c(0.7,0.04)) +
+    ggtitle("Voting patterns in the 2016 General Election\n")
+
+```
+
+
+
+
+
