@@ -1,6 +1,7 @@
 library(cartogram) #github.com/chxy/cartogram
 library(dplyr)
 library(readr)
+library(purrr)
 
 # Read data
 #aec_polys <- read_csv("AECdata/National-map.csv")
@@ -34,6 +35,72 @@ aec_data.per <- aec_data %>% filter(long_c > 115 & long_c < 117 &
                                       lat_c < (-30.0) & lat_c > (-33.0))
 aec_data.ade <- aec_data %>% filter(long_c > 138 & long_c < 139 &
                                       lat_c < (-34.5) & lat_c > (-35.5))
+# Function to extract region
+syd <- list(c(151.2, -33.8))
+aec_extract_f <- function(aec_data, ctr=c(151.2, -33.8),
+                        expand=c(3,4.5), ...) {
+  aec_data_sub <- aec_data %>% filter(long_c > ctr[1]-expand[1]  &
+                                        long_c < ctr[1]+expand[1] &
+                                        lat_c > ctr[2]-expand[2] &
+                                        lat_c < ctr[2]+expand[2])
+  return(aec_data_sub)
+}
+aec_data_syd <- aec_extract(aec_data, expand=list(c(2,3)))
+ggplot(data=aec_data_syd) +
+  geom_point(aes(x=long_c, y=lat_c), size=4, colour="red")
+
+aec_carto_f <-function(aec_data_sub, polygon.vertex=6, name.text=TRUE,
+                     dist.ratio=dist.ratio, iteration=100,
+                     xlab="", ylab="", ...) {
+  #aec_data_sub <- aec_extract(aec_data)
+  aec_data_dor <- dorling(aec_data_sub$id, aec_data_sub$long_c,
+                          aec_data_sub$lat_c, aec_data_sub$POPULATION,
+          polygon.vertex=polygon.vertex,
+          name.text=name.text,
+          dist.ratio=dist.ratio,
+          iteration=iteration,
+          xlab=xlab, ylab=ylab)
+  return(aec_data_dor)
+}
+aec_data_dor <- aec_carto(aec_data, expand=list(c(3,4.5)))
+
+# Now a function to pack all together
+aec_carto_join_f <- function(aec_data, aec_carto) {
+  aec_carto_join <- merge(aec_data, aec_carto, by="id", all=TRUE)
+
+  # Make corto centers of remote districts same as actual lat/long
+  aec_carto_join$x[is.na(aec_carto_join$x)] <-
+    aec_carto_join$long_c[is.na(aec_carto_join$x)]
+  aec_carto_join$y[is.na(aec_carto_join$y)] <-
+    aec_carto_join$lat_c[is.na(aec_carto_join$y)]
+
+  return(aec_carto_join)
+}
+cities <- list(c(151.2, -33.8), # Sydney
+               c(153.0, -27.5), # Brisbane
+               c(145.0, -37.8), # Melbourne
+               c(138.6, -34.9), # Adelaide,
+               c(115.9, -32.0)) # Perth
+expand <- list(c(2,3), c(2,3), c(2.5,4), c(3,5), c(5,8))
+aec_carto <- cities %>%
+  purrr::map(aec_data=aec_data, aec_extract_f) %>%
+  purrr::map_df(aec_carto_f) %>%
+  mutate(region=as.integer(as.character(region))) %>%
+  rename(id=region)
+aec_carto <- purrr::map2(.x=cities, .y=expand,
+                         .f=aec_extract_f, aec_data=aec_data) %>%
+  purrr::map_df(aec_carto_f) %>%
+  mutate(region=as.integer(as.character(region))) %>%
+  rename(id=region)
+aec_cart_join <- aec_carto_join_f(aec_data, aec_carto)
+ggplot(data=nat_map) +
+  geom_polygon(aes(x=long, y=lat, group=group, order=order),
+               fill="grey90", colour="white") +
+  geom_point(data=aec_cart_join, aes(x=x, y=y), size=2, alpha=0.4,
+             colour="#572d2c") +
+  geom_text(data=aec_cart_join, aes(x=x, y=y, label=id), size=0.5) +
+  theme_map + coord_equal()
+
 
 # Make cartograms
 aec_data.syd.cart <- dorling(aec_data.syd$id, aec_data.syd$long_c,
