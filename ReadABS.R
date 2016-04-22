@@ -57,7 +57,7 @@ abs2011$Name <- abs2011all$Name
 abs2011$Name[abs2011$Name=="Mcewen"] <- "McEwen"
 abs2011$State <- abs2011all$State
 abs2011$Population <- abs2011all$Tot_P_P
-abs2011$Area <- abs2011all$`Area sqkm`
+abs2011$Area <- abs2011all$Area
 abs2011$MedianIncome <- abs2011all$Median_Tot_prsnl_inc_weekly
 abs2011$Unemployed <- abs2011all$Percent_Unem_loyment_P
 abs2011$Bachelor <- abs2011all$Non_sch_quals_Bchelr_Degree_P / abs2011all$Tot_P_P * 100
