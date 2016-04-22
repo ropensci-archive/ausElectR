@@ -314,12 +314,13 @@ electorate_level_formal_vote_counts_by_major_party <-
             prop_informal  = sum(OrdinaryVotes[!formal]/(sum(OrdinaryVotes, na.rm=TRUE) * 100))) %>%
   # each electorate sums to not quite 100%, but pretty close
   mutate(prop_total_of_electorate = total_formal / sum(total_formal)) %>% 
+  rename(Electorate = DivisionNm.x) %>% 
   filter(PartyAb %in% parties_of_interest) 
 
 # get some electorates to test
 some_electorates <- unique(electorate_level_formal_vote_counts_by_major_party$DivisionNm.x)[1:5]
 electorate_level_formal_vote_counts_by_major_party %>% 
-  filter(DivisionNm.x %in% some_electorates) %>% 
+  filter(Electorate %in% some_electorates) %>% 
   ggplot(aes(PartyAb, prop_total_of_electorate)) +
   geom_bar(stat = "identity") +
   xlab("Party") +
