@@ -1,19 +1,40 @@
 library(readr)
-library(magrittr)
+library(readxl)
 library(dplyr)
 library(stringr)
 
-# Read CSV files
-abs2011all <- read_csv("ABSdata/2011Census_areas.csv")
-bfiles <- list.files("ABSdata")
-bfiles <- grep("2011Census_B", bfiles, value=TRUE)
+# All ABS data are downloaded from
+# https://www.censusdata.abs.gov.au/datapacks/
+# You need to register (free), log in, and 
+# select "Basic Community Profile" and "Short header"
+# Then download "Commonwealth Electoral Divisions" for "Aust".
+# to get 2011_BCP_CED_for_AUST_short-header.zip
+# Unzip to form three folders:
+# * 2011_BCP_CED_for_AUST_short-header
+# * Metadata
+# * About DataPacks
+# The main csv files are in 2011_BCP_CED_for_AUST_short-header
+# Some xlsx files in Metadata are also useful.
+# The files in "About DataPacks" can be ignored.
+# Copy all csv files and Metadata xlsx files to the ABSdata folder.
+
+# Grab area data:
+areas <- read_excel("ABSdata/2011Census_geog_desc_1st_2nd_3rd_release.xlsx",
+                    skip=1)
+areas <- filter(areas, AUS=="CED")[,-1]
+colnames(areas) <- c("region_id", "Electorate", "Area")
 
 # Get states and electorate names
-tmp <- str_split(abs2011all[["Label"]],", ")
-abs2011all$Name <- unlist(lapply(tmp, function(x)x[1]))
-abs2011all$State <- unlist(lapply(tmp, function(x)x[2]))
-abs2011all$Label <- NULL
-rm(tmp)
+tmp <- str_split(areas[["Electorate"]],", ")
+areas$Name <- unlist(lapply(tmp, function(x)x[1]))
+areas$State <- unlist(lapply(tmp, function(x)x[2]))
+areas$Electorate <- NULL
+abs2011all <- areas
+rm(tmp,areas)
+
+# Read CSV files
+bfiles <- list.files("ABSdata")
+bfiles <- grep("2011Census_B", bfiles, value=TRUE)
 
 # Merge all csv files into single data frame
 for(i in 1:length(bfiles))
@@ -36,7 +57,7 @@ abs2011$Name <- abs2011all$Name
 abs2011$Name[abs2011$Name=="Mcewen"] <- "McEwen"
 abs2011$State <- abs2011all$State
 abs2011$Population <- abs2011all$Tot_P_P
-abs2011$Area <- abs2011all$`Area sqkm`
+abs2011$Area <- abs2011all$Area
 abs2011$MedianIncome <- abs2011all$Median_Tot_prsnl_inc_weekly
 abs2011$Unemployed <- abs2011all$Percent_Unem_loyment_P
 abs2011$Bachelor <- abs2011all$Non_sch_quals_Bchelr_Degree_P / abs2011all$Tot_P_P * 100
