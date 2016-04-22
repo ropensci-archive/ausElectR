@@ -138,6 +138,12 @@ write.csv(election_results_df_loc_no_fac_no_dup, "AECdata/HouseFirstPrefsByPolli
 
 # write as rds
 aec2013 <- election_results_df_loc_no_fac_no_dup
+
+# Change variable names to match abs2011 where possible.
+aec2013 <- rename(aec2013, ID=DivisionID.x)
+aec2013 <- rename(aec2013, Electorate=DivisionNm.x)
+aec2013$StateAb <- NULL
+
 save(aec2013, file="echidnaR/data/aec2013.rda")
 load("echidnaR/data/aec2013.rda")
 # load("echidnaR/data/abs2011.rda")
