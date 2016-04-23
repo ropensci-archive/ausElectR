@@ -32,9 +32,6 @@ p <- ggplot(polling_place_location, aes(Longitude, Latitude, label = PremisesNm)
 election_results_df_loc <- full_join(election_results_df, polling_place_location, by = "PollingPlaceID")
 # head(election_results_df_loc)
 
-# only electorates
-
-
 # do we have any polling places with no location data?
 election_results_df_loc %>% 
   select(DivisionID.x, PollingPlace, StateAb, GivenNm, Surname, PartyNm, Elected, Latitude, Longitude) %>% 
@@ -57,8 +54,6 @@ election_results_df_loc <- election_results_df_loc %>%
 p <- ggplot(election_results_df_loc, aes(Longitude, Latitude)) +
   geom_point() +
   coord_equal() 
-
-
 
 # str(election_results_df_loc)
 # get rid of factors
@@ -295,7 +290,7 @@ p <- aec2013 %>%
     ProportionLabor = round(sum(OrdinaryVotes[PartyNm == "Australian Labor Party"]) / TotalVotes, 3)) %>%
   filter(TotalVotes != 0) %>% 
   arrange(desc(ProportionLabor)) %>% 
-  left_join(polling_place_location, by = c("DivisionNm.x" = "DivisionNm")) %>% 
+  left_join(polling_place_location, by = c("Electorate" = "DivisionNm")) %>% 
   # str
   group_by(State) %>% 
   do(plots=ggplot(data = .) + 
@@ -353,15 +348,19 @@ electorate_level_formal_vote_counts_by_major_party <-
   mutate(formal = BallotPosition != 999) %>% 
   # proportion of votes for only the selected parties, ie. a relative comparison
   filter(PartyAb %in% parties_of_interest) %>%
-  group_by(DivisionNm.x, PartyAb) %>% 
+  group_by(Electorate, PartyAb) %>% 
   summarize(total_formal = sum(OrdinaryVotes[formal], na.rm=TRUE),
             prop_informal  = sum(OrdinaryVotes[!formal]/(sum(OrdinaryVotes, na.rm=TRUE) * 100))) %>%
   # each electorate sums to not quite 100%, but pretty close
-  mutate(prop_total_of_electorate = total_formal / sum(total_formal)) %>% 
-  rename(Electorate = DivisionNm.x)  
+  mutate(prop_total_of_electorate = total_formal / sum(total_formal)) 
+
+# check that proportions per electorate sum to 1
+electorate_level_formal_vote_counts_by_major_party %>% 
+  group_by(Electorate) %>% 
+  summarize(total = sum(prop_total_of_electorate))
 
 # get some electorates to test
-some_electorates <- unique(electorate_level_formal_vote_counts_by_major_party$DivisionNm.x)[1:5]
+some_electorates <- unique(electorate_level_formal_vote_counts_by_major_party$Electorate)[1:5]
 
 electorate_level_formal_vote_counts_by_major_party %>% 
   filter(Electorate %in% some_electorates[1]) %>% 
@@ -369,11 +368,65 @@ electorate_level_formal_vote_counts_by_major_party %>%
   geom_bar(stat = "identity") +
   xlab("Party") +
   ylab("Proportion of total formal \nvotes in the electorate") +
-  #facet_wrap( ~ DivisionNm.x) +
   theme_bw()
 
+# show all electorates
+
+p <- electorate_level_formal_vote_counts_by_major_party %>% 
+     mutate(label = paste0(Electorate, " (", State, ")")) %>% 
+  ggplot(aes(PartyAb, prop_total_of_electorate, label = label)) +
+  geom_boxplot(colour = "grey80") +
+  geom_jitter(alpha = 0.5, width = 0.5, size = 2) +
+  xlab("Party") +
+  ylab("Proportion of total formal \nvotes in the electorate") +
+  theme_bw()
+
+library(plotly)
+ggplotly(p)
+
+library(leaflet)
+
+# make dataframe with electorate proportions
+chosen_Electorate <- "Canberra"
+elect_df <- aec2013 %>% 
+  filter(Electorate == chosen_Electorate) %>% 
+  group_by(PollingPlace, Longitude, Latitude) %>% 
+  summarise(TotalVotes = sum(OrdinaryVotes),
+            prop_labor = round(sum(OrdinaryVotes[PartyNm == "Australian Labor Party"]) / TotalVotes, 3))
+
+# http://rstudio.github.io/leaflet/colors.html
+# Create a continuous palette function
+pal <- colorNumeric(
+  palette = "Reds",
+  domain = elect_df$prop_labor
+)
+
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addCircleMarkers(data = elect_df, 
+             lng= ~Longitude, 
+             lat=~Latitude, 
+             popup= ~PollingPlace, 
+             color = ~pal(prop_labor),
+             fillOpacity = 0.7,
+             stroke = FALSE)
 
 
+
+
+# todo
+# - add two party preferred data, rename objects as aec2013_hr_fp_pp, aec2013_hr_fp_el, aes2013_hr_2pp_pp, aes2013_hr_2pp_el
+# - more detail in readme 
+# -- check links to Peter Ellis' work
+# -- add links to sources
+# -- animated gif of shiny app
+# - shiny app theme_bw and some annotation
+# - shiny app with leaflet map of electorates to show particular party proportion by polling place (cf. Jackman)
+# - vignette: look at electorate segregation with polling place data
+# - vignette: look at election + census data
+# - submit to CRAN
+# - Write R journal paper
+# - add data for previous elections and census
 
 
 
