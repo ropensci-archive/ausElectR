@@ -45,7 +45,7 @@ election_results_df_loc %>%
   filter(is.na(Elected)) 
 # yes 104 locations with no election data. 
 
-# Let's exclude locaitons with no election data
+# Let's exclude locations with no election data
 election_results_df_loc <- election_results_df_loc %>%
   filter(!is.na(Elected)) 
 # head(election_results_df_loc)
@@ -61,6 +61,50 @@ election_results_df_loc_no_fac <- election_results_df_loc %>%
   map_if(is.factor, as.character) %>% 
   rbind_list
 # str(election_results_df_loc_no_fac)
+
+# how many polling places do we have with election data?
+number_of_polling_places <- election_results_df_loc_no_fac %>% 
+  group_by(PollingPlaceID) %>% 
+  summarize(number_of_candidates_per_polling_place = n()) %>% 
+  nrow
+
+# get two party preferred data
+two_party_preferred_by_polling_place <- read.csv(paste0(getwd(), "/AECdata/HouseTppByPollingPlaceDownload-17496.csv"), 
+                                   skip = 1,
+                                   stringsAsFactors =  FALSE)
+
+# join with first pref data
+# need to aggregate to we have only one polling place per row
+election_results_df_loc_pp <- election_results_df_loc %>% 
+  group_by(PollingPlaceID) %>% 
+  filter(Elected == "Y") %>% 
+  arrange(desc(PollingPlaceID)) %>% 
+  slice(1) 
+
+# check we have all the polling places
+identical(number_of_polling_places, nrow(election_results_df_loc_pp))
+
+election_results_df_loc_pp <- left_join(election_results_df_loc_pp, two_party_preferred_by_polling_place, by = "PollingPlaceID")
+
+# drop some duplicate cols
+election_results_df_loc_pp <- election_results_df_loc_pp %>% 
+  select(-contains(".y")) 
+
+# rename the cols with .x so they don't have that
+names(election_results_df_loc_pp) <- gsub(".x", "", names(election_results_df_loc_pp))
+# drop duplicate cols, now that we've got rid of the .x in the names
+election_results_df_loc_pp <- election_results_df_loc_pp[, !duplicated(colnames(election_results_df_loc_pp))]
+
+election_results_df_loc_pp %>% arrange(desc(PollingPlaceID)) %>% View
+# head(xx)
+# any duplicates?
+election_results_df_loc_pp[duplicated(election_results_df_loc_pp),]
+# no
+
+######### end of working with th 2pp data ###########
+
+### start of cleaning the fp data ##################
+
 
 # seems like there's multiple names for the ALP...
 # unique(election_results_df_loc_no_fac$PartyNm)
@@ -123,6 +167,8 @@ p1 <- election_results_df_loc_no_fac_no_dup %>%
   coord_equal()
 # remvoe 147 with no lat longs
 # ggplotly(p1)
+
+###### end of cleaning the fp data #################
 
 # add in different vote types
 vote_types <- read.csv("AECdata/HouseFirstPrefsByCandidateByVoteTypeDownload-17496.csv", skip = 1)
