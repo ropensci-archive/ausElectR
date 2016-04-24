@@ -1,0 +1,1339 @@
+"","DivisionID","DivisionNm","CandidateID","Surname","GivenNm","BallotPosition","Elected","HistoricElected","PartyAb","PartyNm","State","Total_OrdinaryVotes_in_electorate"
+"1",101,"Canberra",999,"Informal","Informal",999,"N","N","","Informal","ACT",4386
+"2",101,"Canberra",24118,"MAHER","Damien",4,"N","N","BTA","Bullet Train For Australia","ACT",4166
+"3",101,"Canberra",24122,"BRODTMANN","Gai",5,"Y","Y","ALP","Australian Labor Party","ACT",42947
+"4",101,"Canberra",24238,"BURT","Nicolle",6,"N","N","SPA","Secular Party of Australia","ACT",1074
+"5",101,"Canberra",24239,"HANLEY","Tony",3,"N","N","PUP","Palmer United Party","ACT",3370
+"6",101,"Canberra",24857,"SEFTON","Tom",1,"N","N","LP","Liberal","ACT",39011
+"7",101,"Canberra",24895,"MELROSE","Julie",2,"N","N","GRN","The Greens","ACT",12858
+"8",102,"Fraser",999,"Informal","Informal",999,"N","N","","Informal","ACT",4437
+"9",102,"Fraser",24135,"HUGGINS","Sam",6,"N","N","BTA","Bullet Train For Australia","ACT",4505
+"10",102,"Fraser",24147,"LEIGH","Andrew",3,"Y","Y","ALP","Australian Labor Party","ACT",50591
+"11",102,"Fraser",24246,"ALCAZAR","Freddy Alejandro",4,"N","N","PUP","Palmer United Party","ACT",2775
+"12",102,"Fraser",24251,"ROSS","Jill Elizabeth",5,"N","N","RUA","Rise Up Australia Party","ACT",1353
+"13",102,"Fraser",24865,"LEE","Elizabeth",2,"N","N","LP","Liberal","ACT",35162
+"14",102,"Fraser",24890,"VERWEY","Adam",7,"N","N","GRN","The Greens","ACT",15583
+"15",102,"Fraser",24908,"CHURCHILL","Darren Mark",1,"N","N","DEM","Australian Democrats","ACT",2122
+"16",103,"Banks",999,"Informal","Informal",999,"N","N","","Informal","NSW",8225
+"17",103,"Banks",23182,"COLEMAN","David",8,"Y","N","LP","Liberal","NSW",33135
+"18",103,"Banks",23257,"SPIGHT","Paul",5,"N","N","GRN","The Greens","NSW",3323
+"19",103,"Banks",23964,"HADDAD","Robert Michael",7,"N","N","DLP","Democratic Labour Party (DLP)","NSW",339
+"20",103,"Banks",24115,"WELLHAM","Jake John",2,"N","N","PUP","Palmer United Party","NSW",1703
+"21",103,"Banks",24568,"MELHAM","Daryl",1,"N","Y","ALP","Australian Labor Party","NSW",28900
+"22",103,"Banks",24575,"FALANGA","Mark",6,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1608
+"23",103,"Banks",24607,"RICHARDSON","Ross",4,"N","N","KAP","Katter's Australian Party","NSW",414
+"24",103,"Banks",24777,"KHEDR","Sayed",3,"N","N","IND","Independent","NSW",587
+"25",104,"Barton",999,"Informal","Informal",999,"N","N","","Informal","NSW",9866
+"26",104,"Barton",23183,"VARVARIS","Nickolas",2,"Y","N","LP","Liberal","NSW",27926
+"27",104,"Barton",23220,"BROOKER","Jackie",7,"N","N","GRN","The Greens","NSW",3701
+"28",104,"Barton",24129,"CARUANA","Edward",1,"N","N","PUP","Palmer United Party","NSW",2572
+"29",104,"Barton",24550,"McMAHON","Steve",5,"N","N","ALP","Australian Labor Party","NSW",27425
+"30",104,"Barton",24554,"FRENCH","Kylie Mary",6,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1251
+"31",104,"Barton",24555,"THEO","Perry",4,"N","N","ON","One Nation","NSW",525
+"32",104,"Barton",24559,"WYSE","Rodney Tim",8,"N","N","KAP","Katter's Australian Party","NSW",458
+"33",104,"Barton",24923,"NAGI","Michael",3,"N","N","IND","Independent","NSW",2731
+"34",105,"Bennelong",999,"Informal","Informal",999,"N","N","","Informal","NSW",6293
+"35",105,"Bennelong",23197,"ALEXANDER","John",6,"Y","Y","LP","Liberal","NSW",38541
+"36",105,"Bennelong",23256,"PETERS","Lindsay",1,"N","N","GRN","The Greens","NSW",5880
+"37",105,"Bennelong",24094,"McCAFFREY","Lachlan Patrick",5,"N","N","DLP","Democratic Labour Party (DLP)","NSW",470
+"38",105,"Bennelong",24119,"MARKS","Robert James",4,"N","N","PUP","Palmer United Party","NSW",1287
+"39",105,"Bennelong",24715,"AUGUST","John",7,"N","N","SPA","Secular Party of Australia","NSW",472
+"40",105,"Bennelong",24738,"LI","Jason Yat-Sen",2,"N","N","ALP","Australian Labor Party","NSW",24041
+"41",105,"Bennelong",24757,"WORSLEY","Julie",3,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1780
+"42",105,"Bennelong",24778,"WATERSON","Victor",8,"N","N","AFN","Australia First Party","NSW",369
+"43",106,"Berowra",999,"Informal","Informal",999,"N","N","","Informal","NSW",4381
+"44",106,"Berowra",17744,"GALLAGHER","Mick",1,"N","N","IND","Independent","NSW",2707
+"45",106,"Berowra",23168,"SMYTHE","Deborah",4,"N","N","SPP","Stable Population Party","NSW",399
+"46",106,"Berowra",23175,"STOREY","John",3,"N","N","GRN","The Greens","NSW",7210
+"47",106,"Berowra",23203,"RUDDOCK","Philip",5,"Y","Y","LP","Liberal","NSW",44666
+"48",106,"Berowra",24164,"GRAVES","Paul Frederick",6,"N","N","PUP","Palmer United Party","NSW",1987
+"49",106,"Berowra",24544,"STOVE","Michael Joseph",7,"N","N","ALP","Australian Labor Party","NSW",13832
+"50",106,"Berowra",24589,"THEW","Leighton",2,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1798
+"51",107,"Blaxland",999,"Informal","Informal",999,"N","N","","Informal","NSW",11135
+"52",107,"Blaxland",23213,"KHOURI","Anthony",2,"N","N","LP","Liberal","NSW",20949
+"53",107,"Blaxland",24128,"BURROWS","Zali",3,"N","N","PUP","Palmer United Party","NSW",1743
+"54",107,"Blaxland",24329,"KY","John",6,"N","N","GRN","The Greens","NSW",1846
+"55",107,"Blaxland",24348,"ZALLOUA","Boutros",7,"N","N","DLP","Democratic Labour Party (DLP)","NSW",629
+"56",107,"Blaxland",24537,"NASR","Juliat",5,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1354
+"57",107,"Blaxland",24541,"TALEB","Nafez",1,"N","N","KAP","Katter's Australian Party","NSW",1527
+"58",107,"Blaxland",24623,"CLARE","Jason",4,"Y","Y","ALP","Australian Labor Party","NSW",37451
+"59",108,"Bradfield",999,"Informal","Informal",999,"N","N","","Informal","NSW",4677
+"60",108,"Bradfield",23200,"FLETCHER","Paul",5,"Y","Y","LP","Liberal","NSW",47869
+"61",108,"Bradfield",23308,"McINNES","Pippa",6,"N","N","GRN","The Greens","NSW",9380
+"62",108,"Bradfield",24065,"HARROLD","Paul",2,"N","N","DLP","Democratic Labour Party (DLP)","NSW",776
+"63",108,"Bradfield",24211,"BUCHANAN","Blake",1,"N","N","PUP","Palmer United Party","NSW",1915
+"64",108,"Bradfield",24551,"HAVILAND","Chris",4,"N","N","ALP","Australian Labor Party","NSW",12037
+"65",108,"Bradfield",24569,"ARCHER","John",3,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1294
+"66",109,"Calare",999,"Informal","Informal",999,"N","N","","Informal","NSW",5521
+"67",109,"Calare",21725,"ROSS","Macgregor",5,"N","N","IND","Independent","NSW",2113
+"68",109,"Calare",23245,"COBB","John",1,"Y","Y","NP","The Nationals","NSW",47928
+"69",109,"Calare",23346,"MALLARD","David",7,"N","N","GRN","The Greens","NSW",3505
+"70",109,"Calare",24087,"CRAIG","Anthony Gerard",8,"N","N","DLP","Democratic Labour Party (DLP)","NSW",659
+"71",109,"Calare",24137,"CAIN","Brian Eric",6,"N","N","PUP","Palmer United Party","NSW",4032
+"72",109,"Calare",24593,"JENNINGS","Jess",4,"N","N","ALP","Australian Labor Party","NSW",21136
+"73",109,"Calare",24626,"LYONS","Ian Scott",3,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1463
+"74",109,"Calare",24662,"KIRKLAND","Billie",2,"N","N","KAP","Katter's Australian Party","NSW",1138
+"75",109,"Calare",24669,"SCHULTZE","Peter",9,"N","N","AFN","Australia First Party","NSW",889
+"76",110,"Charlton",999,"Informal","Informal",999,"N","N","","Informal","NSW",5935
+"77",110,"Charlton",23196,"BAKER","Kevin",2,"N","N","LP","Liberal","NSW",20847
+"78",110,"Charlton",23680,"KOCHER","Dessie",4,"N","N","GRN","The Greens","NSW",4966
+"79",110,"Charlton",24141,"REID","Bronwyn Elizabeth",6,"N","N","PUP","Palmer United Party","NSW",8384
+"80",110,"Charlton",24657,"CONROY","Pat",1,"Y","N","ALP","Australian Labor Party","NSW",34770
+"81",110,"Charlton",24673,"CAMILLERI","Steve",3,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",2270
+"82",110,"Charlton",24685,"BURSTON","Brian",5,"N","N","ON","One Nation","NSW",1865
+"83",110,"Charlton",24691,"ANTHONEY","Trevor",7,"N","N","BTA","Bullet Train For Australia","NSW",1180
+"84",111,"Chifley",999,"Informal","Informal",999,"N","N","","Informal","NSW",11777
+"85",111,"Chifley",23215,"WHITE","Isabelle",3,"N","N","LP","Liberal","NSW",22697
+"86",111,"Chifley",24106,"WRIGHT","Michael",4,"N","N","DLP","Democratic Labour Party (DLP)","NSW",631
+"87",111,"Chifley",24190,"KHAN","Ammar",1,"N","N","IND","Independent","NSW",1427
+"88",111,"Chifley",24273,"BUTTEL","Christopher Ernest",9,"N","N","PUP","Palmer United Party","NSW",2890
+"89",111,"Chifley",24439,"HAMMOND","Ben",7,"N","N","GRN","The Greens","NSW",1789
+"90",111,"Chifley",24631,"HUSIC","Ed",2,"Y","Y","ALP","Australian Labor Party","NSW",37851
+"91",111,"Chifley",24674,"VINCENT","Dave",5,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",2471
+"92",111,"Chifley",24763,"POWER","Elizabeth May",8,"N","N","ON","One Nation","NSW",1085
+"93",111,"Chifley",24766,"NORWICK","Alex",6,"N","N","AFN","Australia First Party","NSW",315
+"94",112,"Cook",999,"Informal","Informal",999,"N","N","","Informal","NSW",5221
+"95",112,"Cook",12125,"STRANG","Graeme",7,"N","N","IND","Independent","NSW",1012
+"96",112,"Cook",23219,"MORRISON","Scott",6,"Y","Y","LP","Liberal","NSW",48336
+"97",112,"Cook",24136,"PALISE","Matthew Gary",2,"N","N","PUP","Palmer United Party","NSW",3234
+"98",112,"Cook",24602,"SCAYSBROOK","Peter William",1,"N","N","ALP","Australian Labor Party","NSW",19446
+"99",112,"Cook",24617,"SMITH","Beth",3,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1716
+"100",112,"Cook",24618,"SALEAM","Jim",4,"N","N","AFN","Australia First Party","NSW",523
+"101",112,"Cook",24642,"COX","Mithra",5,"N","N","GRN","The Greens","NSW",5089
+"102",113,"Cowper",999,"Informal","Informal",999,"N","N","","Informal","NSW",4464
+"103",113,"Cowper",23249,"HARTSUYKER","Luke",3,"Y","Y","NP","The Nationals","NSW",40704
+"104",113,"Cowper",23327,"VERNON","Carol",1,"N","N","GRN","The Greens","NSW",9233
+"105",113,"Cowper",24182,"JEANNERET","Rodney Norman",4,"N","N","PUP","Palmer United Party","NSW",5126
+"106",113,"Cowper",24594,"NAVARRO","Alfredo",5,"N","N","ALP","Australian Labor Party","NSW",19644
+"107",113,"Cowper",24622,"McALPINE","Bethany",2,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1986
+"108",114,"Cunningham",999,"Informal","Informal",999,"N","N","","Informal","NSW",5578
+"109",114,"Cunningham",23156,"FLANAGAN","John",7,"N","N","NCP","Non-Custodial Parents Party (Equal Parenting)","NSW",735
+"110",114,"Cunningham",23188,"CLIFFORD","Philip",1,"N","N","LP","Liberal","NSW",25821
+"111",114,"Cunningham",23258,"WILSON","Helen",3,"N","N","GRN","The Greens","NSW",9067
+"112",114,"Cunningham",24153,"ATLEE","Christopher James",2,"N","N","PUP","Palmer United Party","NSW",3654
+"113",114,"Cunningham",24615,"GEORGE","Rob",4,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1878
+"114",114,"Cunningham",24627,"BURSILL","John Leslie",6,"N","N","KAP","Katter's Australian Party","NSW",680
+"115",114,"Cunningham",24668,"BIRD","Sharon",5,"Y","Y","ALP","Australian Labor Party","NSW",35706
+"116",115,"Dobell",999,"Informal","Informal",999,"N","N","","Informal","NSW",6310
+"117",115,"Dobell",21273,"THOMSON","Craig",2,"N","Y","IND","Independent","NSW",2960
+"118",115,"Dobell",23243,"McNAMARA","Karen",8,"Y","N","LP","Liberal","NSW",30473
+"119",115,"Dobell",23244,"WYNN","Sue",9,"N","N","GRN","The Greens","NSW",3495
+"120",115,"Dobell",23373,"OWEN","Greg",1,"N","N","CEC","Citizens Electoral Council","NSW",573
+"121",115,"Dobell",24186,"McGILL","Kate Angelique",6,"N","N","PUP","Palmer United Party","NSW",2512
+"122",115,"Dobell",24570,"McBRIDE","Emma",4,"N","N","ALP","Australian Labor Party","NSW",26386
+"123",115,"Dobell",24573,"KUNDE","Christian",3,"N","N","BTA","Bullet Train For Australia","NSW",463
+"124",115,"Dobell",24576,"ERVIN","Hadden",7,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1046
+"125",115,"Dobell",24791,"BRACKEN","Nathan",5,"N","N","IND","Independent","NSW",6113
+"126",117,"Eden-Monaro",999,"Informal","Informal",999,"N","N","","Informal","NSW",4737
+"127",117,"Eden-Monaro",23171,"TYE","Martin",2,"N","N","SPP","Stable Population Party","NSW",482
+"128",117,"Eden-Monaro",23189,"HENDY","Peter",1,"Y","N","LP","Liberal","NSW",34268
+"129",117,"Eden-Monaro",23239,"MOORE","Catherine",5,"N","N","GRN","The Greens","NSW",5500
+"130",117,"Eden-Monaro",23410,"GOUMAS","Costas",6,"N","N","CEC","Citizens Electoral Council","NSW",142
+"131",117,"Eden-Monaro",24255,"LYNCH","Dean",4,"N","N","PUP","Palmer United Party","NSW",4083
+"132",117,"Eden-Monaro",24547,"KELLY","Mike",3,"N","Y","ALP","Australian Labor Party","NSW",29806
+"133",117,"Eden-Monaro",24578,"CATTON","Warren",8,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",715
+"134",117,"Eden-Monaro",24751,"THALER","Andrew",7,"N","N","IND","Independent","NSW",942
+"135",118,"Farrer",999,"Informal","Informal",999,"N","N","","Informal","NSW",5947
+"136",118,"Farrer",23181,"LEY","Sussan",4,"Y","Y","LP","Liberal","NSW",40879
+"137",118,"Farrer",23238,"SOBEY","Christina",9,"N","N","GRN","The Greens","NSW",3124
+"138",118,"Farrer",24229,"CATTELL","Brendan",2,"N","N","DLP","Democratic Labour Party (DLP)","NSW",1317
+"139",118,"Farrer",24237,"EMMERTON","Ronald James",5,"N","N","PUP","Palmer United Party","NSW",3007
+"140",118,"Farrer",24524,"HICKEY","Gavin",6,"N","N","ALP","Australian Labor Party","NSW",17699
+"141",118,"Farrer",24689,"DAVIS","Narelle",1,"N","N","RUA","Rise Up Australia Party","NSW",1452
+"142",118,"Farrer",24704,"HORWILL","Frank",8,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",852
+"143",118,"Farrer",24707,"TREWIN","Ken",3,"N","N","KAP","Katter's Australian Party","NSW",2624
+"144",118,"Farrer",24709,"POWELL","Tracey",7,"N","N","BTA","Bullet Train For Australia","NSW",887
+"145",119,"Fowler",999,"Informal","Informal",999,"N","N","","Informal","NSW",11529
+"146",119,"Fowler",23236,"SILAPHET","Benjamin",2,"N","N","GRN","The Greens","NSW",2140
+"147",119,"Fowler",23240,"NGUYEN","Andrew",4,"N","N","LP","Liberal","NSW",17285
+"148",119,"Fowler",24162,"PASTOORS","Bradley Charles",6,"N","N","PUP","Palmer United Party","NSW",2279
+"149",119,"Fowler",24548,"HAYES","Chris",5,"Y","Y","ALP","Australian Labor Party","NSW",41820
+"150",119,"Fowler",24591,"McLEAN","Darren C",3,"N","N","KAP","Katter's Australian Party","NSW",717
+"151",119,"Fowler",24633,"ATTIA","Matt",1,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",2988
+"152",120,"Gilmore",999,"Informal","Informal",999,"N","N","","Informal","NSW",4480
+"153",120,"Gilmore",23190,"SUDMALIS","Ann",5,"Y","N","LP","Liberal","NSW",36337
+"154",120,"Gilmore",23663,"BARRATT","Terry",3,"N","N","GRN","The Greens","NSW",7115
+"155",120,"Gilmore",24144,"HARRIS","Lyndal Gai",4,"N","N","PUP","Palmer United Party","NSW",5079
+"156",120,"Gilmore",24600,"REILLY","Neil Ernest",2,"N","N","ALP","Australian Labor Party","NSW",27995
+"157",120,"Gilmore",24639,"RYAN","Steve",1,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",2657
+"158",121,"Grayndler",999,"Informal","Informal",999,"N","N","","Informal","NSW",5907
+"159",121,"Grayndler",23192,"SPENCER","Cedric",3,"N","N","LP","Liberal","NSW",18031
+"160",121,"Grayndler",23301,"GREENLAND","Hall",4,"N","N","GRN","The Greens","NSW",16882
+"161",121,"Grayndler",24207,"BALASINGHAM","Mohanadas",5,"N","N","PUP","Palmer United Party","NSW",1269
+"162",121,"Grayndler",24610,"ALBANESE","Anthony",6,"Y","Y","ALP","Australian Labor Party","NSW",35488
+"163",121,"Grayndler",24695,"GREEN","Joshua",1,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1453
+"164",121,"Grayndler",24718,"SCULLY","Joel",2,"N","N","BTA","Bullet Train For Australia","NSW",872
+"165",122,"Greenway",999,"Informal","Informal",999,"N","N","","Informal","NSW",8623
+"166",122,"Greenway",23185,"DIAZ","Jaymes",1,"N","N","LP","Liberal","NSW",28973
+"167",122,"Greenway",24148,"WOOTTON","Jodie Camille",3,"N","N","PUP","Palmer United Party","NSW",2958
+"168",122,"Greenway",24187,"BRENTIN","Chris",8,"N","N","GRN","The Greens","NSW",2622
+"169",122,"Greenway",24422,"CAVANOUGH","Jamie",2,"N","N","VCE","Australian Voice","NSW",412
+"170",122,"Greenway",24644,"ROWLAND","Michelle",5,"Y","Y","ALP","Australian Labor Party","NSW",33423
+"171",122,"Greenway",24648,"NICHOLS","Maree",9,"N","N","RUA","Rise Up Australia Party","NSW",552
+"172",122,"Greenway",24655,"LILLICRAP","Tom",4,"N","N","ASXP","Sex Party","NSW",1238
+"173",122,"Greenway",24658,"GREEN","Allan",7,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",2767
+"174",122,"Greenway",24670,"BELCASTRO","Anthony Gino",6,"N","N","KAP","Katter's Australian Party","NSW",564
+"175",124,"Hughes",999,"Informal","Informal",999,"N","N","","Informal","NSW",6334
+"176",124,"Hughes",23198,"KELLY","Craig",5,"Y","Y","LP","Liberal","NSW",41473
+"177",124,"Hughes",23255,"WESTERBERG","Signe",4,"N","N","GRN","The Greens","NSW",3182
+"178",124,"Hughes",24204,"PETERS","John",1,"N","N","PUP","Palmer United Party","NSW",4427
+"179",124,"Hughes",24612,"MEGARRITY","Alison Patricia",2,"N","N","ALP","Australian Labor Party","NSW",24194
+"180",124,"Hughes",24613,"COLSELL","Peter M",3,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",2176
+"181",125,"Hume",999,"Informal","Informal",999,"N","N","","Informal","NSW",5470
+"182",125,"Hume",23222,"TAYLOR","Angus",5,"Y","N","LP","Liberal","NSW",42105
+"183",125,"Hume",23400,"COSGROVE","Lindsay D",1,"N","N","CEC","Citizens Electoral Council","NSW",1030
+"184",125,"Hume",23770,"CHEVALIER","Zaza",8,"N","N","GRN","The Greens","NSW",4150
+"185",125,"Hume",24163,"CORNELIUS","Jason Peter",6,"N","N","PUP","Palmer United Party","NSW",3433
+"186",125,"Hume",24601,"NICHOLSON","Bruce",2,"N","N","KAP","Katter's Australian Party","NSW",1364
+"187",125,"Hume",24698,"VAN DER BYL","Adrian",7,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1190
+"188",125,"Hume",24730,"HARKER-MORTLOCK","James Robert",3,"N","N","IND","Independent","NSW",1722
+"189",125,"Hume",24787,"PILBROW","Michael",4,"N","N","ALP","Australian Labor Party","NSW",20743
+"190",125,"Hume",24808,"STYLES","Lynette",9,"N","N","ON","One Nation","NSW",2116
+"191",126,"Hunter",999,"Informal","Informal",999,"N","N","","Informal","NSW",5543
+"192",126,"Hunter",23251,"JOHNSEN","Michael",2,"N","N","NP","The Nationals","NSW",26771
+"193",126,"Hunter",23297,"ATWELL","David",1,"N","N","GRN","The Greens","NSW",4274
+"194",126,"Hunter",23343,"LAWLER","Ann",3,"N","N","CEC","Citizens Electoral Council","NSW",717
+"195",126,"Hunter",24224,"STEFANAC","Jennifer Susan",5,"N","N","PUP","Palmer United Party","NSW",5922
+"196",126,"Hunter",24543,"FITZGIBBON","Joel",6,"Y","Y","ALP","Australian Labor Party","NSW",34171
+"197",126,"Hunter",24549,"FOX","Bill",4,"N","N","ON","One Nation","NSW",2829
+"198",126,"Hunter",24552,"STRETTON","Richard",7,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1586
+"199",127,"Kingsford Smith",999,"Informal","Informal",999,"N","N","","Informal","NSW",7296
+"200",127,"Kingsford Smith",23187,"FENELEY","Michael",5,"N","N","LP","Liberal","NSW",31328
+"201",127,"Kingsford Smith",23227,"LUCAS","Geordie",6,"N","N","FUT","Future Party","NSW",528
+"202",127,"Kingsford Smith",23751,"MACDONALD","James",7,"N","N","GRN","The Greens","NSW",6688
+"203",127,"Kingsford Smith",24240,"HAPP","Diane Olga",4,"N","N","PUP","Palmer United Party","NSW",1339
+"204",127,"Kingsford Smith",24545,"SOMERFIELD","Danielle",2,"N","N","RUA","Rise Up Australia Party","NSW",265
+"205",127,"Kingsford Smith",24553,"THISTLETHWAITE","Matt",3,"Y","N","ALP","Australian Labor Party","NSW",31089
+"206",127,"Kingsford Smith",24562,"SHIHA","Jacquie",1,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1116
+"207",128,"Lindsay",999,"Informal","Informal",999,"N","N","","Informal","NSW",7028
+"208",128,"Lindsay",23170,"BROWN","Geoff",6,"N","N","SPP","Stable Population Party","NSW",336
+"209",128,"Lindsay",23201,"SCOTT","Fiona",7,"Y","N","LP","Liberal","NSW",35748
+"210",128,"Lindsay",23595,"LENTON","David",2,"N","N","GRN","The Greens","NSW",2200
+"211",128,"Lindsay",24179,"WILCOX","Andrew William",4,"N","N","PUP","Palmer United Party","NSW",3993
+"212",128,"Lindsay",24677,"BRADBURY","David",5,"N","Y","ALP","Australian Labor Party","NSW",30104
+"213",128,"Lindsay",24682,"LAWSON","Jeffrey Wayne",1,"N","N","ON","One Nation","NSW",1499
+"214",128,"Lindsay",24686,"GREEN","Andrew",8,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",2154
+"215",128,"Lindsay",24754,"SAUNDERS","Mick",3,"N","N","AFN","Australia First Party","NSW",499
+"216",130,"Lyne",999,"Informal","Informal",999,"N","N","","Informal","NSW",5262
+"217",130,"Lyne",23214,"OXENFORD","Ian",5,"N","N","GRN","The Greens","NSW",4445
+"218",130,"Lyne",23252,"GILLESPIE","David",6,"Y","N","NP","The Nationals","NSW",40598
+"219",130,"Lyne",23348,"GOUGH","Michael",8,"N","N","CEC","Citizens Electoral Council","NSW",281
+"220",130,"Lyne",24143,"WILKIE","Troy Alexander",7,"N","N","PUP","Palmer United Party","NSW",4180
+"221",130,"Lyne",24595,"ALLEY","Peter",4,"N","N","ALP","Australian Labor Party","NSW",16023
+"222",130,"Lyne",24608,"HUTH","Craig",2,"N","N","ON","One Nation","NSW",1904
+"223",130,"Lyne",24619,"KLOSE","John Walter",1,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1784
+"224",130,"Lyne",24637,"BUCKLEY CLARE","Brian",3,"N","N","KAP","Katter's Australian Party","NSW",647
+"225",130,"Lyne",24758,"ATTKINS","Steve",9,"N","N","IND","Independent","NSW",5770
+"226",131,"Macarthur",999,"Informal","Informal",999,"N","N","","Informal","NSW",6516
+"227",131,"Macarthur",23221,"MATHESON","Russell",2,"Y","Y","LP","Liberal","NSW",40428
+"228",131,"Macarthur",24104,"DARLEY-JONES","Patrick",6,"N","N","GRN","The Greens","NSW",3288
+"229",131,"Macarthur",24218,"GROSCHE","Goetz Robert Uwe",4,"N","N","PUP","Palmer United Party","NSW",4318
+"230",131,"Macarthur",24733,"FULTON","Ian",5,"N","N","ALP","Australian Labor Party","NSW",22752
+"231",131,"Macarthur",24741,"RAMSAY","Sarah",3,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1835
+"232",131,"Macarthur",24771,"WILLIAMS","Mick",1,"N","N","KAP","Katter's Australian Party","NSW",1454
+"233",132,"Mackellar",999,"Informal","Informal",999,"N","N","","Informal","NSW",4887
+"234",132,"Mackellar",23184,"BISHOP","Bronwyn",5,"Y","Y","LP","Liberal","NSW",47910
+"235",132,"Mackellar",23313,"KING","Jonathan",1,"N","N","GRN","The Greens","NSW",10762
+"236",132,"Mackellar",24149,"DRUMMOND","Debra Gayle",2,"N","N","PUP","Palmer United Party","NSW",3314
+"237",132,"Mackellar",24546,"HEDGE","Chris",4,"N","N","ALP","Australian Labor Party","NSW",13276
+"238",132,"Mackellar",24783,"NERO","Silvana",3,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1540
+"239",133,"Macquarie",999,"Informal","Informal",999,"N","N","","Informal","NSW",4780
+"240",133,"Macquarie",23211,"MARKUS","Louise",2,"Y","Y","LP","Liberal","NSW",36852
+"241",133,"Macquarie",24102,"ELARO","Teresa",4,"N","N","DLP","Democratic Labour Party (DLP)","NSW",393
+"242",133,"Macquarie",24191,"MAXWELL","Philip Daniel",5,"N","N","PUP","Palmer United Party","NSW",3249
+"243",133,"Macquarie",24690,"TEMPLEMAN","Susan",3,"N","N","ALP","Australian Labor Party","NSW",24331
+"244",133,"Macquarie",24696,"LITTLEJOHN","Mark",8,"N","N","ASXP","Sex Party","NSW",1480
+"245",133,"Macquarie",24716,"PIPER","Tony",1,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",2335
+"246",133,"Macquarie",24740,"WHEELER","Danielle",7,"N","N","GRN","The Greens","NSW",8517
+"247",133,"Macquarie",24782,"HODGSON","Matt",6,"N","N","AFN","Australia First Party","NSW",615
+"248",134,"Mitchell",999,"Informal","Informal",999,"N","N","","Informal","NSW",5127
+"249",134,"Mitchell",23206,"HAWKE","Alex",5,"Y","Y","LP","Liberal","NSW",48832
+"250",134,"Mitchell",23260,"BELLSTEDT","Michael",2,"N","N","GRN","The Greens","NSW",4637
+"251",134,"Mitchell",24066,"DODD","Nathan",4,"N","N","DLP","Democratic Labour Party (DLP)","NSW",801
+"252",134,"Mitchell",24157,"SCHULTZ","Murray",3,"N","N","PUP","Palmer United Party","NSW",2353
+"253",134,"Mitchell",24556,"PUNCH","Andrew Thomas",6,"N","N","ALP","Australian Labor Party","NSW",15217
+"254",134,"Mitchell",24572,"ALLEN","Darryl",1,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",2300
+"255",135,"New England",999,"Informal","Informal",999,"N","N","","Informal","NSW",5449
+"256",135,"New England",23247,"JOYCE","Barnaby",6,"Y","N","NP","The Nationals","NSW",43927
+"257",135,"New England",23368,"WITTEN","Richard Innes",7,"N","N","CEC","Citizens Electoral Council","NSW",308
+"258",135,"New England",23606,"SCHULTZ","Pat",3,"N","N","GRN","The Greens","NSW",3487
+"259",135,"New England",24268,"McINTYRE","Jamie",5,"N","N","IND","Independent","NSW",5466
+"260",135,"New England",24270,"GIRLE","Phillip John",1,"N","N","PUP","Palmer United Party","NSW",4215
+"261",135,"New England",24533,"HEWITT","Stephen",8,"N","N","ALP","Australian Labor Party","NSW",9550
+"262",135,"New England",24534,"DETTMANN","Brian Charles",2,"N","N","ON","One Nation","NSW",1352
+"263",135,"New England",24535,"EVANS","Aaron Michael",9,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1310
+"264",135,"New England",24752,"TABER","Rob",4,"N","N","IND","Independent","NSW",11611
+"265",136,"Newcastle",999,"Informal","Informal",999,"N","N","","Informal","NSW",4977
+"266",136,"Newcastle",23242,"ABBOTT","Jaimie",7,"N","N","LP","Liberal","NSW",24778
+"267",136,"Newcastle",23601,"OSBORNE","Michael",10,"N","N","GRN","The Greens","NSW",8765
+"268",136,"Newcastle",23911,"HIGGINS","Lawrence Joseph",8,"N","N","AIN","Australian Independents","NSW",272
+"269",136,"Newcastle",24139,"HOLDING","Rod",4,"N","N","IND","Independent","NSW",528
+"270",136,"Newcastle",24205,"McLELLAN","Yegon Dally",3,"N","N","PUP","Palmer United Party","NSW",2984
+"271",136,"Newcastle",24629,"ALCORN","Zane",2,"N","N","SAL","Socialist Alliance","NSW",493
+"272",136,"Newcastle",24638,"CAINE","Milton",6,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",884
+"273",136,"Newcastle",24646,"CHEHOFF","Michael",1,"N","N","AFN","Australia First Party","NSW",701
+"274",136,"Newcastle",24660,"CLAYDON","Sharon",9,"Y","N","ALP","Australian Labor Party","NSW",31975
+"275",136,"Newcastle",24746,"SCURRY","Susanna",5,"N","N","IND","Independent","NSW",861
+"276",137,"North Sydney",999,"Informal","Informal",999,"N","N","","Informal","NSW",4247
+"277",137,"North Sydney",23223,"HOCKEY","Joe",2,"Y","Y","LP","Liberal","NSW",43792
+"278",137,"North Sydney",23673,"HAINES","Alison",3,"N","N","GRN","The Greens","NSW",11139
+"279",137,"North Sydney",24082,"McCAFFREY","Angus",4,"N","N","DLP","Democratic Labour Party (DLP)","NSW",614
+"280",137,"North Sydney",24271,"KHAN","Raheam",1,"N","N","PUP","Palmer United Party","NSW",1188
+"281",137,"North Sydney",24744,"HAYES","Peter",5,"N","N","ALP","Australian Labor Party","NSW",14520
+"282",137,"North Sydney",24894,"GUTHRIE","Maureen",6,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",717
+"283",138,"Page",999,"Informal","Informal",999,"N","N","","Informal","NSW",3853
+"284",138,"Page",23363,"HOGAN","Kevin",1,"Y","N","NP","The Nationals","NSW",35413
+"285",138,"Page",24215,"JANES","Stephen Bruce",4,"N","N","PUP","Palmer United Party","NSW",3665
+"286",138,"Page",24588,"SAFFIN","Janelle",2,"N","Y","ALP","Australian Labor Party","NSW",29257
+"287",138,"Page",24596,"SMITH","Rod",6,"N","N","ON","One Nation","NSW",1165
+"288",138,"Page",24599,"ORDISH","Carol",3,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1215
+"289",138,"Page",24720,"BANKS","Desley",5,"N","N","GRN","The Greens","NSW",4681
+"290",139,"Parkes",999,"Informal","Informal",999,"N","N","","Informal","NSW",5120
+"291",139,"Parkes",23248,"COULTON","Mark",1,"Y","Y","NP","The Nationals","NSW",49238
+"292",139,"Parkes",23254,"PARMETER","Matt",2,"N","N","GRN","The Greens","NSW",3986
+"293",139,"Parkes",24178,"GORMAN","Neil John",3,"N","N","PUP","Palmer United Party","NSW",5927
+"294",139,"Parkes",24536,"BYRON","Brendan",5,"N","N","ALP","Australian Labor Party","NSW",16717
+"295",139,"Parkes",24538,"RYAN","Michelle",4,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",2023
+"296",140,"Parramatta",999,"Informal","Informal",999,"N","N","","Informal","NSW",8157
+"297",140,"Parramatta",21211,"PATEL","Kalpesh",3,"N","N","IND","Independent","NSW",926
+"298",140,"Parramatta",23208,"ZAITER","Martin",6,"N","N","LP","Liberal","NSW",28648
+"299",140,"Parramatta",24126,"WILLIAMS","Miechele",1,"N","N","DLP","Democratic Labour Party (DLP)","NSW",1139
+"300",140,"Parramatta",24174,"LOKE","Ganesh Sahadev",2,"N","N","PUP","Palmer United Party","NSW",1373
+"301",140,"Parramatta",24343,"BRADLEY","Phil",5,"N","N","GRN","The Greens","NSW",3327
+"302",140,"Parramatta",24653,"OWENS","Julie",4,"Y","Y","ALP","Australian Labor Party","NSW",27020
+"303",140,"Parramatta",24684,"SHARAH","Alex",8,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1518
+"304",140,"Parramatta",24889,"ROLLINSON","Tania",7,"N","N","ON","One Nation","NSW",552
+"305",144,"Reid",999,"Informal","Informal",999,"N","N","","Informal","NSW",7998
+"306",144,"Reid",23205,"LAUNDY","Craig",7,"Y","N","LP","Liberal","NSW",33377
+"307",144,"Reid",23913,"PALMER","Raymond",2,"N","N","AIN","Australian Independents","NSW",932
+"308",144,"Reid",24060,"DUNN","Emily",6,"N","N","DLP","Democratic Labour Party (DLP)","NSW",431
+"309",144,"Reid",24185,"ASHRAF","Mohammed Nadeem",5,"N","N","PUP","Palmer United Party","NSW",1060
+"310",144,"Reid",24278,"TYRRELL","Pauline",3,"N","N","GRN","The Greens","NSW",4627
+"311",144,"Reid",24586,"MURPHY","John",1,"N","Y","ALP","Australian Labor Party","NSW",29531
+"312",144,"Reid",24659,"IZADEEN","Bishrul Hafi Ameer",4,"N","N","KAP","Katter's Australian Party","NSW",219
+"313",144,"Reid",24723,"SHAILER","Bill",8,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",949
+"314",145,"Richmond",999,"Informal","Informal",999,"N","N","","Informal","NSW",3947
+"315",145,"Richmond",23246,"FRASER","Matthew",3,"N","N","NP","The Nationals","NSW",27882
+"316",145,"Richmond",23286,"WALKER","Dawn",5,"N","N","GRN","The Greens","NSW",12929
+"317",145,"Richmond",23849,"SKINNER","Kev",2,"N","N","IND","Independent","NSW",1627
+"318",145,"Richmond",24359,"ALLEN","Charles Philip Fitzsimonds",6,"N","N","PUP","Palmer United Party","NSW",5562
+"319",145,"Richmond",24531,"ELLIOT","Justine",4,"Y","Y","ALP","Australian Labor Party","NSW",24819
+"320",145,"Richmond",24532,"ORDISH","John",1,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1033
+"321",146,"Robertson",999,"Informal","Informal",999,"N","N","","Informal","NSW",4954
+"322",146,"Robertson",21931,"CASSAR","Jake",1,"N","N","IND","Independent","NSW",2053
+"323",146,"Robertson",23216,"WICKS","Lucy",3,"Y","N","LP","Liberal","NSW",32590
+"324",146,"Robertson",23224,"DA COSTA","Kate",7,"N","N","GRN","The Greens","NSW",3985
+"325",146,"Robertson",24085,"McFARLAND","Douglas",8,"N","N","AIN","Australian Independents","NSW",396
+"326",146,"Robertson",24098,"SHEERAN","Paul Henry",2,"N","N","DLP","Democratic Labour Party (DLP)","NSW",370
+"327",146,"Robertson",24219,"WHITAKER","Steven Spencer",4,"N","N","PUP","Palmer United Party","NSW",1689
+"328",146,"Robertson",24603,"O'NEILL","Deborah",9,"N","Y","ALP","Australian Labor Party","NSW",26921
+"329",146,"Robertson",24616,"BEECHAM","Holly",5,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",938
+"330",146,"Robertson",24774,"McKINNA","Lawrie",6,"N","N","IND","Independent","NSW",6683
+"331",148,"Shortland",999,"Informal","Informal",999,"N","N","","Informal","NSW",4877
+"332",148,"Shortland",23193,"CHURCH","John",3,"N","N","LP","Liberal","NSW",27713
+"333",148,"Shortland",23674,"OAKLEY","Jane",4,"N","N","GRN","The Greens","NSW",4319
+"334",148,"Shortland",24181,"BALDWIN","Philip Robert",5,"N","N","PUP","Palmer United Party","NSW",4450
+"335",148,"Shortland",24663,"HALL","Jill Griffiths",1,"Y","Y","ALP","Australian Labor Party","NSW",35256
+"336",148,"Shortland",24680,"WEATHERSTONE","Andrew",2,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",890
+"337",149,"Sydney",999,"Informal","Informal",999,"N","N","","Informal","NSW",4781
+"338",149,"Sydney",15520,"WARD","Jane",1,"N","N","IND","Independent","NSW",987
+"339",149,"Sydney",23152,"RZETELSKI","Joanna",5,"N","N","IND","Independent","NSW",454
+"340",149,"Sydney",23191,"O'CONNOR","Sean",2,"N","N","LP","Liberal","NSW",20325
+"341",149,"Sydney",23685,"HILES","Dianne",8,"N","N","GRN","The Greens","NSW",11760
+"342",149,"Sydney",24194,"KELLY","Timothy Daniel",6,"N","N","PUP","Palmer United Party","NSW",916
+"343",149,"Sydney",24530,"PLIBERSEK","Tanya",9,"Y","Y","ALP","Australian Labor Party","NSW",31488
+"344",149,"Sydney",24557,"BOYLE","Peter",3,"N","N","SAL","Socialist Alliance","NSW",499
+"345",149,"Sydney",24560,"MASON","Lesley",4,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",534
+"346",149,"Sydney",24567,"GARTNER","Leah",7,"N","N","BTA","Bullet Train For Australia","NSW",558
+"347",150,"Throsby",999,"Informal","Informal",999,"N","N","","Informal","NSW",7523
+"348",150,"Throsby",23194,"MALLINSON","Larissa",3,"N","N","LP","Liberal","NSW",20309
+"349",150,"Throsby",23241,"HARTMAN","Wayne",8,"N","N","NCP","Non-Custodial Parents Party (Equal Parenting)","NSW",379
+"350",150,"Throsby",23250,"ANDERSON","Gary",10,"N","N","NP","The Nationals","NSW",7789
+"351",150,"Throsby",23395,"MORAN","Peter",2,"N","N","GRN","The Greens","NSW",3897
+"352",150,"Throsby",24059,"BOULTON","Brian Edward",6,"N","N","DLP","Democratic Labour Party (DLP)","NSW",334
+"353",150,"Throsby",24504,"KING","May Lee",1,"N","N","PUP","Palmer United Party","NSW",3421
+"354",150,"Throsby",24624,"JONES","Stephen",5,"Y","Y","ALP","Australian Labor Party","NSW",33468
+"355",150,"Throsby",24636,"KADWELL","John",4,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1704
+"356",150,"Throsby",24666,"VENESS","Elrond",11,"N","N","BTA","Bullet Train For Australia","NSW",533
+"357",150,"Throsby",24671,"TURNER","Glenn",7,"N","N","KAP","Katter's Australian Party","NSW",380
+"358",150,"Throsby",24915,"MATTERS","Paul Raymond",9,"N","N","IND","Independent","NSW",1689
+"359",151,"Warringah",999,"Informal","Informal",999,"N","N","","Informal","NSW",4413
+"360",151,"Warringah",23209,"COTTEE","Mike",7,"N","N","SPP","Stable Population Party","NSW",613
+"361",151,"Warringah",23210,"ABBOTT","Tony",6,"Y","Y","LP","Liberal","NSW",45446
+"362",151,"Warringah",23602,"KITCHING","Will",4,"N","N","GRN","The Greens","NSW",11626
+"363",151,"Warringah",24183,"STEWART","Brodie Martin O'Connor",2,"N","N","PUP","Palmer United Party","NSW",1622
+"364",151,"Warringah",24564,"ZANETTI","Jules Felix",1,"N","N","ALP","Australian Labor Party","NSW",14410
+"365",151,"Warringah",24580,"BLOOMFIELD","Mike",3,"N","N","RUA","Rise Up Australia Party","NSW",387
+"366",151,"Warringah",24585,"FALANGA","Ula",5,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",514
+"367",152,"Wentworth",999,"Informal","Informal",999,"N","N","","Informal","NSW",4689
+"368",152,"Wentworth",15478,"SHEIL","Pat",5,"N","N","IND","Independent","NSW",797
+"369",152,"Wentworth",23199,"TURNBULL","Malcolm",3,"Y","Y","LP","Liberal","NSW",46367
+"370",152,"Wentworth",23357,"ROBERTSON","Matthew",6,"N","N","GRN","The Greens","NSW",10758
+"371",152,"Wentworth",24236,"FOXMAN","Marsha",2,"N","N","PUP","Palmer United Party","NSW",784
+"372",152,"Wentworth",24579,"SMITH","Di",1,"N","N","ALP","Australian Labor Party","NSW",14438
+"373",152,"Wentworth",24597,"THOMAS","Beresford",4,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",342
+"374",153,"Werriwa",999,"Informal","Informal",999,"N","N","","Informal","NSW",10300
+"375",153,"Werriwa",23217,"JOHNS","Kent",3,"N","N","LP","Liberal","NSW",25737
+"376",153,"Werriwa",23657,"GRIFFITHS","Daniel",6,"N","N","GRN","The Greens","NSW",1950
+"377",153,"Werriwa",24123,"BYRNE","Michael",2,"N","N","DLP","Democratic Labour Party (DLP)","NSW",1218
+"378",153,"Werriwa",24216,"THIRUP","Katryna Marie",7,"N","N","PUP","Palmer United Party","NSW",2816
+"379",153,"Werriwa",24739,"FERGUSON","Laurie",5,"Y","Y","ALP","Australian Labor Party","NSW",29309
+"380",153,"Werriwa",24770,"HARRIS","Marella",4,"N","N","ON","One Nation","NSW",1237
+"381",153,"Werriwa",24784,"RAMSAY","John",1,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",2378
+"382",153,"Werriwa",24806,"BALL","Kerryn",8,"N","N","KAP","Katter's Australian Party","NSW",486
+"383",155,"Bowman",999,"Informal","Informal",999,"N","N","","Informal","QLD",3575
+"384",155,"Bowman",23438,"WAYNE","John Charles",5,"N","N","PUP","Palmer United Party","QLD",9474
+"385",155,"Bowman",23745,"BRISKEY","Darryl",3,"N","N","ALP","Australian Labor Party","QLD",22025
+"386",155,"Bowman",23915,"LAMING","Andrew",2,"Y","Y","LNP","Liberal National Party of Queensland","QLD",35784
+"387",155,"Bowman",23928,"ALLMAN-PAYNE","Penny",4,"N","N","GRN","The Greens","QLD",4322
+"388",155,"Bowman",24851,"O'SHEA","Andrew",1,"N","N","FFP","Family First","QLD",1518
+"389",156,"Brisbane",999,"Informal","Informal",999,"N","N","","Informal","QLD",2715
+"390",156,"Brisbane",23404,"FORD","Veronica Mary Ann",5,"N","N","PUP","Palmer United Party","QLD",2717
+"391",156,"Brisbane",23585,"ROSE","Tony",2,"N","N","SPA","Secular Party of Australia","QLD",443
+"392",156,"Brisbane",23586,"ROLES","John",1,"N","N","SPP","Stable Population Party","QLD",415
+"393",156,"Brisbane",23719,"McNAMARA","Fiona",8,"N","N","ALP","Australian Labor Party","QLD",20448
+"394",156,"Brisbane",23789,"GAMBARO","Teresa",3,"Y","Y","LNP","Liberal National Party of Queensland","QLD",32087
+"395",156,"Brisbane",23874,"JACOBS","Rachael",6,"N","N","GRN","The Greens","QLD",9610
+"396",156,"Brisbane",24396,"CICCHINI","Connie",4,"N","N","KAP","Katter's Australian Party","QLD",678
+"397",156,"Brisbane",24874,"JOYNER","Sharyn",7,"N","N","FFP","Family First","QLD",595
+"398",157,"Capricornia",999,"Informal","Informal",999,"N","N","","Informal","QLD",4028
+"399",157,"Capricornia",23459,"ISON","Derek James",3,"N","N","PUP","Palmer United Party","QLD",5664
+"400",157,"Capricornia",23697,"LEWIS","Paul",2,"N","N","RUA","Rise Up Australia Party","QLD",353
+"401",157,"Capricornia",23740,"FREELEAGUS","Peter",1,"N","N","ALP","Australian Labor Party","QLD",27030
+"402",157,"Capricornia",23862,"LANDRY","Michelle",7,"Y","N","LNP","Liberal National Party of Queensland","QLD",27772
+"403",157,"Capricornia",23910,"BAMBRICK","Paul",4,"N","N","GRN","The Greens","QLD",2445
+"404",157,"Capricornia",24442,"WILLIAMS","Robbie",8,"N","N","KAP","Katter's Australian Party","QLD",3759
+"405",157,"Capricornia",24835,"ALLEY","Hazel",6,"N","N","FFP","Family First","QLD",2916
+"406",157,"Capricornia",24970,"DIAMOND","Bruce",5,"N","N","NAFD","","QLD",1507
+"407",158,"Dawson",999,"Informal","Informal",999,"N","N","","Informal","QLD",3918
+"408",158,"Dawson",23287,"HARRIS","Andrew",5,"N","N","CEC","Citizens Electoral Council","QLD",270
+"409",158,"Dawson",23409,"FERGUSON","Ian Maurice",4,"N","N","PUP","Palmer United Party","QLD",7337
+"410",158,"Dawson",23993,"TAHA","Bronwyn",6,"N","N","ALP","Australian Labor Party","QLD",22055
+"411",158,"Dawson",23996,"CHRISTENSEN","George",2,"Y","Y","LNP","Liberal National Party of Queensland","QLD",34085
+"412",158,"Dawson",24000,"DYKYJ","Jonathon",1,"N","N","GRN","The Greens","QLD",3621
+"413",158,"Dawson",24577,"ENGLERT","Justin",7,"N","N","KAP","Katter's Australian Party","QLD",4711
+"414",158,"Dawson",24817,"TEMPLE","Lindsay",3,"N","N","FFP","Family First","QLD",1348
+"415",159,"Fadden",999,"Informal","Informal",999,"N","N","","Informal","QLD",4211
+"416",159,"Fadden",23394,"MacANALLY","James Patrick",3,"N","N","PUP","Palmer United Party","QLD",9814
+"417",159,"Fadden",23759,"LESSIO","Nicole",7,"N","N","ALP","Australian Labor Party","QLD",14610
+"418",159,"Fadden",23815,"ROBERT","Stuart",8,"Y","Y","LNP","Liberal National Party of Queensland","QLD",34863
+"419",159,"Fadden",23960,"MAIZEY","Petrina",1,"N","N","GRN","The Greens","QLD",3145
+"420",159,"Fadden",24507,"LAWRENCE","Billy",4,"N","N","KAP","Katter's Australian Party","QLD",799
+"421",159,"Fadden",24510,"BOYD","Stewart",6,"N","N","ON","One Nation","QLD",367
+"422",159,"Fadden",24780,"CARROLL","Maurie",5,"N","N","IND","Independent","QLD",547
+"423",159,"Fadden",24833,"FREDERICKS","Jeremy John",2,"N","N","FFP","Family First","QLD",1005
+"424",160,"Fairfax",999,"Informal","Informal",999,"N","N","","Informal","QLD",3907
+"425",160,"Fairfax",23162,"BYRNES","Trudy",2,"N","N","IND","Independent","QLD",792
+"426",160,"Fairfax",23396,"PALMER","Clive Frederick",3,"Y","N","PUP","Palmer United Party","QLD",19110
+"427",160,"Fairfax",23746,"HUGHES","Elaine Lexie",6,"N","N","ALP","Australian Labor Party","QLD",12612
+"428",160,"Fairfax",23792,"O'BRIEN","Ted",4,"N","N","LNP","Liberal National Party of Queensland","QLD",28590
+"429",160,"Fairfax",23946,"KNOBEL","David",7,"N","N","GRN","The Greens","QLD",5758
+"430",160,"Fairfax",24322,"SAWYER","Ray",8,"N","N","KAP","Katter's Australian Party","QLD",1245
+"431",160,"Fairfax",24404,"HOLT","Mike",1,"N","N","ON","One Nation","QLD",553
+"432",160,"Fairfax",24815,"MEYER","Angela",5,"N","N","FFP","Family First","QLD",1143
+"433",161,"Fisher",999,"Informal","Informal",999,"N","N","","Informal","QLD",4106
+"434",161,"Fisher",20759,"SLIPPER","Peter",9,"N","Y","NAFD","","QLD",933
+"435",161,"Fisher",23307,"MAGUIRE","Mark",2,"N","N","AIN","Australian Independents","QLD",695
+"436",161,"Fisher",23416,"SCHOCH","William Matthew",6,"N","N","PUP","Palmer United Party","QLD",11557
+"437",161,"Fisher",23667,"TERRY","Jarreau",8,"N","N","IND","Independent","QLD",790
+"438",161,"Fisher",23691,"CHRISTENSEN","Rod",7,"N","N","RUA","Rise Up Australia Party","QLD",243
+"439",161,"Fisher",23741,"GISSANE","Bill",5,"N","N","ALP","Australian Labor Party","QLD",13534
+"440",161,"Fisher",23794,"BROUGH","Mal",3,"Y","N","LNP","Liberal National Party of Queensland","QLD",28123
+"441",161,"Fisher",23937,"CLARIDGE","Garry",10,"N","N","GRN","The Greens","QLD",4819
+"442",161,"Fisher",24325,"MELDON","Mark",1,"N","N","KAP","Katter's Australian Party","QLD",1943
+"443",161,"Fisher",24814,"MOORE","Tony",4,"N","N","FFP","Family First","QLD",1298
+"444",162,"Forde",999,"Informal","Informal",999,"N","N","","Informal","QLD",5027
+"445",162,"Forde",23708,"PUKALLUS","Jan",7,"N","N","CEC","Citizens Electoral Council","QLD",97
+"446",162,"Forde",23747,"BREWSTER","Blair Matthew",5,"N","N","PUP","Palmer United Party","QLD",7761
+"447",162,"Forde",23942,"JENNINGS","Jonathan",1,"N","N","RUA","Rise Up Australia Party","QLD",552
+"448",162,"Forde",23973,"BEATTIE","Peter Douglas",3,"N","N","ALP","Australian Labor Party","QLD",20822
+"449",162,"Forde",24441,"DOUGLAS","Keith",4,"N","N","VCE","Australian Voice","QLD",191
+"450",162,"Forde",24479,"van MANEN","Bert",2,"Y","Y","LNP","Liberal National Party of Queensland","QLD",25787
+"451",162,"Forde",24483,"SPAIN","Sally",8,"N","N","GRN","The Greens","QLD",2447
+"452",162,"Forde",24498,"HUNTER","Paul Roger",10,"N","N","KAP","Katter's Australian Party","QLD",1244
+"453",162,"Forde",24514,"SLOSS","Joshua",6,"N","N","IND","Independent","QLD",535
+"454",162,"Forde",24845,"BEST","Amanda",9,"N","N","FFP","Family First","QLD",1303
+"455",163,"Griffith",999,"Informal","Informal",999,"N","N","","Informal","QLD",3435
+"456",163,"Griffith",23153,"SOWDEN","Greg",3,"N","N","IND","Independent","QLD",527
+"457",163,"Griffith",23427,"HUNTER","Karin Margaret",10,"N","N","PUP","Palmer United Party","QLD",2228
+"458",163,"Griffith",23439,"McNICOL","Jan",2,"N","N","SPP","Stable Population Party","QLD",113
+"459",163,"Griffith",23598,"REID","Anne",7,"N","N","SPA","Secular Party of Australia","QLD",352
+"460",163,"Griffith",23675,"CHURCH","Sherrilyn",1,"N","N","RUA","Rise Up Australia Party","QLD",312
+"461",163,"Griffith",23714,"FLENADY","Liam",5,"N","N","SAL","Socialist Alliance","QLD",299
+"462",163,"Griffith",23744,"RUDD","Kevin",6,"Y","Y","ALP","Australian Labor Party","QLD",27893
+"463",163,"Griffith",23830,"GLASSON","Bill",9,"N","N","LNP","Liberal National Party of Queensland","QLD",28995
+"464",163,"Griffith",23859,"EBBS","Geoff",8,"N","N","GRN","The Greens","QLD",6917
+"465",163,"Griffith",24471,"MURRAY","Luke",4,"N","N","KAP","Katter's Australian Party","QLD",424
+"466",163,"Griffith",24853,"KERTESZ","Adam",11,"N","N","FFP","Family First","QLD",479
+"467",164,"Groom",999,"Informal","Informal",999,"N","N","","Informal","QLD",3187
+"468",164,"Groom",23279,"THIES","Robert Henry",1,"N","N","CEC","Citizens Electoral Council","QLD",608
+"469",164,"Groom",23407,"MATHIESON","Ewen James",7,"N","N","PUP","Palmer United Party","QLD",6972
+"470",164,"Groom",23655,"ARMITAGE","Rick",6,"N","N","RUA","Rise Up Australia Party","QLD",1035
+"471",164,"Groom",23713,"MURRAY","Troy",2,"N","N","ALP","Australian Labor Party","QLD",16540
+"472",164,"Groom",23796,"MACFARLANE","Ian",4,"Y","Y","LNP","Liberal National Party of Queensland","QLD",39610
+"473",164,"Groom",23860,"SMITH","Trevor",5,"N","N","GRN","The Greens","QLD",3133
+"474",164,"Groom",24350,"WHITTY","Chris",3,"N","N","KAP","Katter's Australian Party","QLD",2588
+"475",164,"Groom",24816,"TODD","Alex J",8,"N","N","FFP","Family First","QLD",1957
+"476",165,"Herbert",999,"Informal","Informal",999,"N","N","","Informal","QLD",4819
+"477",165,"Herbert",23505,"BREWSTER","Martin David",10,"N","N","PUP","Palmer United Party","QLD",6599
+"478",165,"Herbert",23703,"MAROLLA","Nino",3,"N","N","RUA","Rise Up Australia Party","QLD",486
+"479",165,"Herbert",23712,"O'TOOLE","Cathy",6,"N","N","ALP","Australian Labor Party","QLD",21782
+"480",165,"Herbert",23811,"JONES","Ewen",5,"Y","Y","LNP","Liberal National Party of Queensland","QLD",31573
+"481",165,"Herbert",24177,"HAMILTON","Gail",1,"N","N","GRN","The Greens","QLD",3813
+"482",165,"Herbert",24242,"BELL","Margaret",9,"N","N","VCE","Australian Voice","QLD",323
+"483",165,"Herbert",24306,"WALKER","Bronwyn",4,"N","N","KAP","Katter's Australian Party","QLD",5713
+"484",165,"Herbert",24352,"MOIR","Steve",2,"N","N","ON","One Nation","QLD",591
+"485",165,"Herbert",24383,"GEORGE","Costa",8,"N","N","ASXP","Sex Party","QLD",1349
+"486",165,"Herbert",24863,"PUNSHON","Michael",7,"N","N","FFP","Family First","QLD",949
+"487",166,"Hinkler",999,"Informal","Informal",999,"N","N","","Informal","QLD",3963
+"488",166,"Hinkler",23413,"MESSENGER","Robert Desmond",7,"N","N","PUP","Palmer United Party","QLD",13264
+"489",166,"Hinkler",23716,"DONALDSON","Leanne",1,"N","N","ALP","Australian Labor Party","QLD",20246
+"490",166,"Hinkler",23837,"PITT","Keith",5,"Y","N","LNP","Liberal National Party of Queensland","QLD",32617
+"491",166,"Hinkler",23877,"SIMPSON","Mark",6,"N","N","GRN","The Greens","QLD",1911
+"492",166,"Hinkler",24317,"DALGLEISH","David",2,"N","N","KAP","Katter's Australian Party","QLD",3237
+"493",166,"Hinkler",24821,"SULLIVAN","Troy Bradly",4,"N","N","FFP","Family First","QLD",1335
+"494",166,"Hinkler",24916,"SCHIRMER","Reid",3,"N","N","IND","Independent","QLD",545
+"495",167,"Kennedy",999,"Informal","Informal",999,"N","N","","Informal","QLD",4300
+"496",167,"Kennedy",23412,"BRAZIER","Ronald George",1,"N","N","PUP","Palmer United Party","QLD",5395
+"497",167,"Kennedy",23634,"HECHT","Pam",5,"N","N","RUA","Rise Up Australia Party","QLD",413
+"498",167,"Kennedy",23808,"IKIN","Noeline",7,"N","N","LNP","Liberal National Party of Queensland","QLD",28574
+"499",167,"Kennedy",23949,"STIRLING","Jenny",3,"N","N","GRN","The Greens","QLD",2178
+"500",167,"Kennedy",24078,"TURNOUR","Andrew",8,"N","N","ALP","Australian Labor Party","QLD",11772
+"501",167,"Kennedy",24318,"KATTER","Bob",4,"Y","Y","KAP","Katter's Australian Party","QLD",20653
+"502",167,"Kennedy",24831,"VOGLER","Dan",6,"N","N","FFP","Family First","QLD",872
+"503",167,"Kennedy",24927,"TUXFORD","Chester Gordon",2,"N","N","IND","Independent","QLD",449
+"504",168,"Leichhardt",999,"Informal","Informal",999,"N","N","","Informal","QLD",4467
+"505",168,"Leichhardt",23419,"GIBSON","Bruce",4,"N","N","PUP","Palmer United Party","QLD",6494
+"506",168,"Leichhardt",23650,"EDWARDS","Dale",2,"N","N","RUA","Rise Up Australia Party","QLD",399
+"507",168,"Leichhardt",23748,"GORDON","Billy",7,"N","N","ALP","Australian Labor Party","QLD",24730
+"508",168,"Leichhardt",23801,"ENTSCH","Warren",6,"Y","Y","LNP","Liberal National Party of Queensland","QLD",33529
+"509",168,"Leichhardt",23930,"KLOOT","Johanna",5,"N","N","GRN","The Greens","QLD",4791
+"510",168,"Leichhardt",24332,"RYAN","George",3,"N","N","KAP","Katter's Australian Party","QLD",3028
+"511",168,"Leichhardt",24823,"MILES","Frank",1,"N","N","FFP","Family First","QLD",1612
+"512",169,"Lilley",999,"Informal","Informal",999,"N","N","","Informal","QLD",3647
+"513",169,"Lilley",23264,"CONTARINO","Nick",7,"N","N","CEC","Citizens Electoral Council","QLD",284
+"514",169,"Lilley",23418,"FIGUEROA","Benedict",3,"N","N","PUP","Palmer United Party","QLD",5053
+"515",169,"Lilley",23721,"SWAN","Wayne",5,"Y","Y","ALP","Australian Labor Party","QLD",29478
+"516",169,"Lilley",23817,"McGARVIE","Rod",4,"N","N","LNP","Liberal National Party of Queensland","QLD",30194
+"517",169,"Lilley",23857,"FORSTER","Nic",2,"N","N","GRN","The Greens","QLD",5538
+"518",169,"Lilley",24393,"RYAN","James Michael",1,"N","N","KAP","Katter's Australian Party","QLD",1404
+"519",169,"Lilley",24871,"VINCENT","Allan",6,"N","N","FFP","Family First","QLD",1015
+"520",170,"Maranoa",999,"Informal","Informal",999,"N","N","","Informal","QLD",3538
+"521",170,"Maranoa",23594,"BJELKE-PETERSEN","John",6,"N","N","PUP","Palmer United Party","QLD",10311
+"522",170,"Maranoa",24067,"CLOUSTON","George Mousley",5,"N","N","RUA","Rise Up Australia Party","QLD",707
+"523",170,"Maranoa",24068,"CEDRIC-THOMPSON","Nick",2,"N","N","ALP","Australian Labor Party","QLD",12112
+"524",170,"Maranoa",24071,"SCOTT","Bruce",4,"Y","Y","LNP","Liberal National Party of Queensland","QLD",39186
+"525",170,"Maranoa",24073,"NEWSON","Grant",3,"N","N","GRN","The Greens","QLD",2171
+"526",170,"Maranoa",24512,"WALTON","Rowell",7,"N","N","KAP","Katter's Australian Party","QLD",3748
+"527",170,"Maranoa",24846,"SPELLMAN","John",1,"N","N","FFP","Family First","QLD",2054
+"528",171,"Mcpherson",999,"Informal","Informal",999,"N","N","","Informal","QLD",3977
+"529",171,"Mcpherson",23456,"DOUGLAS","Susan Kim",2,"N","N","PUP","Palmer United Party","QLD",11484
+"530",171,"Mcpherson",23760,"HISLOP","Gail",4,"N","N","ALP","Australian Labor Party","QLD",15937
+"531",171,"Mcpherson",23826,"ANDREWS","Karen",5,"Y","Y","LNP","Liberal National Party of Queensland","QLD",34847
+"532",171,"Mcpherson",23888,"WYATT","David Michael",6,"N","N","GRN","The Greens","QLD",4697
+"533",171,"Mcpherson",24829,"GREEN","Simon",1,"N","N","FFP","Family First","QLD",2599
+"534",171,"Mcpherson",24911,"BLAKE","Charles",3,"N","N","VCE","Australian Voice Party","QLD",383
+"535",172,"Moncrieff",999,"Informal","Informal",999,"N","N","","Informal","QLD",4111
+"536",172,"Moncrieff",23285,"SPAJIC","Paul",2,"N","N","CEC","Citizens Electoral Council","QLD",273
+"537",172,"Moncrieff",23424,"PFORR","Grant James",4,"N","N","PUP","Palmer United Party","QLD",9103
+"538",172,"Moncrieff",24056,"McPHERSON","Toni",6,"N","N","GRN","The Greens","QLD",4114
+"539",172,"Moncrieff",24057,"CIOBO","Steven",3,"Y","Y","LNP","Liberal National Party of Queensland","QLD",35952
+"540",172,"Moncrieff",24058,"MUNRO","Jason David",7,"N","N","ALP","Australian Labor Party","QLD",13543
+"541",172,"Moncrieff",24397,"BERIC","Veronica Bernadette",5,"N","N","ON","One Nation","QLD",439
+"542",172,"Moncrieff",24830,"NICHOLSON","Barrie Sinclair",1,"N","N","FFP","Family First","QLD",1374
+"543",173,"Moreton",999,"Informal","Informal",999,"N","N","","Informal","QLD",4042
+"544",173,"Moreton",23261,"GRUNERT","Wayne J M",2,"N","N","CEC","Citizens Electoral Council","QLD",138
+"545",173,"Moreton",23431,"DAVEY","Jeremy Peter",7,"N","N","PUP","Palmer United Party","QLD",3171
+"546",173,"Moreton",23645,"MUSCAT","Hayden",4,"N","N","FUT","Future Party","QLD",353
+"547",173,"Moreton",23696,"FRY","Bruce Mayburn",8,"N","N","RUA","Rise Up Australia Party","QLD",229
+"548",173,"Moreton",23718,"PERRETT","Graham Douglas",1,"Y","Y","ALP","Australian Labor Party","QLD",25321
+"549",173,"Moreton",23807,"COLE","Malcolm",6,"N","N","LNP","Liberal National Party of Queensland","QLD",27388
+"550",173,"Moreton",23866,"JENKINS","Elissa",9,"N","N","GRN","The Greens","QLD",6393
+"551",173,"Moreton",24315,"MALLCOTT","Chris Allan",3,"N","N","KAP","Katter's Australian Party","QLD",738
+"552",173,"Moreton",24848,"FERRANDO","Carolyn",5,"N","N","FFP","Family First","QLD",925
+"553",174,"Oxley",999,"Informal","Informal",999,"N","N","","Informal","QLD",4871
+"554",174,"Oxley",23415,"KARG","Frank",2,"N","N","DLP","Democratic Labour Party (DLP)","QLD",806
+"555",174,"Oxley",23583,"TANG","Ricky Yue Mun",6,"N","N","PUP","Palmer United Party","QLD",4388
+"556",174,"Oxley",23633,"MOERLAND","Scott",5,"N","N","RUA","Rise Up Australia Party","QLD",305
+"557",174,"Oxley",23755,"RIPOLL","Bernie",7,"Y","Y","ALP","Australian Labor Party","QLD",27046
+"558",174,"Oxley",23810,"NGUYEN","Andrew",1,"N","N","LNP","Liberal National Party of Queensland","QLD",23873
+"559",174,"Oxley",24166,"STEPHENSON","Martin",3,"N","N","GRN","The Greens","QLD",3252
+"560",174,"Oxley",24309,"HEWLETT","Kathleen",4,"N","N","KAP","Katter's Australian Party","QLD",1172
+"561",174,"Oxley",24818,"McCORMACK","Carrie",8,"N","N","FFP","Family First","QLD",1179
+"562",175,"Petrie",999,"Informal","Informal",999,"N","N","","Informal","QLD",3837
+"563",175,"Petrie",23374,"CORNELL","Geoff",7,"N","N","CEC","Citizens Electoral Council","QLD",143
+"564",175,"Petrie",23561,"PROHASKA","Thor Leopold",2,"N","N","PUP","Palmer United Party","QLD",6948
+"565",175,"Petrie",23689,"JENNINGS","Elise",1,"N","N","RUA","Rise Up Australia Party","QLD",695
+"566",175,"Petrie",23733,"D'ATH","Yvette",8,"N","Y","ALP","Australian Labor Party","QLD",26443
+"567",175,"Petrie",23800,"HOWARTH","Luke",6,"Y","N","LNP","Liberal National Party of Queensland","QLD",27155
+"568",175,"Petrie",24080,"MARSHALL","John",3,"N","N","GRN","The Greens","QLD",2930
+"569",175,"Petrie",24419,"THOMSON","Chris",4,"N","N","KAP","Katter's Australian Party","QLD",915
+"570",175,"Petrie",24854,"SPENCE","Tasman",5,"N","N","FFP","Family First","QLD",1403
+"571",176,"Rankin",999,"Informal","Informal",999,"N","N","","Informal","QLD",5005
+"572",176,"Rankin",23436,"ROGAN","William Tracy",3,"N","N","PUP","Palmer United Party","QLD",7576
+"573",176,"Rankin",23730,"CHALMERS","Jim",4,"Y","N","ALP","Australian Labor Party","QLD",28737
+"574",176,"Rankin",23831,"LIN","David",5,"N","N","LNP","Liberal National Party of Queensland","QLD",23619
+"575",176,"Rankin",23919,"COTTER","Neil",1,"N","N","GRN","The Greens","QLD",3392
+"576",176,"Rankin",24417,"CLAYDON","Chris",2,"N","N","KAP","Katter's Australian Party","QLD",1259
+"577",176,"Rankin",24838,"LAWRIE","Chris",6,"N","N","FFP","Family First","QLD",1923
+"578",177,"Ryan",999,"Informal","Informal",999,"N","N","","Informal","QLD",2477
+"579",177,"Ryan",23442,"GUNNIS","Craig Geoffrey",4,"N","N","PUP","Palmer United Party","QLD",3607
+"580",177,"Ryan",23454,"SWEEDMAN","Michael C",6,"N","N","SPA","Secular Party of Australia","QLD",597
+"581",177,"Ryan",23724,"HAMWOOD","Damien Scott",1,"N","N","ALP","Australian Labor Party","QLD",18501
+"582",177,"Ryan",23814,"PRENTICE","Jane",3,"Y","Y","LNP","Liberal National Party of Queensland","QLD",38013
+"583",177,"Ryan",23899,"WORRINGHAM","Charles",2,"N","N","GRN","The Greens","QLD",10622
+"584",177,"Ryan",24392,"WALKER","Peter Andrew",5,"N","N","KAP","Katter's Australian Party","QLD",814
+"585",177,"Ryan",24877,"DEMEDIO","Lisa",7,"N","N","FFP","Family First","QLD",914
+"586",178,"Wide Bay",999,"Informal","Informal",999,"N","N","","Informal","QLD",3628
+"587",178,"Wide Bay",23414,"ANDERSON","Stephen Alfred",4,"N","N","PUP","Palmer United Party","QLD",11763
+"588",178,"Wide Bay",23692,"DICKINS","Grace",6,"N","N","RUA","Rise Up Australia Party","QLD",420
+"589",178,"Wide Bay",23723,"STANTON","Lucy",7,"N","N","ALP","Australian Labor Party","QLD",14712
+"590",178,"Wide Bay",23822,"TRUSS","Warren",1,"Y","Y","LNP","Liberal National Party of Queensland","QLD",34254
+"591",178,"Wide Bay",23902,"RINGROSE","Joy",3,"N","N","GRN","The Greens","QLD",4548
+"592",178,"Wide Bay",24401,"DALE","Gordon",2,"N","N","KAP","Katter's Australian Party","QLD",4179
+"593",178,"Wide Bay",24827,"CHAPMAN","John",5,"N","N","FFP","Family First","QLD",1063
+"594",179,"Adelaide",999,"Informal","Informal",999,"N","N","","Informal","SA",3107
+"595",179,"Adelaide",23637,"GARCIA","Carmen",4,"N","N","LP","Liberal","SA",30752
+"596",179,"Adelaide",23971,"ELLIS","Kate",2,"Y","Y","ALP","Australian Labor Party","SA",31257
+"597",179,"Adelaide",24370,"SCALI","Vincent",3,"N","N","PUP","Palmer United Party","SA",1535
+"598",179,"Adelaide",24875,"BEACH","Ruth",6,"N","N","GRN","The Greens","SA",7188
+"599",179,"Adelaide",24884,"LAZAROU","Liah",1,"N","N","SAL","Socialist Alliance","SA",762
+"600",179,"Adelaide",25001,"LEE","Peter",5,"N","N","FFP","Family First","SA",1615
+"601",180,"Barker",999,"Informal","Informal",999,"N","N","","Informal","SA",4833
+"602",180,"Barker",23218,"SAGE","Richard",6,"N","N","IND","Independent","SA",5905
+"603",180,"Barker",23648,"PASIN","Tony",7,"Y","N","LP","Liberal","SA",41854
+"604",180,"Barker",23974,"GOLDING","Phil",5,"N","N","ALP","Australian Labor Party","SA",14665
+"605",180,"Barker",24300,"JHANDI","Balwinder Singh",3,"N","N","PUP","Palmer United Party","SA",3152
+"606",180,"Barker",24745,"HANNEMANN","Miles",4,"N","N","NP","The Nationals","SA",3528
+"607",180,"Barker",24852,"KEOUGH","Mark",1,"N","N","GRN","The Greens","SA",4328
+"608",180,"Barker",25019,"LAMBERT","Kristin",2,"N","N","FFP","Family First","SA",6482
+"609",182,"Boothby",999,"Informal","Informal",999,"N","N","","Informal","SA",2906
+"610",182,"Boothby",23820,"SOUTHCOTT","Andrew",2,"Y","Y","LP","Liberal","SA",39143
+"611",182,"Boothby",24124,"DIGANCE","Annabel",4,"N","N","ALP","Australian Labor Party","SA",24077
+"612",182,"Boothby",24491,"COX","Sally Dawn",3,"N","N","PUP","Palmer United Party","SA",2225
+"613",182,"Boothby",24953,"THOMAS","Stephen",1,"N","N","GRN","The Greens","SA",9027
+"614",182,"Boothby",25009,"EDMONDS","Natasha",5,"N","N","FFP","Family First","SA",2939
+"615",183,"Grey",999,"Informal","Informal",999,"N","N","","Informal","SA",4642
+"616",183,"Grey",23160,"FIDGE","Greg",6,"N","N","IND","Independent","SA",2095
+"617",183,"Grey",23709,"RAMSEY","Rowan",5,"Y","Y","LP","Liberal","SA",41182
+"618",183,"Grey",24001,"BROWNE","Ben",1,"N","N","ALP","Australian Labor Party","SA",21255
+"619",183,"Grey",24511,"REES","Kristian",2,"N","N","PUP","Palmer United Party","SA",3853
+"620",183,"Grey",24859,"SENTANCE","Alison",4,"N","N","GRN","The Greens","SA",2632
+"621",183,"Grey",24999,"KAMINSKI","Cheryl",3,"N","N","FFP","Family First","SA",4136
+"622",185,"Hindmarsh",999,"Informal","Informal",999,"N","N","","Informal","SA",4177
+"623",185,"Hindmarsh",23656,"WILLIAMS","Matt",2,"Y","N","LP","Liberal","SA",35887
+"624",185,"Hindmarsh",23968,"GEORGANAS","Steve",6,"N","Y","ALP","Australian Labor Party","SA",29625
+"625",185,"Hindmarsh",24518,"MELISSOURGOS","George Peter",3,"N","N","PUP","Palmer United Party","SA",1830
+"626",185,"Hindmarsh",24520,"McKAY","Kym",5,"N","N","KAP","Katter's Australian Party","SA",439
+"627",185,"Hindmarsh",24870,"PAYNE","Andrew",1,"N","N","GRN","The Greens","SA",6546
+"628",185,"Hindmarsh",24944,"McCABE","David",4,"N","N","DLP","DLP Democratic Labour","SA",582
+"629",185,"Hindmarsh",25005,"RANDALL","Bob",7,"N","N","FFP","Family First","SA",2173
+"630",186,"Kingston",999,"Informal","Informal",999,"N","N","","Informal","SA",4139
+"631",186,"Kingston",23819,"MILLS","Damien",4,"N","N","LP","Liberal","SA",24071
+"632",186,"Kingston",24116,"RISHWORTH","Amanda",6,"Y","Y","ALP","Australian Labor Party","SA",37487
+"633",186,"Kingston",24189,"SNOSWELL","Andy",1,"N","N","RUA","Rise Up Australia Party","SA",952
+"634",186,"Kingston",24294,"FROST","Mitchell Thomas",3,"N","N","PUP","Palmer United Party","SA",3100
+"635",186,"Kingston",24899,"MOORE","Palitja",2,"N","N","GRN","The Greens","SA",4884
+"636",186,"Kingston",25006,"DOECKE","Geoff",5,"N","N","FFP","Family First","SA",4328
+"637",187,"Makin",999,"Informal","Informal",999,"N","N","","Informal","SA",4158
+"638",187,"Makin",23640,"LAWRIE","Sue",4,"N","N","LP","Liberal","SA",28861
+"639",187,"Makin",24108,"ZAPPIA","Tony",1,"Y","Y","ALP","Australian Labor Party","SA",35723
+"640",187,"Makin",24452,"GRAHAM","Andrew Morgan",2,"N","N","PUP","Palmer United Party","SA",3182
+"641",187,"Makin",24456,"JAMESON","Robert",3,"N","N","KAP","Katter's Australian Party","SA",544
+"642",187,"Makin",24878,"HARRISON","Ami",5,"N","N","GRN","The Greens","SA",4356
+"643",187,"Makin",25028,"POTTER","Mark",6,"N","N","FFP","Family First","SA",4870
+"644",188,"Mayo",999,"Informal","Informal",999,"N","N","","Informal","SA",3108
+"645",188,"Mayo",23672,"BRIGGS","Jamie",5,"Y","Y","LP","Liberal","SA",41057
+"646",188,"Mayo",23992,"FAHY","Norah",3,"N","N","ALP","Australian Labor Party","SA",16128
+"647",188,"Mayo",24502,"BRAR","Bikkar Singh",2,"N","N","PUP","Palmer United Party","SA",2905
+"648",188,"Mayo",24887,"GROSSER","Ian",4,"N","N","GRN","The Greens","SA",10685
+"649",188,"Mayo",24998,"HICKS","Bruce",1,"N","N","FFP","Family First","SA",5460
+"650",189,"Port Adelaide",999,"Informal","Informal",999,"N","N","","Informal","SA",5189
+"651",189,"Port Adelaide",23768,"MCKENNA","Nigel",4,"N","N","LP","Liberal","SA",19797
+"652",189,"Port Adelaide",24121,"BUTLER","Mark",6,"Y","Y","ALP","Australian Labor Party","SA",39104
+"653",189,"Port Adelaide",24395,"HUYNH","Ngoc Chau",2,"N","N","PUP","Palmer United Party","SA",4413
+"654",189,"Port Adelaide",24489,"COOKSLEY","Terry",3,"N","N","AFN","Australia First Party","SA",895
+"655",189,"Port Adelaide",24931,"POPOVIC","Dusan",5,"N","N","GRN","The Greens","SA",6430
+"656",189,"Port Adelaide",25011,"HAMBOUR","Bruce",1,"N","N","FFP","Family First","SA",5569
+"657",190,"Sturt",999,"Informal","Informal",999,"N","N","","Informal","SA",3734
+"658",190,"Sturt",23647,"PYNE","Christopher",1,"Y","Y","LP","Liberal","SA",41218
+"659",190,"Sturt",24101,"SARRE","Rick",3,"N","N","ALP","Australian Labor Party","SA",21998
+"660",190,"Sturt",24509,"SCALI","Gabriella Alexandra",4,"N","N","PUP","Palmer United Party","SA",2168
+"661",190,"Sturt",24873,"WALKER","Anne",5,"N","N","GRN","The Greens","SA",7155
+"662",190,"Sturt",25003,"BARNES","Kylie",2,"N","N","FFP","Family First","SA",2915
+"663",191,"Wakefield",999,"Informal","Informal",999,"N","N","","Informal","SA",4941
+"664",191,"Wakefield",23736,"ZORICH","Tom",1,"N","N","LP","Liberal","SA",29014
+"665",191,"Wakefield",23742,"ALDRIDGE","Mark",3,"N","N","IND","Independent","SA",3122
+"666",191,"Wakefield",24198,"CHAMPION","Nick",6,"Y","Y","ALP","Australian Labor Party","SA",32551
+"667",191,"Wakefield",24405,"MUSOLINO","Tony",4,"N","N","KAP","Katter's Australian Party","SA",784
+"668",191,"Wakefield",24420,"MUSOLINO","Dino",5,"N","N","PUP","Palmer United Party","SA",3296
+"669",191,"Wakefield",24844,"CLAY","Sherree",2,"N","N","GRN","The Greens","SA",3820
+"670",191,"Wakefield",25010,"COOMBE","Paul",7,"N","N","FFP","Family First","SA",4497
+"671",192,"Bass",999,"Informal","Informal",999,"N","N","","Informal","TAS",2603
+"672",192,"Bass",23294,"NIKOLIC","Andrew",2,"Y","N","LP","Liberal","TAS",26958
+"673",192,"Bass",23452,"LANDON-LANE","Lucy",6,"N","N","GRN","The Greens","TAS",4340
+"674",192,"Bass",23464,"LYONS","Geoff",5,"N","Y","ALP","Australian Labor Party","TAS",19597
+"675",192,"Bass",23546,"DOBSON","Christopher Lee",3,"N","N","PUP","Palmer United Party","TAS",3081
+"676",192,"Bass",24170,"BERGMAN","Christine",4,"N","N","FFP","Family First","TAS",1244
+"677",192,"Bass",24643,"CHOI","Jin-oh",7,"N","N","SPA","Secular Party of Australia","TAS",336
+"678",192,"Bass",24794,"KROEZE","Ray",1,"N","N","AUC","Australian Christians","TAS",834
+"679",193,"Braddon",999,"Informal","Informal",999,"N","N","","Informal","TAS",2250
+"680",193,"Braddon",23270,"WHITELEY","Brett",5,"Y","N","LP","Liberal","TAS",27029
+"681",193,"Braddon",23449,"HOUGHTON","Melissa",1,"N","N","GRN","The Greens","TAS",2813
+"682",193,"Braddon",23529,"SIDEBOTTOM","Sid",2,"N","Y","ALP","Australian Labor Party","TAS",22026
+"683",193,"Braddon",23554,"MORGAN","Kevin",3,"N","N","PUP","Palmer United Party","TAS",5584
+"684",193,"Braddon",23875,"SHAW","Bernard",4,"N","N","RUA","Rise Up Australia Party","TAS",596
+"685",194,"Denison",999,"Informal","Informal",999,"N","N","","Informal","TAS",2539
+"686",194,"Denison",20881,"WILKIE","Andrew",2,"Y","Y","IND","Independent","TAS",20522
+"687",194,"Denison",23274,"DENISON","Tanya",1,"N","N","LP","Liberal","TAS",12271
+"688",194,"Denison",23280,"HOULT","Brandon",6,"N","N","SPP","Stable Population Party","TAS",94
+"689",194,"Denison",23446,"REYNOLDS","Anna",3,"N","N","GRN","The Greens","TAS",4237
+"690",194,"Denison",23453,"AUSTIN","Jane",9,"N","N","ALP","Australian Labor Party","TAS",13451
+"691",194,"Denison",23540,"THURLEY","Debra Joyce",8,"N","N","PUP","Palmer United Party","TAS",1334
+"692",194,"Denison",23783,"DEVLIN","Graeme",10,"N","N","RUA","Rise Up Australia Party","TAS",140
+"693",194,"Denison",24151,"McCALLUM","Trevlyn",7,"N","N","FFP","Family First","TAS",474
+"694",194,"Denison",24765,"WILLIAMS","Wayne",4,"N","N","DLP","DLP Democratic Labour","TAS",455
+"695",194,"Denison",24902,"BUTLER","Bob",5,"N","N","ASXP","Sex Party","TAS",748
+"696",195,"Franklin",999,"Informal","Informal",999,"N","N","","Informal","TAS",2349
+"697",195,"Franklin",23271,"BLACK","Bernadette",3,"N","N","LP","Liberal","TAS",21867
+"698",195,"Franklin",23447,"WOODRUFF","Rosalie",6,"N","N","GRN","The Greens","TAS",6787
+"699",195,"Franklin",23455,"COLLINS","Julie",1,"Y","Y","ALP","Australian Labor Party","TAS",22749
+"700",195,"Franklin",23542,"ZUCCO","Marti",2,"N","N","PUP","Palmer United Party","TAS",3513
+"701",195,"Franklin",23818,"BOWDEN","Olwyn",7,"N","N","RUA","Rise Up Australia Party","TAS",241
+"702",195,"Franklin",24298,"UGALDE","Sarah",5,"N","N","KAP","Katter's Australian Party","TAS",360
+"703",195,"Franklin",24399,"DOWNES","Josh",4,"N","N","FFP","Family First","TAS",1023
+"704",196,"Lyons",999,"Informal","Informal",999,"N","N","","Informal","TAS",2732
+"705",196,"Lyons",23278,"HUTCHINSON","Eric",1,"Y","N","LP","Liberal","TAS",24127
+"706",196,"Lyons",23451,"BRINKLOW","Pip",4,"N","N","GRN","The Greens","TAS",4309
+"707",196,"Lyons",23460,"ADAMS","Dick",6,"N","Y","ALP","Australian Labor Party","TAS",20123
+"708",196,"Lyons",23550,"VON STIEGLITZ","Quentin",3,"N","N","PUP","Palmer United Party","TAS",3844
+"709",196,"Lyons",23821,"ROGERS","Julian",5,"N","N","RUA","Rise Up Australia Party","TAS",450
+"710",196,"Lyons",24171,"JAMES","Gaye",2,"N","N","FFP","Family First","TAS",1386
+"711",197,"Aston",999,"Informal","Informal",999,"N","N","","Informal","VIC",3481
+"712",197,"Aston",23382,"EVANS","Rupert",1,"N","N","ALP","Australian Labor Party","VIC",23256
+"713",197,"Aston",23387,"RAYMOND","Steve",3,"N","N","GRN","The Greens","VIC",3957
+"714",197,"Aston",23474,"TUDGE","Alan",4,"Y","Y","LP","Liberal","VIC",36146
+"715",197,"Aston",23621,"WATT","Bradley Walter",5,"N","N","PUP","Palmer United Party","VIC",2697
+"716",197,"Aston",23850,"JENKINS","Charity",7,"N","N","ASXP","Sex Party","VIC",1830
+"717",197,"Aston",24155,"SPEER","Jennifer",2,"N","N","RUA","Rise Up Australia Party","VIC",457
+"718",197,"Aston",24975,"FOSTER","Tony",6,"N","N","FFP","Family First Party","VIC",1927
+"719",198,"Ballarat",999,"Informal","Informal",999,"N","N","","Informal","VIC",4051
+"720",198,"Ballarat",23305,"KING","Catherine",10,"Y","Y","ALP","Australian Labor Party","VIC",33028
+"721",198,"Ballarat",23344,"HODGINS-MAY","Stephanie",5,"N","N","GRN","The Greens","VIC",7521
+"722",198,"Ballarat",23473,"FITZGIBBON","John",6,"N","N","LP","Liberal","VIC",30389
+"723",198,"Ballarat",23570,"FOSTER","Anne",1,"N","N","AUC","Australian Christians","VIC",976
+"724",198,"Ballarat",23678,"MURPHY","Gerard Anthony",8,"N","N","PUP","Palmer United Party","VIC",2917
+"725",198,"Ballarat",23965,"MATHIESON","Joshua",4,"N","N","ASXP","Sex Party","VIC",1789
+"726",198,"Ballarat",23978,"VEREKER","Stephen",7,"N","N","DLP","DLP Democratic Labour","VIC",884
+"727",198,"Ballarat",24150,"ROJAS","Ana",2,"N","N","RUA","Rise Up Australia Party","VIC",174
+"728",198,"Ballarat",24206,"DUNNE","Shane Edward",3,"N","N","KAP","Katter's Australian Party","VIC",660
+"729",198,"Ballarat",24973,"CLARK","Shane",9,"N","N","FFP","Family First Party","VIC",930
+"730",199,"Batman",999,"Informal","Informal",999,"N","N","","Informal","VIC",4606
+"731",199,"Batman",23296,"FEENEY","David",8,"Y","N","ALP","Australian Labor Party","VIC",29186
+"732",199,"Batman",23319,"BHATHAL","Alexandra Kaur",6,"N","N","GRN","The Greens","VIC",18544
+"733",199,"Batman",23565,"SOURIS","George",4,"N","N","LP","Liberal","VIC",15010
+"734",199,"Batman",23652,"GUARDIANI","Franco",7,"N","N","PUP","Palmer United Party","VIC",1756
+"735",199,"Batman",23861,"SLIWCZYNSKI","Lianna",5,"N","N","ASXP","Sex Party","VIC",1733
+"736",199,"Batman",23984,"LAVIN","Rosemary",9,"N","N","AJP","Animal Justice Party","VIC",844
+"737",199,"Batman",24154,"WINTERTON","Pat",1,"N","N","RUA","Rise Up Australia Party","VIC",821
+"738",199,"Batman",24747,"SUTTON","Philip",3,"N","N","NAFD","","VIC",509
+"739",199,"Batman",24960,"SMITHIES","Ken",2,"N","N","FFP","Family First Party","VIC",741
+"740",200,"Bendigo",999,"Informal","Informal",999,"N","N","","Informal","VIC",4858
+"741",200,"Bendigo",23318,"CHESTERS","Lisa",2,"Y","N","ALP","Australian Labor Party","VIC",28249
+"742",200,"Bendigo",23329,"SLADE","Lachlan",4,"N","N","GRN","The Greens","VIC",7056
+"743",200,"Bendigo",23466,"BICKLEY","Greg",3,"N","N","LP","Liberal","VIC",30140
+"744",200,"Bendigo",23559,"MCDONALD","Ewan",13,"N","N","AUC","Australian Christians","VIC",460
+"745",200,"Bendigo",23618,"DONLON","Anita Erika",11,"N","N","PUP","Palmer United Party","VIC",1920
+"746",200,"Bendigo",23699,"LEUNIG","Rod",7,"N","N","CYA","Country Alliance","VIC",440
+"747",200,"Bendigo",23775,"SHEEDY","Sarah",1,"N","N","NP","The Nationals","VIC",4015
+"748",200,"Bendigo",23876,"CRUTCHFIELD","Charlie",5,"N","N","ASXP","Sex Party","VIC",1881
+"749",200,"Bendigo",24158,"CADDY","Sandra",10,"N","N","RUA","Rise Up Australia Party","VIC",409
+"750",200,"Bendigo",24203,"STINGEL","Stephen John",12,"N","N","KAP","Katter's Australian Party","VIC",586
+"751",200,"Bendigo",24681,"ABIKHAIR","Daniel Edward",8,"N","N","IND","Independent","VIC",460
+"752",200,"Bendigo",24748,"RAHMANI","Matine",9,"N","N","IND","Independent","VIC",204
+"753",200,"Bendigo",24996,"HOWARD","Alan",6,"N","N","FFP","Family First Party","VIC",830
+"754",201,"Bruce",999,"Informal","Informal",999,"N","N","","Informal","VIC",4059
+"755",201,"Bruce",23317,"GRIFFIN","Alan",3,"Y","Y","ALP","Australian Labor Party","VIC",27710
+"756",201,"Bruce",23354,"KELEHER","Lynette",7,"N","N","GRN","The Greens","VIC",4258
+"757",201,"Bruce",23574,"CICCHIELLO","Emanuele",4,"N","N","LP","Liberal","VIC",28158
+"758",201,"Bruce",23632,"TUYAU","Paul Robert Jose",2,"N","N","PUP","Palmer United Party","VIC",1690
+"759",201,"Bruce",24002,"GONSALVEZ","Geraldine Marie Antoinette",5,"N","N","DLP","DLP Democratic Labour","VIC",1061
+"760",201,"Bruce",24196,"WHITE","Robert George",6,"N","N","RUA","Rise Up Australia Party","VIC",502
+"761",201,"Bruce",24955,"UTH","Kiry",8,"N","N","IND","Independent","VIC",459
+"762",201,"Bruce",24988,"FILLIPONI","Rebecca",1,"N","N","FFP","Family First Party","VIC",1562
+"763",203,"Calwell",999,"Informal","Informal",999,"N","N","","Informal","VIC",6470
+"764",203,"Calwell",23299,"VAMVAKINOU","Maria",4,"Y","Y","ALP","Australian Labor Party","VIC",35447
+"765",203,"Calwell",23328,"NEVILL","Joanna",10,"N","N","GRN","The Greens","VIC",3569
+"766",203,"Calwell",23580,"KHAN","Ali",6,"N","N","LP","Liberal","VIC",19733
+"767",203,"Calwell",23581,"BENGTSSON","Maria",7,"N","N","AUC","Australian Christians","VIC",1737
+"768",203,"Calwell",23738,"LETCHER","Bryce Newton",3,"N","N","PUP","Palmer United Party","VIC",2980
+"769",203,"Calwell",23894,"SPIROVSKA","Nevena",5,"N","N","ASXP","Sex Party","VIC",1814
+"770",203,"Calwell",23953,"OMAR","Omar Jabir",9,"N","N","DLP","DLP Democratic Labour","VIC",927
+"771",203,"Calwell",24131,"ROZARIO","Charles",8,"N","N","RUA","Rise Up Australia Party","VIC",308
+"772",203,"Calwell",24316,"WATSON","Brett",1,"N","N","KAP","Katter's Australian Party","VIC",1411
+"773",203,"Calwell",24989,"GRAHAM","Paul",2,"N","N","FFP","Family First Party","VIC",1526
+"774",204,"Casey",999,"Informal","Informal",999,"N","N","","Informal","VIC",3677
+"775",204,"Casey",23338,"MEACHER","Steve",1,"N","N","GRN","The Greens","VIC",7799
+"776",204,"Casey",23362,"FARRELL","Cathy",3,"N","N","ALP","Australian Labor Party","VIC",20276
+"777",204,"Casey",23592,"SMITH","Tony",9,"Y","Y","LP","Liberal","VIC",34918
+"778",204,"Casey",23624,"WILDE","Milton",8,"N","N","PUP","Palmer United Party","VIC",3601
+"779",204,"Casey",23734,"LEAKE","Jeffrey Andrew",4,"N","N","CYA","Country Alliance","VIC",754
+"780",204,"Casey",24145,"BARBIERI","Paul",7,"N","N","RUA","Rise Up Australia Party","VIC",347
+"781",204,"Casey",24232,"BROWN","Mike",5,"N","N","AUC","Australian Christians","VIC",954
+"782",204,"Casey",24762,"McRAE","Jeanette",6,"N","N","IND","Independent","VIC",984
+"783",204,"Casey",24972,"COOMBES","Gary",2,"N","N","FFP","Family First Party","VIC",1915
+"784",205,"Chisholm",999,"Informal","Informal",999,"N","N","","Informal","VIC",3039
+"785",205,"Chisholm",23311,"BURKE","Anna Elizabeth",2,"Y","Y","ALP","Australian Labor Party","VIC",26105
+"786",205,"Chisholm",23359,"FERGEUS","Josh",1,"N","N","GRN","The Greens","VIC",6086
+"787",205,"Chisholm",23478,"NGUYEN","John",5,"N","N","LP","Liberal","VIC",28468
+"788",205,"Chisholm",23575,"JAYARATNE","Vidura Nalin",8,"N","N","SPA","Secular Party of Australia","VIC",261
+"789",205,"Chisholm",23610,"WOODS","Brian Clifford",6,"N","N","PUP","Palmer United Party","VIC",983
+"790",205,"Chisholm",23890,"GROSSI","Luzio",3,"N","N","ASXP","Sex Party","VIC",1263
+"791",205,"Chisholm",23961,"SHEA","Pat",9,"N","N","DLP","DLP Democratic Labour","VIC",621
+"792",205,"Chisholm",24140,"VASSILIOU","Melanie",4,"N","N","RUA","Rise Up Australia Party","VIC",515
+"793",205,"Chisholm",24978,"MYSZKA","Martin",7,"N","N","FFP","Family First Party","VIC",640
+"794",207,"Corangamite",999,"Informal","Informal",999,"N","N","","Informal","VIC",3649
+"795",207,"Corangamite",23366,"CHEESEMAN","Darren",5,"N","Y","ALP","Australian Labor Party","VIC",24102
+"796",207,"Corangamite",23376,"DAVIES","Lloyd",1,"N","N","GRN","The Greens","VIC",8808
+"797",207,"Corangamite",23526,"HENDERSON","Sarah",11,"Y","N","LP","Liberal","VIC",36013
+"798",207,"Corangamite",23566,"BARRON","Alan",3,"N","N","AUC","Australian Christians","VIC",399
+"799",207,"Corangamite",23661,"ROJEK","Buddy Igor",9,"N","N","PUP","Palmer United Party","VIC",1641
+"800",207,"Corangamite",23717,"JACKMAN","Warren",8,"N","N","CYA","Country Alliance","VIC",302
+"801",207,"Corangamite",23763,"BLACK","Andrew",10,"N","N","NP","The Nationals","VIC",460
+"802",207,"Corangamite",23882,"MILLARD","Jayden",7,"N","N","ASXP","Sex Party","VIC",1417
+"803",207,"Corangamite",24165,"RASHLEIGH","Helen",2,"N","N","RUA","Rise Up Australia Party","VIC",201
+"804",207,"Corangamite",24515,"STEEL","Nick",12,"N","N","APP","Australian Protectionist Party","VIC",105
+"805",207,"Corangamite",24956,"WHITEHEAD","Adrian",4,"N","N","IND","Independent","VIC",462
+"806",207,"Corangamite",24994,"WRAY","Peter",6,"N","N","FFP","Family First Party","VIC",700
+"807",208,"Corio",999,"Informal","Informal",999,"N","N","","Informal","VIC",4484
+"808",208,"Corio",23173,"ASHER","Stephanie",9,"N","N","IND","Independent","VIC",1585
+"809",208,"Corio",23303,"MARLES","Richard",3,"Y","Y","ALP","Australian Labor Party","VIC",33146
+"810",208,"Corio",23336,"LACEY","Greg",8,"N","N","GRN","The Greens","VIC",5377
+"811",208,"Corio",23467,"READ","Peter",5,"N","N","LP","Liberal","VIC",26311
+"812",208,"Corio",23560,"ATHERTON","Patrick",7,"N","N","AUC","Australian Christians","VIC",465
+"813",208,"Corio",23599,"BULL","Sue",6,"N","N","SAL","Socialist Alliance","VIC",584
+"814",208,"Corio",23651,"HARRINGTON","Anthony John",1,"N","N","PUP","Palmer United Party","VIC",4430
+"815",208,"Corio",23854,"MARTIN","Justine Deborah",10,"N","N","ASXP","Sex Party","VIC",2065
+"816",208,"Corio",24161,"LEGRAND","Yann",2,"N","N","RUA","Rise Up Australia Party","VIC",281
+"817",208,"Corio",24981,"FENN","Brendan",4,"N","N","FFP","Family First Party","VIC",1191
+"818",209,"Deakin",999,"Informal","Informal",999,"N","N","","Informal","VIC",3255
+"819",209,"Deakin",23172,"BARCLAY","Mike",8,"N","N","IND","Independent","VIC",1180
+"820",209,"Deakin",23321,"SYMON","Mike",12,"N","Y","ALP","Australian Labor Party","VIC",22886
+"821",209,"Deakin",23356,"POWELL","Brendan",11,"N","N","GRN","The Greens","VIC",7729
+"822",209,"Deakin",23590,"SUKKAR","Michael",4,"Y","N","LP","Liberal","VIC",31526
+"823",209,"Deakin",23593,"DOBBY","Ian",1,"N","N","AUC","Australian Christians","VIC",1362
+"824",209,"Deakin",23644,"GUARDIANI","Mario",5,"N","N","PUP","Palmer United Party","VIC",1468
+"825",209,"Deakin",23700,"SMITH","Toni",3,"N","N","CYA","Country Alliance","VIC",172
+"826",209,"Deakin",23881,"BARBER","Stephen",9,"N","N","ASXP","Sex Party","VIC",1426
+"827",209,"Deakin",24134,"CARBONARI","John",7,"N","N","AFN","Australia First Party","VIC",147
+"828",209,"Deakin",24142,"DE ZILWA","Yasmin",2,"N","N","RUA","Rise Up Australia Party","VIC",240
+"829",209,"Deakin",24234,"RASKOVY","Steve",6,"N","N","KAP","Katter's Australian Party","VIC",187
+"830",209,"Deakin",24961,"WESTBROOK","Hannah",10,"N","N","FFP","Family First Party","VIC",888
+"831",210,"Dunkley",999,"Informal","Informal",999,"N","N","","Informal","VIC",3696
+"832",210,"Dunkley",23169,"BROFF","Roy",9,"N","N","IND","Independent","VIC",348
+"833",210,"Dunkley",23337,"TILLER","Simon",1,"N","N","GRN","The Greens","VIC",6477
+"834",210,"Dunkley",23342,"KILKENNY","Sonya",2,"N","N","ALP","Australian Labor Party","VIC",21899
+"835",210,"Dunkley",23509,"BILLSON","Bruce",6,"Y","Y","LP","Liberal","VIC",33293
+"836",210,"Dunkley",23726,"RYDER","Kate Dolina",3,"N","N","PUP","Palmer United Party","VIC",2922
+"837",210,"Dunkley",23969,"PALMI","Eloise",8,"N","N","ASXP","Sex Party","VIC",2037
+"838",210,"Dunkley",24319,"GENTLE","Yvonne",7,"N","N","RUA","Rise Up Australia Party","VIC",356
+"839",210,"Dunkley",24950,"BURT","Rod",5,"N","N","IND","Independent","VIC",513
+"840",210,"Dunkley",24997,"EASTMAN","Cameron",4,"N","N","FFP","Family First Party","VIC",1326
+"841",211,"Flinders",999,"Informal","Informal",999,"N","N","","Informal","VIC",4141
+"842",211,"Flinders",23364,"SINCLAIR","Joshua",7,"N","N","ALP","Australian Labor Party","VIC",19230
+"843",211,"Flinders",23371,"RUSH","Martin",10,"N","N","GRN","The Greens","VIC",7208
+"844",211,"Flinders",23497,"HUNT","Greg",9,"Y","Y","LP","Liberal","VIC",41020
+"845",211,"Flinders",23557,"BELSAR","Ashleigh",5,"N","N","AUC","Australian Christians","VIC",395
+"846",211,"Flinders",23666,"ZABANEH","John",3,"N","N","NCP","Non-Custodial Parents Party (Equal Parenting)","VIC",166
+"847",211,"Flinders",23728,"CLARK","Linda Ruth",1,"N","N","PUP","Palmer United Party","VIC",4580
+"848",211,"Flinders",24176,"DORIAN","Angela",4,"N","N","RUA","Rise Up Australia Party","VIC",345
+"849",211,"Flinders",24785,"McCORMACK","Denis",6,"N","N","IND","Independent","VIC",341
+"850",211,"Flinders",24790,"MADIGAN","Paul",2,"N","N","IND","Independent","VIC",509
+"851",211,"Flinders",24985,"CLARK","David",8,"N","N","FFP","Family First Party","VIC",824
+"852",212,"Gellibrand",999,"Informal","Informal",999,"N","N","","Informal","VIC",4446
+"853",212,"Gellibrand",23422,"WATTS","Tim",4,"Y","N","ALP","Australian Labor Party","VIC",32447
+"854",212,"Gellibrand",23428,"SWIFT","Rod",6,"N","N","GRN","The Greens","VIC",11666
+"855",212,"Gellibrand",23490,"McCONNELL","David",2,"N","N","LP","Liberal","VIC",18154
+"856",212,"Gellibrand",23577,"O'NEILL","Anthony",3,"N","N","AUC","Australian Christians","VIC",736
+"857",212,"Gellibrand",23690,"SINGLETON","Dwayne Robert",5,"N","N","PUP","Palmer United Party","VIC",2716
+"858",212,"Gellibrand",23886,"CASHION","Allan",7,"N","N","ASXP","Sex Party","VIC",1957
+"859",212,"Gellibrand",24976,"ARCH","Kerry",1,"N","N","FFP","Family First Party","VIC",1648
+"860",213,"Gippsland",999,"Informal","Informal",999,"N","N","","Informal","VIC",5134
+"861",213,"Gippsland",23306,"McNEILL","Jeff",3,"N","N","ALP","Australian Labor Party","VIC",18123
+"862",213,"Gippsland",23333,"CAMPBELL-SMITH","Scott",10,"N","N","GRN","The Greens","VIC",4240
+"863",213,"Gippsland",23568,"GUERIN","Mark",9,"N","N","SPA","Secular Party of Australia","VIC",173
+"864",213,"Gippsland",23608,"GARDNER","Peter",1,"N","N","IND","Independent","VIC",1674
+"865",213,"Gippsland",23613,"GRAVENALL","Deborah Faye",8,"N","N","PUP","Palmer United Party","VIC",3425
+"866",213,"Gippsland",23715,"MANGION","Sav",7,"N","N","CYA","Country Alliance","VIC",529
+"867",213,"Gippsland",23758,"CHESTER","Darren",4,"Y","Y","NP","The Nationals","VIC",42658
+"868",213,"Gippsland",23923,"LEITCH","Douglas",2,"N","N","ASXP","Sex Party","VIC",1847
+"869",213,"Gippsland",24146,"DORIAN","Peter",6,"N","N","RUA","Rise Up Australia Party","VIC",306
+"870",213,"Gippsland",24606,"BUCKLEY","Ben",11,"N","N","LDP","Liberal Democrats","VIC",3725
+"871",213,"Gippsland",24980,"FOSTER","Angie",5,"N","N","FFP","Family First Party","VIC",1375
+"872",214,"Goldstein",999,"Informal","Informal",999,"N","N","","Informal","VIC",2541
+"873",214,"Goldstein",23309,"GUTTMANN","Daniel",1,"N","N","ALP","Australian Labor Party","VIC",16982
+"874",214,"Goldstein",23377,"READ","Rose",3,"N","N","GRN","The Greens","VIC",11500
+"875",214,"Goldstein",23487,"ROBB","Andrew",5,"Y","Y","LP","Liberal","VIC",39954
+"876",214,"Goldstein",23683,"RYDER","Keith Rodney",2,"N","N","PUP","Palmer United Party","VIC",1597
+"877",214,"Goldstein",24233,"HANNIE","Lynette",4,"N","N","RUA","Rise Up Australia Party","VIC",442
+"878",214,"Goldstein",24968,"JOYNER","Ian",6,"N","N","FFP","Family First Party","VIC",534
+"879",215,"Higgins",999,"Informal","Informal",999,"N","N","","Informal","VIC",2629
+"880",215,"Higgins",23161,"WEBER","Graeme B",7,"N","N","IND","Independent","VIC",1251
+"881",215,"Higgins",23332,"CHAU","Wesa",3,"N","N","ALP","Australian Labor Party","VIC",16113
+"882",215,"Higgins",23350,"HARRISON","James",6,"N","N","GRN","The Greens","VIC",10682
+"883",215,"Higgins",23480,"O'DWYER","Kelly",1,"Y","Y","LP","Liberal","VIC",35551
+"884",215,"Higgins",23669,"DALL","Phillip Leslie",5,"N","N","PUP","Palmer United Party","VIC",1027
+"885",215,"Higgins",24244,"PRICE","Leanne",4,"N","N","RUA","Rise Up Australia Party","VIC",245
+"886",215,"Higgins",24984,"BALDWIN","Jamie",2,"N","N","FFP","Family First Party","VIC",482
+"887",216,"Holt",999,"Informal","Informal",999,"N","N","","Informal","VIC",4900
+"888",216,"Holt",23325,"BYRNE","Anthony",5,"Y","Y","ALP","Australian Labor Party","VIC",35010
+"889",216,"Holt",23408,"McCULLOUGH","Jackie",3,"N","N","GRN","The Greens","VIC",2538
+"890",216,"Holt",23563,"HILL","Vivian",9,"N","N","AUC","Australian Christians","VIC",883
+"891",216,"Holt",23582,"BALANCY","Ricardo",2,"N","N","LP","Liberal","VIC",22820
+"892",216,"Holt",23642,"SINGH","Jatinder",1,"N","N","PUP","Palmer United Party","VIC",3903
+"893",216,"Holt",23932,"SMITH","Lachlan John",7,"N","N","ASXP","Sex Party","VIC",1890
+"894",216,"Holt",23958,"PALMA","Michael Joseph",8,"N","N","DLP","DLP Democratic Labour","VIC",1501
+"895",216,"Holt",24200,"ELI","Jonathan",6,"N","N","RUA","Rise Up Australia Party","VIC",722
+"896",216,"Holt",24990,"KEENAN","Pam",4,"N","N","FFP","Family First Party","VIC",1564
+"897",217,"Hotham",999,"Informal","Informal",999,"N","N","","Informal","VIC",3668
+"898",217,"Hotham",23349,"WYATT","Lorna",4,"N","N","GRN","The Greens","VIC",5574
+"899",217,"Hotham",23567,"CADER","Fazal",3,"N","N","LP","Liberal","VIC",24696
+"900",217,"Hotham",23782,"PORTER","Samuel Warren",5,"N","N","PUP","Palmer United Party","VIC",2264
+"901",217,"Hotham",24241,"O'NEIL","Clare",1,"Y","N","ALP","Australian Labor Party","VIC",33000
+"902",217,"Hotham",24248,"VASSILIOU","Peter",6,"N","N","RUA","Rise Up Australia Party","VIC",1129
+"903",217,"Hotham",25016,"NOWLAND","Stephen",2,"N","N","FFP","Family First Party","VIC",1314
+"904",218,"Indi",999,"Informal","Informal",999,"N","N","","Informal","VIC",4159
+"905",218,"Indi",23288,"McGOWAN","Cathy",2,"Y","N","IND","Independent","VIC",24287
+"906",218,"Indi",23315,"WALSH","Robyn",7,"N","N","ALP","Australian Labor Party","VIC",8223
+"907",218,"Indi",23370,"O'CONNOR","Jenny",8,"N","N","GRN","The Greens","VIC",2289
+"908",218,"Indi",23528,"MIRABELLA","Sophie",4,"N","Y","LP","Liberal","VIC",32394
+"909",218,"Indi",23643,"MURPHY","Robert Denis",10,"N","N","PUP","Palmer United Party","VIC",1956
+"910",218,"Indi",23867,"ASCHENBRENNER","Helma",5,"N","N","ASXP","Sex Party","VIC",1106
+"911",218,"Indi",24184,"PODESTA","Jennifer",11,"N","N","IND","Independent","VIC",713
+"912",218,"Indi",24192,"DUDLEY","Robert",1,"N","N","RUA","Rise Up Australia Party","VIC",796
+"913",218,"Indi",24201,"ROURKE","Phil",9,"N","N","KAP","Katter's Australian Party","VIC",440
+"914",218,"Indi",24228,"HAYES","William",6,"N","N","BTA","Bullet Train For Australia","VIC",370
+"915",218,"Indi",24992,"LEEWORTHY","Rick",3,"N","N","FFP","Family First Party","VIC",1092
+"916",219,"Isaacs",999,"Informal","Informal",999,"N","N","","Informal","VIC",3508
+"917",219,"Isaacs",23335,"DREYFUS","Mark",6,"Y","Y","ALP","Australian Labor Party","VIC",27016
+"918",219,"Isaacs",23352,"MILES","Sandra",7,"N","N","GRN","The Greens","VIC",4561
+"919",219,"Isaacs",23482,"SPENCER","Garry",9,"N","N","LP","Liberal","VIC",25964
+"920",219,"Isaacs",23547,"DOBBY","Karen",5,"N","N","AUC","Australian Christians","VIC",513
+"921",219,"Isaacs",23616,"GILL","Avtar Singh",4,"N","N","PUP","Palmer United Party","VIC",2020
+"922",219,"Isaacs",23872,"GRAHAM","Laith",8,"N","N","ASXP","Sex Party","VIC",1500
+"923",219,"Isaacs",23952,"LEACH","James",2,"N","N","DLP","DLP Democratic Labour","VIC",733
+"924",219,"Isaacs",24152,"SEAMAN","Nadia",3,"N","N","RUA","Rise Up Australia Party","VIC",342
+"925",219,"Isaacs",25040,"ELLIOTT","John",1,"N","N","FFP","Family First Party","VIC",1681
+"926",220,"Jagajaga",999,"Informal","Informal",999,"N","N","","Informal","VIC",3043
+"927",220,"Jagajaga",23298,"MACKLIN","Jenny",3,"Y","Y","ALP","Australian Labor Party","VIC",28165
+"928",220,"Jagajaga",23369,"KEARNEY","Chris",5,"N","N","GRN","The Greens","VIC",9527
+"929",220,"Jagajaga",23571,"McGOWAN","Nick",6,"N","N","LP","Liberal","VIC",31158
+"930",220,"Jagajaga",23671,"SNAPE","Kitten Leigh",4,"N","N","PUP","Palmer United Party","VIC",1996
+"931",220,"Jagajaga",23883,"WALLIS","Nicholas",1,"N","N","ASXP","Sex Party","VIC",1989
+"932",220,"Jagajaga",24987,"EADIE","Tahlia",2,"N","N","FFP","Family First Party","VIC",1154
+"933",221,"Kooyong",999,"Informal","Informal",999,"N","N","","Informal","VIC",2460
+"934",221,"Kooyong",23326,"KENNEDY","John",7,"N","N","ALP","Australian Labor Party","VIC",15347
+"935",221,"Kooyong",23360,"McLEOD","Helen",5,"N","N","GRN","The Greens","VIC",11240
+"936",221,"Kooyong",23485,"FRYDENBERG","Josh",2,"Y","Y","LP","Liberal","VIC",37439
+"937",221,"Kooyong",23722,"McNAMARA","Luke Gerard",3,"N","N","PUP","Palmer United Party","VIC",1047
+"938",221,"Kooyong",24250,"KRIEDEMANN","Tim",4,"N","N","RUA","Rise Up Australia Party","VIC",228
+"939",221,"Kooyong",24807,"HARRISON","Tiffany",1,"N","N","IND","Independent","VIC",1065
+"940",221,"Kooyong",24869,"ZUBAC","Angelina",6,"N","N","IND","Independent","VIC",443
+"941",221,"Kooyong",24969,"CALDER","Jaxon",8,"N","N","FFP","Family First Party","VIC",579
+"942",222,"Lalor",999,"Informal","Informal",999,"N","N","","Informal","VIC",5759
+"943",222,"Lalor",23358,"RYAN","Joanne",9,"Y","N","ALP","Australian Labor Party","VIC",35860
+"944",222,"Lalor",23388,"SHEFFIELD-BROTHERTON","Beck",6,"N","N","GRN","The Greens","VIC",4622
+"945",222,"Lalor",23476,"SAMARA","Nihal",10,"N","N","LP","Liberal","VIC",22703
+"946",222,"Lalor",23520,"PAGE","Jonathan",3,"N","N","SPP","Stable Population Party","VIC",275
+"947",222,"Lalor",23564,"ROGERS","Geoff",2,"N","N","AUC","Australian Christians","VIC",1322
+"948",222,"Lalor",23681,"ZAPPIA","Joe",7,"N","N","PUP","Palmer United Party","VIC",4592
+"949",222,"Lalor",24077,"HARWOOD","Angel",8,"N","N","ASXP","Sex Party","VIC",2442
+"950",222,"Lalor",24084,"FREEMAN","Michael",4,"N","N","DLP","DLP Democratic Labour","VIC",1435
+"951",222,"Lalor",24308,"VALE","Marion",1,"N","N","RUA","Rise Up Australia Party","VIC",1362
+"952",222,"Lalor",24872,"MULLINS","Nathan",5,"N","N","IND","Independent","VIC",1484
+"953",222,"Lalor",25012,"POLLARD","Daryl Andrew",11,"N","N","FFP","Family First Party","VIC",2076
+"954",223,"La Trobe",999,"Informal","Informal",999,"N","N","","Informal","VIC",3261
+"955",223,"La Trobe",23330,"SMYTH","Laura",4,"N","Y","ALP","Australian Labor Party","VIC",22308
+"956",223,"La Trobe",23361,"SCHILLING","Michael",1,"N","N","GRN","The Greens","VIC",6879
+"957",223,"La Trobe",23468,"WOOD","Jason",2,"Y","N","LP","Liberal","VIC",31242
+"958",223,"La Trobe",23620,"KENNEDY","Jason Grant",7,"N","N","PUP","Palmer United Party","VIC",3538
+"959",223,"La Trobe",23880,"LEAHY","Martin",3,"N","N","ASXP","Sex Party","VIC",1883
+"960",223,"La Trobe",23956,"JENKINS","Rachel",5,"N","N","DLP","DLP Democratic Labour","VIC",894
+"961",223,"La Trobe",24169,"SEAMAN","Kevin",8,"N","N","RUA","Rise Up Australia Party","VIC",492
+"962",223,"La Trobe",24977,"MARTIN","Daniel",6,"N","N","FFP","Family First Party","VIC",1178
+"963",224,"Mallee",999,"Informal","Informal",999,"N","N","","Informal","VIC",5836
+"964",224,"Mallee",23231,"LAHY","Chris",5,"N","N","CEC","Citizens Electoral Council","VIC",207
+"965",224,"Mallee",23316,"SENIOR","Lydia",12,"N","N","ALP","Australian Labor Party","VIC",12980
+"966",224,"Mallee",23398,"MACALLISTER","Jane",7,"N","N","GRN","The Greens","VIC",2100
+"967",224,"Mallee",23475,"CREWTHER","Chris",1,"N","N","LP","Liberal","VIC",20115
+"968",224,"Mallee",23702,"CORY","Mark Robert",2,"N","N","PUP","Palmer United Party","VIC",2493
+"969",224,"Mallee",23706,"COLDHAM","Michael",11,"N","N","CYA","Country Alliance","VIC",299
+"970",224,"Mallee",23898,"BROAD","Andrew",10,"Y","N","NP","The Nationals","VIC",29454
+"971",224,"Mallee",23918,"MULCAHY","Amy",3,"N","N","ASXP","Sex Party","VIC",1833
+"972",224,"Mallee",24227,"RIDGEWAY","Allen",6,"N","N","IND","Independent","VIC",469
+"973",224,"Mallee",24231,"MIDDLETON","Tim",8,"N","N","RUA","Rise Up Australia Party","VIC",674
+"974",224,"Mallee",24249,"CIRILLO","Vince",4,"N","N","KAP","Katter's Australian Party","VIC",2872
+"975",224,"Mallee",25025,"BULLER","Neil",9,"N","N","FFP","Family First Party","VIC",1154
+"976",225,"Maribyrnong",999,"Informal","Informal",999,"N","N","","Informal","VIC",4980
+"977",225,"Maribyrnong",23379,"SHORTEN","Bill",3,"Y","Y","ALP","Australian Labor Party","VIC",34004
+"978",225,"Maribyrnong",23390,"KEECH","Richard",1,"N","N","GRN","The Greens","VIC",6817
+"979",225,"Maribyrnong",23500,"HATZAKORTZIAN","Ted",6,"N","N","LP","Liberal","VIC",22815
+"980",225,"Maribyrnong",23552,"PATERNO","Joe",2,"N","N","AUC","Australian Christians","VIC",641
+"981",225,"Maribyrnong",23623,"CUTLER","Philip William",4,"N","N","PUP","Palmer United Party","VIC",1857
+"982",225,"Maribyrnong",23966,"KAVANAGH","Marguerita",5,"N","N","DLP","DLP Democratic Labour","VIC",929
+"983",225,"Maribyrnong",24086,"MYERS","Amy",7,"N","N","ASXP","Sex Party","VIC",1714
+"984",225,"Maribyrnong",24217,"TRUSCOTT","Jeff",9,"N","N","RUA","Rise Up Australia Party","VIC",254
+"985",225,"Maribyrnong",25000,"CARLSON","Hayleigh",8,"N","N","FFP","Family First Party","VIC",606
+"986",226,"McEwen",999,"Informal","Informal",999,"N","N","","Informal","VIC",3982
+"987",226,"McEwen",23312,"MITCHELL","Rob",8,"Y","Y","ALP","Australian Labor Party","VIC",29486
+"988",226,"McEwen",23365,"BARKER","Neil",9,"N","N","GRN","The Greens","VIC",5439
+"989",226,"McEwen",23471,"PETROVICH","Donna",7,"N","N","LP","Liberal","VIC",31607
+"990",226,"McEwen",23679,"DANCE","Trevor Owen",2,"N","N","PUP","Palmer United Party","VIC",5498
+"991",226,"McEwen",23701,"CRANSON","Ian",4,"N","N","CYA","Country Alliance","VIC",442
+"992",226,"McEwen",23868,"NASH","Victoria",6,"N","N","ASXP","Sex Party","VIC",2424
+"993",226,"McEwen",24173,"VERDAN","Ferdie",3,"N","N","RUA","Rise Up Australia Party","VIC",322
+"994",226,"McEwen",24202,"STEVENS","Bruce",5,"N","N","KAP","Katter's Australian Party","VIC",729
+"995",226,"McEwen",24963,"NEWTON","Barry",1,"N","N","FFP","Family First Party","VIC",2036
+"996",227,"Mcmillan",999,"Informal","Informal",999,"N","N","","Informal","VIC",5296
+"997",227,"Mcmillan",20716,"GATT","Leigh",11,"N","N","IND","Independent","VIC",545
+"998",227,"Mcmillan",23331,"NAUS","Anthony",10,"N","N","ALP","Australian Labor Party","VIC",19633
+"999",227,"Mcmillan",23393,"McKELVIE","Malcolm",4,"N","N","GRN","The Greens","VIC",5828
+"1000",227,"Mcmillan",23472,"BROADBENT","Russell",9,"Y","Y","LP","Liberal","VIC",39551
+"1001",227,"Mcmillan",23670,"SHERRY","Matthew John",7,"N","N","PUP","Palmer United Party","VIC",3745
+"1002",227,"Mcmillan",23704,"FISHER","Ross",12,"N","N","CYA","Country Alliance","VIC",661
+"1003",227,"Mcmillan",23920,"STAGGARD","Benjamin",3,"N","N","ASXP","Sex Party","VIC",1723
+"1004",227,"Mcmillan",23988,"KIS-RIGO","Andrew",6,"N","N","DLP","DLP Democratic Labour","VIC",1430
+"1005",227,"Mcmillan",24159,"BAKER","Norman",8,"N","N","RUA","Rise Up Australia Party","VIC",524
+"1006",227,"Mcmillan",24235,"AMOR","David John",1,"N","N","KAP","Katter's Australian Party","VIC",1815
+"1007",227,"Mcmillan",24683,"PATTON","Gary",2,"N","N","SOL","Senator Online (Internet Voting Bills/Issues)","VIC",152
+"1008",227,"Mcmillan",24933,"PARKER","John",5,"N","N","IND","Independent","VIC",1044
+"1009",227,"Mcmillan",24982,"CONLON","Luke",13,"N","N","FFP","Family First Party","VIC",1497
+"1010",228,"Melbourne",999,"Informal","Informal",999,"N","N","","Informal","VIC",4140
+"1011",228,"Melbourne",23323,"BOWTELL","Cath",6,"N","N","ALP","Australian Labor Party","VIC",17232
+"1012",228,"Melbourne",23378,"BANDT","Adam",5,"Y","Y","GRN","The Greens","VIC",27645
+"1013",228,"Melbourne",23493,"ARMISTEAD","Sean",2,"N","N","LP","Liberal","VIC",13746
+"1014",228,"Melbourne",23499,"BAYLISS","Michael",8,"N","N","SPP","Stable Population Party","VIC",106
+"1015",228,"Melbourne",23569,"WILDING","Royston",13,"N","N","SPA","Secular Party of Australia","VIC",167
+"1016",228,"Melbourne",23629,"VRBNJAK","Martin",7,"N","N","PUP","Palmer United Party","VIC",549
+"1017",228,"Melbourne",23927,"MANGISI","James",14,"N","N","ASXP","Sex Party","VIC",1200
+"1018",228,"Melbourne",23933,"WALSHE","Nyree",10,"N","N","AJP","Animal Justice Party","VIC",437
+"1019",228,"Melbourne",23957,"MURPHY","Michael",9,"N","N","DLP","DLP Democratic Labour","VIC",293
+"1020",228,"Melbourne",24188,"KHOO","Joyce Mei Lin",12,"N","N","RUA","Rise Up Australia Party","VIC",91
+"1021",228,"Melbourne",24226,"DAVIDSON","Josh",11,"N","N","BTA","Bullet Train For Australia","VIC",209
+"1022",228,"Melbourne",24371,"MAIN","Anthony",1,"N","N","NAFD","","VIC",871
+"1023",228,"Melbourne",24703,"BORLAND","Kate",3,"N","N","IND","Independent","VIC",309
+"1024",228,"Melbourne",24764,"CUMMINS","Paul",16,"N","N","AIN","Australian Independents","VIC",105
+"1025",228,"Melbourne",24954,"KIRKMAN","Frazer",15,"N","N","IND","Independent","VIC",139
+"1026",228,"Melbourne",24964,"WALKER","Noelle",4,"N","N","FFP","Family First Party","VIC",276
+"1027",229,"Menzies",999,"Informal","Informal",999,"N","N","","Informal","VIC",3408
+"1028",229,"Menzies",23351,"KUMAR","Manoj",3,"N","N","ALP","Australian Labor Party","VIC",18805
+"1029",229,"Menzies",23389,"CRANSTON","Richard",2,"N","N","GRN","The Greens","VIC",5888
+"1030",229,"Menzies",23483,"ANDREWS","Kevin",1,"Y","Y","LP","Liberal","VIC",41248
+"1031",229,"Menzies",23636,"GUARDIANI","Agostino",4,"N","N","PUP","Palmer United Party","VIC",1797
+"1032",229,"Menzies",24168,"BAKER","Phil",6,"N","N","RUA","Rise Up Australia Party","VIC",395
+"1033",229,"Menzies",24767,"ROBINSON","Ramon",5,"N","N","IND","Independent","VIC",1005
+"1034",229,"Menzies",24979,"CONLON","Andrew",7,"N","N","FFP","Family First Party","VIC",1439
+"1035",230,"Melbourne Ports",999,"Informal","Informal",999,"N","N","","Informal","VIC",2403
+"1036",230,"Melbourne Ports",23314,"DANBY","Michael",2,"Y","Y","ALP","Australian Labor Party","VIC",18872
+"1037",230,"Melbourne Ports",23372,"BIRRELL","Ann",6,"N","N","GRN","The Greens","VIC",12342
+"1038",230,"Melbourne Ports",23584,"EKENDAHL","Kevin",7,"N","N","LP","Liberal","VIC",23182
+"1039",230,"Melbourne Ports",23587,"ARMSTRONG","Steven",9,"N","N","SPP","Stable Population Party","VIC",226
+"1040",230,"Melbourne Ports",23619,"STODART","Toby Simon",4,"N","N","PUP","Palmer United Party","VIC",727
+"1041",230,"Melbourne Ports",23905,"STAR","Melissa",1,"N","N","ASXP","Sex Party","VIC",2326
+"1042",230,"Melbourne Ports",23976,"STEFANO","Vince",5,"N","N","DLP","DLP Democratic Labour","VIC",368
+"1043",230,"Melbourne Ports",24195,"QUINN","Margaret",8,"N","N","RUA","Rise Up Australia Party","VIC",122
+"1044",230,"Melbourne Ports",24966,"KEENAN","Robert",3,"N","N","FFP","Family First Party","VIC",275
+"1045",231,"Murray",999,"Informal","Informal",999,"N","N","","Informal","VIC",5411
+"1046",231,"Murray",23228,"DAVY","Jeff",11,"N","N","CEC","Citizens Electoral Council","VIC",270
+"1047",231,"Murray",23310,"HIGGINS","Rod",10,"N","N","ALP","Australian Labor Party","VIC",16034
+"1048",231,"Murray",23380,"STEVENS","Damien",5,"N","N","GRN","The Greens","VIC",2872
+"1049",231,"Murray",23477,"STONE","Sharman",2,"Y","Y","LP","Liberal","VIC",47496
+"1050",231,"Murray",23662,"THOOLEN","Catriona Cecilia",6,"N","N","PUP","Palmer United Party","VIC",2565
+"1051",231,"Murray",23914,"CHELLEW","Tristram",1,"N","N","ASXP","Sex Party","VIC",1996
+"1052",231,"Murray",24110,"BUCK","Wendy",4,"N","N","IND","Independent","VIC",961
+"1053",231,"Murray",24160,"HUNGERFORD","Raymond",8,"N","N","RUA","Rise Up Australia Party","VIC",502
+"1054",231,"Murray",24210,"BOURKE","Michael John",3,"N","N","KAP","Katter's Australian Party","VIC",2155
+"1055",231,"Murray",24221,"SUMMER","Fern",7,"N","N","BTA","Bullet Train For Australia","VIC",866
+"1056",231,"Murray",24967,"WALKER","Alan",9,"N","N","FFP","Family First Party","VIC",1378
+"1057",232,"Scullin",999,"Informal","Informal",999,"N","N","","Informal","VIC",5502
+"1058",232,"Scullin",23324,"GILES","Andrew",2,"Y","N","ALP","Australian Labor Party","VIC",37671
+"1059",232,"Scullin",23383,"LJUBICIC","Rose",7,"N","N","GRN","The Greens","VIC",5445
+"1060",232,"Scullin",23488,"CHUGHA","Jag",5,"N","N","LP","Liberal","VIC",21015
+"1061",232,"Scullin",23627,"COOPER","Peter Rex",1,"N","N","PUP","Palmer United Party","VIC",4860
+"1062",232,"Scullin",23907,"ROLPH","Nathan",4,"N","N","ASXP","Sex Party","VIC",1914
+"1063",232,"Scullin",24212,"GRECO","Domenic",6,"N","N","KAP","Katter's Australian Party","VIC",836
+"1064",232,"Scullin",24983,"CONLON","Katie",3,"N","N","FFP","Family First Party","VIC",1733
+"1065",233,"Wannon",999,"Informal","Informal",999,"N","N","","Informal","VIC",3247
+"1066",233,"Wannon",23341,"BARLING","Michael",2,"N","N","ALP","Australian Labor Party","VIC",22488
+"1067",233,"Wannon",23381,"EMANUELLE","Tim",3,"N","N","GRN","The Greens","VIC",4599
+"1068",233,"Wannon",23470,"TEHAN","Dan",6,"Y","Y","LP","Liberal","VIC",40145
+"1069",233,"Wannon",23549,"CORBETT","Therese",1,"N","N","AUC","Australian Christians","VIC",961
+"1070",233,"Wannon",23625,"FERGUSON","Bradley Ian",7,"N","N","PUP","Palmer United Party","VIC",2900
+"1071",233,"Wannon",23900,"JOHNSON","Chris",4,"N","N","ASXP","Sex Party","VIC",2086
+"1072",233,"Wannon",25017,"HABERFIELD","Craig",5,"N","N","FFP","Family First Party","VIC",1708
+"1073",234,"Wills",999,"Informal","Informal",999,"N","N","","Informal","VIC",4564
+"1074",234,"Wills",23174,"WINDISCH","Margarita",4,"N","N","SAL","Socialist Alliance","VIC",814
+"1075",234,"Wills",23322,"THOMSON","Kelvin",8,"Y","Y","ALP","Australian Labor Party","VIC",32873
+"1076",234,"Wills",23397,"READ","Tim",2,"N","N","GRN","The Greens","VIC",15244
+"1077",234,"Wills",23479,"HEGDE","Shilpa",7,"N","N","LP","Liberal","VIC",15989
+"1078",234,"Wills",23638,"MURRAY-DUFOULON","Anne Marie",6,"N","N","PUP","Palmer United Party","VIC",1675
+"1079",234,"Wills",23938,"TRAJSTMAN","Adrian",3,"N","N","ASXP","Sex Party","VIC",1801
+"1080",234,"Wills",24929,"O'CALLAGHAN","Dean",1,"N","N","IND","Independent","VIC",1538
+"1081",234,"Wills",24991,"GIGLIA","Concetta",5,"N","N","FFP","Family First Party","VIC",956
+"1082",235,"Brand",999,"Informal","Informal",999,"N","N","","Informal","WA",4530
+"1083",235,"Brand",23385,"LE-COCQ","Mick",4,"N","N","CEC","Citizens Electoral Council","WA",218
+"1084",235,"Brand",23628,"LAWRENCE","Craig Walker",2,"N","N","PUP","Palmer United Party","WA",5632
+"1085",235,"Brand",23836,"GORDIN","Donna",9,"N","N","LP","Liberal","WA",27651
+"1086",235,"Brand",24021,"IRIKS","Gabrielle Lisanne",6,"N","N","RUA","Rise Up Australia Party","WA",461
+"1087",235,"Brand",24026,"JECKS","Dawn",7,"N","N","GRN","The Greens","WA",5195
+"1088",235,"Brand",24035,"GRAY","Gary",3,"Y","Y","ALP","Australian Labor Party","WA",29820
+"1089",235,"Brand",24378,"BURDETT","Bob",8,"N","N","AUC","Australian Christians","WA",1433
+"1090",235,"Brand",24435,"NEWHOUSE","Andrew",1,"N","N","FFP","Family First Party","WA",1564
+"1091",235,"Brand",25021,"YOUNG","Paul James",5,"N","N","DEM","Australian Democrats","WA",461
+"1092",236,"Canning",999,"Informal","Informal",999,"N","N","","Informal","WA",4418
+"1093",236,"Canning",23654,"LAMOTTE","Wendy Eileen",6,"N","N","PUP","Palmer United Party","WA",5160
+"1094",236,"Canning",23843,"RANDALL","Don",1,"Y","Y","LP","Liberal","WA",36081
+"1095",236,"Canning",24012,"RUMBLE","Lee",8,"N","N","RUA","Rise Up Australia Party","WA",501
+"1096",236,"Canning",24031,"PAGES-OLIVER","Damon",2,"N","N","GRN","The Greens","WA",5265
+"1097",236,"Canning",24036,"DEAN","Joanne Carol",4,"N","N","ALP","Australian Labor Party","WA",19157
+"1098",236,"Canning",24301,"BRUNING","Derek Owen",3,"N","N","AUC","Australian Christians","WA",2381
+"1099",236,"Canning",24425,"HARPER","Alice",7,"N","N","FFP","Family First Party","WA",888
+"1100",236,"Canning",24437,"ELDRIDGE","Richard",9,"N","N","KAP","Katter's Australian Party","WA",581
+"1101",236,"Canning",25022,"FORSYTH","James",5,"N","N","NP","The Nationals","WA",1268
+"1102",237,"Cowan",999,"Informal","Informal",999,"N","N","","Informal","WA",3827
+"1103",237,"Cowan",23653,"SHARMA","Vimal Kumar",6,"N","N","PUP","Palmer United Party","WA",3633
+"1104",237,"Cowan",23846,"SIMPKINS","Luke",7,"Y","Y","LP","Liberal","WA",33622
+"1105",237,"Cowan",24029,"MUNDY","Sheila",3,"N","N","RUA","Rise Up Australia Party","WA",656
+"1106",237,"Cowan",24032,"COLLINS","Adam",4,"N","N","GRN","The Greens","WA",5256
+"1107",237,"Cowan",24037,"COCKMAN","Tristan",1,"N","N","ALP","Australian Labor Party","WA",22390
+"1108",237,"Cowan",24340,"KINGSTON","David",2,"N","N","AUC","Australian Christians","WA",1454
+"1109",237,"Cowan",24389,"NGUYEN","Che Tam",5,"N","N","FFP","Family First Party","WA",1089
+"1110",238,"Curtin",999,"Informal","Informal",999,"N","N","","Informal","WA",2322
+"1111",238,"Curtin",23664,"BAKER","Glenn Phillip",5,"N","N","PUP","Palmer United Party","WA",1726
+"1112",238,"Curtin",23840,"BISHOP","Julie",6,"Y","Y","LP","Liberal","WA",41589
+"1113",238,"Curtin",24028,"WHATELY","Jennifer",1,"N","N","RUA","Rise Up Australia Party","WA",525
+"1114",238,"Curtin",24033,"CULLITY","Judith",2,"N","N","GRN","The Greens","WA",10184
+"1115",238,"Curtin",24045,"TAN","Daryl",4,"N","N","ALP","Australian Labor Party","WA",11873
+"1116",238,"Curtin",24286,"FORDER","Gail",3,"N","N","AUC","Australian Christians","WA",807
+"1117",239,"Forrest",999,"Informal","Informal",999,"N","N","","Informal","WA",4501
+"1118",239,"Forrest",23437,"TUFFNELL","Ian",7,"N","N","CEC","Citizens Electoral Council","WA",150
+"1119",239,"Forrest",23781,"DABROWSKI","Edward Gregory",9,"N","N","PUP","Palmer United Party","WA",3739
+"1120",239,"Forrest",23887,"MARINO","Nola",3,"Y","Y","LP","Liberal","WA",35814
+"1121",239,"Forrest",24024,"MORIEN","Mark",4,"N","N","RUA","Rise Up Australia Party","WA",467
+"1122",239,"Forrest",24042,"TAYLER","Gordon",6,"N","N","GRN","The Greens","WA",6773
+"1123",239,"Forrest",24050,"BORLINI","John Joseph",1,"N","N","ALP","Australian Labor Party","WA",18538
+"1124",239,"Forrest",24304,"ROSE","Michael",8,"N","N","NP","The Nationals","WA",4350
+"1125",239,"Forrest",24388,"BARNETT","Wayne",5,"N","N","AUC","Australian Christians","WA",1162
+"1126",239,"Forrest",24445,"CUSTERS","Bev",2,"N","N","FFP","Family First Party","WA",1097
+"1127",240,"Fremantle",999,"Informal","Informal",999,"N","N","","Informal","WA",5114
+"1128",240,"Fremantle",23384,"ROWLANDS","Ron",8,"N","N","CEC","Citizens Electoral Council","WA",99
+"1129",240,"Fremantle",23626,"SHARMA","Vashil Vimal",5,"N","N","PUP","Palmer United Party","WA",2867
+"1130",240,"Fremantle",23839,"HANSSEN","Matthew",6,"N","N","LP","Liberal","WA",26485
+"1131",240,"Fremantle",23851,"VAN LIESHOUT","Teresa",4,"N","N","APP","Australian Protectionist Party","WA",151
+"1132",240,"Fremantle",24007,"SCOTT","Philip",9,"N","N","RUA","Rise Up Australia Party","WA",332
+"1133",240,"Fremantle",24011,"STEELE-JOHN","Jordon Alexander",2,"N","N","GRN","The Greens","WA",8286
+"1134",240,"Fremantle",24025,"PARKE","Melissa",11,"Y","Y","ALP","Australian Labor Party","WA",29409
+"1135",240,"Fremantle",24323,"MULDER","Owen",3,"N","N","AUC","Australian Christians","WA",940
+"1136",240,"Fremantle",24336,"WAINWRIGHT","Sam",10,"N","N","SAL","Socialist Alliance","WA",611
+"1137",240,"Fremantle",24406,"McCOURT","Jim",7,"N","N","FFP","Family First Party","WA",590
+"1138",240,"Fremantle",24519,"McNAUGHT","Richard",1,"N","N","KAP","Katter's Australian Party","WA",804
+"1139",242,"Moore",999,"Informal","Informal",999,"N","N","","Informal","WA",3400
+"1140",242,"Moore",23617,"MORRIS","Gary John",2,"N","N","PUP","Palmer United Party","WA",4731
+"1141",242,"Moore",23842,"GOODENOUGH","Ian",7,"Y","N","LP","Liberal","WA",36585
+"1142",242,"Moore",24008,"PRITCHETT","Mary Patricia",5,"N","N","RUA","Rise Up Australia Party","WA",547
+"1143",242,"Moore",24016,"LAWRANCE","Jason Daniel",1,"N","N","ALP","Australian Labor Party","WA",17714
+"1144",242,"Moore",24095,"LLOYD","Louahna Janet Kiona",4,"N","N","GRN","The Greens","WA",6787
+"1145",242,"Moore",24288,"HOST","Rex",3,"N","N","AUC","Australian Christians","WA",1266
+"1146",242,"Moore",24995,"CATALANO","Josh",6,"N","N","SPRT","Australian Sports Party","WA",968
+"1147",243,"O'Connor",999,"Informal","Informal",999,"N","N","","Informal","WA",4531
+"1148",243,"O'Connor",23420,"ROBINSON","Jean",2,"N","N","CEC","Citizens Electoral Council","WA",331
+"1149",243,"O'Connor",23676,"LUCAS","Michael Anthony",11,"N","N","PUP","Palmer United Party","WA",2975
+"1150",243,"O'Connor",23944,"WILSON","Rick",8,"Y","N","LP","Liberal","WA",26608
+"1151",243,"O'Connor",24018,"KORBER","Vanessa",5,"N","N","RUA","Rise Up Australia Party","WA",490
+"1152",243,"O'Connor",24043,"EVERS","Diane",6,"N","N","GRN","The Greens","WA",4508
+"1153",243,"O'Connor",24049,"SALT","Michael John",1,"N","N","ALP","Australian Labor Party","WA",11755
+"1154",243,"O'Connor",24357,"WITHAM","Chub",4,"N","N","NP","The Nationals","WA",17421
+"1155",243,"O'Connor",24375,"WALSH","Mike",7,"N","N","AUC","Australian Christians","WA",1764
+"1156",243,"O'Connor",24428,"FUHRMANN","Steven",9,"N","N","FFP","Family First Party","WA",551
+"1157",243,"O'Connor",24438,"BOUWMAN","Phillip",3,"N","N","KAP","Katter's Australian Party","WA",459
+"1158",243,"O'Connor",24776,"MOURITZ","Jane",10,"N","N","IND","Independent","WA",1111
+"1159",244,"Pearce",999,"Informal","Informal",999,"N","N","","Informal","WA",4636
+"1160",244,"Pearce",23401,"GAY","Norman",3,"N","N","CEC","Citizens Electoral Council","WA",281
+"1161",244,"Pearce",23631,"HOUGH","Francis Carson",10,"N","N","PUP","Palmer United Party","WA",5385
+"1162",244,"Pearce",23847,"PORTER","Christian",9,"Y","N","LP","Liberal","WA",31953
+"1163",244,"Pearce",24013,"DAVIES","Diane",8,"N","N","RUA","Rise Up Australia Party","WA",587
+"1164",244,"Pearce",24017,"NIELSEN-HARVEY","Sarah",1,"N","N","GRN","The Greens","WA",7690
+"1165",244,"Pearce",24041,"WEST","Madeleine Anne",5,"N","N","ALP","Australian Labor Party","WA",18256
+"1166",244,"Pearce",24277,"McALLISTER","Craig",2,"N","N","NP","The Nationals","WA",3436
+"1167",244,"Pearce",24290,"CANAS","Danielle Maree",7,"N","N","AUC","Australian Christians","WA",1431
+"1168",244,"Pearce",24451,"RICHARDS","Eddie",4,"N","N","KAP","Katter's Australian Party","WA",515
+"1169",244,"Pearce",25024,"CORICA","Matthew",6,"N","N","DEM","Australian Democrats","WA",429
+"1170",245,"Perth",999,"Informal","Informal",999,"N","N","","Informal","WA",3921
+"1171",245,"Perth",23167,"CLARK","Ant",2,"N","N","IND","Independent","WA",766
+"1172",245,"Perth",23639,"HARFOUCHE","Gabriel Hasib",7,"N","N","PUP","Palmer United Party","WA",2318
+"1173",245,"Perth",23841,"MOORE","Darryl",8,"N","N","LP","Liberal","WA",25967
+"1174",245,"Perth",24005,"EDNEY","Evelyn Patricia",5,"N","N","RUA","Rise Up Australia Party","WA",297
+"1175",245,"Perth",24009,"HALLETT","Jonathan",4,"N","N","GRN","The Greens","WA",6831
+"1176",245,"Perth",24023,"MacTIERNAN","Alannah",3,"Y","N","ALP","Australian Labor Party","WA",28048
+"1177",245,"Perth",24313,"CONNELLY","Paul Michael",1,"N","N","AUC","Australian Christians","WA",1469
+"1178",245,"Perth",24434,"CROLL","Lesley",6,"N","N","FFP","Family First Party","WA",471
+"1179",246,"Stirling",999,"Informal","Informal",999,"N","N","","Informal","WA",4161
+"1180",246,"Stirling",23649,"THOMPSON","Wayne Gordon",4,"N","N","PUP","Palmer United Party","WA",2605
+"1181",246,"Stirling",23848,"KEENAN","Michael",6,"Y","Y","LP","Liberal","WA",33647
+"1182",246,"Stirling",24010,"ROWE","Alison",7,"N","N","RUA","Rise Up Australia Party","WA",345
+"1183",246,"Stirling",24022,"CLIFFORD","Tim",1,"N","N","GRN","The Greens","WA",7185
+"1184",246,"Stirling",24034,"CADDY","Dan",8,"N","N","ALP","Australian Labor Party","WA",18720
+"1185",246,"Stirling",24312,"HOST","Kevin",2,"N","N","AUC","Australian Christians","WA",1354
+"1186",246,"Stirling",24423,"LUKE","Matueny Marial",3,"N","N","FFP","Family First Party","WA",444
+"1187",246,"Stirling",24951,"MUBARAK","Kim",5,"N","N","IND","Independent","WA",641
+"1188",247,"Swan",999,"Informal","Informal",999,"N","N","","Informal","WA",4067
+"1189",247,"Swan",23660,"DUNCAN","Kenneth Michael",5,"N","N","PUP","Palmer United Party","WA",2801
+"1190",247,"Swan",23935,"IRONS","Steve",2,"Y","Y","LP","Liberal","WA",30916
+"1191",247,"Swan",24003,"ELLIS","Troy",1,"N","N","APP","Australian Protectionist Party","WA",522
+"1192",247,"Swan",24027,"DAVIES","Paul",4,"N","N","RUA","Rise Up Australia Party","WA",354
+"1193",247,"Swan",24038,"BISSETT","John",6,"N","N","ALP","Australian Labor Party","WA",19967
+"1194",247,"Swan",24046,"SIERO","Gerard",9,"N","N","GRN","The Greens","WA",7281
+"1195",247,"Swan",24311,"KLOMP","Steve",3,"N","N","AUC","Australian Christians","WA",1136
+"1196",247,"Swan",24421,"RAPP","Moyna",7,"N","N","FFP","Family First Party","WA",579
+"1197",247,"Swan",24494,"AVERY","Noel Alexander",8,"N","N","KAP","Katter's Australian Party","WA",281
+"1198",248,"Tangney",999,"Informal","Informal",999,"N","N","","Informal","WA",3146
+"1199",248,"Tangney",23646,"DRIVER","Wayne Robert",3,"N","N","PUP","Palmer United Party","WA",3049
+"1200",248,"Tangney",23853,"JENSEN","Dennis",2,"Y","Y","LP","Liberal","WA",40120
+"1201",248,"Tangney",24004,"CARSON","Stephen Andrew",1,"N","N","RUA","Rise Up Australia Party","WA",694
+"1202",248,"Tangney",24006,"BEST","Peter",6,"N","N","GRN","The Greens","WA",7110
+"1203",248,"Tangney",24014,"WILLIS","Luke Antony",4,"N","N","ALP","Australian Labor Party","WA",17073
+"1204",248,"Tangney",24402,"WIESKE","John",5,"N","N","AUC","Australian Christians","WA",1846
+"1205",249,"Paterson",999,"Informal","Informal",999,"N","N","","Informal","NSW",4238
+"1206",249,"Paterson",23186,"BALDWIN","Bob",7,"Y","Y","LP","Liberal","NSW",40244
+"1207",249,"Paterson",23339,"DAVIS","Peter J",3,"N","N","CEC","Citizens Electoral Council","NSW",312
+"1208",249,"Paterson",23600,"BROWN","John",5,"N","N","GRN","The Greens","NSW",4895
+"1209",249,"Paterson",24172,"PACKETT","Jayson Geoffrey",2,"N","N","PUP","Palmer United Party","NSW",4759
+"1210",249,"Paterson",24539,"MARSHALL","Bay",6,"N","N","ALP","Australian Labor Party","NSW",22539
+"1211",249,"Paterson",24540,"BALFOUR","Anna",1,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1578
+"1212",249,"Paterson",24542,"HOLZ","Bob",4,"N","N","RUA","Rise Up Australia Party","NSW",750
+"1213",250,"Riverina",999,"Informal","Informal",999,"N","N","","Informal","NSW",6238
+"1214",250,"Riverina",23253,"McCORMACK","Michael",4,"Y","Y","NP","The Nationals","NSW",46511
+"1215",250,"Riverina",24105,"FUNNELL","Paul",3,"N","N","DLP","Democratic Labour Party (DLP)","NSW",2884
+"1216",250,"Riverina",24180,"STEWART","Lex",9,"N","N","PUP","Palmer United Party","NSW",4132
+"1217",250,"Riverina",24584,"HEATH","Kim",10,"N","N","RUA","Rise Up Australia Party","NSW",908
+"1218",250,"Riverina",24587,"KURYLOWICZ","Tim",7,"N","N","ALP","Australian Labor Party","NSW",16174
+"1219",250,"Riverina",24590,"PECH","Keith",5,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1158
+"1220",250,"Riverina",24592,"SHARP","Lorraine",2,"N","N","AFN","Australia First Party","NSW",1122
+"1221",250,"Riverina",24598,"LAMONT","Andrew John",1,"N","N","BTA","Bullet Train For Australia","NSW",2088
+"1222",250,"Riverina",24611,"DUNN","Norm",6,"N","N","KAP","Katter's Australian Party","NSW",841
+"1223",250,"Riverina",24625,"PRANGNELL","Ros",8,"N","N","GRN","The Greens","NSW",2679
+"1224",251,"Watson",999,"Informal","Informal",999,"N","N","","Informal","NSW",11515
+"1225",251,"Watson",23212,"DELEZIO","Ron",1,"N","N","LP","Liberal","NSW",24955
+"1226",251,"Watson",24328,"BLOCH","Barbara",2,"N","N","GRN","The Greens","NSW",3266
+"1227",251,"Watson",24349,"NASSER","Zaher",4,"N","N","PUP","Palmer United Party","NSW",1580
+"1228",251,"Watson",24604,"RAWSON","Stephen",3,"N","N","DLP","Democratic Labour Party (DLP)","NSW",656
+"1229",251,"Watson",24621,"FRASER","David",7,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1440
+"1230",251,"Watson",24632,"BURKE","Tony",5,"Y","Y","ALP","Australian Labor Party","NSW",33093
+"1231",251,"Watson",24640,"KAMLADE","Paul",6,"N","N","RUA","Rise Up Australia Party","NSW",283
+"1232",252,"Dickson",999,"Informal","Informal",999,"N","N","","Informal","QLD",3162
+"1233",252,"Dickson",23411,"TAVERNER","Mark Jonathon",6,"N","N","PUP","Palmer United Party","QLD",6906
+"1234",252,"Dickson",23622,"TAYLOR","Geoffrey",2,"N","N","RUA","Rise Up Australia Party","QLD",448
+"1235",252,"Dickson",23720,"GILLIVER","Michael",5,"N","N","ALP","Australian Labor Party","QLD",22052
+"1236",252,"Dickson",23834,"DUTTON","Peter",1,"Y","Y","LNP","Liberal National Party of Queensland","QLD",32775
+"1237",252,"Dickson",23904,"D'LISLE","Tyrone",4,"N","N","GRN","The Greens","QLD",4308
+"1238",252,"Dickson",24656,"CORNWELL","Jim",7,"N","N","KAP","Katter's Australian Party","QLD",1254
+"1239",252,"Dickson",24862,"McDOWELL","Michael",3,"N","N","FFP","Family First","QLD",1204
+"1240",302,"Longman",999,"Informal","Informal",999,"N","N","","Informal","QLD",3851
+"1241",302,"Longman",23441,"VAN DER WEEGEN","Clemens Joseph",3,"N","N","PUP","Palmer United Party","QLD",9141
+"1242",302,"Longman",23774,"CAISLEY","Michael",5,"N","N","ALP","Australian Labor Party","QLD",21275
+"1243",302,"Longman",23855,"ROY","Wyatt",1,"Y","Y","LNP","Liberal National Party of Queensland","QLD",30603
+"1244",302,"Longman",23892,"FAIRWEATHER","Helen",8,"N","N","GRN","The Greens","QLD",2641
+"1245",302,"Longman",24407,"KENNEDY","Brad",2,"N","N","KAP","Katter's Australian Party","QLD",1813
+"1246",302,"Longman",24461,"GOEYTES","Ayla",7,"N","N","ASXP","Sex Party","QLD",984
+"1247",302,"Longman",24749,"WELLS","Caleb",4,"N","N","IND","Independent","QLD",684
+"1248",302,"Longman",24861,"SMITH","Will",6,"N","N","FFP","Family First","QLD",1680
+"1249",304,"Blair",999,"Informal","Informal",999,"N","N","","Informal","QLD",4096
+"1250",304,"Blair",23302,"DEGUARA","Shannon",8,"N","N","AIN","Australian Independents","QLD",800
+"1251",304,"Blair",23402,"STANTON","Anthony John",6,"N","N","PUP","Palmer United Party","QLD",8337
+"1252",304,"Blair",23677,"MACKIN","Anthony",4,"N","N","RUA","Rise Up Australia Party","QLD",420
+"1253",304,"Blair",23727,"NEUMANN","Shayne Kenneth",2,"Y","Y","ALP","Australian Labor Party","QLD",27312
+"1254",304,"Blair",23799,"HARDING","Teresa",5,"N","N","LNP","Liberal National Party of Queensland","QLD",21783
+"1255",304,"Blair",23858,"RUDKIN","Clare",7,"N","N","GRN","The Greens","QLD",2721
+"1256",304,"Blair",24330,"CHORLEY","Dale",3,"N","N","KAP","Katter's Australian Party","QLD",1921
+"1257",304,"Blair",24847,"DENMAN","Elwyn",1,"N","N","FFP","Family First","QLD",1758
+"1258",305,"Hasluck",999,"Informal","Informal",999,"N","N","","Informal","WA",4316
+"1259",305,"Hasluck",23665,"SCOTT","Robin David",5,"N","N","PUP","Palmer United Party","WA",4864
+"1260",305,"Hasluck",23991,"WYATT","Ken",1,"Y","Y","LP","Liberal","WA",30961
+"1261",305,"Hasluck",24030,"LANGLANDS","Peter",6,"N","N","GRN","The Greens","WA",5146
+"1262",305,"Hasluck",24040,"EVANS","Adrian",4,"N","N","ALP","Australian Labor Party","WA",22862
+"1263",305,"Hasluck",24324,"WHITTAKER","Jason",7,"N","N","AUC","Australian Christians","WA",1694
+"1264",305,"Hasluck",24454,"SHARRIN","Kyran",8,"N","N","FFP","Family First Party","WA",971
+"1265",305,"Hasluck",24470,"STEVENS","Daniel",3,"N","N","KAP","Katter's Australian Party","WA",379
+"1266",305,"Hasluck",24886,"MUNRO","Chris",2,"N","N","ASXP","Sex Party","WA",1661
+"1267",306,"Lingiari",999,"Informal","Informal",999,"N","N","","Informal","NT",3462
+"1268",306,"Lingiari",23273,"FLYNN","Peter",1,"N","N","CEC","Citizens Electoral Council","NT",1530
+"1269",306,"Lingiari",23522,"SNOWDON","Warren",8,"Y","Y","ALP","Australian Labor Party","NT",16828
+"1270",306,"Lingiari",23798,"HEDLAND","Trevor",6,"N","N","PUP","Palmer United Party","NT",1680
+"1271",306,"Lingiari",24197,"McCARTHY","Regina",5,"N","N","RUA","Rise Up Australia Party","NT",812
+"1272",306,"Lingiari",24213,"LECHLEITNER","Kenneth Immanuel",7,"N","N","FNPP","A.F.N.P.P.","NT",1263
+"1273",306,"Lingiari",24775,"SHAW","Barbara",2,"N","N","GRN","The Greens","NT",3164
+"1274",306,"Lingiari",24864,"MacFARLANE","Tina",4,"N","N","CLP","Country Liberals (NT)","NT",15652
+"1275",306,"Lingiari",24971,"GOULD","Alf",3,"N","N","IND","Independent","NT",648
+"1276",307,"Solomon",999,"Informal","Informal",999,"N","N","","Informal","NT",2732
+"1277",307,"Solomon",23176,"CAMPBELL","Trudy",2,"N","N","CEC","Citizens Electoral Council","NT",167
+"1278",307,"Solomon",23495,"GOSLING","Luke",5,"N","N","ALP","Australian Labor Party","NT",17166
+"1279",307,"Solomon",23502,"GRIGGS","Natasha",8,"Y","Y","CLP","Country Liberals (NT)","NT",20961
+"1280",307,"Solomon",24220,"CUMMINGS","Eileen",9,"N","N","FNPP","A.F.N.P.P.","NT",414
+"1281",307,"Solomon",24223,"SELLICK","Paul",6,"N","N","RUA","Rise Up Australia Party","NT",439
+"1282",307,"Solomon",24230,"SPAIN","Stephen Christopher",7,"N","N","PUP","Palmer United Party","NT",2378
+"1283",307,"Solomon",24755,"BURGESS","Martin",4,"N","N","VEP","Voluntary Euthanasia Party","NT",483
+"1284",307,"Solomon",24760,"WILLIAMS","Todd",3,"N","N","GRN","The Greens","NT",3662
+"1285",307,"Solomon",24993,"METCALF","Krystal",1,"N","N","ASXP","Sex Party","NT",1569
+"1286",309,"Gorton",999,"Informal","Informal",999,"N","N","","Informal","VIC",5798
+"1287",309,"Gorton",23304,"O'CONNOR","Brendan",6,"Y","Y","ALP","Australian Labor Party","VIC",36451
+"1288",309,"Gorton",23392,"JAYASURIYA","Dinesh",1,"N","N","GRN","The Greens","VIC",4427
+"1289",309,"Gorton",23512,"HUMPHREYS","Phil",8,"N","N","LP","Liberal","VIC",17549
+"1290",309,"Gorton",23576,"CHADHUOL","Mabor",3,"N","N","AUC","Australian Christians","VIC",825
+"1291",309,"Gorton",23771,"BARNES","Anthony Paul",7,"N","N","PUP","Palmer United Party","VIC",4372
+"1292",309,"Gorton",23865,"HUNTER","Rhiannon",2,"N","N","ASXP","Sex Party","VIC",2162
+"1293",309,"Gorton",23972,"DEVERALA","Michael",4,"N","N","DLP","DLP Democratic Labour","VIC",1830
+"1294",309,"Gorton",24209,"MACARDY","Graham",5,"N","N","KAP","Katter's Australian Party","VIC",898
+"1295",309,"Gorton",24986,"AMBERLEY","Scott",9,"N","N","FFP","Family First Party","VIC",1770
+"1296",310,"Bonner",999,"Informal","Informal",999,"N","N","","Informal","QLD",3101
+"1297",310,"Bonner",23440,"MacANALLY","James Derek",5,"N","N","PUP","Palmer United Party","QLD",5279
+"1298",310,"Bonner",23605,"WIRTH","Jarrod",3,"N","N","UNP","Uniting Australia Party","QLD",289
+"1299",310,"Bonner",23711,"FRASER HARDY","Laura",6,"N","N","ALP","Australian Labor Party","QLD",24665
+"1300",310,"Bonner",23903,"VASTA","Ross",1,"Y","Y","LNP","Liberal National Party of Queensland","QLD",31313
+"1301",310,"Bonner",23926,"NELSON","Dave",4,"N","N","GRN","The Greens","QLD",4574
+"1302",310,"Bonner",24849,"PENNY","Jeff",2,"N","N","FFP","Family First","QLD",1340
+"1303",311,"Flynn",999,"Informal","Informal",999,"N","N","","Informal","QLD",4020
+"1304",311,"Flynn",17322,"SCOTT","Duncan George",3,"N","N","IND","Independent","QLD",612
+"1305",311,"Flynn",23426,"ENSBY","Steven Philip",7,"N","N","PUP","Palmer United Party","QLD",6334
+"1306",311,"Flynn",23659,"DICKINS","Kingsley",4,"N","N","RUA","Rise Up Australia Party","QLD",457
+"1307",311,"Flynn",23776,"TREVOR","Chris",9,"N","N","ALP","Australian Labor Party","QLD",24232
+"1308",311,"Flynn",23806,"O'DOWD","Ken",2,"Y","Y","LNP","Liberal National Party of Queensland","QLD",30756
+"1309",311,"Flynn",23869,"THOMPSON","Serena",5,"N","N","GRN","The Greens","QLD",1445
+"1310",311,"Flynn",24501,"LOVE","Richard Laing",8,"N","N","KAP","Katter's Australian Party","QLD",2622
+"1311",311,"Flynn",24822,"MOLDRE","Renae",6,"N","N","FFP","Family First","QLD",993
+"1312",311,"Flynn",24885,"TOMSETT","Craig",1,"N","N","IND","Independent","QLD",1225
+"1313",312,"Durack",999,"Informal","Informal",999,"N","N","","Informal","WA",4476
+"1314",312,"Durack",23417,"SUDHOLZ","Judy F",6,"N","N","CEC","Citizens Electoral Council","WA",134
+"1315",312,"Durack",23668,"HEADLAND","Desmond John",1,"N","N","PUP","Palmer United Party","WA",4116
+"1316",312,"Durack",23936,"PRICE","Melissa",3,"Y","N","LP","Liberal","WA",23365
+"1317",312,"Durack",24039,"FOREMAN","Shane",4,"N","N","RUA","Rise Up Australia Party","WA",695
+"1318",312,"Durack",24047,"JAMES","Ian",2,"N","N","GRN","The Greens","WA",4373
+"1319",312,"Durack",24048,"KEOGH","Daron",9,"N","N","ALP","Australian Labor Party","WA",12922
+"1320",312,"Durack",24276,"VAN STYN","Shane",5,"N","N","NP","The Nationals","WA",14596
+"1321",312,"Durack",24296,"GOULD","Grahame",7,"N","N","AUC","Australian Christians","WA",800
+"1322",312,"Durack",24528,"ROSE","Ian",8,"N","N","FFP","Family First Party","WA",620
+"1323",312,"Durack",24529,"TODD","Aaron",10,"N","N","KAP","Katter's Australian Party","WA",601
+"1324",315,"McMahon",999,"Informal","Informal",999,"N","N","","Informal","NSW",9527
+"1325",315,"McMahon",23207,"KING","Ray",1,"N","N","LP","Liberal","NSW",28187
+"1326",315,"McMahon",24167,"DOBRINCIC","Matthew Markus",2,"N","N","PUP","Palmer United Party","NSW",2341
+"1327",315,"McMahon",24482,"O'NEILL","Astrid",4,"N","N","GRN","The Greens","NSW",1861
+"1328",315,"McMahon",24583,"BOWEN","Chris",3,"Y","Y","ALP","Australian Labor Party","NSW",35736
+"1329",315,"McMahon",24605,"POULARAS","Manny",5,"N","N","CDP","Christian Democratic Party (Fred Nile Group)","NSW",1903
+"1330",316,"Wright",999,"Informal","Informal",999,"N","N","","Informal","QLD",3477
+"1331",316,"Wright",23237,"WRIGHT","Matthew",6,"N","N","IND","Independent","QLD",1288
+"1332",316,"Wright",23405,"ISON","Angie Elaine",5,"N","N","PUP","Palmer United Party","QLD",9180
+"1333",316,"Wright",23658,"MAUNDER","Tony",2,"N","N","RUA","Rise Up Australia Party","QLD",432
+"1334",316,"Wright",23725,"MURAKAMI","Sharon",7,"N","N","ALP","Australian Labor Party","QLD",13241
+"1335",316,"Wright",23804,"BUCHHOLZ","Scott",8,"Y","Y","LNP","Liberal National Party of Queensland","QLD",29024
+"1336",316,"Wright",23873,"SUMMERS","Judith",3,"N","N","GRN","The Greens","QLD",3180
+"1337",316,"Wright",24333,"NEUENDORF","David",4,"N","N","KAP","Katter's Australian Party","QLD",3307
+"1338",316,"Wright",24850,"LYNCH","Stephen",1,"N","N","FFP","Family First","QLD",1459

@@ -1,5 +1,7 @@
 library(dplyr)
 
+######################### data ingest ####################
+
 # get all the HouseStateFirstPrefsByPollingPlace data
 # assume we are in the project dir
 dir <- paste0(getwd(), "/AECdata//HouseStateFirstPrefsByPollingPlace")
@@ -18,6 +20,27 @@ polling_place_location <- read.csv(paste0(getwd(), "/AECdata/GeneralPollingPlace
 
 # names(polling_place_location)
 # head(polling_place_location)
+
+# get two party preferred data
+two_party_preferred_by_polling_place <- read.csv(paste0(getwd(), "/AECdata/HouseTppByPollingPlaceDownload-17496.csv"), 
+                                                 skip = 1,
+                                                 stringsAsFactors =  FALSE)
+
+# add in different vote types
+vote_types <- read.csv("AECdata/HouseFirstPrefsByCandidateByVoteTypeDownload-17496.csv", skip = 1)
+#  how to join? vote_types is only for each candidate, not each polling place...
+
+aec_first_pref <- read.csv(paste0(getwd(), "/AECdata/HouseFirstPrefsByPartyDownload-17496.csv"), skip = 1)
+# names(aec_first_pref)
+
+aec_winners <- read.csv(paste0(getwd(), "/AECdata/HouseMembersElectedDownload-17496.csv"), skip = 1)
+names(aec_winners)
+
+######################### end data ingest ####################
+
+
+####################### add locations to fp data##############
+
 
 # quick look at locations 
 library(ggplot2)
@@ -68,10 +91,7 @@ number_of_polling_places <- election_results_df_loc_no_fac %>%
   summarize(number_of_candidates_per_polling_place = n()) %>% 
   nrow
 
-# get two party preferred data
-two_party_preferred_by_polling_place <- read.csv(paste0(getwd(), "/AECdata/HouseTppByPollingPlaceDownload-17496.csv"), 
-                                   skip = 1,
-                                   stringsAsFactors =  FALSE)
+####################### add locations to 2pp data ##############
 
 # join with first pref data
 # need to aggregate to we have only one polling place per row
@@ -95,7 +115,7 @@ names(election_results_df_loc_pp) <- gsub(".x", "", names(election_results_df_lo
 # drop duplicate cols, now that we've got rid of the .x in the names
 election_results_df_loc_pp <- election_results_df_loc_pp[, !duplicated(colnames(election_results_df_loc_pp))]
 
-election_results_df_loc_pp %>% arrange(desc(PollingPlaceID)) %>% View
+# election_results_df_loc_pp %>% arrange(desc(PollingPlaceID)) %>% View
 # head(xx)
 # any duplicates?
 election_results_df_loc_pp[duplicated(election_results_df_loc_pp),]
@@ -104,7 +124,6 @@ election_results_df_loc_pp[duplicated(election_results_df_loc_pp),]
 ######### end of working with th 2pp data ###########
 
 ### start of cleaning the fp data ##################
-
 
 # seems like there's multiple names for the ALP...
 # unique(election_results_df_loc_no_fac$PartyNm)
@@ -151,6 +170,15 @@ election_results_df_loc_no_fac_no_dup$uid <-
 election_results_df_loc_no_fac_no_dup <- 
   election_results_df_loc_no_fac_no_dup[!duplicated(election_results_df_loc_no_fac_no_dup$uid), ]
 
+# drop some duplicate cols
+election_results_df_loc_no_fac_no_dup <- election_results_df_loc_no_fac_no_dup %>% 
+  select(-contains(".y")) 
+
+# rename the cols with .x so they don't have that
+names(election_results_df_loc_no_fac_no_dup) <- gsub(".x", "", names(election_results_df_loc_no_fac_no_dup))
+# drop duplicate cols, now that we've got rid of the .x in the names
+election_results_df_loc_no_fac_no_dup <- election_results_df_loc_no_fac_no_dup[, !duplicated(colnames(election_results_df_loc_no_fac_no_dup))]
+
 
 # plot 
 p <- ggplot(election_results_df_loc_no_fac_no_dup, aes(Longitude, Latitude)) +
@@ -170,64 +198,105 @@ p1 <- election_results_df_loc_no_fac_no_dup %>%
 
 ###### end of cleaning the fp data #################
 
-# add in different vote types
-vote_types <- read.csv("AECdata/HouseFirstPrefsByCandidateByVoteTypeDownload-17496.csv", skip = 1)
-#  how to join? vote_types is only for each candidate, not each polling place...
+### aggregate fp and 2pp by electorate #############
+electorate_variables <-  c("DivisionID", "DivisionNm", "CandidateID",        "Surname",           
+                           "GivenNm",            "BallotPosition",     "Elected" ,          
+                           "HistoricElected",    "PartyAb" ,           "PartyNm",       "State")
+two_pp_variables <- c("Australian.Labor.Party.Votes", "Australian.Labor.Party.Percentage", 
+                      "Liberal.National.Coalition.Votes", "Liberal.National.Coalition.Percentage", 
+                      "TotalVotes")
 
-# save as CSV
-write.csv(election_results_df_loc_no_fac_no_dup, "AECdata/HouseFirstPrefsByPollingPlaceAllStates.csv")
-
-# write as rda
-aec2013 <- election_results_df_loc_no_fac_no_dup
-
-# Change variable names to match abs2011 where possible.
-aec2013 <- rename(aec2013, ID=DivisionID.x)
-aec2013 <- rename(aec2013, Electorate=DivisionNm.x)
-aec2013$StateAb <- NULL
-
-save(aec2013, file="echidnaR/data/aec2013.rda")
-load("echidnaR/data/aec2013.rda")
-# load("echidnaR/data/abs2011.rda")
-
-##################################
-### aggregate by electorate and save as rda
-electorate_variables <-  c("ID", "Electorate", "CandidateID",        "Surname",           
-"GivenNm",            "BallotPosition",     "Elected" ,          
- "HistoricElected",    "PartyAb" ,           "PartyNm",       "State")
-
-aec2013_electorates <- aec2013 %>% 
+# votes per canditate in each electorate
+aec2013_fp_electorate <- election_results_df_loc_no_fac_no_dup %>% 
   group_by_(.dots = electorate_variables) %>% 
-  summarise(Total_OrdinaryVotes_per_electorate = sum(OrdinaryVotes))
+  summarise(Total_OrdinaryVotes_in_electorate = sum(OrdinaryVotes)) 
 
 # check 
-aec2013_electorates %>% 
+aec2013_fp_electorate %>% 
   group_by(PartyAb) %>% 
-  summarise(Total_votes = sum(Total_OrdinaryVotes_per_electorate)) %>% 
+  summarise(Total_votes = sum(Total_OrdinaryVotes_in_electorate)) %>% 
   arrange(desc(Total_votes))
 # yes, ok
 
+# repeat for 2pp
+aec2013_2pp_electorate <- election_results_df_loc_pp %>% 
+  group_by_(.dots = electorate_variables) %>% 
+  summarise(Total_Australian_Labor_Party_Votes_per_electorate = sum(Australian.Labor.Party.Votes),
+            Average_Australian_Labor_Party_Percentage_in_electorate = mean(Australian.Labor.Party.Percentage),
+            Total_Liberal_National_Coalition_Votes_per_electorate = sum(Liberal.National.Coalition.Votes),
+            Average_Liberal_National_Coalition_Percentage_in_electorate = mean(Liberal.National.Coalition.Percentage),
+            Total_2pp_votes_per_electorate = sum(TotalVotes))
 
-save(aec2013_electorates, file="echidnaR/data/aec2013_electorates.rda")
-load("echidnaR/data/aec2013_electorates.rda")
-# load("echidnaR/data/abs2011.rda")
 
 
+###### write data to disk #################
 
+# save as CSV
+write.csv(election_results_df_loc_no_fac_no_dup, "AECdata/HouseFirstPrefsByPollingPlaceAllStates.csv")
+write.csv(election_results_df_loc_pp,            "AECdata/HouseTwoPartyPrefdByPollingPlaceAllStates.csv")
+write.csv(aec2013_fp_electorate,                "AECdata/HouseFirstPrefsByElectorateAllStates.csv")
+write.csv(aec2013_2pp_electorate,               "AECdata/HouseTwoPartyPrefdByElectorateAllStates.csv")
+
+# rename to something neater and more logical (nameing is hard!)
+aec2013_fp <- election_results_df_loc_no_fac_no_dup
+aec2013_fp_electorate <- aec2013_fp_electorate
+aec2013_2pp <- election_results_df_loc_pp
+aec2013_2pp_electorate <- aec2013_2pp_electorate
+
+
+# Change variable names to match abs2011 where possible.
+match_abs_2011_names <- function(x){
+  x <- rename(x, ID=DivisionID)
+  x <- rename(x, Electorate=DivisionNm)
+  x$StateAb <- NULL
+  x
+}
+
+# put data objects in a list to save typing
+list_of_data_objects_for_renaming <- list(aec2013_fp = aec2013_fp, 
+                             aec2013_fp_electorate = aec2013_fp_electorate, 
+                             aec2013_2pp = aec2013_2pp, 
+                             aec2013_2pp_electorate = aec2013_2pp_electorate)
+# apply the function to change variable names
+list_of_data_objects <- lapply(list_of_data_objects_for_renaming, function(i) match_abs_2011_names(i))
+# remove objects from env to mimimize confusion
+rm(list = names(list_of_data_objects))
+
+
+# save to rds file (recommended for indiv. items)
+for(i in seq_along(list_of_data_objects)){
+  # can't save from a list, so make a temp object, with the right name
+  temp <- list_of_data_objects[[i]]
+  assign(names(list_of_data_objects)[i], temp)
+  save(list = names(list_of_data_objects)[i], file=paste0("echidnaR/data/", names(list_of_data_objects)[i], ".rda"))
+}
+
+# load them in to this session
+data_file_names <- list.files("echidnaR/data/", pattern = "aec2013", full.names = TRUE)
+lapply(data_file_names, load, .GlobalEnv)
+
+
+# check what we've got
+list.files("echidnaR/data/")
+
+
+########## end of data preparation and file-writing ###########
 ################################################################
+##### Begin exploratory data analysis #########################
+
+
 ## Overall results for first preferences -----------------------
 
 # by party by electorate
-aec2013 %>% 
-  select(DivisionID.x, PartyNm, OrdinaryVotes) %>% 
-  group_by(PartyNm, DivisionID.x) %>% 
+aec2013_fp %>% 
+  select(Electorate, PartyNm, OrdinaryVotes) %>% 
+  group_by(Electorate, PartyNm) %>% 
   summarise(total_votes = sum(OrdinaryVotes)) %>% 
   ungroup() %>%
-  arrange(DivisionID.x, total_votes)
-
-
+  arrange(desc(total_votes))
 
 # by party
-aec2013 %>% 
+aec2013_fp %>% 
   select(PartyNm, OrdinaryVotes) %>% 
   group_by(PartyNm) %>% 
   summarise(total_votes = sum(OrdinaryVotes)) %>% 
@@ -236,9 +305,8 @@ aec2013 %>%
 
 # compare to AEC data http://results.aec.gov.au/17496/Website/HouseDownloadsMenu-17496-csv.htm
 # First Preferences By Party
-aes_first_pref <- read.csv(paste0(getwd(), "/AECdata/HouseFirstPrefsByPartyDownload-17496.csv"), skip = 1)
-# names(aes_first_pref)
-aes_first_pref %>% 
+
+aec_first_pref %>% 
   select(PartyNm, OrdinaryVotes) %>% 
   arrange(desc(OrdinaryVotes)) %>% 
   head()
@@ -248,7 +316,7 @@ aes_first_pref %>%
 ################################################################
 # winner for each electorate ----------------------------------
 
-aec2013 %>% 
+aec2013_fp %>% 
   group_by(DivisionID.x) %>% 
   select(DivisionID.x, DivisionNm.x, StateAb, GivenNm, Surname, PartyNm, Elected) %>% 
   filter(Elected == "Y") %>% 
@@ -258,9 +326,8 @@ aec2013 %>%
   head
 
 # check with AEC data for winner for each electorate
-aes_winners <- read.csv(paste0(getwd(), "/AECdata/HouseMembersElectedDownload-17496.csv"), skip = 1)
-names(aes_winners)
-aes_winners %>% 
+
+aec_winners %>% 
   select(DivisionID, StateAb, GivenNm, Surname, PartyNm) %>%  
   arrange(desc(Surname)) %>% 
   head
@@ -269,7 +336,7 @@ aes_winners %>%
 
 ################################################################
 # Comparing party and candidate votes of several parties -------
-proportions <- aec2013 %>%
+proportions <- aec2013_fp %>%
   group_by(DivisionID.x) %>%
   summarise(Prop_Labour = sum(OrdinaryVotes[PartyNm == "Australian Labor Party"]) / sum(OrdinaryVotes),
             Prop_Liberal = sum(OrdinaryVotes[PartyNm == "Liberal"]) / sum(OrdinaryVotes),
@@ -299,7 +366,7 @@ names(polling_place_location)
 
 
 # plot electorates to show proportion of labor votes
-aec2013 %>%
+aec2013_fp %>%
   # compute proportion of votes for labor by
   group_by(PollingPlaceID) %>% 
   summarise(ProportionLabour = sum(OrdinaryVotes[PartyNm == "Australian Labor Party"]) / sum(OrdinaryVotes)) %>% 
@@ -319,7 +386,7 @@ aec2013 %>%
 # Rolling up results to electorate
 
 # watch out for zeros...
-aec2013 %>% 
+aec2013_fp %>% 
   group_by(PollingPlaceID) %>%
   summarise(TotalVotes = sum(OrdinaryVotes))   %>% 
   filter(TotalVotes == 0) %>% 
@@ -329,7 +396,7 @@ aec2013 %>%
 
 # exclude polling  places with no votes
 library(scales)
-p <- aec2013 %>%
+p <- aec2013_fp %>%
   group_by(Electorate) %>%
   summarise(
     TotalVotes = sum(OrdinaryVotes),
@@ -371,7 +438,7 @@ parties_of_interest <- c("ALP", "GRN", "LP", "NP", "CLP", "LNQ")
 
 
 country_level_formal_vote_counts_by_major_party <- 
-  aec2013 %>% 
+  aec2013_fp %>% 
   mutate(formal = BallotPosition != 999) %>% 
   # proportion of votes for only the selected parties, ie. a relative comparison
   filter(PartyAb %in% parties_of_interest) %>% 
@@ -390,7 +457,7 @@ sum(country_level_formal_vote_counts_by_major_party$prop_total_votes_in_the_coun
 
 electorate_level_formal_vote_counts_by_major_party <- 
   # formal vote
-  aec2013 %>% 
+  aec2013_fp %>% 
   mutate(formal = BallotPosition != 999) %>% 
   # proportion of votes for only the selected parties, ie. a relative comparison
   filter(PartyAb %in% parties_of_interest) %>%
@@ -434,7 +501,7 @@ library(leaflet)
 
 # make dataframe with electorate proportions
 chosen_Electorate <- "Canberra"
-elect_df <- aec2013 %>% 
+elect_df <- aec2013_fp %>% 
   filter(Electorate == chosen_Electorate) %>% 
   group_by(PollingPlace, Longitude, Latitude) %>% 
   summarise(TotalVotes = sum(OrdinaryVotes),
