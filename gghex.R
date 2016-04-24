@@ -8,11 +8,11 @@ names(hexDat) <- c("x", "y", "Electorate", "state")
 bumps <- read.csv(text = "
 state, xbump, ybump
 nsw, 0, 0
-qld, -3, 16
-vic, -9, -10
+qld, -2, 16
+vic, -9, -13
 sa, -18, -6
-tas, -6, -25
-nt, -26, 33
+tas, -6, -28
+nt, -24, 41
 wa, -40, 0"
 )
 hexDat <- dplyr::left_join(hexDat, bumps, by = "state")
@@ -24,8 +24,9 @@ hexDat$ycent <- with(hexDat, y*1.5)
 library(plotly)
 p <- ggplot(hexDat, aes(xcent, ycent, text = Electorate)) + 
   geom_hex(stat = "identity") + 
-  lims(x=c(-80, 8), y=c(-40, 50))
-ggplotly(p, tooltip = "text")
+  lims(x=c(-80, 8), y=c(-46, 75))
+pp<-p+ geom_segment(aes(x=x0,y=y0,xend=x1,yend=y1),data=edges, inherit.aes=FALSE,linetype="dashed")+geom_segment(aes(x=x0,y=y0,xend=x1,yend=y1),data=bb, inherit.aes=FALSE,linetype="dotted")
+ggplotly(pp, tooltip = "text")
 
 save(hexDat, file = "echidnaR/data/hexDat.rda")
 
