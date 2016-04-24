@@ -21,41 +21,17 @@ hexDat$y <- hexDat$y + hexDat$ybump
 hexDat$xcent <- with(hexDat, x*sqrt(3) - (y%%2) * sqrt(3)/2)
 hexDat$ycent <- with(hexDat, y*1.5)
 
+edges <- read.table("hexdata/roughedges.txt", header = T)
+bb <- read.table("hexdata/oz_outline.txt", header = T)
+
 library(plotly)
 p <- ggplot(hexDat, aes(xcent, ycent, text = Electorate)) + 
   geom_hex(stat = "identity") + 
-  lims(x=c(-80, 8), y=c(-46, 75))
-pp<-p+ geom_segment(aes(x=x0,y=y0,xend=x1,yend=y1),data=edges, inherit.aes=FALSE,linetype="dashed")+geom_segment(aes(x=x0,y=y0,xend=x1,yend=y1),data=bb, inherit.aes=FALSE,linetype="dotted")
+  geom_segment(aes(x = x0, y = y0, xend = x1, yend = y1), 
+               data = edges, inherit.aes = FALSE, linetype = "dashed") +
+  geom_segment(aes(x = x0, y = y0, xend = x1, yend = y1), 
+               data = bb, inherit.aes = FALSE, linetype = "dotted") +
+  lims(x = c(-80, 8), y = c(-46, 75))
 ggplotly(pp, tooltip = "text")
 
 save(hexDat, file = "echidnaR/data/hexDat.rda")
-
-#boundaries <- read.table("hexdata/roughedges.txt", header = TRUE)
-#
-#ozresults <- read.table(
-#  "AECdata/HouseMembersElectedDownload-17496.csv", 
-#  header=TRUE, skip=1, sep=",", quote="\""
-#)
-#
-#cols <- data.frame(
-#  PartyAb = c("ALP","LP" ,"LNP", "NP" , "IND","PUP", "KAP", "GRN", "CLP"), 
-#  fill = c("red","blue","blue","forestgreen","gray","yellow","darkred","green","orange"),
-#  border = c(NA,NA,"yellow","yellow",NA,NA,NA,"green","blue")
-#)
-#ozresults <- merge(ozresults, cols, by = "PartyAb")
-#
-#hex_x <- c(0, sqrt(3)/2, sqrt(3)/2, 0, -sqrt(3)/2, -sqrt(3)/2, 0)
-#hex_y <- c(1, 0.5, -0.5, -1, -0.5, 0.5, 1)
-#
-#
-#library(ggplot2)
-#ggplot(hexDat) + geom_polygon(group = state)
-#
-#polygon(hex_x+xcent[i],hex_y+ycent[i],col=fill[i],border=border[i],...)
-#if (text) text(xcent[i],ycent[i],id[i],cex=0.4)
-#
-#idx <- match(nsw$electorate, ozresults$DivisionNm)
-#with(nsw, hexit(x,y, electorate, 
-#                fill=as.character(ozresults$fill[idx]), 
-#                border=as.character(ozresults$border[idx]),lwd=2)
-#)
