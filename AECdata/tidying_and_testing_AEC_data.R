@@ -268,7 +268,10 @@ for(i in seq_along(list_of_data_objects)){
   # can't save from a list, so make a temp object, with the right name
   temp <- list_of_data_objects[[i]]
   assign(names(list_of_data_objects)[i], temp)
-  save(list = names(list_of_data_objects)[i], file=paste0("echidnaR/data/", names(list_of_data_objects)[i], ".rda"))
+  save(list = names(list_of_data_objects)[i], 
+       file=paste0("echidnaR/data/", 
+       names(list_of_data_objects)[i], ".rda"),
+       compress =  "xz")
 }
 
 # load them in to this session

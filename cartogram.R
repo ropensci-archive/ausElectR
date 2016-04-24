@@ -4,8 +4,8 @@ library(readr)
 library(purrr)
 
 # Read data
-#aec_polys <- read_csv("AECdata/National-map.csv")
-aec_data <- read_csv("AECdata/National-data.csv")
+#aec_polys <- read_csv("AECdata/AEC_maps/National-map.csv")
+aec_data <- read_csv("AECdata/AEC_maps/National-data.csv")
 load("AECdata/nat_map.rda")
 
 # Show electoral districts
@@ -180,4 +180,4 @@ ggplot(data=nat_map) +
 
 
 # write file
-write_csv(aec_data.cart, "AECdata/National-data-dorling.csv")
+write_csv(aec_data.cart, "AECdata/AEC_maps/National-data-dorling.csv")
