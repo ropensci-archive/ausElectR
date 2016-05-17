@@ -125,39 +125,7 @@ election_results_df_loc_pp <- election_results_df_loc_pp[, !duplicated(colnames(
 election_results_df_loc_pp[duplicated(election_results_df_loc_pp),]
 # no
 
-######### end of working with th 2pp data ###########
-
-####################### add locations to 2cp data ##############
-
-# join with first pref data
-# need to aggregate to we have only one polling place per row
-election_results_df_loc_cp <- election_results_df_loc %>% 
-  group_by(PollingPlaceID) %>% 
-  filter(Elected == "Y") %>% 
-  arrange(desc(PollingPlaceID)) %>% 
-  slice(1) 
-
-# check we have all the polling places
-identical(number_of_polling_places, nrow(election_results_df_loc_cp))
-
-election_results_df_loc_cp <- left_join(election_results_df_loc_cp, aec_2candidates_polling_place, by = "PollingPlaceID")
-
-# drop some duplicate cols
-election_results_df_loc_cp <- election_results_df_loc_cp %>% 
-  select(-contains(".y")) 
-
-# rename the cols with .x so they don't have that
-names(election_results_df_loc_cp) <- gsub(".x", "", names(election_results_df_loc_cp))
-# drop duplicate cols, now that we've got rid of the .x in the names
-election_results_df_loc_cp <- election_results_df_loc_cp[, !duplicated(colnames(election_results_df_loc_cp))]
-
-# election_results_df_loc_cp %>% arrange(desc(PollingPlaceID)) %>% View
-# any duplicates?
-election_results_df_loc_cp[duplicated(election_results_df_loc_cp),]
-# no
-
-######### end of working with the 2cp data ###########
-
+######### end of working with the 2pp data ###########
 ### start of cleaning the fp data ##################
 
 # seems like there's multiple names for the ALP...
@@ -268,16 +236,18 @@ aec2013_2pp_electorate <- election_results_df_loc_pp %>%
 # save as CSV
 write.csv(election_results_df_loc_no_fac_no_dup, "AECdata/HouseFirstPrefsByPollingPlaceAllStates.csv")
 write.csv(election_results_df_loc_pp,            "AECdata/HouseTwoPartyPrefdByPollingPlaceAllStates.csv")
-write.csv(aec2013_fp_electorate,                "AECdata/HouseFirstPrefsByElectorateAllStates.csv")
-write.csv(aec2013_2pp_electorate,               "AECdata/HouseTwoPartyPrefdByElectorateAllStates.csv")
+write.csv(aec2013_fp_electorate,                 "AECdata/HouseFirstPrefsByElectorateAllStates.csv")
+write.csv(aec2013_2pp_electorate,                "AECdata/HouseTwoPartyPrefdByElectorateAllStates.csv")
+write.csv(aec_2candidates,                   "AECdata/HouseTwoCandidatePrefdByElectorateAllStates.csv")
+write.csv(aec_2candidates_polling_place,     "AECdata/HouseTwoCandidatePrefdByPollingPlaceAllStates.csv")
 
 # rename to something neater and more logical (nameing is hard!)
 aec2013_fp <- election_results_df_loc_no_fac_no_dup
 aec2013_fp_electorate <- aec2013_fp_electorate
 aec2013_2pp <- election_results_df_loc_pp
 aec2013_2pp_electorate <- aec2013_2pp_electorate
-aec2013_2cp <- election_results_df_loc_cp
-
+aec2013_2cp <- aec_2candidates_polling_place
+aec2013_2cp_electorate <- aec_2candidates
 
 # Change variable names to match abs2011 where possible.
 match_abs_2011_names <- function(x){
@@ -291,12 +261,13 @@ match_abs_2011_names <- function(x){
 list_of_data_objects_for_renaming <- list(aec2013_fp = aec2013_fp, 
                              aec2013_fp_electorate = aec2013_fp_electorate, 
                              aec2013_2pp = aec2013_2pp, 
-                             aec2013_2pp_electorate = aec2013_2pp_electorate)
+                             aec2013_2pp_electorate = aec2013_2pp_electorate,
+                             aec2013_2cp = aec2013_2cp, 
+                             aec2013_2cp_electorate = aec2013_2cp_electorate)
 # apply the function to change variable names
 list_of_data_objects <- lapply(list_of_data_objects_for_renaming, function(i) match_abs_2011_names(i))
 # remove objects from env to mimimize confusion
 rm(list = names(list_of_data_objects))
-
 
 # save to rds file (recommended for indiv. items)
 for(i in seq_along(list_of_data_objects)){
@@ -313,10 +284,8 @@ for(i in seq_along(list_of_data_objects)){
 data_file_names <- list.files("echidnaR/data/", pattern = "aec2013", full.names = TRUE)
 lapply(data_file_names, load, .GlobalEnv)
 
-
 # check what we've got
 list.files("echidnaR/data/")
-
 
 ########## end of data preparation and file-writing ###########
 ################################################################

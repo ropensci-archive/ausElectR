@@ -1,0 +1,301 @@
+"","StateAb","DivisionID","DivisionNm","CandidateID","Surname","GivenNm","BallotPosition","Elected","HistoricElected","PartyAb","PartyNm","OrdinaryVotes","AbsentVotes","ProvisionalVotes","PrePollVotes","PostalVotes","TotalVotes","Swing"
+"1","ACT",101,"Canberra",24857,"SEFTON","Tom",1,"N","N","LP","Liberal",44272,528,141,2363,2590,49894,2.17
+"2","ACT",101,"Canberra",24122,"BRODTMANN","Gai",5,"Y","Y","ALP","Australian Labor Party",59154,987,179,3065,2689,66074,-2.17
+"3","ACT",102,"Fraser",24865,"LEE","Elizabeth",2,"N","N","LP","Liberal",41621,554,99,2041,2606,46921,1.58
+"4","ACT",102,"Fraser",24147,"LEIGH","Andrew",3,"Y","Y","ALP","Australian Labor Party",70470,954,217,3529,3444,78614,-1.58
+"5","NSW",103,"Banks",24568,"MELHAM","Daryl",1,"N","Y","ALP","Labor",33615,2098,151,2031,2990,40885,-3.28
+"6","NSW",103,"Banks",23182,"COLEMAN","David",8,"Y","N","LP","Liberal",36394,1684,123,1801,3988,43990,3.28
+"7","NSW",104,"Barton",23183,"VARVARIS","Nickolas",2,"Y","N","LP","Liberal",33260,1738,153,1858,3236,40245,7.17
+"8","NSW",104,"Barton",24550,"McMAHON","Steve",5,"N","N","ALP","Labor",33329,1836,169,1964,2458,39756,-7.17
+"9","NSW",105,"Bennelong",24738,"LI","Jason Yat-Sen",2,"N","N","ALP","Labor",30863,1484,117,1876,3043,37383,-4.65
+"10","NSW",105,"Bennelong",23197,"ALEXANDER","John",6,"Y","Y","LP","Liberal",41977,1696,111,2111,5244,51139,4.65
+"11","NSW",106,"Berowra",23203,"RUDDOCK","Philip",5,"Y","Y","LP","Liberal",50090,2811,59,1857,5030,59847,2.87
+"12","NSW",106,"Berowra",24544,"STOVE","Michael Joseph",7,"N","N","ALP","Labor",22509,1455,24,1009,1803,26800,-2.87
+"13","NSW",107,"Blaxland",23213,"KHOURI","Anthony",2,"N","N","LP","Liberal",24579,1572,128,1151,2722,30152,0.8
+"14","NSW",107,"Blaxland",24623,"CLARE","Jason",4,"Y","Y","ALP","Labor",40920,2324,238,1607,2936,48025,-0.8
+"15","NSW",108,"Bradfield",24551,"HAVILAND","Chris",4,"N","N","ALP","Labor",21196,1633,31,1241,1812,25913,-2.6
+"16","NSW",108,"Bradfield",23200,"FLETCHER","Paul",5,"Y","Y","LP","Liberal",52075,2650,78,2352,5616,62771,2.6
+"17","NSW",109,"Calare",23245,"COBB","John",1,"Y","Y","NP","The Nationals",54710,1518,128,1466,2426,60248,5.23
+"18","NSW",109,"Calare",24593,"JENNINGS","Jess",4,"N","N","ALP","Labor",28153,964,60,790,1108,31075,-5.23
+"19","NSW",110,"Charlton",24657,"CONROY","Pat",1,"Y","N","ALP","Labor",44196,2124,200,966,3687,51173,-3.44
+"20","NSW",110,"Charlton",23196,"BAKER","Kevin",2,"N","N","LP","Liberal",30086,1350,74,877,2840,35227,3.44
+"21","NSW",111,"Chifley",24631,"HUSIC","Ed",2,"Y","Y","ALP","Labor",43448,2179,195,1059,2950,49831,-1.79
+"22","NSW",111,"Chifley",23215,"WHITE","Isabelle",3,"N","N","LP","Liberal",27708,1480,103,779,2400,32470,1.79
+"23","NSW",112,"Cook",24602,"SCAYSBROOK","Peter William",1,"N","N","ALP","Labor",26381,1382,112,1312,1868,31055,-3.69
+"24","NSW",112,"Cook",23219,"MORRISON","Scott",6,"Y","Y","LP","Liberal",52975,1970,165,2039,4095,61244,3.69
+"25","NSW",113,"Cowper",23249,"HARTSUYKER","Luke",3,"Y","Y","NP","The Nationals",47341,1448,84,1639,2791,53303,2.44
+"26","NSW",113,"Cowper",24594,"NAVARRO","Alfredo",5,"N","N","ALP","Country Labor",29352,1070,77,1081,1495,33075,-2.44
+"27","NSW",114,"Cunningham",23188,"CLIFFORD","Philip",1,"N","N","LP","Liberal",30802,1314,53,1576,2837,36582,3.29
+"28","NSW",114,"Cunningham",24668,"BIRD","Sharon",5,"Y","Y","ALP","Labor",46739,2170,153,2098,3435,54595,-3.29
+"29","NSW",115,"Dobell",24570,"McBRIDE","Emma",4,"N","N","ALP","Labor",36687,1936,124,967,2773,42487,-5.75
+"30","NSW",115,"Dobell",23243,"McNAMARA","Karen",8,"Y","N","LP","Liberal",37334,1594,90,1056,3579,43653,5.75
+"31","NSW",117,"Eden-Monaro",23189,"HENDY","Peter",1,"Y","N","LP","Liberal",38299,837,74,2295,3694,45199,4.85
+"32","NSW",117,"Eden-Monaro",24547,"KELLY","Mike",3,"N","Y","ALP","Labor",37639,955,93,2296,3131,44114,-4.85
+"33","NSW",118,"Farrer",23181,"LEY","Sussan",4,"Y","Y","LP","Liberal",47777,730,104,2589,4761,55961,2.92
+"34","NSW",118,"Farrer",24524,"HICKEY","Gavin",6,"N","N","ALP","Labor",24064,353,61,1165,1392,27035,-2.92
+"35","NSW",119,"Fowler",23240,"NGUYEN","Andrew",4,"N","N","LP","Liberal",21472,1516,108,811,2195,26102,-8.04
+"36","NSW",119,"Fowler",24548,"HAYES","Chris",5,"Y","Y","ALP","Labor",45757,2148,271,1132,3218,52526,8.04
+"37","NSW",120,"Gilmore",24600,"REILLY","Neil Ernest",2,"N","N","ALP","Labor",37577,1575,111,1386,2302,42951,2.67
+"38","NSW",120,"Gilmore",23190,"SUDMALIS","Ann",5,"Y","N","LP","Liberal",41606,1299,76,1564,3213,47758,-2.67
+"39","NSW",121,"Grayndler",23192,"SPENCER","Cedric",3,"N","N","LP","Liberal",21522,1620,124,1013,2117,26396,0.29
+"40","NSW",121,"Grayndler",24610,"ALBANESE","Anthony",6,"Y","Y","ALP","Labor",52473,3713,293,2448,3686,62613,-0.29
+"41","NSW",122,"Greenway",23185,"DIAZ","Jaymes",1,"N","N","LP","Liberal",33945,1748,135,1072,3602,40502,-2.1
+"42","NSW",122,"Greenway",24644,"ROWLAND","Michelle",5,"Y","Y","ALP","Labor",39564,1944,200,1016,2915,45639,2.1
+"43","NSW",124,"Hughes",24612,"MEGARRITY","Alison Patricia",2,"N","N","ALP","Labor",29498,1921,103,1301,2017,34840,-5.5
+"44","NSW",124,"Hughes",23198,"KELLY","Craig",5,"Y","Y","LP","Liberal",45954,2252,137,1705,3687,53735,5.5
+"45","NSW",125,"Hume",24787,"PILBROW","Michael",4,"N","N","ALP","Country Labor",30080,1495,81,1426,1974,35056,-2.75
+"46","NSW",125,"Hume",23222,"TAYLOR","Angus",5,"Y","N","LP","Liberal",47773,2260,107,2060,3738,55938,2.75
+"47","NSW",126,"Hunter",23251,"JOHNSEN","Michael",2,"N","N","NP","The Nationals",35218,1236,91,853,2418,39816,8.81
+"48","NSW",126,"Hunter",24543,"FITZGIBBON","Joel",6,"Y","Y","ALP","Labor",41052,1571,129,917,2456,46125,-8.81
+"49","NSW",127,"Kingsford Smith",24553,"THISTLETHWAITE","Matt",3,"Y","N","ALP","Labor",38477,1720,178,1716,3320,45411,-2.42
+"50","NSW",127,"Kingsford Smith",23187,"FENELEY","Michael",5,"N","N","LP","Liberal",33876,1336,98,1510,3872,40692,2.42
+"51","NSW",128,"Lindsay",24677,"BRADBURY","David",5,"N","Y","ALP","Labor",36012,1657,197,935,2411,41212,-4.11
+"52","NSW",128,"Lindsay",23201,"SCOTT","Fiona",7,"Y","N","LP","Liberal",40521,1522,172,1081,3150,46446,4.11
+"53","NSW",130,"Lyne",24595,"ALLEY","Peter",4,"N","N","ALP","Labor",26403,1338,73,1216,1358,30388,-2.32
+"54","NSW",130,"Lyne",23252,"GILLESPIE","David",6,"Y","N","NP","The Nationals",49229,1712,96,1992,2828,55857,2.32
+"55","NSW",131,"Macarthur",23221,"MATHESON","Russell",2,"Y","Y","LP","Liberal",45559,1748,181,1347,3326,52161,8.34
+"56","NSW",131,"Macarthur",24733,"FULTON","Ian",5,"N","N","ALP","Labor",28516,1590,142,896,1704,32848,-8.34
+"57","NSW",132,"Mackellar",24546,"HEDGE","Chris",4,"N","N","ALP","Labor",23962,1471,80,1022,1675,28210,-3.12
+"58","NSW",132,"Mackellar",23184,"BISHOP","Bronwyn",5,"Y","Y","LP","Liberal",52840,2648,136,1992,4706,62322,3.12
+"59","NSW",133,"Macquarie",23211,"MARKUS","Louise",2,"Y","Y","LP","Liberal",42297,1752,100,1147,3691,48987,3.22
+"60","NSW",133,"Macquarie",24690,"TEMPLEMAN","Susan",3,"N","N","ALP","Labor",35475,1745,124,1097,2496,40937,-3.22
+"61","NSW",315,"McMahon",23207,"KING","Ray",1,"N","N","LP","Liberal",30868,1775,138,1252,2765,36798,2.49
+"62","NSW",315,"McMahon",24583,"BOWEN","Chris",3,"Y","Y","ALP","Labor",39160,2162,187,1352,2700,45561,-2.49
+"63","NSW",134,"Mitchell",23206,"HAWKE","Alex",5,"Y","Y","LP","Liberal",53524,2298,151,1759,4693,62425,4.92
+"64","NSW",134,"Mitchell",24556,"PUNCH","Andrew Thomas",6,"N","N","ALP","Labor",20616,1170,59,861,1477,24183,-4.92
+"65","NSW",135,"New England",24752,"TABER","Rob",4,"N","N","IND","Independent",29029,1019,65,885,1445,32443,35.54
+"66","NSW",135,"New England",23247,"JOYCE","Barnaby",6,"Y","N","NP","The Nationals",52197,1500,107,1590,3452,58846,64.46
+"67","NSW",136,"Newcastle",23242,"ABBOTT","Jaimie",7,"N","N","LP","Liberal",29311,1716,100,1035,3035,35197,3.66
+"68","NSW",136,"Newcastle",24660,"CLAYDON","Sharon",9,"Y","N","ALP","Labor",42930,2347,198,1141,3682,50298,-3.66
+"69","NSW",137,"North Sydney",23223,"HOCKEY","Joe",2,"Y","Y","LP","Liberal",47213,2710,62,2860,5429,58274,1.83
+"70","NSW",137,"North Sydney",24744,"HAYES","Peter",5,"N","N","ALP","Labor",24757,1563,51,1639,2164,30174,-1.83
+"71","NSW",138,"Page",23363,"HOGAN","Kevin",1,"Y","N","NP","The Nationals",39748,881,76,1182,3247,45134,6.71
+"72","NSW",138,"Page",24588,"SAFFIN","Janelle",2,"N","Y","ALP","Labor",35648,1136,95,1210,2712,40801,-6.71
+"73","NSW",139,"Parkes",23248,"COULTON","Mark",1,"Y","Y","NP","The Nationals",55826,2575,157,2122,4895,65575,3.49
+"74","NSW",139,"Parkes",24536,"BYRON","Brendan",5,"N","N","ALP","Country Labor",22065,1067,80,762,1090,25064,-3.49
+"75","NSW",140,"Parramatta",24653,"OWENS","Julie",4,"Y","Y","ALP","Labor",32723,2206,211,1929,3696,40765,-3.8
+"76","NSW",140,"Parramatta",23208,"ZAITER","Martin",6,"N","N","LP","Liberal",31780,1995,170,1567,4338,39850,3.8
+"77","NSW",249,"Paterson",24539,"MARSHALL","Bay",6,"N","N","ALP","Labor",30412,1555,104,890,2076,35037,-4.45
+"78","NSW",249,"Paterson",23186,"BALDWIN","Bob",7,"Y","Y","LP","Liberal",44665,1914,114,1484,3903,52080,4.45
+"79","NSW",144,"Reid",24586,"MURPHY","John",1,"N","Y","ALP","Labor",35295,2081,152,1717,2937,42182,-3.53
+"80","NSW",144,"Reid",23205,"LAUNDY","Craig",7,"Y","N","LP","Liberal",35831,1903,128,1757,4023,43642,3.53
+"81","NSW",145,"Richmond",23246,"FRASER","Matthew",3,"N","N","NP","The Nationals",34713,815,82,1490,2999,40099,4.01
+"82","NSW",145,"Richmond",24531,"ELLIOT","Justine",4,"Y","Y","ALP","Labor",39139,1256,137,1942,2705,45179,-4.01
+"83","NSW",250,"Riverina",23253,"McCORMACK","Michael",4,"Y","Y","NP","The Nationals",55849,1548,121,1881,3213,62612,3
+"84","NSW",250,"Riverina",24587,"KURYLOWICZ","Tim",7,"N","N","ALP","Labor",22648,714,63,899,1037,25361,-3
+"85","NSW",146,"Robertson",23216,"WICKS","Lucy",3,"Y","N","LP","Liberal",39726,1927,112,1356,4121,47242,4
+"86","NSW",146,"Robertson",24603,"O'NEILL","Deborah",9,"N","Y","ALP","Labor",35899,2003,105,1136,2755,41898,-4
+"87","NSW",148,"Shortland",24663,"HALL","Jill Griffiths",1,"Y","Y","ALP","Labor",41403,2348,155,1219,4105,49230,-5.64
+"88","NSW",148,"Shortland",23193,"CHURCH","John",3,"N","N","LP","Liberal",31225,1478,79,1012,3020,36814,5.64
+"89","NSW",149,"Sydney",23191,"O'CONNOR","Sean",2,"N","N","LP","Liberal",23394,2307,163,2195,3098,31157,2.42
+"90","NSW",149,"Sydney",24530,"PLIBERSEK","Tanya",9,"Y","Y","ALP","Labor",44127,4253,355,3622,4637,56994,-2.42
+"91","NSW",150,"Throsby",23194,"MALLINSON","Larissa",3,"N","N","LP","Liberal",31121,1172,73,810,2464,35640,4.34
+"92","NSW",150,"Throsby",24624,"JONES","Stephen",5,"Y","Y","ALP","Labor",42782,1851,145,878,3097,48753,-4.34
+"93","NSW",151,"Warringah",24564,"ZANETTI","Jules Felix",1,"N","N","ALP","Labor",25933,1622,73,1315,2010,30953,-2.26
+"94","NSW",151,"Warringah",23210,"ABBOTT","Tony",6,"Y","Y","LP","Liberal",48685,2630,160,2094,4805,58374,2.26
+"95","NSW",251,"Watson",23212,"DELEZIO","Ron",1,"N","N","LP","Liberal",27696,1670,157,1457,3155,34135,2.33
+"96","NSW",251,"Watson",24632,"BURKE","Tony",5,"Y","Y","ALP","Labor",37577,2111,230,1878,3099,44895,-2.33
+"97","NSW",152,"Wentworth",24579,"SMITH","Di",1,"N","N","ALP","Labor",24030,1881,123,1670,2021,29725,-2.86
+"98","NSW",152,"Wentworth",23199,"TURNBULL","Malcolm",3,"Y","Y","LP","Liberal",49456,2668,235,3013,6987,62359,2.86
+"99","NSW",153,"Werriwa",23217,"JOHNS","Kent",3,"N","N","LP","Liberal",30781,1874,118,1490,2690,36953,4.51
+"100","NSW",153,"Werriwa",24739,"FERGUSON","Laurie",5,"Y","Y","ALP","Labor",34350,2055,184,1507,2330,40426,-4.51
+"101","NT",306,"Lingiari",24864,"MacFARLANE","Tina",4,"N","N","CLP","Country Liberals (NT)",20173,407,82,887,1057,22606,2.82
+"102","NT",306,"Lingiari",23522,"SNOWDON","Warren",8,"Y","Y","ALP","Australian Labor Party (Northern Territory) Branch",21404,531,124,880,474,23413,-2.82
+"103","NT",307,"Solomon",23495,"GOSLING","Luke",5,"N","N","ALP","Australian Labor Party (Northern Territory) Branch",23212,466,88,1146,1049,25961,0.35
+"104","NT",307,"Solomon",23502,"GRIGGS","Natasha",8,"Y","Y","CLP","Country Liberals (NT)",24027,456,64,1595,1319,27461,-0.35
+"105","QLD",304,"Blair",23727,"NEUMANN","Shayne Kenneth",2,"Y","Y","ALP","Australian Labor Party",36170,2192,259,1015,4006,43642,1.02
+"106","QLD",304,"Blair",23799,"HARDING","Teresa",5,"N","N","LNP","Liberal National Party of Queensland",28882,1562,108,1006,3779,35337,-1.02
+"107","QLD",310,"Bonner",23903,"VASTA","Ross",1,"Y","Y","LNP","Liberal National Party of Queensland",35901,2511,126,1641,5931,46110,0.87
+"108","QLD",310,"Bonner",23711,"FRASER HARDY","Laura",6,"N","N","ALP","Australian Labor Party",31559,2661,122,1209,4215,39766,-0.87
+"109","QLD",155,"Bowman",23915,"LAMING","Andrew",2,"Y","Y","LNP","Liberal National Party of Queensland",42858,1550,79,1719,4949,51155,-1.53
+"110","QLD",155,"Bowman",23745,"BRISKEY","Darryl",3,"N","N","ALP","Australian Labor Party",30265,1363,82,1130,2915,35755,1.53
+"111","QLD",156,"Brisbane",23789,"GAMBARO","Teresa",3,"Y","Y","LNP","Liberal National Party of Queensland",36158,3021,166,2215,5585,47145,3.15
+"112","QLD",156,"Brisbane",23719,"McNAMARA","Fiona",8,"N","N","ALP","Australian Labor Party",30835,3134,213,1776,3754,39712,-3.15
+"113","QLD",157,"Capricornia",23740,"FREELEAGUS","Peter",1,"N","N","ALP","Australian Labor Party",35805,1805,148,782,3264,41804,-4.45
+"114","QLD",157,"Capricornia",23862,"LANDRY","Michelle",7,"Y","N","LNP","Liberal National Party of Queensland",35641,1854,113,955,4546,43109,4.45
+"115","QLD",158,"Dawson",23996,"CHRISTENSEN","George",2,"Y","Y","LNP","Liberal National Party of Queensland",42222,2132,121,1348,4628,50451,5.15
+"116","QLD",158,"Dawson",23993,"TAHA","Bronwyn",6,"N","N","ALP","Australian Labor Party",31205,1835,146,963,3023,37172,-5.15
+"117","QLD",252,"Dickson",23834,"DUTTON","Peter",1,"Y","Y","LNP","Liberal National Party of Queensland",38802,2503,108,2093,5125,48631,1.59
+"118","QLD",252,"Dickson",23720,"GILLIVER","Michael",5,"N","N","ALP","Australian Labor Party",30145,2345,126,1449,3036,37101,-1.59
+"119","QLD",159,"Fadden",23759,"LESSIO","Nicole",7,"N","N","ALP","Australian Labor Party",23222,1670,130,981,2560,28563,-0.17
+"120","QLD",159,"Fadden",23815,"ROBERT","Stuart",8,"Y","Y","LNP","Liberal National Party of Queensland",41928,2076,139,1709,5720,51572,0.17
+"121","QLD",160,"Fairfax",23396,"PALMER","Clive Frederick",3,"Y","N","PUP","Palmer United Party",35638,2289,148,1783,2472,42330,50.03
+"122","QLD",160,"Fairfax",23792,"O'BRIEN","Ted",4,"N","N","LNP","Liberal National Party of Queensland",34165,1757,53,2433,3869,42277,49.97
+"123","QLD",161,"Fisher",23794,"BROUGH","Mal",3,"Y","N","LNP","Liberal National Party of Queensland",37783,2181,61,2297,4200,46522,5.62
+"124","QLD",161,"Fisher",23741,"GISSANE","Bill",5,"N","N","ALP","Australian Labor Party",26152,1555,63,1273,2290,31333,-5.62
+"125","QLD",311,"Flynn",23806,"O'DOWD","Ken",2,"Y","Y","LNP","Liberal National Party of Queensland",37577,2711,155,1697,6212,48352,2.95
+"126","QLD",311,"Flynn",23776,"TREVOR","Chris",9,"N","N","ALP","Australian Labor Party",31099,2029,123,1159,2768,37178,-2.95
+"127","QLD",162,"Forde",24479,"van MANEN","Bert",2,"Y","Y","LNP","Liberal National Party of Queensland",32945,2081,112,1195,4923,41256,2.75
+"128","QLD",162,"Forde",23973,"BEATTIE","Peter Douglas",3,"N","N","ALP","Australian Labor Party",27794,2280,153,1008,3369,34604,-2.75
+"129","QLD",163,"Griffith",23744,"RUDD","Kevin",6,"Y","Y","ALP","Australian Labor Party",36406,3112,207,1776,4304,45805,-5.45
+"130","QLD",163,"Griffith",23830,"GLASSON","Bill",9,"N","N","LNP","Liberal National Party of Queensland",32133,2219,112,1460,4680,40604,5.45
+"131","QLD",164,"Groom",23713,"MURRAY","Troy",2,"N","N","ALP","Australian Labor Party",24954,1298,131,567,2560,29510,2.06
+"132","QLD",164,"Groom",23796,"MACFARLANE","Ian",4,"Y","Y","LNP","Liberal National Party of Queensland",47489,2679,111,1305,6909,58493,-2.06
+"133","QLD",165,"Herbert",23811,"JONES","Ewen",5,"Y","Y","LNP","Liberal National Party of Queensland",40872,1588,144,1331,3954,47889,4
+"134","QLD",165,"Herbert",23712,"O'TOOLE","Cathy",6,"N","N","ALP","Australian Labor Party",32306,1246,145,883,2784,37364,-4
+"135","QLD",166,"Hinkler",23716,"DONALDSON","Leanne",1,"N","N","ALP","Australian Labor Party",29949,1247,76,959,2555,34786,1.35
+"136","QLD",166,"Hinkler",23837,"PITT","Keith",5,"Y","N","LNP","Liberal National Party of Queensland",43206,1391,88,1382,4075,50142,-1.35
+"137","QLD",167,"Kennedy",24318,"KATTER","Bob",4,"Y","Y","KAP","Katter's Australian Party",36911,2276,252,1595,2862,43896,-16.15
+"138","QLD",167,"Kennedy",23808,"IKIN","Noeline",7,"N","N","LNP","Liberal National Party of Queensland",33395,1680,159,1252,3719,40205,16.15
+"139","QLD",168,"Leichhardt",23801,"ENTSCH","Warren",6,"Y","Y","LNP","Liberal National Party of Queensland",41197,1296,130,1793,3309,47725,1.13
+"140","QLD",168,"Leichhardt",23748,"GORDON","Billy",7,"N","N","ALP","Australian Labor Party",33386,1092,140,1278,2095,37991,-1.13
+"141","QLD",169,"Lilley",23817,"McGARVIE","Rod",4,"N","N","LNP","Liberal National Party of Queensland",35416,2197,80,1220,4951,43864,1.86
+"142","QLD",169,"Lilley",23721,"SWAN","Wayne",5,"Y","Y","ALP","Australian Labor Party",37550,2683,119,1201,4684,46237,-1.86
+"143","QLD",302,"Longman",23855,"ROY","Wyatt",1,"Y","Y","LNP","Liberal National Party of Queensland",39054,1806,113,1554,5164,47691,5
+"144","QLD",302,"Longman",23774,"CAISLEY","Michael",5,"N","N","ALP","Australian Labor Party",29767,1628,119,1124,3461,36099,-5
+"145","QLD",170,"Maranoa",24068,"CEDRIC-THOMPSON","Nick",2,"N","N","ALP","Australian Labor Party",20511,1344,94,658,2314,24921,0.61
+"146","QLD",170,"Maranoa",24071,"SCOTT","Bruce",4,"Y","Y","LNP","Liberal National Party of Queensland",49778,3055,193,1681,10280,64987,-0.61
+"147","QLD",171,"McPherson",23760,"HISLOP","Gail",4,"N","N","ALP","Australian Labor Party",25914,1149,119,1175,2326,30683,-2.72
+"148","QLD",171,"McPherson",23826,"ANDREWS","Karen",5,"Y","Y","LNP","Liberal National Party of Queensland",44033,1471,153,1591,4996,52244,2.72
+"149","QLD",172,"Moncrieff",24057,"CIOBO","Steven",3,"Y","Y","LNP","Liberal National Party of Queensland",44021,1947,193,2500,5390,54051,0.46
+"150","QLD",172,"Moncrieff",24058,"MUNRO","Jason David",7,"N","N","ALP","Australian Labor Party",20777,1289,123,1229,2071,25489,-0.46
+"151","QLD",173,"Moreton",23718,"PERRETT","Graham Douglas",1,"Y","Y","ALP","Australian Labor Party",33492,2933,166,1828,4084,42503,0.42
+"152","QLD",173,"Moreton",23807,"COLE","Malcolm",6,"N","N","LNP","Liberal National Party of Queensland",31164,2223,103,1854,4602,39946,-0.42
+"153","QLD",174,"Oxley",23810,"NGUYEN","Andrew",1,"N","N","LNP","Liberal National Party of Queensland",28597,1794,148,1174,3248,34961,2
+"154","QLD",174,"Oxley",23755,"RIPOLL","Bernie",7,"Y","Y","ALP","Australian Labor Party",33424,2255,256,1163,3559,40657,-2
+"155","QLD",175,"Petrie",23800,"HOWARTH","Luke",6,"Y","N","LNP","Liberal National Party of Queensland",33674,1767,74,1820,4387,41722,3.04
+"156","QLD",175,"Petrie",23733,"D'ATH","Yvette",8,"N","Y","ALP","Australian Labor Party",32958,2141,108,1725,3919,40851,-3.04
+"157","QLD",176,"Rankin",23730,"CHALMERS","Jim",4,"Y","N","ALP","Australian Labor Party",37048,2408,207,1818,4099,45580,-0.63
+"158","QLD",176,"Rankin",23831,"LIN","David",5,"N","N","LNP","Liberal National Party of Queensland",29458,1710,106,2059,4289,37622,0.63
+"159","QLD",177,"Ryan",23724,"HAMWOOD","Damien Scott",1,"N","N","ALP","Australian Labor Party",30219,2683,112,1773,3214,38001,-1.38
+"160","QLD",177,"Ryan",23814,"PRENTICE","Jane",3,"Y","Y","LNP","Liberal National Party of Queensland",42849,2865,89,2399,5455,53657,1.38
+"161","QLD",178,"Wide Bay",23822,"TRUSS","Warren",1,"Y","Y","LNP","Liberal National Party of Queensland",44533,2153,107,2225,4957,53975,-2.45
+"162","QLD",178,"Wide Bay",23723,"STANTON","Lucy",7,"N","N","ALP","Australian Labor Party",26406,1494,111,1216,2257,31484,2.45
+"163","QLD",316,"Wright",23725,"MURAKAMI","Sharon",7,"N","N","ALP","Australian Labor Party",23446,2334,111,1610,3309,30810,-1.69
+"164","QLD",316,"Wright",23804,"BUCHHOLZ","Scott",8,"Y","Y","LNP","Liberal National Party of Queensland",37665,3067,123,2747,6328,49930,1.69
+"165","SA",179,"Adelaide",23971,"ELLIS","Kate",2,"Y","Y","ALP","Australian Labor Party",39584,3701,352,1727,3974,49338,-3.57
+"166","SA",179,"Adelaide",23637,"GARCIA","Carmen",4,"N","N","LP","Liberal",33525,2798,214,1577,4004,42118,3.57
+"167","SA",180,"Barker",23974,"GOLDING","Phil",5,"N","N","ALP","Australian Labor Party",26876,1314,85,958,1720,30953,-3.54
+"168","SA",180,"Barker",23648,"PASIN","Tony",7,"Y","N","LP","Liberal",53038,2225,114,1795,4399,61571,3.54
+"169","SA",182,"Boothby",23820,"SOUTHCOTT","Andrew",2,"Y","Y","LP","Liberal",44236,2962,149,1678,4841,53866,6.5
+"170","SA",182,"Boothby",24124,"DIGANCE","Annabel",4,"N","N","ALP","Australian Labor Party",33175,2761,181,1188,3136,40441,-6.5
+"171","SA",183,"Grey",24001,"BROWNE","Ben",1,"N","N","ALP","Australian Labor Party",28102,1408,117,830,1864,32321,-2.38
+"172","SA",183,"Grey",23709,"RAMSEY","Rowan",5,"Y","Y","LP","Liberal",47051,2401,161,1636,5081,56330,2.38
+"173","SA",185,"Hindmarsh",23656,"WILLIAMS","Matt",2,"Y","N","LP","Liberal",39999,3351,187,1095,4416,49048,7.97
+"174","SA",185,"Hindmarsh",23968,"GEORGANAS","Steve",6,"N","Y","ALP","Australian Labor Party",37083,3642,253,938,3559,45475,-7.97
+"175","SA",186,"Kingston",23819,"MILLS","Damien",4,"N","N","LP","Liberal",29799,1908,131,883,2725,35446,4.85
+"176","SA",186,"Kingston",24116,"RISHWORTH","Amanda",6,"Y","Y","ALP","Australian Labor Party",45023,2879,231,996,3375,52504,-4.85
+"177","SA",187,"Makin",24108,"ZAPPIA","Tony",1,"Y","Y","ALP","Australian Labor Party",42856,3239,287,1091,3131,50604,-6.94
+"178","SA",187,"Makin",23640,"LAWRIE","Sue",4,"N","N","LP","Liberal",34680,2227,208,1077,3112,41304,6.94
+"179","SA",188,"Mayo",23992,"FAHY","Norah",3,"N","N","ALP","Australian Labor Party",28571,2015,156,1097,2430,34269,-5.22
+"180","SA",188,"Mayo",23672,"BRIGGS","Jamie",5,"Y","Y","LP","Liberal",47664,2608,162,1974,4733,57141,5.22
+"181","SA",189,"Port Adelaide",23768,"MCKENNA","Nigel",4,"N","N","LP","Liberal",27075,2275,202,762,2424,32738,6.89
+"182","SA",189,"Port Adelaide",24121,"BUTLER","Mark",6,"Y","Y","ALP","Australian Labor Party",49133,3767,439,989,3933,58261,-6.89
+"183","SA",190,"Sturt",23647,"PYNE","Christopher",1,"Y","Y","LP","Liberal",45458,3089,141,1150,4753,54591,6.48
+"184","SA",190,"Sturt",24101,"SARRE","Rick",3,"N","N","ALP","Australian Labor Party",29996,2616,128,817,2719,36276,-6.48
+"185","SA",191,"Wakefield",23736,"ZORICH","Tom",1,"N","N","LP","Liberal",35606,2380,242,1168,2944,42340,7.13
+"186","SA",191,"Wakefield",24198,"CHAMPION","Nick",6,"Y","Y","ALP","Australian Labor Party",41478,2821,320,923,2968,48510,-7.13
+"187","TAS",192,"Bass",23294,"NIKOLIC","Andrew",2,"Y","N","LP","Liberal",30449,993,108,1026,2734,35310,10.78
+"188","TAS",192,"Bass",23464,"LYONS","Geoff",5,"N","Y","ALP","Australian Labor Party",25941,932,116,932,2113,30034,-10.78
+"189","TAS",193,"Braddon",23529,"SIDEBOTTOM","Sid",2,"N","Y","ALP","Australian Labor Party",27724,735,153,885,1791,31288,-10.04
+"190","TAS",193,"Braddon",23270,"WHITELEY","Brett",5,"Y","N","LP","Liberal",30324,782,77,1129,2356,34668,10.04
+"191","TAS",194,"Denison",20881,"WILKIE","Andrew",2,"Y","Y","IND","Independent",35090,1627,131,1530,4092,42470,14.3
+"192","TAS",194,"Denison",23453,"AUSTIN","Jane",9,"N","N","ALP","Australian Labor Party",18636,971,94,726,1928,22355,-14.3
+"193","TAS",195,"Franklin",23455,"COLLINS","Julie",1,"Y","Y","ALP","Australian Labor Party",31219,1876,139,1118,2751,37103,-5.73
+"194","TAS",195,"Franklin",23271,"BLACK","Bernadette",3,"N","N","LP","Liberal",25321,1194,92,937,2697,30241,5.73
+"195","TAS",196,"Lyons",23278,"HUTCHINSON","Eric",1,"Y","N","LP","Liberal",27776,1938,94,1630,2790,34228,13.51
+"196","TAS",196,"Lyons",23460,"ADAMS","Dick",6,"N","Y","ALP","Australian Labor Party",26463,2141,130,1560,2303,32597,-13.51
+"197","VIC",197,"Aston",23382,"EVANS","Rupert",1,"N","N","ALP","Australian Labor Party",29519,1709,121,1333,2987,35669,-7.53
+"198","VIC",197,"Aston",23474,"TUDGE","Alan",4,"Y","Y","LP","Liberal",40751,1623,117,1986,5195,49672,7.53
+"199","VIC",198,"Ballarat",23473,"FITZGIBBON","John",6,"N","N","LP","Liberal",36029,1081,104,1211,3827,42252,6.81
+"200","VIC",198,"Ballarat",23305,"KING","Catherine",10,"Y","Y","ALP","Australian Labor Party",43239,1768,151,1420,4833,51411,-6.81
+"201","VIC",199,"Batman",23319,"BHATHAL","Alexandra Kaur",6,"N","N","GRN","The Greens",26332,2719,122,2529,3403,35105,-2.86
+"202","VIC",199,"Batman",23296,"FEENEY","David",8,"Y","N","ALP","Australian Labor Party",42812,2927,184,2815,5271,54009,2.86
+"203","VIC",200,"Bendigo",23318,"CHESTERS","Lisa",2,"Y","N","ALP","Australian Labor Party",39495,1610,214,1454,4653,47426,-8.16
+"204","VIC",200,"Bendigo",23466,"BICKLEY","Greg",3,"N","N","LP","Liberal",37155,1244,154,1474,5066,45093,8.16
+"205","VIC",201,"Bruce",23317,"GRIFFIN","Alan",3,"Y","Y","ALP","Australian Labor Party",33971,2274,186,1773,4608,42812,-5.91
+"206","VIC",201,"Bruce",23574,"CICCHIELLO","Emanuele",4,"N","N","LP","Liberal",31429,1542,113,1497,5252,39833,5.91
+"207","VIC",203,"Calwell",23299,"VAMVAKINOU","Maria",4,"Y","Y","ALP","Australian Labor Party",44590,3106,329,1705,5176,54906,-6.2
+"208","VIC",203,"Calwell",23580,"KHAN","Ali",6,"N","N","LP","Liberal",24862,1653,147,1195,3209,31066,6.2
+"209","VIC",204,"Casey",23362,"FARRELL","Cathy",3,"N","N","ALP","Australian Labor Party",30954,1920,155,1396,3489,37914,-5.31
+"210","VIC",204,"Casey",23592,"SMITH","Tony",9,"Y","Y","LP","Liberal",40594,1822,196,1721,6282,50615,5.31
+"211","VIC",205,"Chisholm",23311,"BURKE","Anna Elizabeth",2,"Y","Y","ALP","Australian Labor Party",33909,2771,144,1987,5620,44431,-4.18
+"212","VIC",205,"Chisholm",23478,"NGUYEN","John",5,"N","N","LP","Liberal",31033,2277,132,1910,6326,41678,4.18
+"213","VIC",207,"Corangamite",23366,"CHEESEMAN","Darren",5,"N","Y","ALP","Australian Labor Party",34486,2379,73,1620,4186,42744,-4.22
+"214","VIC",207,"Corangamite",23526,"HENDERSON","Sarah",11,"Y","N","LP","Liberal",40124,1940,66,1896,6031,50057,4.22
+"215","VIC",208,"Corio",23303,"MARLES","Richard",3,"Y","Y","ALP","Australian Labor Party",43796,1962,304,1196,4859,52117,-5.72
+"216","VIC",208,"Corio",23467,"READ","Peter",5,"N","N","LP","Liberal",31639,1309,132,1134,3922,38136,5.72
+"217","VIC",209,"Deakin",23590,"SUKKAR","Michael",4,"Y","N","LP","Liberal",36437,2155,135,1787,6412,46926,3.78
+"218","VIC",209,"Deakin",23321,"SYMON","Mike",12,"N","Y","ALP","Australian Labor Party",32774,2275,130,1555,4580,41314,-3.78
+"219","VIC",210,"Dunkley",23342,"KILKENNY","Sonya",2,"N","N","ALP","Australian Labor Party",31289,1965,173,1473,4173,39073,-4.53
+"220","VIC",210,"Dunkley",23509,"BILLSON","Bruce",6,"Y","Y","LP","Liberal",37882,1806,171,2008,6994,48861,4.53
+"221","VIC",211,"Flinders",23364,"SINCLAIR","Joshua",7,"N","N","ALP","Australian Labor Party",28906,1965,145,1900,2957,35873,-2.67
+"222","VIC",211,"Flinders",23497,"HUNT","Greg",9,"Y","Y","LP","Liberal",45712,2406,160,3258,6512,58048,2.67
+"223","VIC",212,"Gellibrand",23490,"McCONNELL","David",2,"N","N","LP","Liberal",22652,1290,144,1542,3621,29249,7.6
+"224","VIC",212,"Gellibrand",23422,"WATTS","Tim",4,"Y","N","ALP","Australian Labor Party",46672,2685,395,2863,5524,58139,-7.6
+"225","VIC",213,"Gippsland",23306,"McNEILL","Jeff",3,"N","N","ALP","Australian Labor Party",26381,1044,131,1222,1423,30201,-4.39
+"226","VIC",213,"Gippsland",23758,"CHESTER","Darren",4,"Y","Y","NP","The Nationals",51694,1138,178,2214,2990,58214,4.39
+"227","VIC",214,"Goldstein",23309,"GUTTMANN","Daniel",1,"N","N","ALP","Australian Labor Party",28011,2036,118,1950,3188,35303,-5.02
+"228","VIC",214,"Goldstein",23487,"ROBB","Andrew",5,"Y","Y","LP","Liberal",42998,2260,148,3039,6843,55288,5.02
+"229","VIC",309,"Gorton",23304,"O'CONNOR","Brendan",6,"Y","Y","ALP","Australian Labor Party",46901,2847,415,1946,5824,57933,-7.51
+"230","VIC",309,"Gorton",23512,"HUMPHREYS","Phil",8,"N","N","LP","Liberal",23383,1314,181,1322,3481,29681,7.51
+"231","VIC",215,"Higgins",23480,"O'DWYER","Kelly",1,"Y","Y","LP","Liberal",39129,2859,165,2926,7244,52323,4.53
+"232","VIC",215,"Higgins",23332,"CHAU","Wesa",3,"N","N","ALP","Australian Labor Party",26222,2571,127,2385,3679,34984,-4.53
+"233","VIC",216,"Holt",23582,"BALANCY","Ricardo",2,"N","N","LP","Liberal",28391,1823,142,1606,4625,36587,4.88
+"234","VIC",216,"Holt",23325,"BYRNE","Anthony",5,"Y","Y","ALP","Australian Labor Party",42440,2509,271,1804,5812,52836,-4.88
+"235","VIC",217,"Hotham",24241,"O'NEIL","Clare",1,"Y","N","ALP","Australian Labor Party",39623,2820,190,1721,4878,49232,-6.69
+"236","VIC",217,"Hotham",23567,"CADER","Fazal",3,"N","N","LP","Liberal",28354,1941,103,1568,4761,36727,6.69
+"237","VIC",218,"Indi",23288,"McGOWAN","Cathy",2,"Y","N","IND","Independent",37812,1217,96,1830,3786,44741,50.25
+"238","VIC",218,"Indi",23528,"MIRABELLA","Sophie",4,"N","Y","LP","Liberal",35854,1005,92,2342,5009,44302,49.75
+"239","VIC",219,"Isaacs",23335,"DREYFUS","Mark",6,"Y","Y","ALP","Australian Labor Party",34810,2809,218,3305,5562,46704,-6.55
+"240","VIC",219,"Isaacs",23482,"SPENCER","Garry",9,"N","N","LP","Liberal",29520,1906,96,2772,5710,40004,6.55
+"241","VIC",220,"Jagajaga",23298,"MACKLIN","Jenny",3,"Y","Y","ALP","Australian Labor Party",39253,2279,140,1986,5011,48669,-8.02
+"242","VIC",220,"Jagajaga",23571,"McGOWAN","Nick",6,"N","N","LP","Liberal",34736,1562,108,1623,4907,42936,8.02
+"243","VIC",221,"Kooyong",23485,"FRYDENBERG","Josh",2,"Y","Y","LP","Liberal",40764,2597,121,2584,7438,53504,3.61
+"244","VIC",221,"Kooyong",23326,"KENNEDY","John",7,"N","N","ALP","Australian Labor Party",26624,2120,106,1798,3474,34122,-3.61
+"245","VIC",223,"La Trobe",23468,"WOOD","Jason",2,"Y","N","LP","Liberal",36540,2350,154,2295,6659,47998,5.67
+"246","VIC",223,"La Trobe",23330,"SMYTH","Laura",4,"N","Y","ALP","Australian Labor Party",31874,2549,183,1768,4494,40868,-5.67
+"247","VIC",222,"Lalor",23358,"RYAN","Joanne",9,"Y","N","ALP","Australian Labor Party",48819,2336,283,1860,4743,58041,-9.96
+"248","VIC",222,"Lalor",23476,"SAMARA","Nihal",10,"N","N","LP","Liberal",29354,1095,123,1330,3438,35340,9.96
+"249","VIC",224,"Mallee",23475,"CREWTHER","Chris",1,"N","N","LP","Liberal",32828,922,71,1385,2385,37591,43.79
+"250","VIC",224,"Mallee",23898,"BROAD","Andrew",10,"Y","N","NP","The Nationals",41822,1245,73,1551,3552,48243,56.21
+"251","VIC",225,"Maribyrnong",23379,"SHORTEN","Bill",3,"Y","Y","ALP","Australian Labor Party",43176,3191,367,2516,6070,55320,-6.1
+"252","VIC",225,"Maribyrnong",23500,"HATZAKORTZIAN","Ted",6,"N","N","LP","Liberal",26461,1719,144,1713,4760,34797,6.1
+"253","VIC",226,"McEwen",23471,"PETROVICH","Donna",7,"N","N","LP","Liberal",38925,2378,191,2621,6359,50474,9.04
+"254","VIC",226,"McEwen",23312,"MITCHELL","Rob",8,"Y","Y","ALP","Australian Labor Party",39058,2972,244,2685,5828,50787,-9.04
+"255","VIC",227,"McMillan",23472,"BROADBENT","Russell",9,"Y","Y","LP","Liberal",48481,1930,142,2433,5109,58095,7.62
+"256","VIC",227,"McMillan",23331,"NAUS","Anthony",10,"N","N","ALP","Australian Labor Party",29667,1630,133,1610,2817,35857,-7.62
+"257","VIC",228,"Melbourne",23378,"BANDT","Adam",5,"Y","Y","GRN","The Greens",34624,3516,313,2881,5398,46732,-0.64
+"258","VIC",228,"Melbourne",23323,"BOWTELL","Cath",6,"N","N","ALP","Australian Labor Party",28751,2150,278,2039,4601,37819,0.64
+"259","VIC",230,"Melbourne Ports",23314,"DANBY","Michael",2,"Y","Y","ALP","Australian Labor Party",32315,3033,279,2011,5781,43419,-4.33
+"260","VIC",230,"Melbourne Ports",23584,"EKENDAHL","Kevin",7,"N","N","LP","Liberal",26125,2642,179,1810,6898,37654,4.33
+"261","VIC",229,"Menzies",23483,"ANDREWS","Kevin",1,"Y","Y","LP","Liberal",45030,2593,115,2136,7361,57235,5.8
+"262","VIC",229,"Menzies",23351,"KUMAR","Manoj",3,"N","N","ALP","Australian Labor Party",25547,1688,89,1194,3053,31571,-5.8
+"263","VIC",231,"Murray",23477,"STONE","Sharman",2,"Y","Y","LP","Liberal",54783,1722,166,2427,3784,62882,1.29
+"264","VIC",231,"Murray",23310,"HIGGINS","Rod",10,"N","N","ALP","Australian Labor Party",22312,982,76,997,1483,25850,-1.29
+"265","VIC",232,"Scullin",23324,"GILES","Andrew",2,"Y","N","ALP","Australian Labor Party",47865,3173,270,1713,5211,58232,-6.18
+"266","VIC",232,"Scullin",23488,"CHUGHA","Jag",5,"N","N","LP","Liberal",25609,1779,120,1104,3652,32264,6.18
+"267","VIC",233,"Wannon",23341,"BARLING","Michael",2,"N","N","ALP","Australian Labor Party",30057,1312,90,1462,2297,35218,-4.41
+"268","VIC",233,"Wannon",23470,"TEHAN","Dan",6,"Y","Y","LP","Liberal",44830,1403,89,2333,4329,52984,4.41
+"269","VIC",234,"Wills",23397,"READ","Tim",2,"N","N","GRN","The Greens",23213,2506,122,2519,3190,31550,34.8
+"270","VIC",234,"Wills",23322,"THOMSON","Kelvin",8,"Y","Y","ALP","Australian Labor Party",47677,2700,273,2585,5883,59118,65.2
+"271","WA",235,"Brand",24035,"GRAY","Gary",3,"Y","Y","ALP","Australian Labor Party",38733,2507,243,1658,2799,45940,-0.45
+"272","WA",235,"Brand",23836,"GORDIN","Donna",9,"N","N","LP","Liberal",33702,2120,140,1750,3224,40936,0.45
+"273","WA",236,"Canning",23843,"RANDALL","Don",1,"Y","Y","LP","Liberal",43895,3669,230,2533,4373,54700,9.62
+"274","WA",236,"Canning",24036,"DEAN","Joanne Carol",4,"N","N","ALP","Australian Labor Party",27387,2570,183,1313,2340,33793,-9.62
+"275","WA",237,"Cowan",24037,"COCKMAN","Tristan",1,"N","N","ALP","Australian Labor Party",29196,2473,179,1929,2124,35901,-1.17
+"276","WA",237,"Cowan",23846,"SIMPKINS","Luke",7,"Y","Y","LP","Liberal",38904,3019,171,2818,3575,48487,1.17
+"277","WA",238,"Curtin",24045,"TAN","Daryl",4,"N","N","ALP","Australian Labor Party",21611,2157,98,1889,1874,27629,-1.23
+"278","WA",238,"Curtin",23840,"BISHOP","Julie",6,"Y","Y","LP","Liberal",45093,3227,215,3819,4817,57171,1.23
+"279","WA",312,"Durack",23936,"PRICE","Melissa",3,"Y","N","LP","Liberal",33570,2248,215,1516,2416,39965,53.98
+"280","WA",312,"Durack",24276,"VAN STYN","Shane",5,"N","N","NP","The Nationals",28652,1935,181,1120,2183,34071,46.02
+"281","WA",239,"Forrest",24050,"BORLINI","John Joseph",1,"N","N","ALP","Australian Labor Party",27418,2005,116,1094,1592,32225,-3.54
+"282","WA",239,"Forrest",23887,"MARINO","Nola",3,"Y","Y","LP","Liberal",44672,3022,147,1943,3414,53198,3.54
+"283","WA",240,"Fremantle",23839,"HANSSEN","Matthew",6,"N","N","LP","Liberal",31343,2670,92,2088,3210,39403,0.93
+"284","WA",240,"Fremantle",24025,"PARKE","Melissa",11,"Y","Y","ALP","Australian Labor Party",39231,2805,196,2094,3379,47705,-0.93
+"285","WA",305,"Hasluck",23991,"WYATT","Ken",1,"Y","Y","LP","Liberal",37339,3588,186,1902,4042,47057,4.3
+"286","WA",305,"Hasluck",24040,"EVANS","Adrian",4,"N","N","ALP","Australian Labor Party",31199,3210,190,1442,2665,38706,-4.3
+"287","WA",242,"Moore",24016,"LAWRANCE","Jason Daniel",1,"N","N","ALP","Australian Labor Party",26063,2866,156,1645,2004,32734,-0.67
+"288","WA",242,"Moore",23842,"GOODENOUGH","Ian",7,"Y","N","LP","Liberal",42535,3658,177,2995,3735,53100,0.67
+"289","WA",243,"O'Connor",24357,"WITHAM","Chub",4,"N","N","NP","The Nationals",33187,2979,110,1485,2709,40470,-4.51
+"290","WA",243,"O'Connor",23944,"WILSON","Rick",8,"Y","N","LP","Liberal",34786,2818,130,1510,2796,42040,4.51
+"291","WA",244,"Pearce",24041,"WEST","Madeleine Anne",5,"N","N","ALP","Australian Labor Party",29383,3482,221,1459,2440,36985,0.8
+"292","WA",244,"Pearce",23847,"PORTER","Christian",9,"Y","N","LP","Liberal",40580,3972,253,2145,4256,51206,-0.8
+"293","WA",245,"Perth",24023,"MacTIERNAN","Alannah",3,"Y","N","ALP","Australian Labor Party",36441,3211,242,2003,3182,45079,-1.53
+"294","WA",245,"Perth",23841,"MOORE","Darryl",8,"N","N","LP","Liberal",29726,2563,193,1842,3538,37862,1.53
+"295","WA",246,"Stirling",23848,"KEENAN","Michael",6,"Y","Y","LP","Liberal",38982,3590,200,2872,4439,50083,4.75
+"296","WA",246,"Stirling",24034,"CADDY","Dan",8,"N","N","ALP","Australian Labor Party",25959,2768,169,1706,2375,32977,-4.75
+"297","WA",247,"Swan",23935,"IRONS","Steve",2,"Y","Y","LP","Liberal",35687,3322,242,3199,3796,46246,4
+"298","WA",247,"Swan",24038,"BISSETT","John",6,"N","N","ALP","Australian Labor Party",28150,2651,237,1958,2565,35561,-4
+"299","WA",248,"Tangney",23853,"JENSEN","Dennis",2,"Y","Y","LP","Liberal",45203,3118,171,2290,4362,55144,2.35
+"300","WA",248,"Tangney",24014,"WILLIS","Luke Antony",4,"N","N","ALP","Australian Labor Party",24689,2002,118,1252,2069,30130,-2.35
