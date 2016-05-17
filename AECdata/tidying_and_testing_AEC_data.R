@@ -36,11 +36,15 @@ aec_first_pref <- read.csv(paste0(getwd(), "/AECdata/HouseFirstPrefsByPartyDownl
 aec_winners <- read.csv(paste0(getwd(), "/AECdata/HouseMembersElectedDownload-17496.csv"), skip = 1)
 names(aec_winners)
 
+# get two candidate preferred data
+
+aec_2candidates <- readr::read_csv(paste0(getwd(), "/AECdata/HouseTcpByCandidateByVoteTypeDownload-17496.csv"), skip = 1)
+aec_2candidates_polling_place <- readr::read_csv(paste0(getwd(), "/AECdata/HouseTcpByCandidateByPollingPlaceDownload-17496.csv"), skip = 1)
+
 ######################### end data ingest ####################
 
 
 ####################### add locations to fp data##############
-
 
 # quick look at locations 
 library(ggplot2)
@@ -122,6 +126,37 @@ election_results_df_loc_pp[duplicated(election_results_df_loc_pp),]
 # no
 
 ######### end of working with th 2pp data ###########
+
+####################### add locations to 2cp data ##############
+
+# join with first pref data
+# need to aggregate to we have only one polling place per row
+election_results_df_loc_cp <- election_results_df_loc %>% 
+  group_by(PollingPlaceID) %>% 
+  filter(Elected == "Y") %>% 
+  arrange(desc(PollingPlaceID)) %>% 
+  slice(1) 
+
+# check we have all the polling places
+identical(number_of_polling_places, nrow(election_results_df_loc_cp))
+
+election_results_df_loc_cp <- left_join(election_results_df_loc_cp, aec_2candidates_polling_place, by = "PollingPlaceID")
+
+# drop some duplicate cols
+election_results_df_loc_cp <- election_results_df_loc_cp %>% 
+  select(-contains(".y")) 
+
+# rename the cols with .x so they don't have that
+names(election_results_df_loc_cp) <- gsub(".x", "", names(election_results_df_loc_cp))
+# drop duplicate cols, now that we've got rid of the .x in the names
+election_results_df_loc_cp <- election_results_df_loc_cp[, !duplicated(colnames(election_results_df_loc_cp))]
+
+# election_results_df_loc_cp %>% arrange(desc(PollingPlaceID)) %>% View
+# any duplicates?
+election_results_df_loc_cp[duplicated(election_results_df_loc_cp),]
+# no
+
+######### end of working with the 2cp data ###########
 
 ### start of cleaning the fp data ##################
 
@@ -228,7 +263,6 @@ aec2013_2pp_electorate <- election_results_df_loc_pp %>%
             Total_2pp_votes_per_electorate = sum(TotalVotes))
 
 
-
 ###### write data to disk #################
 
 # save as CSV
@@ -242,6 +276,7 @@ aec2013_fp <- election_results_df_loc_no_fac_no_dup
 aec2013_fp_electorate <- aec2013_fp_electorate
 aec2013_2pp <- election_results_df_loc_pp
 aec2013_2pp_electorate <- aec2013_2pp_electorate
+aec2013_2cp <- election_results_df_loc_cp
 
 
 # Change variable names to match abs2011 where possible.
