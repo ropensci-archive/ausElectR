@@ -56,6 +56,7 @@ p <- ggplot(polling_place_location, aes(Longitude, Latitude, label = PremisesNm)
 # ggplotly(p)
 
 # join polling place locations to election results
+library(dplyr)
 election_results_df_loc <- full_join(election_results_df, polling_place_location, by = "PollingPlaceID")
 # head(election_results_df_loc)
 
@@ -124,6 +125,33 @@ election_results_df_loc_pp <- election_results_df_loc_pp[, !duplicated(colnames(
 # any duplicates?
 election_results_df_loc_pp[duplicated(election_results_df_loc_pp),]
 # no
+
+# seems like there's multiple names for the ALP...
+# unique(election_results_df_loc_no_fac$PartyNm)
+election_results_df_loc_pp$PartyNm <- with(election_results_df_loc_pp, ifelse(PartyNm == "Labor" |
+                                                                                        PartyNm =="Australian Labor Party (Northern Territory) Branch" |
+                                                                                        PartyNm ==  "Country Labor", 
+                                                                                      "Australian Labor Party", 
+                                                                                      PartyNm))
+# similar for the greens
+election_results_df_loc_pp$PartyNm <- with(election_results_df_loc_pp, ifelse(PartyNm == "Australian Greens" |
+                                                                                        PartyNm == "The Greens (WA)", 
+                                                                                      "The Greens",
+                                                                                      PartyNm))
+# similar for the Nationals
+election_results_df_loc_pp$PartyNm <- with(election_results_df_loc_pp, ifelse(PartyNm == "The Nationals" |
+                                                                                        PartyNm == "National Party", 
+                                                                                      "The Nationals",
+                                                                                      PartyNm))
+
+# make some electorate names match the spatial data
+election_results_df_loc_pp$DivisionNm <- with(election_results_df_loc_pp, ifelse(DivisionNm == "McMillan",
+                                                                                           "Mcmillan",
+                                                                                           DivisionNm))
+
+election_results_df_loc_pp$DivisionNm <- with(election_results_df_loc_pp, ifelse(DivisionNm == "McPherson",
+                                                                                           "Mcpherson",
+                                                                                           DivisionNm))
 
 ######### end of working with the 2pp data ###########
 ### start of cleaning the fp data ##################
