@@ -8,7 +8,7 @@ tags: [education,statistics,EDA,data mining,R,statistical computing,statistical 
 
 The `eechidna` package has just been posted on CRAN, in time for the longest election campaign in Australia since the 1950s. The next Federal election scheduled for Jul 2 was announced a few weeks ago. A little before this a handful of academics met at the first ever Australian ROpenSci Unnconference at the Microsoft headquarters in Brisbane in an event primarily organised by  students at the Queensland University of Technology. 
 
-Making it easier to examine data associated with the Australian electorate was one of the projects tackled, and this led to the eechidna (Exploring Election and Census Highly Informative Data Nationally for Australia) package for R. The package has several key components:
+Making it easier to examine data associated with the Australian electorate was one of the projects tackled, and this led to the eechidna (Exploring Election and Census Highly Informative Data Nationally for Australia) package for R, a collaboration between Ben Marwick, Heike Hofmann, Rob Hyndman, Carson Sievert, Nick Tierney, Nathaniel Tomasetti, Thomas Lumley, Di Cook and Fan Zhou. The package has several key components:
 
 - **Data**: (1) results from the 2013 election by electorate and polling place, (2) demographic information on each electorate from the most recent Census, (3) spatial boundaries of electorates for map drawing, (4) Dorling cartogram locations for each electorate to enable even the densest packed population bases to be examined
 - **Code**: (1) Functions for pulling new electorate boundaries and wrangling these into point and line data sets for plotting with census and election results data, (2) cartogram functions to produce new electorate layouts on-the-fly
@@ -23,7 +23,7 @@ These are some of the things that you can do
 
 Median income in each electorate plotted by state (below) shows that the ACT is uniformly high (only two electorates), followed the Northern Territory with one high and one low, and the three highest median income electorates of all are in NSW. 
 
-![income](income-boxplot.png)
+![income](http://visiphilia.github.io/assets/eechidna-figures/income-boxplot.png)
 
 You can also look at population size, %unemployed, % educational qualifications, religious affiliation, age profiles, family structure, home language and %born overseas.
 
@@ -31,25 +31,28 @@ You can also look at population size, %unemployed, % educational qualifications,
 
 The results of the past election can be explored. Below a bar chart of the senate makeup for each state is shown, and a dotplot of number of electorates won by party.
 
-![senate](senate.png)
+![senate](http://visiphilia.github.io/assets/eechidna-figures/senate.png)
 
-![electorate](electorate-count.png)
+![electorate](http://visiphilia.github.io/assets/eechidna-figures/electorate-count.png)
 
 ## Mapping results
 
 The current party elected in each electorate can be displayed on the map, or on a cartogram, as shown below.
 
-![map](electorate-results.png)
+![map](http://visiphilia.github.io/assets/eechidna-figures/electorate-results.png)
 
-![carto](electorate-carto.png)
+![carto](http://visiphilia.github.io/assets/eechidna-figures/electorate-carto.png)
 
 ## Explore interactively
 
-The best part ot the package is the shiny app, where you can explore association between demographics and political leanings. The video below shows how it can be used. The electorates with a Liberal Party member electorate are selected and coloured green, and those with an Australian Labor Party member elected are selected and coloured burnt orange. These electorates have some characteristics that are expected:
+The best part of the package is the shiny app, where you can explore association between demographics and political leanings. The video below shows how it can be used. The electorates with a Liberal Party member electorate are selected and coloured green, and those with an Australian Labor Party member elected are selected and coloured burnt orange. These electorates have some characteristics that are expected:
 
-Labor electorates tend to have 
+Labor electorates tend to have:
+ 
 - higher proportions of young voters,
 - higher percentages of unemployed, 
 - higher populations.
 
-This last one is a surprise, and actually could indicate an unfairness in the current electoral boundaries. Because the labor electorates tend to have larger numbers of people, it means that these peoples' votes count less than those in the smaller populated electorate dominated by liberal members. Ideally, for` one person=one vote` all electorates would be of equal population size . This is a goal, and there are some geographic limitations, which force some discreteness. An example is Tasmania, where electorate boundaries are limited to the island, and cannot be merged with chunks of the mainland. So if the small electorates corresponded to Tasmania it would be reasonable, BUT the smaller electorates are distributed across the country. This strongly suggests that `one person=one viote` is not in practice in Australia, and there is a bias towards upweighting Liberal Party votes.
+This last one is a surprise, and actually could indicate an unfairness in the current electoral boundaries. Because the labor electorates tend to have larger numbers of people, it means that these peoples' votes count less than those in the smaller populated electorate dominated by liberal members. Ideally, for` one person=one vote` all electorates would be of equal population size . This is a goal, and there are some geographic limitations, which force some discreteness. An example is Tasmania, where electorate boundaries are limited to the island, and cannot be merged with chunks of the mainland. So if the small electorates corresponded to Tasmania it would be reasonable, BUT the smaller electorates are distributed across the country. This strongly suggests that `one person=one vote` is not in practice in Australia, and there is a bias towards upweighting Liberal Party votes.
+
+<iframe src="https://player.vimeo.com/video/167367369" width="640" height="531" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/167367369">Exploring the Australian electorate</a> from <a href="https://vimeo.com/user14048736">Di Cook</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
