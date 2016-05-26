@@ -17,7 +17,7 @@ Making it easier to examine data associated with the Australian electorate was o
 
 The purpose of this exercise is to demonstrate the usefulness of open data, and what open source software can provide to users who want to learn about the Australian electorate. And most importantly to provide tools so that you, with a little knowledge of R, can explore on your own too. 
 
-These are some of the things that you can do
+These are some of the things that you can look at:
 
 ## Census data
 
